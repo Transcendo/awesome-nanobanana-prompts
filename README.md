@@ -531,9 +531,8 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 图例：
 
-<img width="300" alt="Image" src="./images/p2p/pin_1.png" />
-
-<img width="300" alt="Image" src="./images/p2p/pout_1.png" />
+<img width="200" alt="Image" src="./images/p2p/pin_1.png" />
+<img width="200" alt="Image" src="./images/p2p/pout_1.png" />
 
 提示词:
 
