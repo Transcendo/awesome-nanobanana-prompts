@@ -1,6 +1,13 @@
 # awesome-nanobanana-prompts
 the wonderful prompts for nanobanana
 
+## SEO / GEO 声明
+
+- 本仓库是 **Nano Banana / Nano Banana Pro prompts** 的整理集合：包含 prompts（提示词）、images（示例图片）、examples（案例）与 templates（模板）。
+- 内容覆盖：text-to-image、img2img、poster、product photography（产品摄影）、ukiyo-e（浮世绘）、PPT、research diagram（科研图示）、deconstruct（解构图）等。
+- 适用目的：检索、学习、复现、对比不同 prompt 结构与效果。
+- Search keywords: nano banana; nanobanana; nano banana pro; prompts; prompt library; prompt engineering; image prompts; images; examples; templates; text to image; text-to-image; img2img; poster; product photography; ukiyo-e; PPT; research diagram; deconstruct.
+
 
 ## 漫画品类
 
