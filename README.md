@@ -539,3 +539,16 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 ```json
 将图像制作成白天和等距视图[仅限建筑]
 ```
+
+---
+
+## 致谢与参考
+
+本项目在策划与收集素材过程中参考并受益于以下优秀仓库，特此致谢并推荐：
+
+- [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro)：由 ZeroLu 维护，系统整理了 Nano Banana Pro 的提示词范例与创作经验。
+- [PicoTrex/Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images)：由 PicoTrex 策划的大量示例成品图像，为视觉风格与落地效果提供了重要参考。
+
+请在使用本仓库内容的同时一并关注原作者并遵循其许可证要求。
+
+同时也感谢 X（原 Twitter）与小红书平台上分享灵感与素材的创作者。我们的数据主要来自这些公开发布的内容，用于学习与研究，不构成与平台及其作者的任何合作或背书关系。请在复用相关素材时自行确认已遵守平台条款、隐私政策与版权要求。
