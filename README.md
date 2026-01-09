@@ -11,7 +11,84 @@ the wonderful prompts for nanobanana
 
 ## 漫画品类
 
-### 浮世绘
+图例：
+
+<img width="600" alt="Image" src="./images/like/l1.png" />
+
+提示词：
+
+```json
+task: "edit-image: add widened torn-paper layered effect"
+
+base_image:
+  use_reference_image: true
+  preserve_everything:
+    - character identity
+    - facial features and expression
+    - hairstyle and anatomy
+    - outfit design and colors
+    - background, lighting, composition
+    - overall art style
+
+rules:
+  - Only modify the torn-paper interior areas.
+  - Do not change pose, anatomy, proportions, clothing details, shading, or scene elements.
+
+effects:
+  - effect: "torn-paper-reveal"
+    placement: "across chest height"
+    description:
+      - Add a wide, natural horizontal tear across the chest area.
+      - The torn interior uses the style defined in `interior_style`.
+
+  - effect: "torn-paper-reveal"
+    placement: "lower abdomen height"
+    description:
+      - Add a wide horizontal tear across the lower abdomen.
+      - The torn interior uses the style defined in `interior_style`.
+
+interior_style:
+  mode: "line-art"
+
+  style_settings:
+    line-art:
+      palette: "monochrome"
+      line_quality: "clean, crisp"
+      paper: "notebook paper with subtle ruled lines"
+
+    sumi-e:
+      palette: "black ink tones"
+      brush_texture: "soft bleeding edges"
+      paper: "plain textured paper"
+
+    figure-render:
+      material: "PVC-like"
+      shading: "semi-realistic highlights"
+      paper: "plain smooth surface"
+
+    colored-pencil:
+      stroke_texture: "visible pencil grain"
+      palette: "soft layered hues"
+      paper: "rough sketchbook paper"
+
+    watercolor:
+      palette: "soft transparent pigments"
+      blending: "smooth bleeding"
+      edges: "soft contours"
+      paper: "watercolor paper texture"
+
+    pencil-drawing:
+      graphite_texture: "visible pencil grain"
+      shading: "smooth gradients"
+      line_quality: "mixed sharp and soft"
+      tone: "gray-scale"
+      paper: "notebook paper with faint ruled lines"
+
+```
+
+
+--- 
+
 
 图例：雪夜柱列
 
@@ -52,6 +129,123 @@ the wonderful prompts for nanobanana
 
 
 ## 产品类
+
+图例：屏幕倒水
+
+<img width="400" alt="Image" src="./images/product/p10.png" />
+
+提示词：
+
+
+```json
+{
+  "meta": {
+    "type": "Creative Brief",
+    "genre": "Hyper-realistic Surrealism",
+    "composition_style": "Composite Portrait",
+    "aspect_ratio": "Portrait (implied by 'portrait' description)"
+  },
+  "scene_architecture": {
+    "viewpoint": {
+      "type": "Photographic",
+      "angle": "High-angle / Looking down",
+      "framing": "Tight on central subject"
+    },
+    "dimensional_hierarchy": {
+      "rule": "Scale disparity for surreal effect",
+      "dominant_element": "iPhone 17 Pro Max (Super-scaled)",
+      "subordinate_elements": ["Blue Book (Miniature)", "Pen (Miniature)"]
+    }
+  },
+  "realm_physical": {
+    "description": "The real-world environment surrounding the device.",
+    "environment": {
+      "surface": "Wooden table",
+      "texture_attributes": ["rich grain", "tactile", "worn"]
+    },
+    "lighting_global": {
+      "source": "Natural light",
+      "temperature": "Warm",
+      "shadow_quality": "Soft, diffused, volumetric"
+    },
+    "active_agent": {
+      "identity": "Human Hand (Real)",
+      "action": "Pouring",
+      "position": "Entering frame laterally"
+    },
+    "held_object": {
+      "item": "Bottle",
+      "state": "Chilled (visible condensation)",
+      "branding": {
+        "logo_text": "Decamin",
+        "placement": "Visible on label"
+      },
+      "contents": {
+        "substance": "Water",
+        "color": "Light Green",
+        "state": "Liquid flow"
+      }
+    },
+    "static_props": [
+      {
+        "item": "Book",
+        "color": "Blue",
+        "scale_notes": "Significantly smaller than phone"
+      },
+      {
+        "item": "Pen",
+        "type": "Ballpoint/Ink",
+        "scale_notes": "Significantly smaller than phone"
+      }
+    ]
+  },
+  "realm_digital": {
+    "description": "The content displayed on the screen.",
+    "container_device": {
+      "model": "iPhone 17 Pro Max",
+      "state": "Screen ON",
+      "orientation": "Flat on physical surface"
+    },
+    "screen_content": {
+      "subject_identity": "mqn (Reference ID)",
+      "subject_scale": "Close-up (filling screen)",
+      "expression": "Happy / Smiling",
+      "attire": "Winter clothing (matching reference)",
+      "setting": "Winter landscape / snowy backdrop",
+      "held_object_digital": {
+        "item": "Drinking Glass",
+        "branding": {
+          "logo_text": "Decamin",
+          "visibility": "Clear"
+        },
+        "initial_state": "Empty (waiting for pour)"
+      }
+    }
+  },
+  "surreal_bridge_event": {
+    "description": "The interaction connecting the physical and digital realms.",
+    "action_type": "Trans-dimensional Fluid Dynamics",
+    "source": "realm_physical.held_object.contents (Light Green Water)",
+    "interaction_point": "realm_digital.container_device.screen_surface",
+    "destination": "realm_digital.screen_content.held_object_digital (The Glass)",
+    "physics_violation_rules": {
+      "rule_1": "Liquid does not splash off the glass screen surface.",
+      "rule_2": "Screen surface acts as a permeable membrane solely for this liquid.",
+      "rule_3": "Physical liquid transitions seamlessly into digital representation upon contact."
+    },
+    "visual_details": ["Sharp liquid simulation", "No surface tension on screen glass", "Fluid physically filling digital cup"]
+  },
+  "rendering_specifications": {
+    "visual_fidelity": "Hyper-realistic",
+    "texture_focus": ["Sharp fluid details", "Glass pixels", "Wood grain", "Skin texture (hand and subject)"],
+    "mood": "Cinematic, warm, magical",
+    "resolution_target": "8K / Highly detailed"
+  }
+}
+
+```
+
+---
 
 图例1：香草奶油
 
@@ -282,7 +476,7 @@ the wonderful prompts for nanobanana
 ```
 
 
-图例: 
+图例：立方体房
 
 <img width="600" alt="Image" src="./images/product/p7.png" />
 
@@ -296,7 +490,7 @@ the wonderful prompts for nanobanana
 --- 
 
 
-图例：
+图例：巧咖爆炸
 <img width="300" alt="Image" src="./images/product/p8.png" />
 
 
@@ -351,7 +545,7 @@ the wonderful prompts for nanobanana
 
 ----
 
-图例：
+图例：抹茶爆炸
 
 <img width="300" alt="Image" src="./images/product/p9.png" />
 
@@ -406,7 +600,7 @@ the wonderful prompts for nanobanana
 
 ## 科研报告类
 
-图例：
+图例：光合作用
 
 <img width="600" alt="Image" src="./images/blog/b3.png" />
 
@@ -515,7 +709,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 请生成一张儿童识字小报《游乐园》，竖版 A4，学习小报版式，适合 5–9 岁孩子 认字与看图识物。 一、小报标题区（顶部） 顶部居中大标题：《游乐园识字小报》 风格：十字小报 / 儿童学习报感 文本要求：大字、醒目、卡通手写体、彩色描边 装饰：周围添加与 游乐园 相关的贴纸风装饰，颜色鲜艳 二、小报主体（中间主画面） 画面中心是一幅 卡通插画风的「游乐园」场景： 整体气氛：明亮、温暖、积极 构图：物体边界清晰，方便对应文字，不要过于拥挤。 场景分区与核心内容 核心区域 A（主要对象）：表现 游乐园 的核心活动（孩子们在玩游乐设施）。 核心区域 B（配套设施）：展示相关的工具或物品（售票、零食、指示设施）。 核心区域 C（环境背景）：体现环境特征（入口、路牌、彩旗、绿地等）。 主题人物 角色：1 位可爱卡通人物（身份：游乐园工作人员/游客小朋友皆可）。 动作：正在进行与场景相关的自然互动（如微笑指路、挥手欢迎、陪孩子玩）。 三、必画物体与识字清单（Generated Content） 请务必在画面中清晰绘制以下物体，并为其预留贴标签的位置： 1. 核心角色与设施： gōng zuò rén yuán 工作人员 shòu piào chù 售票处 guò shān chē 过山车 mó tiān lún 摩天轮 xuán zhuǎn mǎ 旋转木马 2. 常见物品/工具： piào 票 qì qiú 气球 bīng jī líng 冰淇淋 bào mǐ huā 爆米花 táng hú lu 糖葫芦 miàn jù 面具 wán jù 玩具 xiǎo qí zi 小旗子 3. 环境与装饰： rù kǒu 入口 chū kǒu 出口 zhǐ shì pái 指示牌 cǎi qí 彩旗 guǎng chǎng 广场 (注意：画面中的物体数量不限于此，但以上列表必须作为重点描绘对象；总计 18 个典型名词，适合 5–9 岁儿童识字。) 四、识字标注规则 对上述清单中的物体，贴上中文识字标签： 格式：两行制（第一行拼音带声调，第二行简体汉字）。 样式：彩色小贴纸风格，白底黑字或深色字，清晰可读。 排版：标签靠近对应的物体，不遮挡主体。 五、画风参数 风格：儿童绘本风 + 识字小报风 色彩：高饱和、明快、温暖 (High Saturation, Warm Tone) 质量：8k resolution, high detail, vector illustration style, clean lines.
 ```
 
-图例2:
+图例2：天气城市
 
 <img width="300" alt="Image" src="./images/post/po2.png" />
 
@@ -554,6 +748,110 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 ## 美女靓仔类
 
 图例：
+
+<img width="300" alt="Image" src="./images/beauty/bea8.png" />
+
+提示词：
+```json
+Use facial feature of attached photo. A close-up shot of a young woman displayed on the screen of a compact Canon digital camera. The camera body surrounds the image with its buttons, dials, and textured surface visible, including the FUNC/SET wheel, DISP button, and the "IMAGE STABILIZER" label along the side. The photo on the screen shows the woman indoors at night, illuminated by a bright built-in flash that creates sharp highlights on her face and hair. She has long dark hair falling across part of her face in loose strands, with a soft, slightly open-lip expression. The flash accentuates her features against a dim, cluttered kitchen background with appliances, shelves, and metallic surfaces softly blurred. The mood is candid, raw, nostalgic, and reminiscent of early 2000s digital camera snapshots. Colors are slightly muted with cool undertones, strong flash contrast, and natural grain from the display. No text, no logos inside the photo preview itself.
+
+Scale ratio: 4:5 vertical
+
+Camera: compact digital camera simulation
+Lens: equivalent to 28–35mm
+Aperture: f/2.8
+ISO: 400
+Shutter speed: 1/60 with flash
+White balance: auto flash
+Lighting: harsh direct flash on subject, ambient low light in the background
+Color grading: nostalgic digital-camera tones, high contrast flash, subtle display grain, authentic screen glow.
+
+```
+
+
+--- 
+
+图例：广角街拍
+<img width="300" alt="Image" src="./images/beauty/bea7.png" />
+提示词：
+
+
+```json
+{
+  "edit_type": "extreme_wide_angle_phone_edit",
+  "source": {
+    "_hint": "Base for editing the person, clothing, and atmosphere of the original image. No new characters allowed.",
+    "mode": "EDIT",
+    "preserve_elements": ["Person", "Face", "Hairstyle", "Clothing", "Environment style"],
+    "change_rules": {
+      "camera_angle": "Ultra-wide or fisheye lens (equivalent to 12-18mm)",
+      "angle_options": [
+        "Looking up from directly in front",
+        "Looking down from directly in front", 
+        "Extreme low angle",
+        "High angle",
+        "Tilted composition"
+      ],
+      "perspective_effect": "Nearby objects are exaggerated, distant objects become smaller",
+      "body_parts_close_to_camera": "Bring 1-3 body parts extremely close to the camera",
+      "body_part_options": [
+        "Hands",
+        "Feet/shoes",
+        "Knees/thighs",
+        "Face",
+        "Shoulders/chest"
+      ],
+      "pose_variety": [
+        "Extending one hand/leg toward the camera",
+        "Squatting or lying on stomach halfway",
+        "Sitting on the ground or an object",
+        "Lying on the ground with legs pointed at camera",
+        "Leaning body sharply toward the camera",
+        "Twisting body for dynamic pose"
+      ]
+    },
+    "phone_handling": {
+      "allowed": true,
+      "grip_options": [
+        "One-handed", 
+        "Two-handed",
+        "Low angle",
+        "High angle", 
+        "Tilted",
+        "Sideways",
+        "Close to chest",
+        "Close to waist",
+        "Casual grip"
+      ],
+      "screen_replacement": {
+        "target": "Only the smartphone screen portion displayed in the image",
+        "source": "Second reference image",
+        "fitting_rules": "Strictly match the screen shape, no stretching or compression",
+        "interface_rules": "No icons, status bars, or app borders; only display content from original image"
+      }
+    },
+    "environment_consistency": {
+      "location": "Maintain the same location as the original image",
+      "lighting": "Maintain direction and intensity",
+      "extension_rules": "Maintain the same buildings, walls, road markings, colors, materials, and lighting style"
+    },
+    "global_restrictions": [
+      "No new characters allowed",
+      "No changes to age or gender expression of person", 
+      "No clothing changes",
+      "No changes to location type",
+      "No text, logos, or watermarks added to image",
+      "No illustration or anime style"
+    ]
+  }
+}
+
+```
+
+
+---
+
+图例：镜子自拍
 <img width="300" alt="Image" src="./images/beauty/bea2.png" />
 
 
@@ -651,7 +949,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 ---
 
-图例：
+图例：橱窗分身
 
 
 提示词：
@@ -682,7 +980,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 ---
 
-图例：
+图例：卡片机感
 
 <img width="600" alt="Image" src="./images/beauty/bea5.png" />
 
@@ -746,7 +1044,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 ---
 
 
-图例：
+图例：聚光暗黑
 <img width="600" alt="Image" src="./images/beauty/bea6.png" />
 提示词：
 
@@ -771,7 +1069,7 @@ Everything outside the spotlight should be nearly invisible.
 
 --- 
 
-图例:
+图例：屏幕冷光
 
 <img width="300" alt="Image" src="./images/beauty/bea3.png" />
 
@@ -852,7 +1150,7 @@ Everything outside the spotlight should be nearly invisible.
 
 ---
 
-图例1: 
+图例1：拍立得照
 
 <img width="300" alt="Image" src="./images/beauty/bea1.png" />
 
@@ -896,7 +1194,7 @@ Everything outside the spotlight should be nearly invisible.
 ## 人物摄影类
 
 
-图例1:
+图例1：鱼眼自拍
 
 <img width="300" alt="Image" src="./images/profile/pr1.png" />
 
@@ -914,7 +1212,7 @@ Everything outside the spotlight should be nearly invisible.
 ---
 
 
-图例2: 
+图例2：帝王蟹厨
 
 <img width="300" alt="Image" src="./images/profile/pr2.png" />
 
@@ -925,10 +1223,26 @@ Everything outside the spotlight should be nearly invisible.
 ```
 
 
+--- 
+
+图例：
+
+<img width="400" alt="Image" src="./images/profile/pr3.png" />
+
+提示词：
+
+
+```json
+"I'm taking a selfie with [movie character] on the set of [movie name].
+
+Keep the person exactly as shown in the reference image with 100% identical facial features, bone structure, skin tone, facial expression, pose, and appearance. 1:1 aspect ratio, 4K detail."
+```
+
+
 ## 如梦如幻类
 
 
-图例：
+图例：四季外滩
 
 <img width="600" alt="Image" src="./images/dream/dre1.png" />
 
@@ -959,7 +1273,7 @@ Everything outside the spotlight should be nearly invisible.
 
 ## 图生图
 
-图例：
+图例：建筑日等
 
 <img width="200" alt="Image" src="./images/p2p/pin_1.png" />
 <img width="200" alt="Image" src="./images/p2p/pout_1.png" />
