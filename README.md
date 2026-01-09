@@ -258,6 +258,7 @@ the wonderful prompts for nanobanana
 --- 
 
 
+
 图例5：城市磁贴
 
 <img width="600" alt="Image" src="./images/product/p5.png" />
@@ -292,8 +293,131 @@ the wonderful prompts for nanobanana
 
 人物：Q版/手办风格——[在此处插入您上传照片中人物的描述]。人物动作：[例如，坐在椅子上打字、站着做饭、弹吉他]，表情：[例如，专注、快乐、微笑]。人物材质看起来像是哑光PVC，头部较大，身体较小。光照：[氛围名称]：[光源：例如，霓虹蓝光、暖日光、金色灯光]；逼真的反射和彩色阴影。视角：略微抬高的等距四分之三视角，立方体正面边缘居中；没有任何元素突出于立方体之外。照片级材质，细节丰富；中性背景。画面细节丰富，构图清晰；无水印。
 ```
+--- 
+
+
+图例：
+<img width="300" alt="Image" src="./images/product/p8.png" />
+
+
+提示词：
+
+
+```json
+{
+“主题”：“巧克力咖啡饮料的超逼真垂直爆炸视图”，
+“布局”：“居中垂直对齐，每个组件独立悬挂并保持清晰的间距”，
+“层”：[
+{
+“成分”：“可可粉颗粒”，
+“位置”: “顶部”
+},
+{
+“成分”：“光泽浓郁的黑巧克力酱汁带和滴落物”，
+“位置”：“独立层”
+},
+{
+“成分”：“轻盈的鲜奶油堆”，
+“位置”：“独立层”
+},
+{
+“成分”：“顺滑的巧克力咖啡液层”，
+“位置”：“独立层”
+},
+{
+“成分”：“烘焙咖啡豆”，
+“位置”：“独立层”
+},
+{
+“成分”：“糖晶体”，
+“位置”：“独立层”
+},
+{
+“组件”：“带加重底座的小型透明螺纹玻璃杯（空）”，
+“位置”: “底部”
+}
+],
+“背景”：“优质深色背景：干净的影棚背景，从近乎黑色的石墨色到炭灰色的平滑渐变，柔和均匀”，
+“lighting_and_style”: {
+“灯光”：“柔和可控的摄影棚灯光，每个组件下方都有清晰的层次感阴影”。
+“细节”：“超清晰的宏观真实感，极简的细指示线和右侧的英文标签”，
+“类别”：“高端产品信息图”，
+“分辨率”：“8K”
+}
+}
+
+```
+
+
+----
+
+图例：
+
+<img width="300" alt="Image" src="./images/product/p9.png" />
+
+
+
+提示词：
+
+
+```json
+
+“主题”：“抹茶芝士泡沫水果咖啡饮料的超逼真垂直爆炸视图”，
+“布局”：“居中垂直对齐，每个组件独立悬挂并保持清晰的间距”，
+“层”：[
+{
+“成分”：“细抹茶粉颗粒”，
+“位置”: “顶部”
+},
+{
+“成分”：“新鲜草莓和芒果片（晶莹剔透）”，
+“位置”：“独立层”
+},
+{
+“组成部分”：“浓郁咸香的芝士抹茶泡沫层（带有细腻的泡沫）”，
+“位置”：“独立层”
+},
+{
+“成分”：“清澈的冷萃咖啡液与鲜艳的绿色抹茶层混合”，
+“位置”：“独立层”
+},
+{
+“成分”：“晶莹剔透的冰块和薄荷叶”，
+“位置”：“独立层”
+},
+{
+“成分”：“底部浓缩果泥（例如覆盆子酱）”，
+“位置”：“独立层”
+},
+{
+“组件”：“超简约条纹玻璃杯（空）”，
+“位置”: “底部”
+}
+],
+“背景”：“清新简约的背景：明亮的摄影棚环境，从浅米色到浅灰色的柔和渐变”，
+“lighting_and_style”: {
+“照明”：“明亮的自然光感，清晰的玻璃反射和层次分明的阴影”，
+“细节”：“超清晰的宏观真实感，极简的细指示线和右侧的英文标签”，
+“类别”：“高端产品信息图”，
+“分辨率”：“8K”
+}
+
+```
 
 ## 科研报告类
+
+图例：
+
+<img width="600" alt="Image" src="./images/blog/b3.png" />
+
+提示词：
+
+```json
+Create an educational infographic explaining [Photosynthesis] . Visual Elements : Illustrate the key components: The Sun, a green Plant, Water (H2O) entering roots, Carbon Dioxide (CO2) entering leaves, and Oxygen (O2) being released. Style : Clean, flat vector illustration suitable for a high school science textbook. Use arrows to show the flow of energy and matter. Labels : Label each element clearly in English .
+```
+
+
+---
 
 图例：戴森群建
 
@@ -428,6 +552,305 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 
 ## 美女靓仔类
+
+图例：
+<img width="300" alt="Image" src="./images/beauty/bea2.png" />
+
+
+提示词：
+
+```json
+{
+"visual_style": {
+"color_palette": {
+"主色": [
+        {
+"name": "暖米色/棕褐色",
+"hex_approx": " #D2B48C ",
+“描述”：“背景墙、门框和皮肤的主色调，营造温暖舒适的室内氛围。”
+        },
+        {
+"name": "Heather Grey",
+"hex_approx": " #B0B0B0 ",
+描述：运动文胸的颜色，用作中性过渡色调。
+        },
+        {
+"name": "亮黑色",
+"hex_approx": "#101010",
+“描述”：“头发和运动裤，提供了强烈的视觉冲击力和对比。”
+        },
+        {
+"name": "柔白",
+"hex_approx": " #F5F5F5 ",
+描述：毛巾和胸罩的松紧带部分，起到突出装饰作用。
+        }
+],
+“色调”：“温暖、大地色、柔和（暖色调、大地色、柔和）”
+“饱和度”: “低至中等（低至中等饱和度，视觉舒适）”
+    },
+“灯光”： {
+“类型”：“室内暖色人工照明（室内暖色照明）”，
+“特征”： [
+“柔和扩散（柔和的漫射光）”
+“自上而下的投光（顶部照明，常见于酒店或浴室），”
+“暖色调（暖色温）”
+],
+“阴影”： “身体上柔和自然的轮廓阴影（柔和的身体轮廓阴影）”
+    },
+“作品”： {
+“构图”：“中景/四分之三镜头（中景/四分之三身体）”，
+“视角”： “平视（平视视图）”
+“技巧”：“镜子自拍（Mirror Selfie）”，
+"visual_balance": "偏离中心的主体（主体略微偏离中心）",
+"depth_of_field": "深景深（背景清晰，无明显模糊）",
+"elements_arrangement": {
+前景：手持手机的人物，
+"middle_ground": "镜面",
+“背景”：“门框、米色墙壁、毛巾架”
+      }
+    },
+"subject_styleing": {
+“服装”: “休闲服/运动休闲服（居家运动风格）”
+“项目”： [
+“灰色 Calvin Klein 运动文胸（灰色 CK 运动文胸）”
+黑色运动裤
+],
+"hair_makeup": "长长的黑色披肩发，自然/无妆容（长长的黑色披肩发，仿素颜/自然妆感）",
+“姿势”：“放松站立，手插口袋，微微倾斜臀部（放松站立，手插口袋，微微倾斜臀部以显示腰线）”
+    },
+“环境”： {
+“设置”：“酒店浴室或步入式衣橱（酒店浴室或步入式衣橱）”，
+“材料”： [
+“浅色木材（浅色木材）”
+“涂漆石膏板（涂漆墙壁）”
+“纺织品（毛巾）”
+],
+道具：架子上的白色毛巾（架子上的白色毛巾）
+    },
+"text_typography": {
+"visible_text": "Calvin Klein",
+“位置”：“运动文胸的下围（运动文胸下围）”
+"font_style": "无衬线字体，品牌字体（无衬线品牌字体）",
+“意义”： “为美学增添可识别的品牌元素（提高品牌识别度）”
+    },
+"mood_atmosphere": {
+“关键词”：[
+“舒适”，
+“随意的”，
+“合身”，
+“干净的”，
+“早晨的氛围”，
+“私人的”
+],
+"vibe_description": "一种私密、轻松的氛围，展现了一种健康的生活方式，带着一种精致慵懒的感觉，就像“刚睡醒”或“精心打扮”一样。"
+    }
+  }
+}
+
+```
+
+---
+
+图例：
+
+
+提示词：
+
+```json
+{
+  "PROMPT": "Create a bright, high-end street-fashion photograph of the woman from the reference image, keeping her face, hair, body & outfit exactly the same. She stands outside a luxury toy-shop window, gently touching the glass. Inside the window display, place a full-height cartoon-style doll designed to resemble her—same features, hair, and outfit—transformed into a cute, big-eyed, stylized animated character. Crisp lighting, premium street-fashion look, realistic reflections, face unchanged.",
+  "settings": {
+    "style": "high-end street fashion",
+    "lighting": "crisp and bright",
+    "environment": "outside luxury toy-shop window",
+    "subject": "woman from reference image",
+    "focus": ["face", "hair", "body", "outfit"],
+    "additional_elements": [
+      {
+        "type": "doll",
+        "style": "cartoon-style, big-eyed, stylized",
+        "location": "inside window display",
+        "resemblance": "exact features, hair, outfit of woman"
+      }
+    ],
+    "reflections": "realistic",
+    "photorealism": true
+  }
+}
+
+```
+
+---
+
+图例：
+
+<img width="600" alt="Image" src="./images/beauty/bea5.png" />
+
+提示词：
+
+```json
+{
+  "image_parameters": {
+    "style": "Canon IXUS aesthetic",
+    "type": "Point-and-shoot photography",
+    "quality": "Hyper-realistic",
+    "tone": "Sharp, direct",
+    "lighting_and_atmosphere": "Realistic, flash-style/direct lighting"
+  },
+  "subject": {
+    "constraints": {
+      "facial_identity": "Match reference image exactly 100%",
+      "face_edits": "None allowed"
+    },
+    "hair": {
+      "style": "Long, natural, lightly messy layered look",
+      "movement": "Blowing gently in the wind",
+      "details": "Strands slightly covering part of face"
+    },
+    "makeup": {
+      "cheeks_and_nose": "Soft pink blush with blurred effect",
+      "lips": "Subtle pink-orange tinted outline"
+    },
+    "expression": [
+      "Cute",
+      "Naive",
+      "Cheerful",
+      "Slightly sexy/undone charm"
+    ],
+    "pose": {
+      "body_position": "Half-sitting, half-standing",
+      "action": "Flicking hair"
+    },
+    "clothing": {
+      "top": "Black strapless top",
+      "bottom": "Low-waisted jeans with a floating waistline",
+      "neck": "Thin black fabric choker/wrap"
+    },
+    "accessories": [
+      "Small pendant necklace",
+      "Gold watch"
+    ]
+  },
+  "environment": {
+    "setting": "Modern pub",
+    "foreground_props": [
+      "Round table",
+      "Bottle of liquor",
+      "Glass of liquor"
+    ]
+  }
+}
+
+```
+
+---
+
+
+图例：
+<img width="600" alt="Image" src="./images/beauty/bea6.png" />
+提示词：
+
+
+```json
+Generate a hyperrealistic realistic-anime portrait of a female character standing in a completely black background.
+Lighting: use a **narrow beam spotlight** focused only on the center of the face. 
+The edges of the light must be sharp and dramatic. 
+All areas outside the spotlight should fall quickly into deep darkness 
+(high falloff shadow), almost blending into the black background. 
+Not soft lighting.
+Hair: long dark hair with some strands falling over the face. The lower parts of the hair should fade into the shadows.
+Pose: one hand raised gently to the lips in a shy, hesitant gesture. 
+Eyes looking directly at the camera with a mysterious mood.
+Clothing: black long-sleeve knit sweater; 
+the sweater and body should mostly disappear into the darkness with minimal detail.
+Overall tone: dark, moody, dramatic, mysterious. 
+High-contrast only in the lit portion of the face. 
+Everything outside the spotlight should be nearly invisible.
+
+```
+
+--- 
+
+图例:
+
+<img width="300" alt="Image" src="./images/beauty/bea3.png" />
+
+提示词：
+
+
+```json
+{
+"visual_style": {
+"color_palette": {
+"主色": [
+        {
+"名称": "屏幕发光蓝/紫",
+"hex_approx": " #8A8ABD ",
+“描述”：“投射在脸上的冷光源（类似于手机或电脑屏幕的光），营造出夜晚的凉爽感和科技感十足的氛围。”
+        },
+        {
+"name": "深影黑",
+"hex_approx": "#050505",
+“描述”：“头发、衣服和背景阴影，为低调（Low-key）图像奠定了基础。”
+        },
+        {
+"name": "柔和灰",
+"hex_approx": " #6E7278 ",
+描述：枕头的颜色，作为一种中性色调来平衡画面。
+        },
+        {
+"name": "柔和肤色",
+"hex_approx": " #EAC0B6 ",
+描述：冷光照射下的肤色，呈现出苍白而半透明的质感。
+        }
+],
+“色调”：“冷色调前景，深色背景（冷色调前景，深色背景）”
+“饱和度”: “低（去饱和/柔和的颜色）（低饱和度，柔和的颜色）”
+    },
+“灯光”： {
+“类型”：“混合低光/屏幕光（混合昏暗光/屏幕光）”，
+“特征”： [
+“来自前方的冷光源（前方冷光源填充）”，
+“柔和衰减（柔和的光衰减）”
+“大气黑暗（环境暗色调）”
+],
+“阴影”： “围绕着主体的深沉、忧郁的阴影（围绕着主体的深沉、充满情感的阴影）”
+    },
+“作品”： {
+“构图”：“特写/头部特写（特写/头部特写）”，
+“视角”： “视线水平到略高的角度（视线水平或略高的角度）”
+“姿势”：“俯卧在床上（脸朝下躺在床上）”
+"visual_focus": "眼睛和嘴唇（视觉焦点在眼睛和嘴唇上）",
+"depth_of_field": "浅景深（背景略微模糊）"
+    },
+"subject_styleing": {
+“服装”：“睡衣/内衣（睡衣/内衣款式）”
+“商品”： “黑色蕾丝吊带裙/吊带衫（黑色蕾丝吊带衫）”
+"hair_makeup": "凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，泛红的脸颊（凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，微微泛红的脸颊）"
+“表情”： “性感、亲密、凝视镜头、手指轻触嘴唇（性感、亲密、凝视镜头、手指轻触嘴唇）”
+    },
+“环境”： {
+“设置”：“卧室/酒店房间（卧室/酒店房间）”，
+道具：灰色图案枕头（灰色图案枕头）
+“背景”：“窗帘，黑暗的角落（窗帘，黑暗的角落）”
+    },
+"mood_atmosphere": {
+“关键词”：[
+“亲密的”，
+“深夜”，
+“闷热的”，
+“易受伤害的”，
+“POV”，
+《纯欲》
+],
+"vibe_description": "典型的“纯粹欲望”风格（纯粹而充满欲望），营造出深夜的氛围，亲密感，以及只有亲密关系才能看到的视角（POV）。"
+    }
+  }
+}
+
+```
+
+---
 
 图例1: 
 
