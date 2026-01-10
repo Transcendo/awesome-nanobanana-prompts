@@ -502,6 +502,7 @@ interior_style:
 
 </details>
 
+---
 
 **图例：立方体房**
 
@@ -517,6 +518,25 @@ interior_style:
 ```
 
 </details>
+
+
+--- 
+
+**图例：立方体房**
+
+<img width="600" alt="Image" src="./images/product/p11.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Based on you know about me, generate a 3D isometric colored illustration of me working from home, filled with various interior details. The visual style should be rounded, polished, and playful. --ar 1:1
+
+```
+
+</details>
+
+
 --- 
 
 
@@ -652,6 +672,36 @@ Create an educational infographic explaining [Photosynthesis] . Visual Elements 
 
 **图例：戴森群建**
 
+<img width="600" alt="Image" src="./images/blog/b4.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Please create a cartoon-style infographic based on the provided content, following these guidelines:
+
+- Hand-drawn illustration style, landscape orientation (16:9 aspect ratio).
+
+- Include a small number of simple cartoon elements, icons, or famous personalities to enhance visual interest and memorability.
+
+- If the content includes sensitive or copyrighted figures, replace them with visually similar alternatives; do not refuse to generate the illustration.
+
+- All imagery and text must strictly adhere to a hand-drawn style; avoid realistic visual elements.
+
+- Keep information concise, highlighting keywords and core concepts. Utilize ample whitespace to clearly emphasize key points.
+
+- Unless otherwise specified, use the same language as the provided content.
+
+Please use nano banana pro to create the illustration based on the input provided.
+```
+
+</details>
+
+
+---
+
+**图例：戴森群建**
+
 <img width="600" alt="Image" src="./images/blog/b1.png" />
 
 <details>
@@ -762,6 +812,33 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 
 ## 海报
 
+**图例1：游乐园报**
+
+<img width="300" alt="Image" src="./images/post/po4.png" />
+
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
+
+The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions, creating an immersive weather ambiance.
+
+Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background that highlights the main content. The overall visual style is fresh and soothing.
+
+Display a prominent weather icon at the top-center, with the date (x-small text) and temperature range (medium text) beneath it. The city name (large text) is positioned directly above the weather icon. The weather information has no background and can subtly overlap with the buildings.
+
+The text should match the input city's native language.
+Please retrieve current weather conditions for the specified city before rendering.
+
+City name: EvanSton
+```
+
+</details>
+
+---
+
 
 **图例1：游乐园报**
 
@@ -776,6 +853,8 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 ```
 
 </details>
+
+---
 
 **图例2：天气城市**
 
@@ -818,6 +897,135 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 </details>
 
 --- 
+
+
+## 中国传统文化
+
+
+**图例**
+
+<img width="600" alt="Image" src="./images/china/ch1.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+“主题”： {
+“描述”：“唐代宫廷乐团在阿干树枝上演奏音乐，乐师们演奏琵琶、二胡、笛子、阮和马蹄镫，乐师和鸟儿随意散落在各处，有的站着，有的坐着。”
+"mirror_rules": null,
+“年龄”：null，
+“表达”： {
+"眼睛": {
+“look”：null，
+"能量": null，
+“方向”：空
+},
+“嘴”： {
+"位置": null，
+“能量”：空
+},
+“总体”：空
+},
+“脸”： {
+"preserve_original": false,
+“化妆”：空
+},
+“头发”： {
+“颜色”：null，
+“样式”：null，
+“效果”：空
+},
+“身体”： {
+"frame": null,
+腰部：null，
+"胸腔": null，
+“腿”：null，
+“皮肤”： {
+"visible_areas": null,
+"音调": null，
+"纹理": null，
+"lighting_effect": null
+}
+},
+"姿势": {
+“位置”：“混合（部分站立，部分坐着”）
+“基部”：“在阿甘树的树枝上”，
+“总体而言”：“演奏音乐，包括琵琶、二胡、笛子、阮和马蹄筝”
+},
+“衣服”： {
+“顶部”： {
+“类型”： “唐代宫廷服饰”
+“颜色”：null，
+“详细信息”：null，
+“效果”：空
+},
+“底部”： {
+"type": null,
+“颜色”：null，
+“详情”：null
+}
+}
+},
+“配件”： {
+“珠宝”：null，
+“头饰”：null，
+“设备”：null，
+道具：琵琶、二胡、笛子、阮、马蹄琵琶
+},
+“摄影”： {
+"camera_style": null,
+"角度": null,
+"shot_type": null,
+"aspect_ratio": null,
+"纹理": null，
+“照明”：“即使是柔和的照明”，
+"景深": null
+},
+“背景”： {
+“场景”：“驼色舞台画布”，
+"wall_color": "驼棕色舞台画布，颜色代码 #E7B5C3D ",
+“元素”：[
+“阿甘树枝”，
+“鸟类”
+],
+“大气”：null，
+“照明”：“即使是柔和的照明”
+},
+"氛围": {
+"能量": null，
+“情绪”：null，
+“美学”：“宋代美学，极简主义，写实主义”，
+“真实性”：null，
+“亲密”：null，
+“故事”：“唐代宫廷乐团在阿干树枝上演奏，乐师和鸟儿随意散落，有的站着，有的坐着。”
+“caption_energy”: “唐代宫廷乐团在树枝上演奏”
+},
+"约束条件": {
+"must_keep": [
+“唐朝宫廷乐团”
+“演奏琵琶、二胡、笛子、阮和马蹄琴的乐师们”
+“阿甘树枝”，
+“音乐家和鸟儿随意散落各处，有的站着，有的坐着”，
+“驼棕色舞台画布，颜色代码为 #E7B5C3D ”
+],
+“避免”： []
+},
+"negative_prompt": [
+"nsfw",
+“低质量”，
+“文本”，
+水印
+]
+}
+```
+
+</details>
+
+--- 
+
+
+
 
 
 ## 美女靓仔类
