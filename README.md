@@ -740,6 +740,25 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 --- 
 
 
+**图例**
+
+<img width="600" alt="Image" src="./images/deconstruct/d2.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Vertical isometric cutaway diagram titled "ROCHESTER, NY". Stacked 3D layers showing history from top to bottom:
+
+Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s industrial factories and suburban homes.3. 1800s brick flour mills and the Erie Canal Aqueduct.4. Forest landscape with Haudenosaunee longhouses.5. Bottom layer of ancient sedimentary rock with fossils. Clean white background, realistic detail, with a vertical timeline ruler on the left side.
+```
+
+</details>
+
+---
+
+
+
 
 ## 海报
 
@@ -782,6 +801,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 ```
 
 </details>
+
 ---
 
 **图例3：星巴克概念店**
@@ -801,6 +821,392 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 
 ## 美女靓仔类
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea11.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+
+"meta": {
+
+"type": "Photo",
+
+"orientation_lock": "LOCKED: Orientation preserved 4:5",
+
+"sensor_emulation": "Point-and-Shoot Film Camera / Direct Flash"
+
+}
+
+},
+
+"spatial_orientation_engine": {
+
+"subject_facing_direction": "CRITICAL: Facing LEFT (West relative to frame)",
+
+"body_rotation": "Supine (lying on back), head rotated to subject's Right (Camera Left)",
+
+"camera_position_relative": "Directly Overhead (Top-Down / Flat Lay / 90 degrees)"
+
+},
+
+"camera_optics_and_geometry": {
+
+"lens_profile": {
+
+"focal_length": "28mm (Wide Angle)",
+
+"aperture": "f/11 (High depth of field due to flash)",
+
+"lens_character": "High Contrast Flash Photography, Slight Vignette"
+
+},
+
+"optical_flaws": [
+
+"Hard Flash Falloff",
+
+"Specular Highlights on Vinyl",
+
+"Film Grain",
+
+"Vignetting at corners"
+
+]
+
+},
+
+"environment_and_physics": {
+
+"lighting_engine": {
+
+"primary_source": "Direct On-Camera Flash (Top Center)",
+
+"radiosity_color_bleed": "Minimal due to harsh light, slight red reflection on white shirt folds",
+
+"shadow_structure": "Hard, sharp drop shadows directly behind/below objects and subject",
+
+"volumetrics": "Clear Air, Flash falloff into darkness at edges"
+
+},
+
+"surface_physics": {
+
+"weather_impact": "Indoor setting, no weather",
+
+"material_response": "High specularity on vinyl records and phone plastic, matte finish on cardboard sleeves, soft cotton fabric absorption"
+
+}
+
+},
+
+"scene_text_ocr": {
+
+"detected": true,
+
+"content": [
+
+{
+
+"text": "MGM STEREO DISC CONNIE FRANCIS Sings Italian Favorites",
+
+"location": "Bottom Left Album Cover",
+
+"font_style": "Serif and Script Mixed"
+
+},
+
+{
+
+"text": "RCA Red Seal",
+
+"location": "Top Center Vinyl Record Label",
+
+"font_style": "Sans-Serif"
+
+},
+
+{
+
+"text": "ercise Judi Sheppard Missett",
+
+"location": "Top Right Magazine/Cover (likely Jazzercise)",
+
+"font_style": "Bold Sans-Serif"
+
+},
+
+{
+
+"text": "Coca-Cola",
+
+"location": "Top Right Bottle",
+
+"font_style": "Cursive Script Logotype"
+
+},
+
+{
+
+"text": "PHILADELPHIA ORCHESTRA",
+
+"location": "Middle Right Orange Album",
+
+"font_style": "Vertical Sans-Serif"
+
+},
+
+{
+
+"text": "TUNE UP WITH THE HITS",
+
+"location": "Bottom Right Cover",
+
+"font_style": "Bold Sans-Serif Blue Text"
+
+}
+
+]
+
+},
+
+"objects_and_actors": [
+
+{
+
+"id": "MAIN_SUBJECT",
+
+"role": "Identity Swap Target",
+
+"pose_engineering": {
+
+"skeletal_rig": "Lying flat on back. Right arm bent, elbow on floor, hand holding phone receiver to right ear. Left arm extended slightly down-left, hand gripping phone cord. Legs extending to bottom right corner.",
+
+"gaze_vector": "Looking off-camera to the Left.",
+
+"interaction_physics": "Gravity flattening hair against tiles; phone cord tension held by left hand."
+
+},
+
+"physiological_state": {
+
+"body_temp_visuals": "Normal, slight sheen on skin from flash",
+
+"skin_light_interaction": "Direct flash reflection on forehead and nose"
+
+},
+
+"clothing_simulation": {
+
+"garment_stack": "White ringer t-shirt with red trim and red star graphic, Red athletic shorts with white trim.",
+
+"fabric_mechanics": "Shirt pressed flat against chest by gravity, slight bunching at armpits.",
+
+"texture_and_wear": "Cotton texture visible under flash, smooth synthetic shorts."
+
+},
+
+"identity_placeholders": {
+
+"skin_tone": "[[USE_REFERENCE_SKIN]]",
+
+"face_structure": "[[USE_REFERENCE_FACE]]",
+
+"hair_style": "[[USE_REFERENCE_HAIR]]"
+
+}
+
+}
+
+],
+
+"off_screen_context": {
+
+"reflections": "Specular highlights of flash bulb in vinyl grooves",
+
+"implied_elements": "Red rotary phone base is partially visible on the far left edge."
+
+},
+
+"generation_keywords": {
+
+"positive": "Overhead shot, flat lay, flash photography, vintage 90s aesthetic, girl lying on floor, vinyl records scattered, red rotary phone, messy room, blue and white tiled floor, photorealistic, harsh lighting, retro vibe",
+
+"negative": "soft lighting, outdoor, standing, digital render, 3d, modern phone, clean floor, minimalist"
+
+}
+
+}
+```
+
+</details>
+
+
+--- 
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea10.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "scene": "bedroom mirror selfie, home setting with bookshelf and desk setup",
+
+  "subject": {
+    "character": "PLATINUM BLONDE GIRL, early 20s, petite slim frame",
+    
+    "face": {
+      "structure": "soft features, delicate jawline, doll-like",
+      "skin": "porcelain pale with pink blush on cheeks",
+      "eyes": {
+        "shape": "large doe eyes",
+        "color": "light brown-hazel",
+        "expression": "looking down at phone screen, soft dreamy"
+      },
+      "mouth": {
+        "lips": "full, natural pink, relaxed soft pout"
+      },
+      "makeup": "natural with heavy pink blush, subtle"
+    },
+    
+    "hair": {
+      "color": "PLATINUM BLONDE white-silver",
+      "length": "shoulder length",
+      "texture": "soft wavy, slightly messy",
+      "style": "middle part, loose waves framing face",
+      "shine": "healthy shine"
+    }
+  },
+
+  "pose": {
+    "overall": "standing mirror selfie, relaxed casual",
+    
+    "position": {
+      "base": "standing in front of mirror",
+      "orientation": "facing mirror straight on"
+    },
+    
+    "torso": {
+      "direction": "facing camera",
+      "posture": "relaxed, slight hip tilt"
+    },
+    
+    "arms": {
+      "right": "holding iphone up taking selfie",
+      "left": "relaxed at side"
+    },
+    
+    "head": {
+      "angle": "looking at phone screen",
+      "expression": "soft, casual, candid"
+    }
+  },
+
+  "outfit": {
+    "top": {
+      "type": "black off-shoulder long sleeve crop top",
+      "fit": "tight, form fitting",
+      "neckline": "off shoulder, exposing collarbones",
+      "length": "cropped, exposing midriff and stomach"
+    },
+    
+    "bottom": {
+      "type": "black ruffled micro mini skirt",
+      "style": "tiered ruffles, very short",
+      "length": "extremely short, barely covering"
+    },
+    
+    "accessories": {
+      "garter": "white lace garter on upper thigh",
+      "piercing": "belly button piercing, small silver"
+    }
+  },
+
+  "body": {
+    "type": "slim, toned, petite",
+    "midriff": "flat toned stomach exposed",
+    "skin": "pale porcelain, smooth"
+  },
+
+  "environment": {
+    "location": "bedroom, personal space",
+    
+    "background": {
+      "furniture": "white bookshelf unit behind",
+      "items": "books, skincare products, perfumes on shelves",
+      "desk": "computer setup visible, white keyboard, monitor",
+      "aesthetic": "messy but curated, lived-in"
+    },
+    
+    "mirror": "full length or large mirror for selfie"
+  },
+
+  "lighting": {
+    "type": "natural daylight from window",
+    
+    "quality": {
+      "intensity": "soft, bright, flattering",
+      "direction": "front or side natural light"
+    },
+    
+    "on_subject": {
+      "skin": "soft glow, smooth",
+      "hair": "platinum catching light"
+    }
+  },
+
+  "photography": {
+    "type": "mirror selfie, iphone photo",
+    "angle": "straight on, eye level",
+    "framing": "waist up to full body",
+    "focus": "sharp on subject",
+    "style": "casual instagram selfie, candid bedroom"
+  },
+
+  "color_palette": {
+    "subject": {
+      "hair": "PLATINUM white-silver blonde",
+      "skin": "porcelain pale with pink blush",
+      "outfit": "all black with white lace accent"
+    },
+    "environment": {
+      "bookshelf": "white with colorful book spines",
+      "overall": "neutral bedroom tones"
+    }
+  },
+
+  "vibe": {
+    "energy": "casual, candid, effortlessly pretty",
+    "mood": "soft, dreamy, bedroom aesthetic",
+    "aesthetic": "instagram baddie meets soft girl"
+  },
+
+  "critical_requirements": {
+    "HAIR": "platinum blonde shoulder length, soft waves",
+    "FACE": "pink blush on cheeks, soft expression, looking at phone",
+    "TOP": "black off-shoulder long sleeve crop top",
+    "SKIRT": "black ruffled micro mini skirt",
+    "MIDRIFF": "exposed toned stomach with belly piercing",
+    "GARTER": "white lace garter visible on thigh",
+    "SETTING": "bedroom with bookshelf and desk behind",
+    "STYLE": "mirror selfie with iphone"
+  }
+}
+
+```
+
+</details>
+
+
+--- 
+
 
 **图例：**
 
@@ -1370,6 +1776,38 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 
 ```json
 将图像制作成白天和等距视图[仅限建筑]
+```
+
+</details>
+
+---
+
+
+**图例：去除模糊**
+
+<img width="200" alt="Image" src="./images/p2p/pin_2.png" />
+<img width="200" alt="Image" src="./images/p2p/pout_2.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "edit_type": "unblur",
+  "operations": [
+    "sharpen_details",
+    "reduce_noise",
+    "enhance_resolution",
+    "improve_textures"
+  ],
+  "preserve": {
+    "composition": true,
+    "subjects": true,
+    "lighting": true,
+    "colors": true
+  },
+  "output_style": "photorealistic"
+}
 ```
 
 </details>
