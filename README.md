@@ -822,6 +822,184 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 
 ## 美女靓仔类
 
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea15.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+"subject": {
+"description": "Young woman with light tan skin and dark brown hair featuring lighter caramel highlights.",
+"hair": "Shoulder-length, straight with layered bangs framing the face, dark roots transitioning to highlighted strands.",
+"attire": {
+"top": "Black, long-sleeved, mock-neck fitted crop top.",
+"bottom": "Black, tight-fitting hot shorts (booty shorts) featuring a rhinestone or crystal embellished design/text on the back right side.",
+"accessories": "Nose stud piercing, long coffin-shaped nails with dark polish, visible tattoos on the left hand and fingers."
+},
+"physique": "Fit and curvy, prominent glutes, slim waist, athletic build.",
+"action": "Taking a mirror selfie with an iPhone Pro in a clear or metallic case, body turned away from the mirror while looking back over the left shoulder at the reflection."
+},
+"pose": {
+"type": "Standing mirror selfie, rear-angled 3/4 view.",
+"details": "Body weight shifted onto the left leg, right leg slightly relaxed. Torso twisted to the left to show profile and back. Head turned sharply left to face the mirror. Left arm raised holding the phone, right arm extended downwards. Glutes accented by the posture and camera angle.",
+"orientation": "Back turned towards the mirror, face looking at the phone screen in the reflection."
+},
+"environment": {
+"setting": "Modern apartment living room.",
+"background_elements": "Grey sectional sofa with textured white pillows, ceiling fan with light, kitchen visible in the far background with stainless steel refrigerator and dark cabinets.",
+"foreground_elements": "Large woven wicker basket containing rolled white and pink blankets/towels in the bottom left corner.",
+"flooring": "Grey wood-look laminate or vinyl plank flooring.",
+"decor": "Wall-mounted shelves with small plants, minimalist aesthetic."
+},
+"camera": {
+"shot_type": "Mirror selfie, full body shot.",
+"perspective": "Reflection view, camera held at chest level within the reflection.",
+"focal_length": "24mm equivalent (smartphone main lens).",
+"framing": "Subject centered horizontally, cropped at mid-thigh/knee level."
+},
+"lighting": {
+"source": "Strong natural daylight coming from a window on the right side (out of frame).",
+"quality": "High contrast, direct sunlight creating bright highlights on the right thigh, buttocks, and sofa.",
+"shadows": "Distinct shadows cast by the subject and furniture, clear definition of muscle tone and clothing texture."
+},
+"mood_and_expression": {
+"mood": "Casual, confident, influencer-aesthetic, relaxed.",
+"expression": "Neutral to slight pout, focused on the phone screen/mirror reflection."
+},
+"style_and_realism": {
+"style": "Raw social media snapshot, influencer realism.",
+"texture": "High fidelity skin texture, visible fabric weave on the black clothing, realistic reflection artifacts.",
+"fidelity": "Photorealistic, unpolished lighting."
+},
+"colors_and_tone": {
+"palette": "Neutrals, greys, blacks, skin tones, warm sunlight.",
+"contrast": "High contrast due to direct sunlight.",
+"saturation": "Natural, slightly warm due to indoor lighting mixed with sunlight."
+},
+"quality_and_technical_details": {
+"resolution": "High definition.",
+"sharpness": "Sharp focus on the subject, slightly softer background.",
+"artifacts": "Mirror glass texture, slight dust or smudges on mirror surface acceptable for realism."
+},
+"aspect_ratio_and_output": {
+"ratio": "3:4",
+"orientation": "Portrait"
+},
+"controlnet": {
+"pose_control": {
+"model_type": "DWPose",
+"purpose": "Exact skeletal and pose lock",
+"constraints": [
+"preserve shoulder width",
+"preserve hip angle",
+"preserve spine curvature",
+"preserve limb placement",
+"lock head turn angle"
+],
+"recommended_weight": 1.0
+},
+"depth_control": {
+"model_type": "ZoeDepth",
+"purpose": "Depth, volume, and camera-to-body spatial lock",
+"constraints": [
+"preserve foreground basket depth",
+"maintain distance between subject and sofa",
+"preserve glute projection and curvature"
+],
+"recommended_weight": 0.8
+}
+},
+"negative_prompt": {
+"forbidden_elements": [
+"anatomy normalization",
+"body proportion averaging",
+"flat chest",
+"flat glutes",
+"reduced volume",
+"slimmed torso",
+"aesthetic proportion correction",
+"beauty standard enforcement",
+"plastic skin",
+"airbrushed texture",
+"stylized realism",
+"missing phone",
+"missing mirror reflection",
+"studio lighting",
+"bokeh overload",
+"distorted fingers",
+"incorrect text on shorts"
+]
+}
+}
+```
+
+</details>
+
+
+--- 
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea14.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "intent": "a raw candid flash-style mirror photograph of a young woman.",
+  "frame": {
+    "aspect_ratio": "4:5 vertical",
+    "composition": "mirror reflection, subject framed thighs-up on vanity counter, foreground clutter for depth",
+    "style_mode": ["snapshot_aesthetic", "raw_flash_photography", "analog_film_emulation"]
+  },
+  "subject": {
+    "identity": "young woman, early 20s, slender, messy loose-updo hair",
+    "wardrobe": "vintage silk slip dress with lace trim",
+    "pose": "seated casually on bathroom counter, leaning forward toward mirror, legs relaxed or crossed",
+    "expression": "detached cool look, lips slightly parted, gaze at reflection or camera"
+  },
+  "environment": {
+    "location": "compact tiled residential bathroom with vanity mirror",
+    "atmosphere": "intimate late-night private moment",
+    "details": "cluttered counter with cosmetics, brushes, toiletries",
+    "mirror_elements": "smudges, water spots, optional lipstick writing"
+  },
+  "camera": {
+    "sensor_format": "35mm film emulation (Kodak Gold 400 or Cinestill 800T)",
+    "lens": "35mm wide-angle point-and-shoot with slight distortion",
+    "aperture_depth_of_field": "f/5.6–f/8 for sharp subject and background",
+    "shutter_speed": "1/60s flash sync",
+    "iso": 800,
+    "camera_position": "eye-level toward mirror reflection"
+  },
+  "lighting": {
+    "type": "direct on-camera flash + ambient tungsten",
+    "key_light": "hard frontal flash with harsh shadows and specular highlights",
+    "fill_light": "warm dim tungsten cast",
+    "contrast": "high contrast with strong fall-off",
+    "color_temperature": "5500K flash + 3200K ambient"
+  },
+  "post_process": {
+    "color_grade": "vintage film, lifted blacks, green-tinted shadows, saturated reds",
+    "sharpness": "moderate with film grain and flash softness",
+    "vignette": "natural flash fall-off at edges"
+  },
+  "negative": {
+    "style": ["no studio lighting", "no softbox", "no 3D render", "no cartoon", "no anime", "no illustration", "no painting", "no airbrushed skin"],
+    "content": ["no clean minimalist spaces", "no perfect posture", "no happy expressions", "no daylight", "no LED aesthetics"]
+  }
+}
+```
+
+</details>
+
+
+--- 
+
 
 **图例：**
 
