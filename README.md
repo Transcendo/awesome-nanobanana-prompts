@@ -93,6 +93,54 @@ interior_style:
 --- 
 
 
+**图例：**
+
+<img width="600" alt="Image" src="./images/like/l2.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Positive prompts
+(ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality), (high resolution:1.3), (incredibly detailed:1.28), cinematic lighting, masterpiece, perfect anatomy,absurdres, Smooth_Quality, thick outline, black outline, thick lineart, western comics style, DISNEY_ANIMATION,
+1girl, full armor made of glowing black and orange star-metal, ember cracks, cosmic sword glowing with starlight in one hand, lantern of a dying universe in the other, burning aura, ashes floating in air, intense golden eyes, detailed iris, glowing molten veins, full burning wings shaped like black eclipse shards, celestial background with shattered planets, solar flare glow, camera angle from below, serious expression, mythic lighting, divine cosmic warrior, flaming cape blowing in the wind, ethereal glow on face, fire sparks in foreground, black halo orbiting behind her head, ashes turning into stars around her
+
+Negative prompts
+lowres, worst quality, low quality, bad quality, simple background,
+signature, multiple views, 2koma, 4koma,
+furry, anthro, bkub, 
+chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, twins, identical twins, solid eyes,
+```
+
+</details>
+
+
+--- 
+
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/like/l3.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Positive prompts
+masterpiece, best quality, very aesthetic, 8K, HDR, newest, anime_screencap, dynamic pose, depth of field, rakugakingu, FlatNika, in the style of cksc, foreshortening, dynamic angle, 
+
+1girl, umbrella, moon, blonde hair, solo, red eyes, holding umbrella, flower, full moon, jewelry, rain, holding, sitting, orange flower, parted lips, looking at viewer, pantyhose, earrings, wariza, cloud, long hair, outdoors, long sleeves, cloudy sky, skirt, night, black shirt, black footwear, frilled umbrella, reflection, sky, breasts, wet, black skirt, shirt, frills, black pantyhose, bow, thighhighs, bowtie, dress, brooch, red bow, reflective water, tree, red bowtie, shoes, high heels, maid headdress, water, from below, dark clouds, full body, puddle, gem, red ribbon, black dress, leaf, hairband, red gemstone, black umbrella, swept bangs, yellow flower, wet clothes
+
+Negative prompts
+worst quality, low quality, bad anatomy, bad proportions, extra digits, extra legs, extra arms, disfigured, blurry eyes, lowres, mutated hands, bad hands, signature, watermark, artist name, username, patreon username, twitter username, logo, oversaturated
+```
+
+</details>
+
+
+--- 
+
+
 **图例：雪夜柱列**
 
 <img width="600" alt="Image" src="./images/like/gmzr.png" />
@@ -470,7 +518,30 @@ interior_style:
 ```
 
 </details>
+
+
 --- 
+
+**图例**
+
+<img width="600" alt="Image" src="./images/product/p12.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+A hyper-detailed digital painting in a surreal fantasy style, showcasing a colossal (ornate crystal wine glass) with intricate filigree etching, filled to the brim with a viscous crimson liquid that refracts light like molten gemstones. Inside the glass, a microcosmic landscape unfolds: gnarled oak trees with (autumn-crisped leaves in burnt umber and carmine), their roots twisting through amber-hued mist, while bioluminescent fungi pulse along the bark grooves. The glass rests on a liquid-mercury surface so reflective it perfectly duplicates the scene upside-down, including the glass's own warped refraction patterns. 
+
+The background features a (gigantic dying sun) bleeding tangerine light through volcanic ash clouds, striated with veins of phosphorus-green. The sky gradients from bruise-purple at the zenith to arterial red near the horizon, where jagged basalt mountains erupt from a leaden sea choked with luminescent plankton. To the left, a petrified willow drips scarlet leaves like slow-motion blood droplets, each vein mapped in microscopic detail. Rightward, obsidian cliffs shear upward, their fractured planes catching the sun in razor-edged highlights. 
+
+Textures are obsessively rendered: the glass's refractive imperfections, the tree bark's lichen-crusted fissures, the sea's oil-slick iridescence. Shot with a tilt-shift lens at f/1.2 to blur the periphery, focusing on the glass's central distortion where the interior landscape warps into a Klein bottle paradox. Stylistic fusion of Zdzisław Beksiński's dystopian grandeur with Moebius' organic surrealism, color-graded in DaVinci Resolve for cinematic depth.
+
+```
+
+</details>
+
+
+---
 
 
 
@@ -487,6 +558,9 @@ interior_style:
 ```
 
 </details>
+
+
+---
 
 **图例6：美味地图**
 
@@ -1651,7 +1725,7 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 
 **图例：**
 
-<img width="300" alt="Image" src="./images/beauty/bea8.png" />
+<img width="600" alt="Image" src="./images/beauty/bea8.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
@@ -1678,7 +1752,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 --- 
 
 **图例：广角街拍**
-<img width="300" alt="Image" src="./images/beauty/bea7.png" />
+<img width="600" alt="Image" src="./images/beauty/bea7.png" />
 <details>
 <summary>提示词（点击展开）</summary>
 
@@ -1760,7 +1834,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 ---
 
 **图例：镜子自拍**
-<img width="300" alt="Image" src="./images/beauty/bea2.png" />
+<img width="500" alt="Image" src="./images/beauty/bea2.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
