@@ -304,6 +304,75 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 ---
 
+
+
+**图例**
+
+<img width="300" alt="Image" src="./images/product/p13.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "resolution": "8K",
+  "style": "hyper-realistic commercial product photography",
+  "composition": {
+    "subject": "carbonated beverage can",
+    "position": "center frame, floating mid-air",
+    "orientation": "slightly tilted vertical",
+    "framing": "tight hero shot"
+  },
+  "can_details": {
+    "material": "metallic aluminum",
+    "top_bottom": "silver with visible pull tab",
+    "surface": "glossy with condensation droplets",
+    "label": {
+      "text": "{{BRAND_NAME}}",
+      "font": "bold uppercase sans-serif",
+      "color": "white",
+      "background_band": "deep blue",
+      "placement": "wrapped around center of can"
+    }
+  },
+  "liquid_effects": {
+    "color": "bright green",
+    "type": "carbonated liquid splash",
+    "motion": "frozen mid-explosion",
+    "details": [
+      "semi-transparent fluid",
+      "fine droplets suspended in air",
+      "dynamic curved splash arcs",
+      "visible carbonation bubbles"
+    ]
+  },
+  "fruit_elements": {
+    "type": "sliced fruit",
+    "motion": "floating around the can",
+    "texture": "fresh, juicy, glossy"
+  },
+  "lighting": {
+    "type": "studio lighting",
+    "highlights": "strong reflections",
+    "shadows": "soft"
+  },
+  "background": {
+    "color": "smooth gradient matching liquid tone",
+    "environment": "clean studio backdrop"
+  },
+  "render_quality": {
+    "sharpness": "ultra-sharp",
+    "contrast": "high",
+    "realism": "photorealistic"
+  }
+}
+```
+
+</details>
+
+
+---
+
 **图例1：香草奶油**
 
 <img width="300" alt="Image" src="./images/product/p1.png" />
@@ -1103,6 +1172,255 @@ City name: EvanSton
 
 
 ## 美女靓仔类
+
+**图例**
+
+<img width="600" alt="Image" src="./images/beauty/bea20.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "meta": {
+    "aspect_ratio": "9:16",
+    "quality": "ultra_photorealistic",
+    "resolution": "8k",
+    "camera": "DSLR with slight paparazzi feel",
+    "lens": "35mm",
+    "style": "raw social media realism, natural skin texture, subtle grain, zero plastic look"
+  },
+  "scene": {
+    "location": "underground parking garage rooftop exit",
+    "time": "sunset transitioning to blue hour",
+    "environment": [
+      "concrete walls with yellow-black hazard stripes",
+      "open rooftop edge revealing city skyline",
+      "warm sunset glow mixing with cool city lights",
+      "slight wind moving loose elements"
+    ],
+    "atmosphere": "urban, spontaneous, caught-in-the-moment energy"
+  },
+  "lighting": {
+    "type": "mixed natural + city ambient",
+    "key_light": "low warm sunset light from side",
+    "fill_light": "cool reflected city light",
+    "effect": "soft highlights on curves, realistic shadow falloff, cinematic but accidental"
+  },
+  "camera_perspective": {
+    "pov": "third-person candid",
+    "angle": "slightly low, off-center",
+    "framing": "mid-thigh to head",
+    "motion": "minor handheld imperfection, not symmetrical"
+  },
+  "subject": {
+    "gender": "female",
+    "vibe": "young adult, confident but unposed",
+    "ethnicity": "mixed Asian-European",
+    "body": {
+      "type": "slim-curvy",
+      "waist": "tight and defined",
+      "hips": "round and naturally full",
+      "chest": "full but natural",
+      "legs": "toned thighs with subtle tension from stance"
+    },
+    "hair": {
+      "color": "deep chestnut brown",
+      "style": "loose high ponytail",
+      "behavior": "wind catching loose strands mid-motion"
+    },
+    "face": {
+      "expression": "half-smile, half-challenge",
+      "eyes": "glancing back at camera mid-step",
+      "makeup": "minimal glow, glossy lips, light liner",
+      "skin": "real texture, slight warmth from sunset"
+    },
+    "outfit": {
+      "top": {
+        "type": "ribbed sleeveless fitted top",
+        "color": "soft off-white",
+        "fit": "tight, no bra, fabric under slight stretch"
+      },
+      "bottom": {
+        "type": "high-waisted stretch pants",
+        "color": "charcoal grey",
+        "fit": "hugging hips and thighs, natural fabric tension"
+      }
+    },
+    "action": {
+      "movement": "walking forward then turning upper body back",
+      "micro_details": [
+        "one hand adjusting waistband",
+        "hip mid-shift creating natural curve",
+        "ponytail swinging with motion"
+      ]
+    }
+  },
+  "realism_rules": {
+    "avoid": [
+      "perfect symmetry",
+      "over-smoothed skin",
+      "posed influencer look"
+    ],
+    "priority": "looks like a real moment someone snapped too late on purpose"
+  }
+}
+```
+
+</details>
+
+
+---
+
+
+
+
+**图例**
+
+<img width="600" alt="Image" src="./images/beauty/bea19.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "prompt": "Ultra-realistic portrait of a young Asian woman with a slim body and long black wavy hair, wearing black rectangular glasses. Confident expression, soft natural makeup, smooth fair skin. She is wearing a white cropped button-up shirt with long sleeves, a beige high-waist mini skirt with a belt and front slit, and black sheer thigh-high stockings. Standing fashion pose with one hand near the collar. Minimal clean beige background, studio lighting, soft wall shadows. Professional fashion photography, ultra-detailed, sharp focus, realistic skin texture, 4k quality, cinematic lighting.",
+  "negative_prompt": "blurry, low quality, bad anatomy, extra fingers, extra legs, distorted face, deformed body, cartoon, anime, illustration, overexposed, watermark, text, logo",
+  "settings": {
+    "aspect_ratio": "2:3",
+    "style": "realistic",
+    "cfg_scale": 8,
+    "steps": 35,
+    "quality": "high"
+  }
+}
+```
+
+</details>
+
+
+---
+
+
+**图例**
+
+<img width="600" alt="Image" src="./images/beauty/bea18.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+A cinematic street portrait of a young woman standing still in a busy urban crowd, captured with motion blur all around her. She has short, slightly messy hair and a calm, introspective expression, looking directly at the camera. She wears a soft beige sweater and a textured brown skirt, minimal accessories. The background is a city street filled with people in motion, creating a dreamy long-exposure effect. Shallow depth of field, subject in sharp focus, crowd blurred, natural soft daylight, muted color palette, film photography style, emotional and artistic mood, high detail, realistic, 35mm lens, f/1.8.
+```
+
+</details>
+
+
+---
+
+**图例**
+
+<img width="600" alt="Image" src="./images/beauty/bea17.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+  "subject": {
+    "type": "stunning_East_Asian_woman_with_modern_social_media_influencer_aesthetic",
+    "framing": "close-up_high-angle_selfie_portrait_indoors",
+    "age_vibe": "youthful_early_20s_with_a_sultry_and_captivating_allure",
+    "features": {
+      "face_structure": "small_v-shaped_face_with_defined_jawline_and_soft_youthful_cheeks",
+      "eyes": "sultry_half-lidded_bedroom_eyes_with_intense_hazel-grey_contact_lenses_shimmering_glitter_makeup_and_bold_voluminous_lashes",
+      "nose": "high_straight_nose_bridge_with_a_perfectly_sculpted_tip",
+      "hair": "long_voluminous_straight_ebony_black_hair_with_a_natural_side_part_flowing_over_shoulders",
+      "expression": "alluring_and_seductive_expression_with_tongue_slightly_stuck_out_playfully_paired_with_a_heavy-lidded_come-hither_gaze"
+    },
+    "skin_texture": {
+      "description": "dewy_and_radiant_skin_with_a_prominent_vibrant_pink_blush_on_cheeks",
+      "details": [
+        "smooth_poreless_finish_with_a_moist_glow",
+        "intense_pinkish_blush_blended_across_cheeks_and_nose_bridge",
+        "subtle_highlighter_on_the_nose_tip_and_inner_corners_of_eyes",
+        "soft_warm_skin_undertones_under_dim_lighting"
+      ],
+      "makeup": "glamorous_night-out_makeup_with_glossy_pink_lips_and_defined_sharp_winged_eyeliner"
+    },
+    "pose_structural_lock": {
+      "overall": "casual_selfie_pose_tilted_head_looking_directly_up_at_the_camera",
+      "arms": "right_arm_partially_visible_holding_the_camera_at_a_high_angle",
+      "hands": "left_hand_resting_near_the_neck_with_a_watch_visible_on_the_wrist",
+      "shoulders": "slightly_hunched_forward_creating_a_dynamic_and_intimate_perspective"
+    }
+  },
+  "apparel_specification": {
+    "outfit_main_piece": {
+      "description": "Minimalist_sexy_black_halter-neck_top_with_a_deep_plunging_neckline",
+      "material": "soft_elastic_ribbed_fabric_with_a_matte_black_finish",
+      "silhouette": "form-fitting_and_revealing_emphasizing_the_collarbones_and_shoulders",
+      "details": "thin_straps_and_clean_edges"
+    },
+    "accessories": {
+      "necklace": "delicate_ultra-thin_gold_chain_necklace",
+      "watch": "classic_wristwatch_with_a_slim_brown_leather_strap_and_rose_gold_round_dial",
+      "tattoo": "faint_minimalist_fine-line_butterfly_tattoo_visible_on_the_left_shoulder"
+    }
+  },
+  "environment": {
+    "setting": "Atmospheric_Japanese_Izakaya_or_traditional_restaurant_at_night",
+    "lighting": "dim_moody_indoor_lighting_with_warm_amber_hues_and_cool_purple_lens_flare_on_the_face",
+    "background": "blurred_wooden_walls_adorned_with_traditional_Japanese_calligraphy_menu_plaques_and_distant_diners",
+    "atmosphere": "lively_intimate_nightlife_vibe_with_a_sense_of_casual_fun"
+  },
+  "realism_and_rendering": {
+    "style": "candid_social_media_snapshot_photography",
+    "camera": "High-end_smartphone_front_camera_with_slight_wide-angle_distortion_and_shallow_depth_of_field",
+    "image_quality": "hyper-realistic_skin_textures_natural_motion_blur_and_authentic_low-light_grain",
+    "aspect_ratio": "3:4"
+  }
+}
+```
+
+</details>
+
+
+---
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea16.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{   
+"type": "portrait_generation_parameters",   
+"version": "1.3",   "style_preset": "Off-Center Composition / Flash Street Snap",   
+"parameters": {     
+"subject_description": {       "base": "A cute and trendy young woman with a strong sense of lens awareness.",       "user_portrait_slot": "{User Portrait}",       "facial_expression": "Cute pouting expression ('duck face' or slightly pursed lips), eyes looking playfully towards the camera.",       
+"head_direction": "Head tilted and turned slightly towards the left."     },     
+"apparel_and_outfit": {       "base": "High-fashion street style.",       
+"outfit_slot": "{Apparel/Outfit}",       
+"styling_notes": "The outfit should have movement and texture, suitable for a dynamic street snap."     },     "pose_and_action": {       "leg_position": "Legs are pressed tightly together, not separated. Knees are buckled inward touching each other ('knock-kneed'), feet are pigeon-toed (toes pointing inward).",       "body_orientation": "The body is leaning forward and angled towards the left side of the frame.",       
+"hands": "Hands resting on the knees or upper thighs to support the leaning posture.",       
+"overall_dynamic": "A cute, slightly exaggerated 'anime-style' standing pose that looks candid and youthful."     },     "composition": {       "framing": "Medium-full body shot.",       "visual_balance": "Off-center composition. The subject is positioned in the **right third** of the frame (Rule of Thirds).",       
+"directional_flow": "The subject's body and gaze are directed from the right side towards the left (into the negative space of the image).",       
+"camera_angle": "Eye-level or slightly low angle to accentuate the boots and leg posture."     },     
+"lighting": {       "type": "Direct On-Camera Flash (Night).",       "characteristics": "Hard, direct flash illuminating the subject on the right, creating a sharp contrast against the darker street background on the left.",       
+"shadows": "Hard drop shadows falling behind and to the right of the subject."     },     
+"environment": {       "setting": "Urban night street. The empty space on the left side of the frame reveals more of the background details (street depth, blurred city lights, shop signage).",      
+ "atmosphere": "Casual, spontaneous, gritty but stylish."     },     
+"color_palette": {       "style": "Fujifilm Classic Negative (NC).",       
+"tones": "Moody cool tones in the background, warm flash tones on the skin. High contrast curve."     },     "negative_prompt": [       "center frame",       "centered subject",       "legs apart",       "wide stance",       "straight legs",       "looking right",       "body facing right",       "bad anatomy",       "distorted hands",       "missing fingers",       "blurry face",       "flat lighting"     ]   } }
+```
+
+</details>
+
+
+--- 
 
 **图例：**
 
@@ -2331,9 +2649,292 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 
 
 ## 美食
+**图例**
+
+<img width="500" alt="Image" src="./images/food/f4.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+  {
+  "project_type": "Premium Culinary Promotional Poster",
+  "orientation": "Vertical",
+  "dish_name": "Deconstructed Classic Beef Lasagna",
+  "layers_count": 6,
+  "background": {
+    "color": "#000000",
+    "platform": "none"
+  },
+  "camera": {
+    "angle": "45-degree",
+    "perspective": "consistent across all layers",
+    "focus": "macro-level texture detail"
+  },
+  "visual_sequence": {
+    "arrangement": "top_to_bottom",
+    "final_layer_spacing": "extra_large_gap_for_dramatic_effect"
+  },
+  "layers": [
+    {
+      "order": 1,
+      "type": "Sauce Layer",
+      "description": "Slow-simmered Italian beef tomato sauce",
+      "visual_texture": {
+        "surface": "smooth and glossy",
+        "color": "deep ruby red",
+        "highlight": "premium reflective sheen"
+      },
+      "motion_effects": "gentle liquid ripples"
+    },
+    {
+      "order": 2,
+      "type": "Aromatics Layer",
+      "ingredients": [
+        "caramelized onions",
+        "fresh garlic cloves",
+        "basil leaves",
+        "oregano sprigs"
+      ],
+      "visual_texture": {
+        "appearance": "vibrant and fresh",
+        "state": "floating weightlessly",
+        "warmth": "soft golden glow"
+      },
+      "atmospheric_effects": "subtle steam wisps and herb particles"
+    },
+    {
+      "order": 3,
+      "type": "Main Ingredient Layer",
+      "ingredients": [
+        "fresh lasagna pasta sheets",
+        "slow-cooked minced beef",
+        "ricotta cheese"
+      ],
+      "visual_texture": {
+        "pasta": "silky with visible grain",
+        "meat": "juicy and textured",
+        "cheese": "soft, creamy, and dewy"
+      },
+      "detail_level": "high-definition ingredient separation"
+    },
+    {
+      "order": 4,
+      "type": "Cheese Layer",
+      "ingredients": [
+        "mozzarella",
+        "parmesan shavings"
+      ],
+      "visual_texture": {
+        "surface": "stretchy and semi-melted",
+        "detail": "fine cheese fibers visible"
+      }
+    },
+    {
+      "order": 5,
+      "type": "Seasoning Layer",
+      "ingredients": [
+        "sea salt",
+        "cracked black pepper",
+        "Italian spice blend"
+      ],
+      "visual_texture": {
+        "appearance": "crystal-clear granules",
+        "shine": "subtle refined sparkle"
+      },
+      "motion_effects": "slow downward drift"
+    },
+    {
+      "order": 6,
+      "type": "Finished Dish Layer",
+      "description": "Fully assembled classic beef lasagna",
+      "vessel": "matte black ceramic baking dish",
+      "visual_texture": {
+        "surface": "glossy and tender",
+        "layers": "clearly defined pasta, cheese, and sauce",
+        "sauce": "rich and glistening"
+      },
+      "dynamic_effects": {
+        "steam": "gentle rising heat waves",
+        "motion": "slight surface trembling"
+      },
+      "lighting": "soft highlights emphasizing warmth and indulgence"
+    }
+  ],
+  "atmosphere": {
+    "particles": "floating herbs and spice dust between layers",
+    "steam": "light and realistic",
+    "mood": "luxurious, warm, indulgent"
+  },
+  "style_keywords": [
+    "premium",
+    "cinematic",
+    "hyper-realistic",
+    "high-contrast",
+    "culinary luxury"
+  ]
+}
+```
+
+</details>
 
 
-**图例：去除模糊**
+---
+
+
+**图例**
+
+<img width="500" alt="Image" src="./images/food/f2.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+  "global_settings": {
+    "resolution": "8K UHD",
+    "quality": "ultra-high",
+    "render_style": "AI-edited hyper-realistic food photography",
+    "sharpness": "extreme micro-detail",
+    "noise": "none",
+    "compression": "lossless",
+    "lighting_quality": "studio-controlled, cinematic",
+    "color_accuracy": "true-to-image",
+    "focus": "selective shallow depth of field",
+    "texture_emphasis": "maximum"
+  },
+
+  "camera_profile": {
+    "camera_type": "full-frame DSLR / mirrorless equivalent",
+    "lens": "macro prime",
+    "focal_length": "85mm–105mm",
+    "aperture": "f/2.8",
+    "iso": "low ISO",
+    "shutter": "studio synchronized",
+    "white_balance": "neutral, image-matched"
+  },
+
+  "module_1_image_1_style": {
+    "subject": "square matcha cheesecake slice",
+    "composition": {
+      "orientation": "portrait",
+      "angle": "three-quarter front view",
+      "placement": "centered on dark ceramic plate",
+      "crop": "tight food-focused crop"
+    },
+    "layers": {
+      "top_layer": "glossy matcha glaze with visible drip trails",
+      "middle_layer": "smooth pale-green cheesecake body",
+      "bottom_layer": "thin golden biscuit crust"
+    },
+    "surface_details": {
+      "glaze": "highly reflective, thick, slow-dripping matcha glaze",
+      "powder": "matcha powder dusted on top and plate",
+      "crumbs": "fine crumbs near base"
+    },
+    "garnish": {
+      "top": ["round green confection", "fresh mint leaves", "single raspberry"],
+      "plate": ["extra raspberry", "mint leaves", "matcha powder"]
+    },
+    "background": {
+      "color": "dark charcoal / black",
+      "elements": ["black bowl containing green sauce"],
+      "blur": "strong background blur"
+    },
+    "lighting": {
+      "key_light": "soft directional from upper left",
+      "highlights": "strong specular highlights on glaze",
+      "shadows": "soft, natural falloff"
+    },
+    "mood": "luxurious, modern, minimal, gourmet"
+  },
+
+  "module_2_image_2_style": {
+    "subject": "blue and white layered cake slice",
+    "composition": {
+      "orientation": "portrait",
+      "angle": "slightly elevated front angle",
+      "placement": "centered on white decorative plate"
+    },
+    "layers": {
+      "cake_layers": "soft white sponge layers",
+      "filling_layers": "translucent blue jelly layers with sparkle",
+      "top_layer": "smooth pastel blue glaze"
+    },
+    "surface_details": {
+      "drip": "single vertical glossy blue drip down front",
+      "sparkle": "tiny reflective particles embedded in jelly",
+      "top_decor": "glass-like blue spheres"
+    },
+    "garnish": {
+      "top": ["dark glossy cherry with long stem", "three transparent blue spheres", "tiny star-shaped sprinkles"],
+      "plate": ["subtle sugar-like sparkles"]
+    },
+    "background": {
+      "color": "light icy blue",
+      "effect": "soft bokeh dots",
+      "props": ["white ribbon partially visible"]
+    },
+    "lighting": {
+      "key_light": "soft frontal light",
+      "fill": "even illumination",
+      "highlights": "glass reflections on spheres"
+    },
+    "mood": "dreamy, delicate, whimsical, clean"
+  },
+```
+
+</details>
+
+
+---
+
+**图例**
+
+<img width="500" alt="Image" src="./images/food/f3.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+"module_1_berry_smoothie_explosion": {
+      "scene_description": "A vibrant smoothie bowl exploding with fruit and liquid splashes",
+      "bowl": {
+        "color": "Deep blue ceramic bowl",
+        "finish": "Glossy",
+        "position": "Centered, floating mid-air"
+      },
+      "base_contents": {
+        "type": "Thick berry smoothie",
+        "color": "Deep purple-magenta",
+        "texture": "Creamy with visible swirl marks"
+      },
+      "ingredients": {
+        "fruits": [
+          "Banana slices (round, pale yellow)",
+          "Blueberries (whole, dark blue)",
+          "Raspberries (whole, red)"
+        ],
+        "herbs": [
+          "Fresh mint leaves (bright green)"
+        ]
+      },
+      "motion_effects": {
+        "liquid": "Berry smoothie splashing upward and outward",
+        "particles": "Small droplets suspended in air"
+      },
+      "background": {
+        "color": "Bright pink",
+        "texture": "Smooth, seamless"
+      }
+    },
+```
+
+</details>
+
+---
+
+
+**图例**
 
 <img width="600" alt="Image" src="./images/food/f1.png" />
 
@@ -2343,7 +2944,6 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 ```json
 Generate an image of what could be possible to make with this orange foodwise.
 ```
-
 </details>
 
 ## 致谢与参考
