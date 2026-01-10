@@ -822,6 +822,62 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 
 ## 美女靓仔类
 
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea13.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+{
+
+"character_consistency": "100%",
+
+"description": "Full-body studio photoshoot of a female model in a red velvet dress",
+
+"hair_style": "<HAIR_STYLE>",
+
+"pose": "<POSE_DESCRIPTION>",
+
+"expression": "<EXPRESSION>",
+
+"lighting": "<LIGHTING_SETUP>",
+
+"effects": "<VISUAL_EFFECTS>",
+
+"camera_details": "<CAMERA_SPEC>",
+
+"scene_mood": "<MOOD>",
+
+"additional_notes": "<NOTES>"
+
+}
+```
+
+</details>
+
+
+--- 
+
+
+**图例：**
+
+<img width="600" alt="Image" src="./images/beauty/bea12.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown hair wearing large black over-ear headphones, a tight black-and-charcoal patterned short-sleeve compression shirt with a small white chest logo, black athletic shorts, and white crew socks, sitting on a black rubber gym floor leaning back on one hand with his torso turned and head looking to the side. Environment: modern industrial gym interior with black locker cubes stacked along the right wall, exposed metal ductwork and beams on the ceiling, a squat rack and a second person training in the background near a large bright window, and a clear shaker bottle plus a small towel on the floor at the lower left. Composition/Camera: low, close three-quarter view from the man’s left side, framing from mid-thigh to head with the lockers filling the right side and gym equipment receding into the left background. Lighting: mixed natural daylight from the window and soft overhead indoor lighting, creating gentle highlights on the subject and mild shadows on the floor and lockers. He is Looking in the camera
+```
+
+</details>
+
+
+--- 
+
 **图例：**
 
 <img width="600" alt="Image" src="./images/beauty/bea11.png" />
@@ -1040,7 +1096,6 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 
 }
 
-}
 ```
 
 </details>
@@ -1813,6 +1868,23 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 </details>
 
 ---
+
+
+## 美食
+
+
+**图例：去除模糊**
+
+<img width="600" alt="Image" src="./images/food/f1.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```json
+Generate an image of what could be possible to make with this orange foodwise.
+```
+
+</details>
 
 ## 致谢与参考
 
