@@ -1,24 +1,24 @@
 # awesome-nanobanana-prompts
-A curated prompt library for Nano Banana / Nano Banana Pro.
+Nano Banana / Nano Banana Pro 提示词整理合集。
 
 [English](README.md) | [中文](README_CN.md)
 
-## SEO / GEO Statement
+## SEO / GEO 声明
 
-- This repository is a curated collection of **Nano Banana / Nano Banana Pro** prompts, including prompts, images, examples, and templates.
-- Coverage: text-to-image, img2img, poster design, product photography, ukiyo-e, PPT, research diagrams, deconstruction diagrams, etc.
-- Intended for searching, learning, reproducing, and comparing prompt structures and results.
-- Search keywords: nano banana; nanobanana; nano banana pro; prompts; prompt library; prompt engineering; image prompts; images; examples; templates; text to image; text-to-image; img2img; poster; product photography; ukiyo-e; PPT; research diagram; deconstruct.
+- 本仓库是 **Nano Banana / Nano Banana Pro 提示词** 的整理集合：包含提示词、示例图片、案例与模板。
+- 内容覆盖：text-to-image、img2img、poster（海报）、product photography（产品摄影）、ukiyo-e（浮世绘）、PPT、research diagram（科研图示）、deconstruct（解构图）等。
+- 适用目的：检索、学习、复现、对比不同提示词（prompt）结构与效果。
+- 搜索关键词: nano banana; nanobanana; nano banana pro; prompts; prompt library; prompt engineering; image prompts; images; examples; templates; text to image; text-to-image; img2img; poster; product photography; ukiyo-e; PPT; research diagram; deconstruct.
 
 
-## Manga Style
+## 漫画品类
 
-**Example: Torn Paper Layers**
+**图例：撕纸分层**
 
-<img width="600" alt="Image" src="./images/like/l1.png" />
+<img width="600" alt="图片" src="./images/like/l1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -60,37 +60,37 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
     "mode": "line-art",
     "style_settings": {
       "line-art": {
-        "palette": "monochrome",
-        "line_quality": "clean, crisp",
-        "paper": "notebook paper with subtle ruled lines"
+        "palette": "黑白单色",
+        "line_quality": "干净、清晰",
+        "paper": "带浅色横线的笔记本纸纹理"
       },
       "sumi-e": {
-        "palette": "black ink tones",
-        "brush_texture": "soft bleeding edges",
-        "paper": "plain textured paper"
+        "palette": "水墨黑色调",
+        "brush_texture": "柔和晕染边缘",
+        "paper": "朴素纹理纸"
       },
       "figure-render": {
-        "material": "PVC-like",
-        "shading": "semi-realistic highlights",
-        "paper": "plain smooth surface"
+        "material": "类似 PVC 的质感",
+        "shading": "半写实高光",
+        "paper": "光滑素面"
       },
       "colored-pencil": {
-        "stroke_texture": "visible pencil grain",
-        "palette": "soft layered hues",
-        "paper": "rough sketchbook paper"
+        "stroke_texture": "可见的铅笔颗粒",
+        "palette": "柔和叠加色调",
+        "paper": "粗糙速写本纸"
       },
       "watercolor": {
-        "palette": "soft transparent pigments",
-        "blending": "smooth bleeding",
-        "edges": "soft contours",
-        "paper": "watercolor paper texture"
+        "palette": "柔和半透明颜料",
+        "blending": "平滑晕染",
+        "edges": "柔和轮廓",
+        "paper": "水彩纸纹理"
       },
       "pencil-drawing": {
-        "graphite_texture": "visible pencil grain",
-        "shading": "smooth gradients",
-        "line_quality": "mixed sharp and soft",
-        "tone": "gray-scale",
-        "paper": "notebook paper with faint ruled lines"
+        "graphite_texture": "可见的铅笔颗粒",
+        "shading": "平滑渐变",
+        "line_quality": "软硬线条混合",
+        "tone": "灰度",
+        "paper": "带淡横线的笔记本纸纹理"
       }
     }
   }
@@ -104,19 +104,19 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 --- 
 
 
-**Example: Cosmic Power Armor**
+**图例：宇宙战甲**
 
-<img width="600" alt="Image" src="./images/like/l2.png" />
+<img width="600" alt="图片" src="./images/like/l2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Positive prompts
+正向提示词
 (ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality), (high resolution:1.3), (incredibly detailed:1.28), cinematic lighting, masterpiece, perfect anatomy,absurdres, Smooth_Quality, thick outline, black outline, thick lineart, western comics style, DISNEY_ANIMATION,
 1girl, full armor made of glowing black and orange star-metal, ember cracks, cosmic sword glowing with starlight in one hand, lantern of a dying universe in the other, burning aura, ashes floating in air, intense golden eyes, detailed iris, glowing molten veins, full burning wings shaped like black eclipse shards, celestial background with shattered planets, solar flare glow, camera angle from below, serious expression, mythic lighting, divine cosmic warrior, flaming cape blowing in the wind, ethereal glow on face, fire sparks in foreground, black halo orbiting behind her head, ashes turning into stars around her
 
-Negative prompts
+负向提示词
 lowres, worst quality, low quality, bad quality, simple background,
 signature, multiple views, 2koma, 4koma,
 furry, anthro, bkub, 
@@ -129,20 +129,20 @@ chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, 
 --- 
 
 
-**Example: Rainy Night Umbrella**
+**图例：雨夜伞**
 
-<img width="600" alt="Image" src="./images/like/l3.png" />
+<img width="600" alt="图片" src="./images/like/l3.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Positive prompts
+正向提示词
 masterpiece, best quality, very aesthetic, 8K, HDR, newest, anime_screencap, dynamic pose, depth of field, rakugakingu, FlatNika, in the style of cksc, foreshortening, dynamic angle, 
 
 1girl, umbrella, moon, blonde hair, solo, red eyes, holding umbrella, flower, full moon, jewelry, rain, holding, sitting, orange flower, parted lips, looking at viewer, pantyhose, earrings, wariza, cloud, long hair, outdoors, long sleeves, cloudy sky, skirt, night, black shirt, black footwear, frilled umbrella, reflection, sky, breasts, wet, black skirt, shirt, frills, black pantyhose, bow, thighhighs, bowtie, dress, brooch, red bow, reflective water, tree, red bowtie, shoes, high heels, maid headdress, water, from below, dark clouds, full body, puddle, gem, red ribbon, black dress, leaf, hairband, red gemstone, black umbrella, swept bangs, yellow flower, wet clothes
 
-Negative prompts
+负向提示词
 worst quality, low quality, bad anatomy, bad proportions, extra digits, extra legs, extra arms, disfigured, blurry eyes, lowres, mutated hands, bad hands, signature, watermark, artist name, username, patreon username, twitter username, logo, oversaturated
 ```
 
@@ -152,56 +152,58 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 --- 
 
 
-**Example: Snowy Night Hashira Lineup**
+**图例：雪夜柱列**
 
-<img width="600" alt="Image" src="./images/like/gmzr.png" />
+<img width="600" alt="图片" src="./images/like/gmzr.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-1. Style & Mood
-  - Keywords: Shin-hanga, Ukiyo-e aesthetics, serene melancholy, atmospheric landscape, traditional Japanese art.
-  - Description: The image reflects the signature traits of Japan’s early 20th‑century Shin-hanga movement, blending traditional ukiyo-e woodblock techniques with the light-and-shadow ambience of Western Impressionism. The overall feeling is quiet, lonely, and poetic, focused on capturing a specific weather atmosphere and a frozen moment in time.
-2. Visual Logic
-  1. Perspective: A combination of scattered perspective and a high viewpoint. Not strict Western single-point perspective; it emphasizes depth on a flat plane.
-  2. Composition: Strong diagonal composition, using large negative space versus solid scenery to create contrast.
-  3. Geometry: Layering organic lines with geometric color blocks. Edges are crisp but not overly sharp, retaining the carved-knife feeling unique to prints.
-3. Visual Rendering
-  1. Line Work: Ink outlines with varied stroke thickness like brushwork, while keeping the firmness of woodblock carving in architectural and branch details.
-  2. Texture: Pronounced washi-paper texture, using the paper’s natural white as highlights.
-  3. Technique: Bokashi: gradient printing/inking on water and sky to create soft color transitions.
-  4. Goma-zuri: possible localized “sesame printing” grain to simulate snowfall or texture.
-  5. Lighting: Diffuse light. No clear directional light source; use value differences in color blocks to convey snow thickness and overcast lighting.
-4. Color System
-  1. Core Logic: Low saturation, cool tones, minimalist palette.
+1. 风格调性 
+  - 关键词： Shin-hanga (新版画风格), Ukiyo-e Aesthetics (浮世绘美学), Serene Melancholy, Atmospheric landscape, Traditional Japanese Art.
+  - 描述： 画面呈现出 20 世纪初日本“新版画”运动的典型特征，结合了传统浮世绘的木刻技法与西方印象派的光影氛围。整体气质静谧、孤寂且充满诗意。核心在于捕捉特定的气候氛围与瞬间的静止感。
+2. 视觉逻辑 
+  1. Perspective: 散点透视与高视点结合。非严格的西方单点透视，强调平面的纵深感。
+  2. Composition: 强烈的对角线构图，利用大面积留白与实体景物形成虚实对比。
+  3. Geometry: 有机线条与几何色块的叠加。景物边缘清晰但不过度锐利，呈现出版画特有的刻刀雕琢感。
+3. 视觉渲染 
+  1. Line Work: 墨线轮廓，线条粗细变化模仿毛笔笔触，但在建筑和树枝细节上保持木刻的刚劲。
+  2. Texture: 显著的和纸纹理，利用纸张原本的白色作为高光。
+  3. Technique: Bokashi: 在水面和天空中使用渐变印染技法，表现色彩的柔和过渡。
+  4. Goma-zuri: 局部可能存在的“胡麻摺”效果，产生颗粒感以模拟降雪或质感。
+  5. Lighting: 漫射光。无明确光源方向，通过色块明度差异表现积雪的厚度与阴天光感。
+4. 色彩系统 
+  1. Core Logic: 低饱和度，冷色调主导，极简主义配色。
   2. Palette:
-    - Prussian Blue / Indigo (#1B365D): for water gradients; deep and calm.
-    - Slate Grey (#708090): for sky and shadows; creates a cold atmosphere.
-    - Paper White / Cream (#F5F5DC): canvas base tone, directly representing snow.
-    - Charcoal Black (#36454F): for tree and building silhouettes.
-5. Negative Constraints
-  1. No photorealism or physical rendering.
-  2. No smooth digital-painting look, specular highlights, or plastic textures.
-  3. No thick paint strokes or heavy oil-paint buildup.
-  4. No modern 3D rendering tricks such as volumetric light or ambient occlusion.
-  5. No vivid, high-purity neon or primary colors.
-6. Scene Content
-  In heavy snow, create lineup portraits of all the Hashira from *Demon Slayer*, each in a battle-ready pose matching their Breathing style.
+    - Prussian Blue / Indigo (#1B365D): 用于水面渐变，深邃且沉静。
+    - Slate Grey (#708090): 用于天空与阴影，营造寒冷氛围。
+    - Paper White / Cream (#F5F5DC): 画布底色，直接指代积雪。
+    - Charcoal Black (#36454F): 用于树木与建筑剪影。
+5. 负向约束
+  1. 严禁照片级真实感、物理渲染
+  2. 严禁数字绘画的光滑感、高光反射、塑料质感。
+  3. 严禁厚涂笔触、油画堆叠感。
+  4. 严禁体积光、环境光遮蔽等现代 3D 渲染技法。
+  5. 严禁使用鲜艳、高纯度的霓虹色或原色。
+6. 画面内容
+  大雪天气，《鬼灭之刃》所有「柱」的定妆照，每个「柱」都按自己的呼吸法做战斗准备姿势。
 ```
 
 </details>
+
+
 --- 
 
 
-## Product Photography
+## 产品类
 
-**Example: Pouring Water Through the Screen**
+**图例：屏幕倒水**
 
-<img width="400" alt="Image" src="./images/product/p10.png" />
+<img width="400" alt="图片" src="./images/product/p10.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -317,12 +319,12 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 
 
-**Example: Green Soda Can**
+**图例：绿汽罐**
 
-<img width="300" alt="Image" src="./images/product/p13.png" />
+<img width="300" alt="图片" src="./images/product/p13.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -384,59 +386,59 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 ---
 
-**Example 1: Vanilla Cream**
+**图例1：香草奶油**
 
-<img width="300" alt="Image" src="./images/product/p1.png" />
+<img width="300" alt="图片" src="./images/product/p1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
   "product": {
-    "name": "Vanilla Cream Brew",
-    "container_description": "Matte cream jar, softly diffused, richly hydrating"
+    "name": "香草奶油酿造",
+    "container_description": "哑光乳霜罐，轻柔雾化，富含水分"
   },
   "scene": {
-    "setting": "A marble café table in Paris",
-    "liquid_action": "Golden caramel latte liquid pours onto the table, splashing as droplets float elegantly",
-    "surrounding_elements": "Vanilla pods and coffee beans are elegantly arranged around the jar"
+    "setting": "巴黎的大理石咖啡桌",
+    "liquid_action": "金色的焦糖拿铁液体倾泻到桌子上，溅起水花，水滴优雅地悬浮着",
+    "surrounding_elements": "香草荚和咖啡豆优雅地环绕着罐子"
   },
   "photography": {
-    "camera_movement": "Glide forward, then orbit around",
-    "lighting": "Warm pastel lighting with window-style rim light",
-    "expected_effect": "A refined, luxurious hero reveal"
+    "camera_movement": "向前滑行然后绕圈",
+    "lighting": "温暖的粉彩色照明与窗式轮廓光",
+    "expected_effect": "精致奢华的英雄揭晓"
   },
-  "action_sequence": "When opened, the liquid cascades down; the jar rises out of the splash."
+  "action_sequence": "打开时液体会倾泻而下；罐子会从飞溅的水花中升起。"
 }
 ```
 
 </details>
 ---
 
-**Example 2: Strawberry Cake**
+**图例2：草莓蛋糕**
 
-<img width="300" alt="Image" src="./images/product/p2.png" />
+<img width="300" alt="图片" src="./images/product/p2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
   "product": {
-    "name": "Strawberry Cake Drink",
-    "container_description": "A perfectly upright can covered in realistic condensation droplets, with a clear, readable 'Strawberry Cake' label"
+    "name": "草莓蛋糕饮料",
+    "container_description": "完美直立的罐子，表面覆盖着逼真的冷凝水，带有清晰易读的‘草莓蛋糕’标签"
   },
   "scene": {
-    "setting": "A reflective surface",
-    "liquid_action": "A glossy red strawberry liquid pours down from above, creating a dramatic splash at the center; droplets are suspended mid-air",
-    "surrounding_elements": "Strawberries and cake-like crumbs burst outward"
+    "setting": "反射面",
+    "liquid_action": "一股闪亮的红色草莓液体从上方倾泻而下，在中心形成壮观的水花，水滴悬浮在半空中",
+    "surrounding_elements": "草莓和类似小蛋糕的碎片向外爆裂"
   },
   "photography": {
-    "initial_speed": "Slow motion",
-    "action_intensification": "As elements burst outward, the motion intensity increases"
+    "initial_speed": "慢动作",
+    "action_intensification": "随着元素向外爆发，运动强度增强"
   },
-  "action_sequence": "Start by pouring the liquid; as the splashes settle, the can rises cleanly out of the liquid."
+  "action_sequence": "从倾倒液体开始；随着飞溅物沉淀，罐子干净利落地从液体中升起。"
 }
 ```
 
@@ -444,35 +446,35 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 --- 
 
-**Example 3: Midnight Spark**
+**图例3：午夜火花**
 
-<img width="300" alt="Image" src="./images/product/p3.png" />
+<img width="300" alt="图片" src="./images/product/p3.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
   "product": {
-    "name": "Midnight Spark – Bold & Juicy",
-    "container_description": "A sleek aluminum can in deep midnight purple, decorated with grape clusters and green leaves, with condensation droplets on the surface"
+    "name": "午夜火花 – 大胆多汁",
+    "container_description": "光滑的铝罐，深午夜紫色，饰有葡萄串和绿叶图案，表面覆盖着冷凝水滴"
   },
   "scene": {
-    "setting": "Center frame",
-    "liquid_action": "Vivid purple grape juice erupts upward and outward behind the can in a symmetrical crown-like motion, spectacular",
-    "surrounding_elements": "Crystal-clear ice cubes frozen mid-air"
+    "setting": "画面中心",
+    "liquid_action": "鲜艳的紫色葡萄汁以对称的皇冠状运动从罐后向上向外喷涌而出，场面壮观",
+    "surrounding_elements": "晶莹剔透的冰块冻结在半空中"
   },
   "photography_style": {
-    "type": "Ultra-photoreal luxury beverage product photography",
-    "genre": "Commercial beverage advertisement style",
-    "aesthetic": "Premium brand aesthetic",
-    "composition": "Centered composition"
+    "type": "超逼真的奢华饮品产品摄影",
+    "genre": "商业饮料广告风格",
+    "aesthetic": "高端品牌美学",
+    "composition": "居中构图"
   },
   "technical_specifications": {
-    "focus": "Shallow depth of field, tack-sharp focus",
-    "quality": "Ultra-fine, photorealistic, 8K clarity, hyper-realistic liquid simulation"
+    "focus": "浅景深，清晰对焦",
+    "quality": "超精细、照片级真实感、8K 清晰度、超逼真液体模拟"
   },
-  "universal_negative_prompt": "cartoon, illustration, flat lighting, blur, low resolution, plastic texture, oversaturated colors, warped text, spelling errors, deformed can, extra logos, watermark, noise, motion blur"
+  "universal_negative_prompt": "卡通、插图、扁平光照、模糊、低分辨率、塑料质感、色彩过饱和、文字扭曲、拼写错误、罐身变形、额外标识、水印、噪点、动态模糊"
 }
 ```
 
@@ -480,117 +482,117 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 --- 
 
-**Example 4: Street Fugitive**
+**图例4：街头逃犯**
 
-<img width="300" alt="Image" src="./images/product/p4.png" />
+<img width="300" alt="图片" src="./images/product/p4.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
   "subject": {
-    "description": "A full-body silhouette of a young person wearing oversized olive-green clothing, standing calmly, with a white graffiti-style smile painted on the face; subtle multiple-exposure trails drag to the left, in an avant-garde street-art poster collage style",
-    "age": "young adult",
+    "description": "一位年轻人的全身剪影，他身穿超大的橄榄绿色服装，平静地站着，脸上画着白色的涂鸦式微笑，左侧拖着微妙的多重曝光痕迹，风格类似于前卫的街头艺术海报拼贴画",
+    "age": "青年",
     "expression": {
       "eyes": {
-        "gaze": "covered by graffiti",
-        "mood": "mysterious",
-        "direction": "unknown"
+        "gaze": "被涂鸦覆盖",
+        "mood": "神秘",
+        "direction": "未知"
       },
       "mouth": {
-        "replacement": "a painted white smile",
-        "mood": "playful but unsettling"
+        "replacement": "被画成的白色微笑",
+        "mood": "顽皮但令人不安"
       },
-      "overall": "detached, iconic, anonymous"
+      "overall": "疏离、标志性、匿名"
     },
     "face": {
       "keep_original": true,
-      "makeup": "No visible makeup; part of the face is covered by graffiti graphics"
+      "makeup": "没有可见妆容；脸部部分被涂鸦图形遮盖"
     },
     "hair": {
-      "color": "mostly concealed",
-      "style": "hidden under a pointed cat-ear knit hat",
-      "effect": "The hat outlines a clear silhouette; hair details are not emphasized"
+      "color": "大部分被遮盖",
+      "style": "被一顶尖尖的猫耳状针织帽遮盖",
+      "effect": "帽子勾勒出清晰轮廓；头发细节未强调"
     },
     "body": {
-      "build": "slim to medium",
-      "waist": "not emphasized (loose fit)",
-      "chest": "not emphasized (loose jacket)",
-      "legs": "wide-leg pants elongate the leg silhouette",
+      "build": "偏瘦至中等",
+      "waist": "未强调（宽松版型）",
+      "chest": "未强调（宽松外套）",
+      "legs": "阔腿裤让腿部轮廓修长",
       "skin": {
-        "visible_areas": ["hands", "a small part of the face"],
-        "tone": "not clearly discernible",
-        "texture": "soft, slightly blurred collage treatment",
-        "lighting_effect": "soft flat poster lighting with a faint shadow"
+        "visible_areas": ["手部", "面部一小部分"],
+        "tone": "无法清晰辨认",
+        "texture": "柔和、拼贴处理略微模糊",
+        "lighting_effect": "柔和的平面海报灯光，带有淡淡阴影"
       },
       "pose": {
-        "position": "centered, full body",
-        "base": "standing upright, feet slightly apart",
-        "overall": "hands loosely clasped in front of the chest, relaxed posture"
+        "position": "居中，全身",
+        "base": "直立站立，双脚略微分开",
+        "overall": "双手在胸前松散交握，姿态放松"
       },
       "outfit": {
         "top": {
-          "type": "Loose olive-green jacket with a dark inner top",
-          "color": "muted olive green",
-          "details": "loose fit, casual workwear style, layered look"
+          "type": "宽松的橄榄绿外套，内搭深色上衣",
+          "color": "柔和的橄榄绿",
+          "details": "宽松版型，休闲工装风格，叠穿造型"
         },
         "bottom": {
-          "type": "Loose wide-leg pants",
-          "color": "matching olive green",
-          "details": "drapey, long length, slightly pooling near the shoes"
+          "type": "宽松阔腿裤",
+          "color": "配套橄榄绿",
+          "details": "宽松垂坠，长款，在鞋子附近略微堆积"
         },
-        "material_effect": "matte fabric, slightly soft-focused"
+        "material_effect": "哑光面料，略微柔焦"
       }
     }
   },
   "accessories": {
-    "headwear": "A pointed knit hat with cat-ear corners and a small rectangular label patch on the front",
-    "footwear": "Red lace-up sandals with a thick textured sole"
+    "headwear": "一顶尖角针织帽，帽角呈猫耳状，正面有一个小矩形标签贴片",
+    "footwear": "红色绑带凉鞋，厚实的纹理鞋底"
   },
   "photography": {
-    "camera_style": "Flat poster collage, street-art magazine aesthetic, cut-out figure on a clean background",
-    "angle": "Front-facing, eye-level poster view",
-    "shot_type": "Full-body centered composition",
-    "aspect_ratio": "4:5 portrait",
-    "texture": "Slight grain, soft cutout edges, slightly blurred defocus layers",
-    "lighting": "Flat light, studio-like even lighting, with a soft cutout shadow beneath the subject",
-    "depth_of_field": "Deep focus (poster-flat), subject and graffiti clearly readable"
+    "camera_style": "平面海报拼贴，街头艺术杂志美学，干净背景上的抠图人物",
+    "angle": "正面，平视海报视角",
+    "shot_type": "全身居中构图",
+    "aspect_ratio": "4:5 竖幅",
+    "texture": "轻微颗粒感，抠图边缘柔和，虚化图层略微模糊",
+    "lighting": "平光，类似影棚的均匀光线，人物下方有柔和的抠图阴影",
+    "depth_of_field": "深焦（海报平面），人物和涂鸦清晰可辨"
   },
   "background": {
-    "scene": "Minimal light-gray poster background with hand-drawn graffiti elements",
-    "wall_color": "light gray / off-white",
+    "scene": "极简浅灰色海报背景，带有手绘涂鸦元素",
+    "wall_color": "浅灰色/米白色",
     "elements": [
-      "Black dripping cartoon eyes on both sides of the subject",
-      "A red jagged outline around the subject like a warning frame",
-      "Small red cross marks around the outline",
-      "Handwritten black text in the upper-left: 'Danger: Fugitive Missing'",
-      "A red messy tag-style signature in the upper-right with a small heart",
-      "A blue tic-tac-toe grid in the lower-right with X and O marks, crossed out with a red slash",
-      "Small doodles in the lower-left, including a simple face and a skull-like circle with graffiti"
+      "人物左右两侧的黑色滴水卡通眼睛",
+      "人物周围环绕着红色锯齿状轮廓，如同警告边框",
+      "轮廓周围有红色小交叉线",
+      "左上角手写黑色文字‘危险逃犯失踪了’",
+      "右上角红色潦草标签状签名，上面有一个小爱心",
+      "右下角蓝色井字棋盘，上面有 X 和 O 标记，被红色斜线划掉",
+      "左下角一些小涂鸦，包括简单的脸和带涂鸦的骷髅状圆圈"
     ],
-    "atmosphere": "rebellious, urban, handmade; slightly chaotic but balanced",
-    "lighting": "even and clean, emphasizing the contrast between graffiti and negative space"
+    "atmosphere": "叛逆、都市、手工制作，略显混乱但保持平衡",
+    "lighting": "均匀干净，强调涂鸦与空白区域的对比"
   },
   "the_vibe": {
-    "energy": "bold, graphic, confrontational",
-    "mood": "mysterious and playful, slightly dangerous",
-    "aesthetic": "street-art posters, magazine collage, contemporary underground fashion editorial",
-    "authenticity": "looks like a real edited social-media poster made of cut-out photos layered with graffiti",
-    "intimacy": "anonymous portrait — identity hidden, message amplified",
-    "story": "A legend about a missing person / fugitive, told through graffiti, warning marks, and a playful smile covering the face",
-    "headline_energy": "mysterious, punk; minimal text but full of attitude",
+    "energy": "大胆、图形化、对抗性",
+    "mood": "神秘而俏皮，略带危险",
+    "aesthetic": "街头艺术海报、杂志拼贴、当代地下时尚大片",
+    "authenticity": "看起来像剪贴照片与涂鸦叠加的真实编辑社交媒体海报",
+    "intimacy": "匿名肖像——身份隐藏，信息被放大",
+    "story": "关于失踪人口/亡命之徒的传说，通过涂鸦、警告标记和遮住脸部的俏皮微笑讲述",
+    "headline_energy": "神秘、朋克、极简文字却充满态度",
     "restrictions": {
       "must_keep": [
-        "A white graffiti smile covering the face",
-        "Multiple-exposure trailing ghosting dragged to the left",
-        "The red jagged outline around the subject",
-        "The dripping black cartoon eyes on both sides",
-        "Handwritten text on the left: 'Danger: Fugitive Missing'",
-        "The red tag-style graffiti in the upper-right with a small heart",
-        "The blue tic-tac-toe grid with X/O crossed by a red slash",
-        "Minimal light-gray background with lots of negative space",
-        "Muted olive-green as the main clothing color"
+        "遮住脸部的白色涂鸦微笑",
+        "主体向左拖曳的多重曝光残影",
+        "人物周围的红色锯齿状轮廓",
+        "两侧滴着黑色的卡通眼睛",
+        "左侧手写文字‘危险逃犯失踪’",
+        "右上角带小爱心的红色标签式涂鸦",
+        "蓝色井字棋，X/O 被红色斜线划过",
+        "极简浅灰背景与大量留白",
+        "柔和的橄榄绿服装主色调"
       ]
     }
   }
@@ -602,19 +604,19 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 --- 
 
-**Example: Crystal Goblet Fantasy**
+**图例：晶杯幻境**
 
-<img width="600" alt="Image" src="./images/product/p12.png" />
+<img width="600" alt="图片" src="./images/product/p12.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-A hyper-detailed digital painting in a surreal fantasy style, showcasing a colossal (ornate crystal wine glass) with intricate filigree etching, filled to the brim with a viscous crimson liquid that refracts light like molten gemstones. Inside the glass, a microcosmic landscape unfolds: gnarled oak trees with (autumn-crisped leaves in burnt umber and carmine), their roots twisting through amber-hued mist, while bioluminescent fungi pulse along the bark grooves. The glass rests on a liquid-mercury surface so reflective it perfectly duplicates the scene upside-down, including the glass's own warped refraction patterns. 
+一幅超高细节的超现实奇幻风数字绘画：画面主体是一只巨大的（华丽的水晶酒杯），杯身带有精密的花丝雕刻，杯中注满粘稠的深红液体，折射光线如熔融宝石。酒杯内部展开一个微观景观：扭曲的橡树，叶片呈深褐与洋红的秋季枯叶质感；树根在琥珀色薄雾中盘绕；发光真菌沿着树皮沟壑有节奏地闪烁。酒杯置于液态水银般的镜面之上，反射清晰到能将整个场景上下颠倒地完整复刻，包含酒杯自身扭曲的折射形变。
 
-The background features a (gigantic dying sun) bleeding tangerine light through volcanic ash clouds, striated with veins of phosphorus-green. The sky gradients from bruise-purple at the zenith to arterial red near the horizon, where jagged basalt mountains erupt from a leaden sea choked with luminescent plankton. To the left, a petrified willow drips scarlet leaves like slow-motion blood droplets, each vein mapped in microscopic detail. Rightward, obsidian cliffs shear upward, their fractured planes catching the sun in razor-edged highlights. 
+背景是一轮（巨大的垂死太阳），透过火山灰云渗出橘红色光芒，云层中夹杂磷绿色纹理。天空从顶部的淤紫色渐变到地平线附近的血红色；锯齿状的玄武岩山脉从被发光浮游生物堵塞的铅灰色海面中突起。左侧一株石化的柳树滴落猩红叶片，如同慢动作的血滴，每一条叶脉都清晰可见；右侧黑曜石峭壁陡然上升，碎裂的岩面在阳光下形成刀锋般的高光。
 
-Textures are obsessively rendered: the glass's refractive imperfections, the tree bark's lichen-crusted fissures, the sea's oil-slick iridescence. Shot with a tilt-shift lens at f/1.2 to blur the periphery, focusing on the glass's central distortion where the interior landscape warps into a Klein bottle paradox. Stylistic fusion of Zdzisław Beksiński's dystopian grandeur with Moebius' organic surrealism, color-graded in DaVinci Resolve for cinematic depth.
+材质表现极其“偏执”：酒杯折射的不完美细节、树皮上附着地衣的裂隙、海面油膜般的虹彩都被精细刻画。使用移轴镜头，f/1.2 虚化画面边缘，对焦在酒杯中心的折射畸变处，让内部景观扭曲出类似克莱因瓶的悖论感。整体风格融合 Zdzisław Beksiński 的反乌托邦宏大感与 Moebius 的有机超现实主义，并用 DaVinci Resolve 做电影级调色以强化层次。
 
 ```
 
@@ -625,15 +627,15 @@ Textures are obsessively rendered: the glass's refractive imperfections, the tre
 
 
 
-**Example 5: City Magnet Tiles**
+**图例5：城市磁贴**
 
-<img width="600" alt="Image" src="./images/product/p5.png" />
+<img width="600" alt="图片" src="./images/product/p5.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Show a clear top-down photo of 3D magnet tiles featuring iconic landmarks of [CITY NAME]. The magnets should be neatly arranged in parallel lines and right angles, forming a small “mountain” shape. The magnets must look like realistic miniature models. Place a souvenir magnet with the city name at the top center, along with a handwritten note that includes the temperature and weather conditions. Integrate objects related to the day’s weather into the “mountain” arrangement. No objects may be repeated.
+展示一张清晰的俯视图，照片内容为 [城市名称] 地标建筑的3D磁贴，磁贴需整齐排列成平行线和直角，呈小山状。这些磁贴需为逼真的微缩模型。在顶部中央放置一个印有城市名称的纪念磁贴，以及一张手写便签，上面写着温度和天气状况。将与当日天气相关的物品融入到小山状装饰中。所有物品不得重复。
 
 ```
 
@@ -642,33 +644,33 @@ Show a clear top-down photo of 3D magnet tiles featuring iconic landmarks of [CI
 
 ---
 
-**Example 6: Delicious Food Map**
+**图例6：美味地图**
 
-<img width="600" alt="Image" src="./images/product/p6.png" />
+<img width="600" alt="图片" src="./images/product/p6.png" />
 
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Create a map of [COUNTRY NAME] where each state/province is composed of that region’s most famous food (the shapes inside each region should look like they are made *from* food, not photos of food). Carefully check to ensure every region is accurate.
+制作一张 [国家名称] 地图，地图上每个州都用该州最著名的食物来构成（各州地图上的图案应该看起来像是由食物组成的，而不是食物的图片）。仔细检查，确保每个州都正确无误。
 ```
 
 </details>
 
 ---
 
-**Example: Isometric Cube Room**
+**图例：立方体房**
 
-<img width="600" alt="Image" src="./images/product/p7.png" />
+<img width="600" alt="图片" src="./images/product/p7.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-An isometric 3D cube miniature room (a true cube with slightly beveled edges; every object must be strictly contained inside the cube). Room description: [ROOM DESCRIPTION: describe the theme, furniture, specific clutter, wall decor, and key objects in detail].
+一个等距3D立方体微缩房间（浅切面真立方体；所有物品均严格包含在立方体内）。房间描述：[房间描述：详细描述主题、家具、特定杂物、墙面装饰和关键物品]。
 
-Character: chibi / figurine style — [INSERT THE PERSON DESCRIPTION FROM YOUR UPLOADED PHOTO HERE]. Action: [e.g., typing while sitting on a chair, cooking while standing, playing guitar]. Expression: [e.g., focused, happy, smiling]. The character material should look like matte PVC, with a larger head and smaller body. Lighting: [AMBIENCE NAME]: [LIGHT SOURCES, e.g., neon blue, warm daylight, golden lamps]; with realistic reflections and colored shadows. Camera: slightly elevated isometric 3/4 view, with the front edge of the cube centered; nothing may protrude outside the cube. Photoreal materials and rich detail; neutral background. Highly detailed, clear composition; no watermark.
+人物：Q版/手办风格——[在此处插入您上传照片中人物的描述]。人物动作：[例如，坐在椅子上打字、站着做饭、弹吉他]，表情：[例如，专注、快乐、微笑]。人物材质看起来像是哑光PVC，头部较大，身体较小。光照：[氛围名称]：[光源：例如，霓虹蓝光、暖日光、金色灯光]；逼真的反射和彩色阴影。视角：略微抬高的等距四分之三视角，立方体正面边缘居中；没有任何元素突出于立方体之外。照片级材质，细节丰富；中性背景。画面细节丰富，构图清晰；无水印。
 ```
 
 </details>
@@ -676,15 +678,15 @@ Character: chibi / figurine style — [INSERT THE PERSON DESCRIPTION FROM YOUR U
 
 --- 
 
-**Example: Isometric Cube Room**
+**图例：立方体房**
 
-<img width="600" alt="Image" src="./images/product/p11.png" />
+<img width="600" alt="图片" src="./images/product/p11.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Based on you know about me, generate a 3D isometric colored illustration of me working from home, filled with various interior details. The visual style should be rounded, polished, and playful. --ar 1:1
+请根据你对我的了解，生成一张“我在家工作”的 3D 等距彩色插画，画面包含丰富的室内细节。整体视觉风格要圆润、精致、可爱且带一点玩具感。--ar 1:1
 
 ```
 
@@ -694,53 +696,53 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 --- 
 
 
-**Example: Chocolate Coffee Explosion**
-<img width="300" alt="Image" src="./images/product/p8.png" />
+**图例：巧咖爆炸**
+<img width="300" alt="图片" src="./images/product/p8.png" />
 
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
-  "theme": "Ultra-photoreal vertical exploded view of a chocolate coffee drink",
-  "layout": "Centered vertical alignment; each component is suspended independently with clear spacing",
-  "layers": [
+  "主题": "巧克力咖啡饮料的超逼真垂直爆炸视图",
+  "布局": "居中垂直对齐，每个组件独立悬挂并保持清晰的间距",
+  "层": [
     {
-      "ingredient": "cocoa powder granules",
-      "position": "top"
+      "成分": "可可粉颗粒",
+      "位置": "顶部"
     },
     {
-      "ingredient": "glossy, rich dark-chocolate sauce ribbons and drips",
-      "position": "separate layer"
+      "成分": "光泽浓郁的黑巧克力酱汁带和滴落物",
+      "位置": "独立层"
     },
     {
-      "ingredient": "a light whipped-cream mound",
-      "position": "separate layer"
+      "成分": "轻盈的鲜奶油堆",
+      "位置": "独立层"
     },
     {
-      "ingredient": "a smooth chocolate-coffee liquid layer",
-      "position": "separate layer"
+      "成分": "顺滑的巧克力咖啡液层",
+      "位置": "独立层"
     },
     {
-      "ingredient": "roasted coffee beans",
-      "position": "separate layer"
+      "成分": "烘焙咖啡豆",
+      "位置": "独立层"
     },
     {
-      "ingredient": "sugar crystals",
-      "position": "separate layer"
+      "成分": "糖晶体",
+      "位置": "独立层"
     },
     {
-      "component": "small transparent ribbed glass cup with a weighted base (empty)",
-      "position": "bottom"
+      "组件": "带加重底座的小型透明螺纹玻璃杯（空）",
+      "位置": "底部"
     }
   ],
-  "background": "Premium dark backdrop: a clean studio background with a smooth gradient from near-black graphite to charcoal gray, soft and even",
+  "背景": "优质深色背景：干净的影棚背景，从近乎黑色的石墨色到炭灰色的平滑渐变，柔和均匀",
   "lighting_and_style": {
-    "lighting": "Soft, controlled studio lighting with crisp layered shadows beneath each component",
-    "details": "Ultra-crisp macro realism, minimal thin callout lines, and English labels on the right",
-    "category": "High-end product infographic",
-    "resolution": "8K"
+    "灯光": "柔和可控的摄影棚灯光，每个组件下方都有清晰的层次感阴影",
+    "细节": "超清晰的宏观真实感，极简的细指示线和右侧的英文标签",
+    "类别": "高端产品信息图",
+    "分辨率": "8K"
   }
 }
 
@@ -751,55 +753,55 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 
 ----
 
-**Example: Matcha Explosion**
+**图例：抹茶爆炸**
 
-<img width="300" alt="Image" src="./images/product/p9.png" />
+<img width="300" alt="图片" src="./images/product/p9.png" />
 
 
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
-  "theme": "Ultra-photoreal vertical exploded view of a matcha cheese-foam fruit coffee drink",
-  "layout": "Centered vertical alignment; each component is suspended independently with clear spacing",
-  "layers": [
+  "主题": "抹茶芝士泡沫水果咖啡饮料的超逼真垂直爆炸视图",
+  "布局": "居中垂直对齐，每个组件独立悬挂并保持清晰的间距",
+  "层": [
     {
-      "ingredient": "fine matcha powder granules",
-      "position": "top"
+      "成分": "细抹茶粉颗粒",
+      "位置": "顶部"
     },
     {
-      "ingredient": "fresh strawberries and mango slices (crystal-clear, glossy)",
-      "position": "separate layer"
+      "成分": "新鲜草莓和芒果片（晶莹剔透）",
+      "位置": "独立层"
     },
     {
-      "component": "a rich, savory-sweet cheese matcha foam layer (with fine micro-bubbles)",
-      "position": "separate layer"
+      "组成部分": "浓郁咸香的芝士抹茶泡沫层（带有细腻的泡沫）",
+      "位置": "独立层"
     },
     {
-      "ingredient": "clear cold-brew coffee mixed with a vivid green matcha layer",
-      "position": "separate layer"
+      "成分": "清澈的冷萃咖啡液与鲜艳的绿色抹茶层混合",
+      "位置": "独立层"
     },
     {
-      "ingredient": "crystal-clear ice cubes and mint leaves",
-      "position": "separate layer"
+      "成分": "晶莹剔透的冰块和薄荷叶",
+      "位置": "独立层"
     },
     {
-      "ingredient": "a concentrated fruit puree at the bottom (e.g., raspberry sauce)",
-      "position": "separate layer"
+      "成分": "底部浓缩果泥（例如覆盆子酱）",
+      "位置": "独立层"
     },
     {
-      "component": "ultra-minimal striped glass cup (empty)",
-      "position": "bottom"
+      "组件": "超简约条纹玻璃杯（空）",
+      "位置": "底部"
     }
   ],
-  "background": "Fresh minimalist backdrop: a bright studio environment with a soft gradient from light beige to light gray",
+  "背景": "清新简约的背景：明亮的摄影棚环境，从浅米色到浅灰色的柔和渐变",
   "lighting_and_style": {
-    "lighting": "Bright natural-light feel with crisp glass reflections and well-defined layered shadows",
-    "details": "Ultra-crisp macro realism, minimal thin callout lines, and English labels on the right",
-    "category": "High-end product infographic",
-    "resolution": "8K"
+    "照明": "明亮的自然光感，清晰的玻璃反射和层次分明的阴影",
+    "细节": "超清晰的宏观真实感，极简的细指示线和右侧的英文标签",
+    "类别": "高端产品信息图",
+    "分辨率": "8K"
   }
 }
 
@@ -807,17 +809,25 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 
 </details>
 
-## Research & Infographics
+## 科研报告类
 
-**Example: Photosynthesis**
+**图例：光合作用**
 
-<img width="600" alt="Image" src="./images/blog/b3.png" />
+<img width="600" alt="图片" src="./images/blog/b3.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Create an educational infographic explaining [Photosynthesis] . Visual Elements : Illustrate the key components: The Sun, a green Plant, Water (H2O) entering roots, Carbon Dioxide (CO2) entering leaves, and Oxygen (O2) being released. Style : Clean, flat vector illustration suitable for a high school science textbook. Use arrows to show the flow of energy and matter. Labels : Label each element clearly in English .
+制作一张讲解【光合作用】的科普信息图。
+
+视觉元素：清晰展示关键组成：太阳、绿色植物、水（H2O）从根部进入、二氧化碳（CO2）从叶片进入、氧气（O2）释放。
+
+风格：干净、扁平化的矢量插画，适合高中科学教材。
+
+表达方式：用箭头表示能量与物质的流动路径。
+
+标注：对每个元素进行清晰标注（可使用中文或中英双语）。
 ```
 
 </details>
@@ -825,29 +835,27 @@ Create an educational infographic explaining [Photosynthesis] . Visual Elements 
 
 ---
 
-**Example: Dyson Swarm Construction**
+**图例：戴森群建**
 
-<img width="600" alt="Image" src="./images/blog/b4.png" />
+<img width="600" alt="图片" src="./images/blog/b4.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Please create a cartoon-style infographic based on the provided content, following these guidelines:
+请根据我提供的内容生成一张卡通风格信息图，并遵循以下要求：
 
-- Hand-drawn illustration style, landscape orientation (16:9 aspect ratio).
+- 手绘插画风格，横版构图（16:9）。
 
-- Include a small number of simple cartoon elements, icons, or famous personalities to enhance visual interest and memorability.
+- 适量加入少量简单的卡通元素、图标或知名人物形象（如涉及敏感/版权人物，请用视觉相似的替代角色，不要拒绝生成）。
 
-- If the content includes sensitive or copyrighted figures, replace them with visually similar alternatives; do not refuse to generate the illustration.
+- 所有图像与文字必须严格保持手绘风格，避免写实元素。
 
-- All imagery and text must strictly adhere to a hand-drawn style; avoid realistic visual elements.
+- 信息要精炼，突出关键词与核心概念，留白充足以强调重点。
 
-- Keep information concise, highlighting keywords and core concepts. Utilize ample whitespace to clearly emphasize key points.
+- 如无特别说明，语言与输入内容保持一致。
 
-- Unless otherwise specified, use the same language as the provided content.
-
-Please use nano banana pro to create the illustration based on the input provided.
+请使用 Nano Banana Pro 根据输入生成该信息图。
 ```
 
 </details>
@@ -855,260 +863,50 @@ Please use nano banana pro to create the illustration based on the input provide
 
 ---
 
-**Example: Dyson Swarm Construction**
+**图例：戴森群建**
 
-<img width="600" alt="Image" src="./images/blog/b1.png" />
+<img width="600" alt="图片" src="./images/blog/b1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-This diagram illustrates the process of constructing a Dyson swarm based on: Armstrong, S., & Sandberg, A. (2013). *Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox.* Acta Astronautica, 89, 1–13.
+图示为根据论文 Armstrong, S., & Sandberg, A. (2013). *Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox.* Acta Astronautica, 89, 1–13 所构建的“戴森群”建设流程示意。
 ```
 
 </details>
 
 --- 
 
-**Example: Humanities PPT**
+**图例：人文PPT**
 
-<img width="600" alt="Image" src="./images/blog/b2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```text
-Help me turn the following article into a Chinese PPT that middle-school students can understand.
-
-First, write a PPT outline and plan what goes on each slide.
-
-Then, feed each slide’s content to Nana Banana Pro to generate the corresponding slide image, ensuring a consistent style across all slides.
-
-Design style: “Warm Academic Humanism” in an Anthropic/Claude-like style.
-
-Background: warm beige/cream (#F3F0E9) as the base, with a premium paper texture.
-
-Typography: elegant serif for headings; modern sans-serif for body text.
-
-Colors: terracotta red (#D67052) and mustard yellow (#F0B857) as primary colors, with deep navy as an accent. Avoid neon colors or pure black.
-
-Visual elements: a well-structured grid layout; illustrations should be abstract, organic black hand-drawn line art placed over solid terracotta color blocks; use card layouts for key info.
-
-Charts: flat, minimalist bar charts emphasizing comparisons, with unnecessary borders removed.
-
-All text and images should be generated by Nano Banana Pro. Do NOT turn the whole PPT into a single image—generate one image per slide.
-
-Article content: []
-```
-
-</details>
-
---- 
-
-
-## Deconstruction
-
-**Example 1: Fashion Deconstruction**
-
-<img width="600" alt="Image" src="./images/deconstruct/d1.png" />
+<img width="600" alt="图片" src="./images/blog/b2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Hand-drawn fashion concept deconstruction diagram.
+帮我根据下面这个文章做一套中学生都能理解的中文PPT。
 
-Center: a full-body portrait of a stylish, confident female character with a subtle sexy vibe (not explicit), in a natural and energetic pose.
+先写1个PPT大纲，规划出每一页的PPT的内容。
 
-Around her: a structured layout of key elements:
+然后将每一页的PPT内容分别扔给Nana Banana pro生成对应页面的PPT，需要确保风格一致。
 
-• Outfit layers — show the jacket, innerwear, tight pants (lace / sheer materials), shapewear, with zoomed-in detail patterns.
+PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人文主义”设计。
 
-• Expression sheet — 3–4 facial expressions (neutral, shy, surprised, focused).
+背景：使用暖米色/奶油色 (# F3F0E9) 作为底色，模仿高级纸张质感。
 
-• Close-ups — fabric fold textures, skin details, hand gestures.
+字体：标题使用优雅的衬线体（Serif），正文使用现代无衬线体（Sans-serif）。
 
-• Lifestyle & accessories — an open handbag containing daily items: lipstick, perfume, powder compact, hand cream, notebook, supplements.
+配色：主色调为赤陶红 (# D67052) 和芥末黄 (# F0B857)，搭配深海军蓝作为点缀。避免使用霓虹色或纯黑色。
 
-• Material callouts — handwritten-style notes next to items (e.g., “soft lace”, “matte leather”, “shade #520”).
+视觉元素：使用注重排版的网格布局，插图风格应为抽象的、有机的黑色手绘线条画，置于赤陶红纯色色块之上，部分关键信息使用卡片布局。
 
-Background: soft beige or parchment texture to evoke a design sketch vibe.
+图表：扁平化、极简的柱状图，强调数据对比，去除多余边框。
 
-Lighting: clean, soft shadows to unify the composition.
+文字和图像都由 Nano Banana Pro 生成，另外不要将PPT 变成一整张图，一页一张图。
 
-Output: 4K HD 2D illustration with a sexy-yet-fashion-forward feel.
-
-Language: bilingual English + Chinese labels.
-```
-
-</details>
---- 
-
-
-**Example: Cutaway City Layers**
-
-<img width="600" alt="Image" src="./images/deconstruct/d2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```text
-Vertical isometric cutaway diagram titled "ROCHESTER, NY". Stacked 3D layers showing history from top to bottom:
-
-Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s industrial factories and suburban homes.3. 1800s brick flour mills and the Erie Canal Aqueduct.4. Forest landscape with Haudenosaunee longhouses.5. Bottom layer of ancient sedimentary rock with fossils. Clean white background, realistic detail, with a vertical timeline ruler on the left side.
-```
-
-</details>
-
----
-
-
-
-
-## Poster Design
-
-**Example 1: Playground Literacy Poster**
-
-<img width="300" alt="Image" src="./images/post/po4.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```text
-Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
-
-The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions, creating an immersive weather ambiance.
-
-Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background that highlights the main content. The overall visual style is fresh and soothing.
-
-Display a prominent weather icon at the top-center, with the date (x-small text) and temperature range (medium text) beneath it. The city name (large text) is positioned directly above the weather icon. The weather information has no background and can subtly overlap with the buildings.
-
-The text should match the input city's native language.
-Please retrieve current weather conditions for the specified city before rendering.
-
-City name: EvanSton
-```
-
-</details>
-
----
-
-
-**Example 1: Playground Literacy Poster**
-
-<img width="300" alt="Image" src="./images/post/po1.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```text
-Generate a children’s literacy mini-newspaper poster titled “Playground”, in vertical A4 format, in a learning-handout layout, suitable for kids aged 5–9 to learn words by looking at pictures.
-
-1) Title area (top)
-- Big centered title: “Playground Literacy Poster”
-- Style: cross-grid mini-newspaper / children’s study handout vibe
-- Text: large, eye-catching, cartoon handwritten font with colorful outlines
-- Decoration: bright sticker-style decorations related to a playground
-
-2) Main scene (middle)
-- Center illustration: a cartoon playground scene
-- Atmosphere: bright, warm, positive
-- Composition: clear object boundaries for labeling; not overcrowded
-
-Scene zones and core content
-- Zone A (main): core playground activities (kids playing on rides)
-- Zone B (support): related tools/items (ticketing, snacks, directional signs)
-- Zone C (background): environment features (entrance, signposts, flags, green space, etc.)
-
-Main character
-- 1 cute cartoon character (can be staff or a visiting child)
-- Action: natural interaction with the scene (e.g., smiling and pointing directions, waving, playing with kids)
-
-3) Must-draw objects & vocabulary list (Generated Content)
-You must clearly draw the following objects and leave space to place labels next to each:
-
-Core roles & facilities:
-1. gōng zuò rén yuán — staff member
-2. shòu piào chù — ticket booth
-3. guò shān chē — roller coaster
-4. mó tiān lún — Ferris wheel
-5. xuán zhuǎn mǎ — carousel
-
-Common items/tools:
-6. piào — ticket
-7. qì qiú — balloon
-8. bīng jī líng — ice cream
-9. bào mǐ huā — popcorn
-10. táng hú lu — candied fruit skewer
-11. miàn jù — mask
-12. wán jù — toy
-13. xiǎo qí zi — small flag
-
-Environment & decorations:
-14. rù kǒu — entrance
-15. chū kǒu — exit
-16. zhǐ shì pái — signpost
-17. cǎi qí — colorful pennants
-18. guǎng chǎng — plaza
-
-4) Label rules
-- For the vocabulary list above, add labels near the corresponding objects.
-- Format: two lines (line 1: pinyin with tone marks; line 2: English word).
-- Style: colorful sticker labels; clear and readable.
-- Layout: labels close to the object; do not cover the main subject.
-
-5) Art style parameters
-- Style: children’s picture-book + literacy handout poster
-- Colors: high saturation, bright, warm (High Saturation, Warm Tone)
-- Quality: 8k resolution, high detail, vector illustration style, clean lines.
-```
-
-</details>
-
----
-
-**Example 2: Weather City**
-
-<img width="300" alt="Image" src="./images/post/po2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```text
-Present a clear 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise, delicate modeling.
-
-Use soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow. Integrate weather elements creatively into the city architecture to create an immersive weather atmosphere.
-
-Use a clean, unified composition with minimalist aesthetics and a soft solid-color background that highlights the main content. The overall visual style should feel fresh and soothing.
-
-Display a prominent weather icon at the top center, with the date (extra-small text) and temperature range (medium text) beneath it. Place the city name (large text) directly above the weather icon. The weather info should have no background and may subtly overlap buildings.
-
-The text should match the input city’s native language.
-
-Before rendering, retrieve current weather conditions for the specified city.
-
-City name: [Shanghai]
-```
-
-</details>
-
----
-
-**Example 3: Starbucks Concept Store**
-
-<img width="300" alt="Image" src="./images/post/po3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```text
-Design a 3D chibi-style mini concept store for [Starbucks]. Its exterior is inspired by the brand’s most iconic product and packaging (e.g., a giant {brand core product, such as a fried chicken bucket / burger / donut / roast duck}). The store has two floors. Floor-to-ceiling glass windows reveal a warm, exquisite interior: {brand primary color} themed decor, warm lighting, and busy staff wearing brand-specific uniforms.
-
-Cute miniature figures walk and rest on the street, surrounded by benches, street lamps, and potted plants, creating a charming urban scene. Render in a miniature cityscape style (Cinema 4D look) with a blind-box toy-like craftsmanship: rich details, lively realism, and soft lighting that adds a relaxed afternoon mood.
-
-Refer to the attached character reference sheet to understand the mini characters that should appear in the store. --ar 2:3
+文章内容为：[]
 ```
 
 </details>
@@ -1116,122 +914,279 @@ Refer to the attached character reference sheet to understand the mini character
 --- 
 
 
-## Traditional Chinese Culture
+## 解构类
 
+**图例1：时尚解构**
 
-**Example: Tang Palace Music Ensemble**
-
-<img width="600" alt="Image" src="./images/china/ch1.png" />
+<img width="600" alt="图片" src="./images/deconstruct/d1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
+
+```text
+手绘风格的时尚概念分解图。
+
+中心：一位时尚自信、略带性感（但并不露骨）的女性角色的全身像，姿态自然而充满活力。
+
+周围：她的关键元素结构化布局：
+
+• 服装层次——展示外套、内衣、紧身裤（蕾丝、薄纱材质）、塑身衣，并放大细节图案。
+
+• 表情图——3-4种面部表情（中性、害羞、惊讶、专注）。
+
+• 特写镜头——面料褶皱纹理、肌肤细节、手势。
+
+• 生活方式及配饰——打开的手提包，内含日常用品：口红、香水、粉饼盒、护手霜、日记本、保健品。
+
+• 材质标注——每件物品旁的手写风格注释（例如，“柔软蕾丝”、“哑光皮革”、“色号#520”）。
+
+背景：柔和的米色或羊皮纸纹理，营造设计草图的氛围。
+
+光线：干净柔和的阴影，使画面浑然一体。
+
+输出：4K 高清 2D 插画，兼具性感与时尚感。
+
+语言：中英文标签。
+```
+
+</details>
+--- 
+
+
+**图例：剖层城市**
+
+<img width="600" alt="图片" src="./images/deconstruct/d2.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```text
+竖版等距视角（isometric）的城市剖层图，标题为“ROCHESTER, NY”。从上到下用堆叠的 3D 分层展示历史演变：
+
+1）现代天际线：包含 High Falls、Genesee River、Kodak Tower。
+2）1960 年代：工业工厂与郊区住宅。
+3）1800 年代：砖砌面粉厂与 Erie Canal Aqueduct。
+4）更早时期：森林景观与 Haudenosaunee 长屋。
+5）最底层：带化石的古老沉积岩层。
+
+背景：干净的纯白背景；写实细节。
+
+左侧：一条竖向时间轴刻度尺。
+```
+
+</details>
+
+---
+
+
+
+
+## 海报
+
+**图例1：游乐园报**
+
+<img width="300" alt="图片" src="./images/post/po4.png" />
+
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```text
+呈现一个清晰的 45° 俯视视角，竖版（9:16）等距 3D 微缩卡通场景。画面中心突出城市的标志性地标，以展示精细、细腻的建模。
+
+场景纹理柔和细腻，材质使用写实 PBR 质感，光影柔和且逼真。将天气元素创意性地融入城市建筑，使城市景观与大气条件形成动态互动，营造沉浸式的“天气氛围”。
+
+构图干净统一，极简美学，背景为柔和的纯色以突出主体；整体视觉风格清新、治愈。
+
+顶部中央显示醒目的天气图标；其下方依次显示日期（超小字体）与温度范围（中等字体）。城市名称（大字体）位于天气图标正上方。天气信息不需要背景底板，可与建筑轻微重叠。
+
+文字语言需与输入城市的本地语言一致。
+
+渲染前请先获取该城市的实时天气信息。
+
+城市名称：EvanSton
+```
+
+</details>
+
+---
+
+
+**图例1：游乐园报**
+
+<img width="300" alt="图片" src="./images/post/po1.png" />
+
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```text
+请生成一张儿童识字小报《游乐园》，竖版 A4，学习小报版式，适合 5–9 岁孩子 认字与看图识物。 一、小报标题区（顶部） 顶部居中大标题：《游乐园识字小报》 风格：十字小报 / 儿童学习报感 文本要求：大字、醒目、卡通手写体、彩色描边 装饰：周围添加与 游乐园 相关的贴纸风装饰，颜色鲜艳 二、小报主体（中间主画面） 画面中心是一幅 卡通插画风的「游乐园」场景： 整体气氛：明亮、温暖、积极 构图：物体边界清晰，方便对应文字，不要过于拥挤。 场景分区与核心内容 核心区域 A（主要对象）：表现 游乐园 的核心活动（孩子们在玩游乐设施）。 核心区域 B（配套设施）：展示相关的工具或物品（售票、零食、指示设施）。 核心区域 C（环境背景）：体现环境特征（入口、路牌、彩旗、绿地等）。 主题人物 角色：1 位可爱卡通人物（身份：游乐园工作人员/游客小朋友皆可）。 动作：正在进行与场景相关的自然互动（如微笑指路、挥手欢迎、陪孩子玩）。 三、必画物体与识字清单（Generated Content） 请务必在画面中清晰绘制以下物体，并为其预留贴标签的位置： 1. 核心角色与设施： gōng zuò rén yuán 工作人员 shòu piào chù 售票处 guò shān chē 过山车 mó tiān lún 摩天轮 xuán zhuǎn mǎ 旋转木马 2. 常见物品/工具： piào 票 qì qiú 气球 bīng jī líng 冰淇淋 bào mǐ huā 爆米花 táng hú lu 糖葫芦 miàn jù 面具 wán jù 玩具 xiǎo qí zi 小旗子 3. 环境与装饰： rù kǒu 入口 chū kǒu 出口 zhǐ shì pái 指示牌 cǎi qí 彩旗 guǎng chǎng 广场 (注意：画面中的物体数量不限于此，但以上列表必须作为重点描绘对象；总计 18 个典型名词，适合 5–9 岁儿童识字。) 四、识字标注规则 对上述清单中的物体，贴上中文识字标签： 格式：两行制（第一行拼音带声调，第二行简体汉字）。 样式：彩色小贴纸风格，白底黑字或深色字，清晰可读。 排版：标签靠近对应的物体，不遮挡主体。 五、画风参数 风格：儿童绘本风 + 识字小报风 色彩：高饱和、明快、温暖 (High Saturation, Warm Tone) 质量：8k resolution, high detail, vector illustration style, clean lines.
+```
+
+</details>
+
+---
+
+**图例2：天气城市**
+
+<img width="300" alt="图片" src="./images/post/po2.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```text
+呈现一个清晰的45°俯视视角，垂直（9:16）等距3D微缩卡通场景，突出画面中心的标志性地标，展现精细的建模。
+
+场景采用柔和细腻的纹理，搭配逼真的PBR材质和柔和逼真的光影效果。天气元素巧妙地融入城市建筑，在城市景观和大气条件之间建立动态互动，营造身临其境的天气氛围。
+
+使用简洁统一的构图，采用极简主义美学，并以柔和的纯色背景突出主要内容。整体视觉风格清新舒缓。
+
+在顶部中心醒目位置显示天气图标，其下方显示日期（超小字体）和温度范围（中等字体）。城市名称（大字体）位于天气图标正上方。天气信息无背景，可以与建筑物略微重叠。
+
+文本应与输入城市的本地语言一致。
+
+渲染前请获取指定城市的当前天气状况。
+
+城市名称：[上海]
+```
+
+</details>
+
+---
+
+**图例3：星巴克概念店**
+
+<img width="300" alt="图片" src="./images/post/po3.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
+
+```text
+这款3D Q版 [星巴克] 迷你概念店设计别具匠心，其外观灵感源自品牌最具代表性的产品和包装（例如，巨型{品牌核心产品，如炸鸡桶/汉堡/甜甜圈/烤鸭}）。店铺共两层，落地玻璃窗将温馨精致的内部装潢尽收眼底：{品牌主色调}主题装饰、温暖的灯光，以及身着品牌专属服装的忙碌员工。可爱的小人偶在街道上漫步、休憩，周围环绕着长椅、路灯和盆栽，营造出迷人的都市景象。该作品采用Cinema 4D软件以微缩城市景观风格渲染，拥有盲盒玩具般的精致美感，细节丰富，栩栩如生，柔和的灯光更添一份轻松惬意的午后氛围。请参阅随附的角色设定图，了解店内出现的迷你角色。--ar 2:3
+```
+
+</details>
+
+--- 
+
+
+## 中国传统文化
+
+
+**图例：唐宫乐**
+
+<img width="600" alt="图片" src="./images/china/ch1.png" />
+
+<details>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
-  "theme": {
-    "description": "A Tang-dynasty court ensemble performs music on Agan tree branches; musicians play pipa, erhu, flute, ruan, and ma-ti zheng. Musicians and birds are scattered naturally across the scene; some are standing, some sitting.",
+  "主题": {
+    "描述": "唐代宫廷乐团在阿干树枝上演奏音乐，乐师们演奏琵琶、二胡、笛子、阮和马蹄镫，乐师和鸟儿随意散落在各处，有的站着，有的坐着。",
     "mirror_rules": null,
-    "age": null,
-    "expression": {
-      "eyes": {
+    "年龄": null,
+    "表达": {
+      "眼睛": {
         "look": null,
-        "energy": null,
-        "direction": "empty"
+        "能量": null,
+        "方向": "空"
       },
-      "mouth": {
-        "position": null,
-        "energy": "empty"
+      "嘴": {
+        "位置": null,
+        "能量": "空"
       },
-      "overall": "empty"
+      "总体": "空"
     },
-    "face": {
+    "脸": {
       "preserve_original": false,
-      "makeup": "empty"
+      "化妆": "空"
     },
-    "hair": {
-      "color": null,
-      "style": null,
-      "effect": "empty"
+    "头发": {
+      "颜色": null,
+      "样式": null,
+      "效果": "空"
     },
-    "body": {
+    "身体": {
       "frame": null,
-      "waist": null,
-      "chest": null,
-      "legs": null,
-      "skin": {
+      "腰部": null,
+      "胸腔": null,
+      "腿": null,
+      "皮肤": {
         "visible_areas": null,
-        "tone": null,
-        "texture": null,
+        "音调": null,
+        "纹理": null,
         "lighting_effect": null
       }
     },
-    "pose": {
-      "position": "mixed (some standing, some sitting)",
-      "base": "on Agan tree branches",
-      "overall": "performing music, including pipa, erhu, flute, ruan, and ma-ti zheng"
+    "姿势": {
+      "位置": "混合（部分站立，部分坐着",
+      "基部": "在阿甘树的树枝上",
+      "总体而言": "演奏音乐，包括琵琶、二胡、笛子、阮和马蹄筝"
     },
-    "clothing": {
-      "top": {
-        "type": "Tang-dynasty court attire",
-        "color": null,
-        "details": null,
-        "effect": "empty"
+    "衣服": {
+      "顶部": {
+        "类型": "唐代宫廷服饰",
+        "颜色": null,
+        "详细信息": null,
+        "效果": "空"
       },
-      "bottom": {
+      "底部": {
         "type": null,
-        "color": null,
-        "details": null
+        "颜色": null,
+        "详情": null
       }
     },
-    "accessories": {
-      "jewelry": null,
-      "headwear": null,
-      "equipment": null,
-      "props": "pipa, erhu, flute, ruan, ma-ti pipa"
+    "配件": {
+      "珠宝": null,
+      "头饰": null,
+      "设备": null,
+      "道具": "琵琶、二胡、笛子、阮、马蹄琵琶"
     },
-    "photography": {
+    "摄影": {
       "camera_style": null,
-      "angle": null,
+      "角度": null,
       "shot_type": null,
       "aspect_ratio": null,
-      "texture": null,
-      "lighting": "even, soft lighting",
-      "depth_of_field": null
+      "纹理": null,
+      "照明": "即使是柔和的照明",
+      "景深": null
     },
-    "background": {
-      "scene": "tan stage canvas",
-      "wall_color": "tan-brown stage canvas, color code #E7B5C3D",
-      "elements": [
-        "Agan tree branches",
-        "birds"
+    "背景": {
+      "场景": "驼色舞台画布",
+      "wall_color": "驼棕色舞台画布，颜色代码 #E7B5C3D ",
+      "元素": [
+        "阿甘树枝",
+        "鸟类"
       ],
-      "atmosphere": null,
-      "lighting": "even, soft lighting"
+      "大气": null,
+      "照明": "即使是柔和的照明"
     },
-    "vibe": {
-      "energy": null,
-      "mood": null,
-      "aesthetic": "Song-dynasty aesthetics, minimalism, realism",
-      "authenticity": null,
-      "intimacy": null,
-      "story": "A Tang-dynasty court ensemble performs on Agan tree branches; musicians and birds are scattered naturally; some stand, some sit.",
-      "caption_energy": "Tang-dynasty court ensemble performing on tree branches"
+    "氛围": {
+      "能量": null,
+      "情绪": null,
+      "美学": "宋代美学，极简主义，写实主义",
+      "真实性": null,
+      "亲密": null,
+      "故事": "唐代宫廷乐团在阿干树枝上演奏，乐师和鸟儿随意散落，有的站着，有的坐着。",
+      "caption_energy": "唐代宫廷乐团在树枝上演奏"
     },
-    "constraints": {
+    "约束条件": {
       "must_keep": [
-        "Tang-dynasty court ensemble",
-        "Musicians playing pipa, erhu, flute, ruan, and ma-ti zheng",
-        "Agan tree branches",
-        "Musicians and birds scattered naturally across the scene; some standing, some sitting",
-        "Tan-brown stage canvas, color code #E7B5C3D"
+        "唐朝宫廷乐团",
+        "演奏琵琶、二胡、笛子、阮和马蹄琴的乐师们",
+        "阿甘树枝",
+        "音乐家和鸟儿随意散落各处，有的站着，有的坐着",
+        "驼棕色舞台画布，颜色代码为 #E7B5C3D "
       ],
-      "avoid": []
+      "避免": []
     },
     "negative_prompt": [
       "nsfw",
-      "low quality",
-      "text",
-      "watermark"
+      "低质量",
+      "文本",
+      "水印"
     ]
   }
 }
@@ -1246,14 +1201,14 @@ Refer to the attached character reference sheet to understand the mini character
 
 
 
-## Portrait & Fashion
+## 美女靓仔类
 
-**Example: Garage Glance Back**
+**图例：车库回眸**
 
-<img width="600" alt="Image" src="./images/beauty/bea20.png" />
+<img width="600" alt="图片" src="./images/beauty/bea20.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1350,12 +1305,12 @@ Refer to the attached character reference sheet to understand the mini character
 
 
 
-**Example: Glasses & White Shirt**
+**图例：眼镜白衬**
 
-<img width="600" alt="Image" src="./images/beauty/bea19.png" />
+<img width="600" alt="图片" src="./images/beauty/bea19.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1377,15 +1332,15 @@ Refer to the attached character reference sheet to understand the mini character
 ---
 
 
-**Example: Frozen in the Crowd**
+**图例：人潮定格**
 
-<img width="600" alt="Image" src="./images/beauty/bea18.png" />
+<img width="600" alt="图片" src="./images/beauty/bea18.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-A cinematic street portrait of a young woman standing still in a busy urban crowd, captured with motion blur all around her. She has short, slightly messy hair and a calm, introspective expression, looking directly at the camera. She wears a soft beige sweater and a textured brown skirt, minimal accessories. The background is a city street filled with people in motion, creating a dreamy long-exposure effect. Shallow depth of field, subject in sharp focus, crowd blurred, natural soft daylight, muted color palette, film photography style, emotional and artistic mood, high detail, realistic, 35mm lens, f/1.8.
+一张电影感街头人像：一位年轻女性在繁忙的人群中静止不动，周围的人群带有运动模糊。她留着略微凌乱的短发，神情平静而内省，直视镜头。穿柔软的米色毛衣与有纹理的棕色半身裙，配饰极简。背景是人潮流动的城市街道，形成梦幻的长曝光氛围。浅景深，主体清晰锐利，人群虚化；自然柔和日光；低饱和配色；胶片摄影质感；情绪化、艺术化，高细节写实；35mm 镜头，f/1.8。
 ```
 
 </details>
@@ -1393,12 +1348,12 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 ---
 
-**Example: Izakaya Selfie**
+**图例：居酒自拍**
 
-<img width="600" alt="Image" src="./images/beauty/bea17.png" />
+<img width="600" alt="图片" src="./images/beauty/bea17.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1463,12 +1418,12 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 ---
 
-**Example: Off-Center Flash Snap**
+**图例：偏心闪拍**
 
-<img width="600" alt="Image" src="./images/beauty/bea16.png" />
+<img width="600" alt="图片" src="./images/beauty/bea16.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {   
@@ -1497,12 +1452,12 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 --- 
 
-**Example: Turned-Back Mirror Shot**
+**图例：反身镜拍**
 
-<img width="600" alt="Image" src="./images/beauty/bea15.png" />
+<img width="600" alt="图片" src="./images/beauty/bea15.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1616,12 +1571,12 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 --- 
 
-**Example: Flash Mirror Photo**
+**图例：闪光镜照**
 
-<img width="600" alt="Image" src="./images/beauty/bea14.png" />
+<img width="600" alt="图片" src="./images/beauty/bea14.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1676,12 +1631,12 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 --- 
 
 
-**Example: Studio Shoot Template**
+**图例：棚拍模板**
 
-<img width="600" alt="Image" src="./images/beauty/bea13.png" />
+<img width="600" alt="图片" src="./images/beauty/bea13.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1715,15 +1670,23 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 --- 
 
 
-**Example: Gym Promo Shot**
+**图例：健身硬照**
 
-<img width="600" alt="Image" src="./images/beauty/bea12.png" />
+<img width="600" alt="图片" src="./images/beauty/bea12.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown hair wearing large black over-ear headphones, a tight black-and-charcoal patterned short-sleeve compression shirt with a small white chest logo, black athletic shorts, and white crew socks, sitting on a black rubber gym floor leaning back on one hand with his torso turned and head looking to the side. Environment: modern industrial gym interior with black locker cubes stacked along the right wall, exposed metal ductwork and beams on the ceiling, a squat rack and a second person training in the background near a large bright window, and a clear shaker bottle plus a small towel on the floor at the lower left. Composition/Camera: low, close three-quarter view from the man’s left side, framing from mid-thigh to head with the lockers filling the right side and gym equipment receding into the left background. Lighting: mixed natural daylight from the window and soft overhead indoor lighting, creating gentle highlights on the subject and mild shadows on the floor and lockers. He is Looking in the camera
+主体：一张原始、未修图的写实照片——一位肌肉发达的成年男性，深棕色短卷发，戴着大号黑色头戴式耳机；上身穿黑色与深灰拼色纹理的短袖紧身压缩衣（胸口有一个小白色 Logo）；下身黑色运动短裤与白色中筒袜。他坐在黑色橡胶健身房地垫上，一只手撑地向后倚靠，躯干略微扭转，头部侧望。
+
+环境：现代工业风健身房。右侧墙面堆叠黑色储物柜格；天花板为外露金属风管与梁架；背景有深蹲架，远处靠近一扇大而明亮的窗户处还有另一人训练。左下角地面有透明摇摇杯与一条小毛巾。
+
+构图/机位：低机位、从主体左侧拍摄的近距离三分之四视角，画面裁切从大腿中部到头部；右侧由储物柜占据，左侧背景为逐渐后退的器械空间。
+
+光线：窗户自然光与顶部柔和室内灯光混合，主体形成柔和高光，地面与储物柜产生轻微阴影。
+
+目光：主体直视镜头。
 ```
 
 </details>
@@ -1731,12 +1694,12 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 
 --- 
 
-**Example: Top-Down Vinyl Flat Lay**
+**图例：顶拍唱片**
 
-<img width="600" alt="Image" src="./images/beauty/bea11.png" />
+<img width="600" alt="图片" src="./images/beauty/bea11.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -1852,12 +1815,12 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 
 --- 
 
-**Example: Blonde Mirror Shot**
+**图例：金发镜拍**
 
-<img width="600" alt="Image" src="./images/beauty/bea10.png" />
+<img width="600" alt="图片" src="./images/beauty/bea10.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2012,26 +1975,32 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 --- 
 
 
-**Example: Compact Camera Screen**
+**图例：卡片机屏**
 
-<img width="600" alt="Image" src="./images/beauty/bea8.png" />
+<img width="600" alt="图片" src="./images/beauty/bea8.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Use facial feature of attached photo. A close-up shot of a young woman displayed on the screen of a compact Canon digital camera. The camera body surrounds the image with its buttons, dials, and textured surface visible, including the FUNC/SET wheel, DISP button, and the "IMAGE STABILIZER" label along the side. The photo on the screen shows the woman indoors at night, illuminated by a bright built-in flash that creates sharp highlights on her face and hair. She has long dark hair falling across part of her face in loose strands, with a soft, slightly open-lip expression. The flash accentuates her features against a dim, cluttered kitchen background with appliances, shelves, and metallic surfaces softly blurred. The mood is candid, raw, nostalgic, and reminiscent of early 2000s digital camera snapshots. Colors are slightly muted with cool undertones, strong flash contrast, and natural grain from the display. No text, no logos inside the photo preview itself.
+请使用附图人物的面部特征。
 
-Scale ratio: 4:5 vertical
+画面：一台紧凑型佳能（Canon）数码相机的屏幕特写，屏幕上显示一位年轻女性的照片；相机机身围绕屏幕可见按钮、转盘与表面纹理，包括 FUNC/SET 转轮、DISP 按键，以及侧面的“IMAGE STABILIZER”字样。
 
-Camera: compact digital camera simulation
-Lens: equivalent to 28–35mm
-Aperture: f/2.8
-ISO: 400
-Shutter speed: 1/60 with flash
-White balance: auto flash
-Lighting: harsh direct flash on subject, ambient low light in the background
-Color grading: nostalgic digital-camera tones, high contrast flash, subtle display grain, authentic screen glow.
+屏幕内照片：夜晚室内拍摄，使用相机内置闪光灯直打，在面部与头发形成锐利高光。她的长深色头发有几缕松散地垂在脸侧，表情柔和、嘴唇微张。闪光灯将人物从昏暗、略显杂乱的厨房背景中凸显出来；背景中的电器、架子与金属表面轻微虚化。
+
+氛围：抓拍、真实、带怀旧感，类似 2000 年代初期的数码相机直闪快照。整体色彩略微去饱和、偏冷；闪光对比强；屏幕显示带来自然颗粒与真实的屏幕发光感。屏幕内照片本身不要出现文字或 Logo。
+
+画幅：4:5 竖图。
+
+相机：紧凑型数码相机模拟
+镜头：等效 28–35mm
+光圈：f/2.8
+ISO：400
+快门：1/60（带闪光）
+白平衡：自动闪光
+光线：人物使用强直闪；背景为低照度环境光
+调色：怀旧数码相机色调；闪光高对比；轻微屏幕颗粒；真实屏幕辉光。
 
 ```
 
@@ -2040,10 +2009,10 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 --- 
 
-**Example: Wide-Angle Street Shot**
-<img width="600" alt="Image" src="./images/beauty/bea7.png" />
+**图例：广角街拍**
+<img width="600" alt="图片" src="./images/beauty/bea7.png" />
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2122,96 +2091,96 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 ---
 
-**Example: Mirror Selfie**
-<img width="500" alt="Image" src="./images/beauty/bea2.png" />
+**图例：镜子自拍**
+<img width="500" alt="图片" src="./images/beauty/bea2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
   "visual_style": {
     "color_palette": {
-      "primary_colors": [
+      "主色": [
         {
-          "name": "Warm beige / tan",
-          "hex_approx": "#D2B48C",
-          "description": "Primary tones for the background wall, door frame, and skin; creates a warm, cozy indoor mood."
+          "name": "暖米色/棕褐色",
+          "hex_approx": " #D2B48C ",
+          "描述": "背景墙、门框和皮肤的主色调，营造温暖舒适的室内氛围。"
         },
         {
           "name": "Heather Grey",
-          "hex_approx": "#B0B0B0",
-          "description": "Sports bra color; used as a neutral transition tone."
+          "hex_approx": " #B0B0B0 ",
+          "描述": "运动文胸的颜色，用作中性过渡色调。"
         },
         {
-          "name": "Bright black",
+          "name": "亮黑色",
           "hex_approx": "#101010",
-          "description": "Hair and sweatpants; provides strong visual impact and contrast."
+          "描述": "头发和运动裤，提供了强烈的视觉冲击力和对比。"
         },
         {
-          "name": "Soft white",
-          "hex_approx": "#F5F5F5",
-          "description": "Towel and bra elastic band; acts as a highlight accent."
+          "name": "柔白",
+          "hex_approx": " #F5F5F5 ",
+          "描述": "毛巾和胸罩的松紧带部分，起到突出装饰作用。"
         }
       ],
-      "tones": "warm, earthy, soft",
-      "saturation": "low to medium (comfortable to look at)"
+      "色调": "温暖、大地色、柔和（暖色调、大地色、柔和）",
+      "饱和度": "低至中等（低至中等饱和度，视觉舒适）"
     },
-    "lighting": {
-      "type": "warm indoor artificial lighting",
-      "characteristics": [
-        "soft diffusion (diffused soft light)",
-        "top-down illumination (overhead lighting, common in hotels or bathrooms)",
-        "warm color temperature"
+    "灯光": {
+      "类型": "室内暖色人工照明（室内暖色照明）",
+      "特征": [
+        "柔和扩散（柔和的漫射光）",
+        "自上而下的投光（顶部照明，常见于酒店或浴室），",
+        "暖色调（暖色温）"
       ],
-      "shadows": "soft, natural contour shadows on the body"
+      "阴影": "身体上柔和自然的轮廓阴影（柔和的身体轮廓阴影）"
     },
-    "shot": {
-      "composition": "medium shot / three-quarter framing",
-      "viewpoint": "eye-level",
-      "technique": "mirror selfie",
-      "visual_balance": "off-center subject",
-      "depth_of_field": "deep depth of field (background clear, no obvious blur)",
+    "作品": {
+      "构图": "中景/四分之三镜头（中景/四分之三身体）",
+      "视角": "平视（平视视图）",
+      "技巧": "镜子自拍（Mirror Selfie）",
+      "visual_balance": "偏离中心的主体（主体略微偏离中心）",
+      "depth_of_field": "深景深（背景清晰，无明显模糊）",
       "elements_arrangement": {
-        "foreground": "person holding a phone",
-        "middle_ground": "mirror",
-        "background": "door frame, beige wall, towel rack"
+        "前景": "手持手机的人物",
+        "middle_ground": "镜面",
+        "背景": "门框、米色墙壁、毛巾架"
       }
     },
-    "subject_styling": {
-      "outfit_style": "casual / athleisure (at-home workout style)",
-      "items": [
-        "Grey Calvin Klein sports bra",
-        "Black sweatpants"
+    "subject_styleing": {
+      "服装": "休闲服/运动休闲服（居家运动风格）",
+      "项目": [
+        "灰色 Calvin Klein 运动文胸（灰色 CK 运动文胸）",
+        "黑色运动裤"
       ],
-      "hair_makeup": "long black hair worn down; natural/no-makeup look",
-      "pose": "relaxed standing, hands in pockets, hips slightly tilted to show the waistline"
+      "hair_makeup": "长长的黑色披肩发，自然/无妆容（长长的黑色披肩发，仿素颜/自然妆感）",
+      "姿势": "放松站立，手插口袋，微微倾斜臀部（放松站立，手插口袋，微微倾斜臀部以显示腰线）"
     },
-    "environment": {
-      "setting": "hotel bathroom or walk-in closet",
-      "materials": [
-        "light wood",
-        "painted drywall (painted walls)",
-        "textiles (towels)"
+    "环境": {
+      "设置": "酒店浴室或步入式衣橱（酒店浴室或步入式衣橱）",
+      "材料": [
+        "浅色木材（浅色木材）",
+        "涂漆石膏板（涂漆墙壁）",
+        "纺织品（毛巾）"
       ],
-      "props": "white towel on the rack/shelf"
+      "道具": "架子上的白色毛巾（架子上的白色毛巾）"
     },
     "text_typography": {
       "visible_text": "Calvin Klein",
-      "position": "underbust band of the sports bra",
-      "font_style": "sans-serif brand typeface",
-      "meaning": "adds a recognizable brand element for aesthetics (improves brand recognition)"
+      "位置": "运动文胸的下围（运动文胸下围）",
+      "font_style": "无衬线字体，品牌字体（无衬线品牌字体）",
+      "意义": "为美学增添可识别的品牌元素（提高品牌识别度）"
     },
     "mood_atmosphere": {
-      "keywords": [
-        "cozy",
-        "casual",
-        "fitted",
-        "clean",
-        "morning vibe",
-        "private"
+      "关键词": [
+        "舒适",
+        "随意的",
+        "合身",
+        "干净的",
+        "早晨的氛围",
+        "私人的"
       ],
-      "vibe_description": "An intimate, relaxed vibe that suggests a healthy lifestyle with a refined, lazy feeling—like 'just woke up' or 'effortlessly put-together'."
+      "vibe_description": "一种私密、轻松的氛围，展现了一种健康的生活方式，带着一种精致慵懒的感觉，就像“刚睡醒”或“精心打扮”一样。"
     }
   }
 }
@@ -2222,11 +2191,11 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 ---
 
-**Example: Window Doppelgänger**
+**图例：橱窗分身**
 
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2256,12 +2225,12 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 ---
 
-**Example: Point-and-Shoot Look**
+**图例：卡片机感**
 
-<img width="600" alt="Image" src="./images/beauty/bea5.png" />
+<img width="600" alt="图片" src="./images/beauty/bea5.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2323,26 +2292,27 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 ---
 
 
-**Example: Spotlight in Darkness**
-<img width="600" alt="Image" src="./images/beauty/bea6.png" />
+**图例：聚光暗黑**
+<img width="600" alt="图片" src="./images/beauty/bea6.png" />
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Generate a hyperrealistic realistic-anime portrait of a female character standing in a completely black background.
-Lighting: use a **narrow beam spotlight** focused only on the center of the face. 
-The edges of the light must be sharp and dramatic. 
-All areas outside the spotlight should fall quickly into deep darkness 
-(high falloff shadow), almost blending into the black background. 
-Not soft lighting.
-Hair: long dark hair with some strands falling over the face. The lower parts of the hair should fade into the shadows.
-Pose: one hand raised gently to the lips in a shy, hesitant gesture. 
-Eyes looking directly at the camera with a mysterious mood.
-Clothing: black long-sleeve knit sweater; 
-the sweater and body should mostly disappear into the darkness with minimal detail.
-Overall tone: dark, moody, dramatic, mysterious. 
-High-contrast only in the lit portion of the face. 
-Everything outside the spotlight should be nearly invisible.
+生成一张超写实、带一点“写实动漫”气质的女性人像，人物站在纯黑背景中。
+
+光线：使用**窄束聚光灯**，只打在面部中心区域。
+
+要求：光束边缘必须锐利、戏剧化；聚光灯之外的区域要迅速坠入深黑（强衰减阴影），几乎与黑色背景融为一体；不要柔光。
+
+头发：深色长发，部分发丝垂落在脸上；头发下半部分逐渐隐入阴影。
+
+姿势：一只手轻抬至嘴唇附近，呈现害羞、犹豫的动作。
+
+眼神：直视镜头，气质神秘。
+
+服装：黑色长袖针织毛衣；毛衣与身体大部分细节应被黑暗吞没，仅保留极少量轮廓信息。
+
+整体调性：暗黑、情绪化、戏剧化、神秘；对比度主要集中在被照亮的面部区域；聚光灯以外几乎不可见。
 
 ```
 
@@ -2350,79 +2320,79 @@ Everything outside the spotlight should be nearly invisible.
 
 --- 
 
-**Example: Screen Cool Light**
+**图例：屏幕冷光**
 
-<img width="300" alt="Image" src="./images/beauty/bea3.png" />
+<img width="300" alt="图片" src="./images/beauty/bea3.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
   "visual_style": {
     "color_palette": {
-      "primary_colors": [
+      "主色": [
         {
-          "name": "Screen-glow blue/purple",
-          "hex_approx": "#8A8ABD",
-          "description": "Cool light cast on the face (like from a phone or computer screen), creating a nighttime cool, techy mood."
+          "名称": "屏幕发光蓝/紫",
+          "hex_approx": " #8A8ABD ",
+          "描述": "投射在脸上的冷光源（类似于手机或电脑屏幕的光），营造出夜晚的凉爽感和科技感十足的氛围。"
         },
         {
-          "name": "Deep shadow black",
+          "name": "深影黑",
           "hex_approx": "#050505",
-          "description": "Hair, clothing, and background shadows; forms the foundation of a low-key image."
+          "描述": "头发、衣服和背景阴影，为低调（Low-key）图像奠定了基础。"
         },
         {
-          "name": "Soft gray",
-          "hex_approx": "#6E7278",
-          "description": "Pillow color; a neutral tone to balance the scene."
+          "name": "柔和灰",
+          "hex_approx": " #6E7278 ",
+          "描述": "枕头的颜色，作为一种中性色调来平衡画面。"
         },
         {
-          "name": "Soft skin tone",
-          "hex_approx": "#EAC0B6",
-          "description": "Skin tone under cool light, appearing pale and slightly translucent."
+          "name": "柔和肤色",
+          "hex_approx": " #EAC0B6 ",
+          "描述": "冷光照射下的肤色，呈现出苍白而半透明的质感。"
         }
       ],
-      "tones": "cool-toned foreground, dark background",
-      "saturation": "low (desaturated / soft colors)"
+      "色调": "冷色调前景，深色背景（冷色调前景，深色背景）",
+      "饱和度": "低（去饱和/柔和的颜色）（低饱和度，柔和的颜色）"
     },
-    "lighting": {
-      "type": "mixed low light / screen light",
-      "characteristics": [
-        "cool key light from the front (screen fill)",
-        "soft falloff",
-        "ambient darkness"
+    "灯光": {
+      "类型": "混合低光/屏幕光（混合昏暗光/屏幕光）",
+      "特征": [
+        "来自前方的冷光源（前方冷光源填充）",
+        "柔和衰减（柔和的光衰减）",
+        "大气黑暗（环境暗色调）"
       ],
-      "shadows": "deep, moody shadows surrounding the subject"
+      "阴影": "围绕着主体的深沉、忧郁的阴影（围绕着主体的深沉、充满情感的阴影）"
     },
-    "shot": {
-      "composition": "close-up / head close-up",
-      "viewpoint": "eye level to slightly above eye line",
-      "pose": "lying prone on a bed (face-down on the bed)",
-      "visual_focus": "eyes and lips",
-      "depth_of_field": "shallow (background slightly blurred)"
+    "作品": {
+      "构图": "特写/头部特写（特写/头部特写）",
+      "视角": "视线水平到略高的角度（视线水平或略高的角度）",
+      "姿势": "俯卧在床上（脸朝下躺在床上）",
+      "visual_focus": "眼睛和嘴唇（视觉焦点在眼睛和嘴唇上）",
+      "depth_of_field": "浅景深（背景略微模糊）"
     },
-    "subject_styling": {
-      "outfit_style": "sleepwear / lingerie",
-      "item": "black lace slip dress / camisole",
-      "hair_makeup": "messy black hair, lazy just-woke-up makeup, glossy lips, flushed cheeks",
-      "expression": "sexy, intimate, staring at the camera, finger lightly touching the lips"
+    "subject_styleing": {
+      "服装": "睡衣/内衣（睡衣/内衣款式）",
+      "商品": "黑色蕾丝吊带裙/吊带衫（黑色蕾丝吊带衫）",
+      "hair_makeup": "凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，泛红的脸颊（凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，微微泛红的脸颊）",
+      "表情": "性感、亲密、凝视镜头、手指轻触嘴唇（性感、亲密、凝视镜头、手指轻触嘴唇）"
     },
-    "environment": {
-      "setting": "bedroom / hotel room",
-      "props": "gray patterned pillow",
-      "background": "curtains, dark corners"
+    "环境": {
+      "设置": "卧室/酒店房间（卧室/酒店房间）",
+      "道具": "灰色图案枕头（灰色图案枕头）",
+      "背景": "窗帘，黑暗的角落（窗帘，黑暗的角落）"
     },
     "mood_atmosphere": {
-      "keywords": [
-        "intimate",
-        "late night",
-        "sultry",
-        "vulnerable",
+      "关键词": [
+        "亲密的",
+        "深夜",
+        "闷热的",
+        "易受伤害的",
         "POV",
-        "pure-but-seductive"
+        "《纯欲》"
       ],
-      "vibe_description": "A classic 'pure-but-seductive' vibe, creating a late-night atmosphere, intimacy, and a POV view only a close relationship would see."
+      "vibe_description": "典型的“纯粹欲望”风格（纯粹而充满欲望），营造出深夜的氛围，亲密感，以及只有亲密关系才能看到的视角（POV）。"
     }
   }
 }
@@ -2433,67 +2403,67 @@ Everything outside the spotlight should be nearly invisible.
 
 ---
 
-**Example 1: Instant Film Photo**
+**图例1：拍立得照**
 
-<img width="300" alt="Image" src="./images/beauty/bea1.png" />
+<img width="300" alt="图片" src="./images/beauty/bea1.png" />
 
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```
-Please use the person from the attached reference image.
+请使用附图中的人物。
 
-Name: ____.
+姓名：____。
 
-Generate a photo of an “instax mini” (Cheki) print placed on a tabletop, perfectly recreating the person’s hairstyle, outfit, and overall style from the reference image.
+这张“instax mini”（Cheki）相机放置在桌面上的照片已生成，完美还原了附图中人物的发型、服装和风格。
 
-[Film format specifications]
+[胶片格式规格]
 
-The whole photo is a vertical rectangle (86mm x 54mm).
+整张照片为竖版矩形（86mm x 54mm）。
 
-A white border surrounds the photo. The top, left, and right borders are narrow; the bottom border is wider (about twice the top border), accurately matching the instax mini format.
+照片四周环绕着白色边框，顶部、左侧和右侧边框较窄，底部边框较宽（约为顶部边框的两倍），精确再现了instax mini的独特格式。
 
-The image area is vertical (4:3 aspect ratio).
+图像区域为竖版（4:3比例）。
 
-[Annotation specifications (inferred by AI from the person’s personality in the reference)]
+[注释规格（由AI根据附图中人物的性格推断）]
 
-The following doodles are handwritten with marker in colors that match the person’s personality.
+以下涂鸦使用马克笔手写，颜色与附图中人物的性格相符。
 
-1. Top narrow border: one line of Japanese info inferred from the person’s personality.
+1. 顶部窄边：一行根据人物性格推断的日语信息。
 
-2. Bottom wide blank area: the creation date (e.g., 2025.11.29) and the person’s smooth handwritten signature.
+2. 底部宽阔的留白：照片的创作日期（例如，2025.11.29）以及人物流畅的手写签名。
 
-3. Photo image area: cute doodles such as hearts, stars, sparkles, and emoticon faces, without covering the face.
+3. 照片主体部分：点缀着可爱的涂鸦，例如爱心、星星、闪光和表情符号，但并未遮挡面部。
 
-The [PERSON] is centered in the frame, photographed from head to knees. They pose casually in an idol-like pose in front of a white wall (pose inferred from their appearance). The high-contrast, slightly washed-out film look indicates direct on-camera flash.
+[人物] 照片主体位于画面中心，拍摄对象从头部到膝盖。人物在白墙前摆出一个随意的、类似偶像的姿势（姿势是根据人物的外貌推断的）。高对比度、略微泛白的胶片质感表明照片是用闪光灯直射拍摄的。
 
-[Texture and background]
+[纹理和背景]
 
-The photo is placed on a white tabletop, casting a natural shadow.
+照片放置在白色桌面上，投射出自然的阴影。
 
 ```
 
 </details>
 
 
-## Portrait Photography
+## 人物摄影类
 
 
-**Example 1: Fisheye Selfie**
+**图例1：鱼眼自拍**
 
-<img width="300" alt="Image" src="./images/profile/pr1.png" />
+<img width="300" alt="图片" src="./images/profile/pr1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
 
-An ultra-photoreal fisheye wide-angle selfie shot with a vintage 35mm fisheye lens, creating strong barrel distortion. The people in the photo are not holding any camera or phone.
+一张超逼真的鱼眼广角自拍，使用老式35mm鱼眼镜头拍摄，产生严重的桶形畸变。照片中人物手中没有相机或手机。
 
-Subject & action: a close-up, slightly distorted group selfie. The person from the uploaded reference image is taking a selfie with [PERSON]. Everyone is making exaggerated expressions, squinting slightly because of the flash.
+主体与动作：一张特写、略带畸变的合影，[上传图片中的人物]正在与[人物]自拍。每个人都在做着夸张的表情，微微眯着眼睛，因为闪光灯的照射。
 
-Lighting & texture: a strong direct on-camera flash creates obvious shadows behind the subjects. Real film grain, slight motion blur at the edges, and chromatic aberration. The photo should look like a candid amateur snapshot captured in a chaotic backstage moment—not a studio photo.
+光线与质感：强烈的直射闪光灯在人物背后形成明显的阴影。真实的胶片颗粒感，边缘略微的动态模糊，以及色差。这张照片看起来像是抓拍的业余快照，仿佛是在混乱的幕后瞬间拍摄的，而不是影棚照片。
 
 ```
 
@@ -2501,15 +2471,15 @@ Lighting & texture: a strong direct on-camera flash creates obvious shadows behi
 ---
 
 
-**Example 2: King Crab Chef**
+**图例2：帝王蟹厨**
 
-<img width="300" alt="Image" src="./images/profile/pr2.png" />
+<img width="300" alt="图片" src="./images/profile/pr2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Generate one vertical short-video screenshot (TikTok / Douyin style). Scene: in a kitchen, a king crab is being prepared and put into a pot. The chef faces the camera, showcasing the ingredients and a complete set of cooking tools laid out on the cutting board.
+帮我生成一帧抖音竖屏短视频截图，内容是厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具
 ```
 
 </details>
@@ -2517,68 +2487,69 @@ Generate one vertical short-video screenshot (TikTok / Douyin style). Scene: in 
 
 --- 
 
-**Example: On-Set Selfie**
+**图例：片场自拍**
 
-<img width="400" alt="Image" src="./images/profile/pr3.png" />
+<img width="400" alt="图片" src="./images/profile/pr3.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-"I'm taking a selfie with [movie character] on the set of [movie name].
+“我正在《[电影名]》片场和 [电影角色] 合影自拍。
 
-Keep the person exactly as shown in the reference image with 100% identical facial features, bone structure, skin tone, facial expression, pose, and appearance. 1:1 aspect ratio, 4K detail."
+请将人物严格保持为参考图中的样子：面部特征、骨相结构、肤色、表情、姿势与整体外观 100% 一致。画幅 1:1，4K 细节。”
 ```
 
 </details>
 
 
-## Dreamy & Surreal
+## 如梦如幻类
 
 
-**Example: Four Seasons Bund**
+**图例：四季外滩**
 
-<img width="600" alt="Image" src="./images/dream/dre1.png" />
+<img width="600" alt="图片" src="./images/dream/dre1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-This ultra-photoreal digital illustration depicts {SCENE} as a continuous panoramic image showing the changing of the four seasons. The scene transitions smoothly from left to right, naturally presenting winter, spring, summer, and autumn.
+这幅超写实数字插画描绘了{场景}，以连续的画面展现四季更迭。画面从左至右流畅过渡，自然展现了冬、春、夏、秋的景象。
 
-On the left is a cold winter snow scene that gradually melts into fresh green spring buds; it then transitions into lush summer vegetation and bright sunlight, and finally transitions into golden/yellow and vivid orange-red autumn colors on the far right.
+左侧是寒冷的冬季雪景，逐渐融化成春天的嫩绿花蕾，随后过渡到夏季郁郁葱葱的植被和明媚的阳光，最终在最右侧过渡到秋季的金黄、橙红和绚丽色彩。
 
-There are no hard boundaries between seasons—the weather, lighting, and vegetation blend seamlessly into a harmonious panorama. Rich detail symbolizing the passage of time, cinematic lighting, 8K resolution, highly detailed textures. --ar 4:3
+四季之间没有明显的界限；天气、光线和植被完美融合，构成一幅和谐统一的全景图。画面细节丰富，象征着时间的流逝，采用电影级光照，8K分辨率，纹理高度精细。 --ar 4:3
 
-Scene: looking from the historic Shanghai Bund across the Huangpu River toward the futuristic Lujiazui skyline.
 
----- Prompt ----
+场景：从历史悠久的上海外滩眺望黄浦江对岸充满未来感的陆家嘴
 
-Ultra-photoreal digital illustration of {SCENE} presented as a continuous panorama showing seasonal transitions from left to right: winter, spring, summer, autumn.
+---- 提示 ----
 
-Winter snow melts into spring sprouts and blossoms, then transitions into lush summer greenery and bright sunlight, and finally into golden and vivid orange-red autumn colors.
+{场景}的超写实数字插画，以连续的画面呈现，展现四季更迭。画面从左至右自然过渡：冬、春、夏、秋。
 
-No hard boundaries between seasons; weather, lighting, and vegetation blend seamlessly into a unified panorama. Rich detail, cinematic lighting, 8K resolution, highly detailed textures. --ar 4:3
+左侧展现寒冷的冬季雪景，逐渐融化成春暖花开的嫩芽，接着过渡到夏季郁郁葱葱的植被和明媚的阳光，最终在最右侧过渡到秋季的金黄、橙红和绚丽色彩。
 
-Scene: looking from the historic Shanghai Bund across the Huangpu River toward the futuristic Lujiazui district skyline.
+四季之间没有明显的界限；天气、光线和植被完美融合，构成一幅和谐统一的全景图。细节丰富，象征着时间的流逝，采用电影级光照，8K分辨率，纹理高度精细。 --ar 4:3
+
+场景：从历史悠久的上海外滩眺望黄浦江对岸充满未来感的陆家嘴区。
 
 ```
 
 </details>
 
 
-## Image-to-Image (img2img)
+## 图生图
 
-**Example: Daytime Isometric Building**
+**图例：建筑日等**
 
-<img width="200" alt="Image" src="./images/p2p/pin_1.png" />
-<img width="200" alt="Image" src="./images/p2p/pout_1.png" />
+<img width="200" alt="图片" src="./images/p2p/pin_1.png" />
+<img width="200" alt="图片" src="./images/p2p/pout_1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Convert the image into a daytime and isometric view [buildings only].
+将图像制作成白天和等距视图[仅限建筑]
 ```
 
 </details>
@@ -2586,13 +2557,13 @@ Convert the image into a daytime and isometric view [buildings only].
 ---
 
 
-**Example: Remove Blur**
+**图例：去除模糊**
 
-<img width="200" alt="Image" src="./images/p2p/pin_2.png" />
-<img width="200" alt="Image" src="./images/p2p/pout_2.png" />
+<img width="200" alt="图片" src="./images/p2p/pin_2.png" />
+<img width="200" alt="图片" src="./images/p2p/pout_2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2618,13 +2589,13 @@ Convert the image into a daytime and isometric view [buildings only].
 ---
 
 
-## Food
-**Example: Beef Lasagna Layers**
+## 美食
+**图例：牛肉千层**
 
-<img width="500" alt="Image" src="./images/food/f4.png" />
+<img width="500" alt="图片" src="./images/food/f4.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
   {
@@ -2752,12 +2723,12 @@ Convert the image into a daytime and isometric view [buildings only].
 ---
 
 
-**Example: Matcha Cheesecake**
+**图例：抹茶芝士**
 
-<img width="500" alt="Image" src="./images/food/f2.png" />
+<img width="500" alt="图片" src="./images/food/f2.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2860,12 +2831,12 @@ Convert the image into a daytime and isometric view [buildings only].
 
 ---
 
-**Example: Berry Burst**
+**图例：莓果爆浆**
 
-<img width="500" alt="Image" src="./images/food/f3.png" />
+<img width="500" alt="图片" src="./images/food/f3.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```json
 {
@@ -2908,19 +2879,19 @@ Convert the image into a daytime and isometric view [buildings only].
 ---
 
 
-**Example: Orange Flavor Concept**
+**图例：橙味创意**
 
-<img width="600" alt="Image" src="./images/food/f1.png" />
+<img width="600" alt="图片" src="./images/food/f1.png" />
 
 <details>
-<summary>Prompt (Click to expand)</summary>
+<summary>提示词（点击展开）</summary>
 
 ```text
-Generate an image of what could be possible to make with this orange foodwise.
+生成一张图片，展示“用这颗橙子/橙味食材在美食方向能做出什么创意成品”的可能性。
 ```
 </details>
 
-## Acknowledgements & References
+## 致谢与参考
 
 本项目在策划与收集素材过程中参考并受益于以下优秀仓库，特此致谢并推荐：
 
