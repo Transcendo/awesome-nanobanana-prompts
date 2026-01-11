@@ -11,7 +11,7 @@ the wonderful prompts for nanobanana
 
 ## 漫画品类
 
-**图例：**
+**图例：撕纸分层**
 
 <img width="600" alt="Image" src="./images/like/l1.png" />
 
@@ -19,71 +19,80 @@ the wonderful prompts for nanobanana
 <summary>提示词（点击展开）</summary>
 
 ```json
-task: "edit-image: add widened torn-paper layered effect"
-
-base_image:
-  use_reference_image: true
-  preserve_everything:
-    - character identity
-    - facial features and expression
-    - hairstyle and anatomy
-    - outfit design and colors
-    - background, lighting, composition
-    - overall art style
-
-rules:
-  - Only modify the torn-paper interior areas.
-  - Do not change pose, anatomy, proportions, clothing details, shading, or scene elements.
-
-effects:
-  - effect: "torn-paper-reveal"
-    placement: "across chest height"
-    description:
-      - Add a wide, natural horizontal tear across the chest area.
-      - The torn interior uses the style defined in `interior_style`.
-
-  - effect: "torn-paper-reveal"
-    placement: "lower abdomen height"
-    description:
-      - Add a wide horizontal tear across the lower abdomen.
-      - The torn interior uses the style defined in `interior_style`.
-
-interior_style:
-  mode: "line-art"
-
-  style_settings:
-    line-art:
-      palette: "monochrome"
-      line_quality: "clean, crisp"
-      paper: "notebook paper with subtle ruled lines"
-
-    sumi-e:
-      palette: "black ink tones"
-      brush_texture: "soft bleeding edges"
-      paper: "plain textured paper"
-
-    figure-render:
-      material: "PVC-like"
-      shading: "semi-realistic highlights"
-      paper: "plain smooth surface"
-
-    colored-pencil:
-      stroke_texture: "visible pencil grain"
-      palette: "soft layered hues"
-      paper: "rough sketchbook paper"
-
-    watercolor:
-      palette: "soft transparent pigments"
-      blending: "smooth bleeding"
-      edges: "soft contours"
-      paper: "watercolor paper texture"
-
-    pencil-drawing:
-      graphite_texture: "visible pencil grain"
-      shading: "smooth gradients"
-      line_quality: "mixed sharp and soft"
-      tone: "gray-scale"
-      paper: "notebook paper with faint ruled lines"
+{
+  "task": "edit-image: add widened torn-paper layered effect",
+  "base_image": {
+    "use_reference_image": true,
+    "preserve_everything": [
+      "character identity",
+      "facial features and expression",
+      "hairstyle and anatomy",
+      "outfit design and colors",
+      "background, lighting, composition",
+      "overall art style"
+    ]
+  },
+  "rules": [
+    "Only modify the torn-paper interior areas.",
+    "Do not change pose, anatomy, proportions, clothing details, shading, or scene elements."
+  ],
+  "effects": [
+    {
+      "effect": "torn-paper-reveal",
+      "placement": "across chest height",
+      "description": [
+        "Add a wide, natural horizontal tear across the chest area.",
+        "The torn interior uses the style defined in `interior_style`."
+      ]
+    },
+    {
+      "effect": "torn-paper-reveal",
+      "placement": "lower abdomen height",
+      "description": [
+        "Add a wide horizontal tear across the lower abdomen.",
+        "The torn interior uses the style defined in `interior_style`."
+      ]
+    }
+  ],
+  "interior_style": {
+    "mode": "line-art",
+    "style_settings": {
+      "line-art": {
+        "palette": "monochrome",
+        "line_quality": "clean, crisp",
+        "paper": "notebook paper with subtle ruled lines"
+      },
+      "sumi-e": {
+        "palette": "black ink tones",
+        "brush_texture": "soft bleeding edges",
+        "paper": "plain textured paper"
+      },
+      "figure-render": {
+        "material": "PVC-like",
+        "shading": "semi-realistic highlights",
+        "paper": "plain smooth surface"
+      },
+      "colored-pencil": {
+        "stroke_texture": "visible pencil grain",
+        "palette": "soft layered hues",
+        "paper": "rough sketchbook paper"
+      },
+      "watercolor": {
+        "palette": "soft transparent pigments",
+        "blending": "smooth bleeding",
+        "edges": "soft contours",
+        "paper": "watercolor paper texture"
+      },
+      "pencil-drawing": {
+        "graphite_texture": "visible pencil grain",
+        "shading": "smooth gradients",
+        "line_quality": "mixed sharp and soft",
+        "tone": "gray-scale",
+        "paper": "notebook paper with faint ruled lines"
+      }
+    }
+  }
+}
 
 ```
 
@@ -93,14 +102,14 @@ interior_style:
 --- 
 
 
-**图例：**
+**图例：宇宙战甲**
 
 <img width="600" alt="Image" src="./images/like/l2.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Positive prompts
 (ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality), (high resolution:1.3), (incredibly detailed:1.28), cinematic lighting, masterpiece, perfect anatomy,absurdres, Smooth_Quality, thick outline, black outline, thick lineart, western comics style, DISNEY_ANIMATION,
 1girl, full armor made of glowing black and orange star-metal, ember cracks, cosmic sword glowing with starlight in one hand, lantern of a dying universe in the other, burning aura, ashes floating in air, intense golden eyes, detailed iris, glowing molten veins, full burning wings shaped like black eclipse shards, celestial background with shattered planets, solar flare glow, camera angle from below, serious expression, mythic lighting, divine cosmic warrior, flaming cape blowing in the wind, ethereal glow on face, fire sparks in foreground, black halo orbiting behind her head, ashes turning into stars around her
@@ -118,14 +127,14 @@ chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, 
 --- 
 
 
-**图例：**
+**图例：雨夜伞**
 
 <img width="600" alt="Image" src="./images/like/l3.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Positive prompts
 masterpiece, best quality, very aesthetic, 8K, HDR, newest, anime_screencap, dynamic pose, depth of field, rakugakingu, FlatNika, in the style of cksc, foreshortening, dynamic angle, 
 
@@ -148,7 +157,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 1. 风格调性 
   - Keywords: Shin-hanga (新版画风格), Ukiyo-e Aesthetics (浮世绘美学), Serene Melancholy, Atmospheric landscape, Traditional Japanese Art.
   - Description: 画面呈现出 20 世纪初日本“新版画”运动的典型特征，结合了传统浮世绘的木刻技法与西方印象派的光影氛围。整体气质静谧、孤寂且充满诗意。核心在于捕捉特定的气候氛围与瞬间的静止感。
@@ -306,7 +315,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 
 
-**图例**
+**图例：绿汽罐**
 
 <img width="300" alt="Image" src="./images/product/p13.png" />
 
@@ -591,14 +600,14 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 --- 
 
-**图例**
+**图例：晶杯幻境**
 
 <img width="600" alt="Image" src="./images/product/p12.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 A hyper-detailed digital painting in a surreal fantasy style, showcasing a colossal (ornate crystal wine glass) with intricate filigree etching, filled to the brim with a viscous crimson liquid that refracts light like molten gemstones. Inside the glass, a microcosmic landscape unfolds: gnarled oak trees with (autumn-crisped leaves in burnt umber and carmine), their roots twisting through amber-hued mist, while bioluminescent fungi pulse along the bark grooves. The glass rests on a liquid-mercury surface so reflective it perfectly duplicates the scene upside-down, including the glass's own warped refraction patterns. 
 
 The background features a (gigantic dying sun) bleeding tangerine light through volcanic ash clouds, striated with veins of phosphorus-green. The sky gradients from bruise-purple at the zenith to arterial red near the horizon, where jagged basalt mountains erupt from a leaden sea choked with luminescent plankton. To the left, a petrified willow drips scarlet leaves like slow-motion blood droplets, each vein mapped in microscopic detail. Rightward, obsidian cliffs shear upward, their fractured planes catching the sun in razor-edged highlights. 
@@ -621,7 +630,7 @@ Textures are obsessively rendered: the glass's refractive imperfections, the tre
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 展示一张清晰的俯视图，照片内容为 [城市名称] 地标建筑的3D磁贴，磁贴需整齐排列成平行线和直角，呈小山状。这些磁贴需为逼真的微缩模型。在顶部中央放置一个印有城市名称的纪念磁贴，以及一张手写便签，上面写着温度和天气状况。将与当日天气相关的物品融入到小山状装饰中。所有物品不得重复。
 
 ```
@@ -639,7 +648,7 @@ Textures are obsessively rendered: the glass's refractive imperfections, the tre
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 制作一张 [国家名称] 地图，地图上每个州都用该州最著名的食物来构成（各州地图上的图案应该看起来像是由食物组成的，而不是食物的图片）。仔细检查，确保每个州都正确无误。
 ```
 
@@ -654,7 +663,7 @@ Textures are obsessively rendered: the glass's refractive imperfections, the tre
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 一个等距3D立方体微缩房间（浅切面真立方体；所有物品均严格包含在立方体内）。房间描述：[房间描述：详细描述主题、家具、特定杂物、墙面装饰和关键物品]。
 
 人物：Q版/手办风格——[在此处插入您上传照片中人物的描述]。人物动作：[例如，坐在椅子上打字、站着做饭、弹吉他]，表情：[例如，专注、快乐、微笑]。人物材质看起来像是哑光PVC，头部较大，身体较小。光照：[氛围名称]：[光源：例如，霓虹蓝光、暖日光、金色灯光]；逼真的反射和彩色阴影。视角：略微抬高的等距四分之三视角，立方体正面边缘居中；没有任何元素突出于立方体之外。照片级材质，细节丰富；中性背景。画面细节丰富，构图清晰；无水印。
@@ -672,7 +681,7 @@ Textures are obsessively rendered: the glass's refractive imperfections, the tre
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Based on you know about me, generate a 3D isometric colored illustration of me working from home, filled with various interior details. The visual style should be rounded, polished, and playful. --ar 1:1
 
 ```
@@ -692,45 +701,45 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 
 ```json
 {
-“主题”：“巧克力咖啡饮料的超逼真垂直爆炸视图”，
-“布局”：“居中垂直对齐，每个组件独立悬挂并保持清晰的间距”，
-“层”：[
-{
-“成分”：“可可粉颗粒”，
-“位置”: “顶部”
-},
-{
-“成分”：“光泽浓郁的黑巧克力酱汁带和滴落物”，
-“位置”：“独立层”
-},
-{
-“成分”：“轻盈的鲜奶油堆”，
-“位置”：“独立层”
-},
-{
-“成分”：“顺滑的巧克力咖啡液层”，
-“位置”：“独立层”
-},
-{
-“成分”：“烘焙咖啡豆”，
-“位置”：“独立层”
-},
-{
-“成分”：“糖晶体”，
-“位置”：“独立层”
-},
-{
-“组件”：“带加重底座的小型透明螺纹玻璃杯（空）”，
-“位置”: “底部”
-}
-],
-“背景”：“优质深色背景：干净的影棚背景，从近乎黑色的石墨色到炭灰色的平滑渐变，柔和均匀”，
-“lighting_and_style”: {
-“灯光”：“柔和可控的摄影棚灯光，每个组件下方都有清晰的层次感阴影”。
-“细节”：“超清晰的宏观真实感，极简的细指示线和右侧的英文标签”，
-“类别”：“高端产品信息图”，
-“分辨率”：“8K”
-}
+  "主题": "巧克力咖啡饮料的超逼真垂直爆炸视图",
+  "布局": "居中垂直对齐，每个组件独立悬挂并保持清晰的间距",
+  "层": [
+    {
+      "成分": "可可粉颗粒",
+      "位置": "顶部"
+    },
+    {
+      "成分": "光泽浓郁的黑巧克力酱汁带和滴落物",
+      "位置": "独立层"
+    },
+    {
+      "成分": "轻盈的鲜奶油堆",
+      "位置": "独立层"
+    },
+    {
+      "成分": "顺滑的巧克力咖啡液层",
+      "位置": "独立层"
+    },
+    {
+      "成分": "烘焙咖啡豆",
+      "位置": "独立层"
+    },
+    {
+      "成分": "糖晶体",
+      "位置": "独立层"
+    },
+    {
+      "组件": "带加重底座的小型透明螺纹玻璃杯（空）",
+      "位置": "底部"
+    }
+  ],
+  "背景": "优质深色背景：干净的影棚背景，从近乎黑色的石墨色到炭灰色的平滑渐变，柔和均匀",
+  "lighting_and_style": {
+    "灯光": "柔和可控的摄影棚灯光，每个组件下方都有清晰的层次感阴影",
+    "细节": "超清晰的宏观真实感，极简的细指示线和右侧的英文标签",
+    "类别": "高端产品信息图",
+    "分辨率": "8K"
+  }
 }
 
 ```
@@ -750,45 +759,46 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 <summary>提示词（点击展开）</summary>
 
 ```json
-
-“主题”：“抹茶芝士泡沫水果咖啡饮料的超逼真垂直爆炸视图”，
-“布局”：“居中垂直对齐，每个组件独立悬挂并保持清晰的间距”，
-“层”：[
 {
-“成分”：“细抹茶粉颗粒”，
-“位置”: “顶部”
-},
-{
-“成分”：“新鲜草莓和芒果片（晶莹剔透）”，
-“位置”：“独立层”
-},
-{
-“组成部分”：“浓郁咸香的芝士抹茶泡沫层（带有细腻的泡沫）”，
-“位置”：“独立层”
-},
-{
-“成分”：“清澈的冷萃咖啡液与鲜艳的绿色抹茶层混合”，
-“位置”：“独立层”
-},
-{
-“成分”：“晶莹剔透的冰块和薄荷叶”，
-“位置”：“独立层”
-},
-{
-“成分”：“底部浓缩果泥（例如覆盆子酱）”，
-“位置”：“独立层”
-},
-{
-“组件”：“超简约条纹玻璃杯（空）”，
-“位置”: “底部”
-}
-],
-“背景”：“清新简约的背景：明亮的摄影棚环境，从浅米色到浅灰色的柔和渐变”，
-“lighting_and_style”: {
-“照明”：“明亮的自然光感，清晰的玻璃反射和层次分明的阴影”，
-“细节”：“超清晰的宏观真实感，极简的细指示线和右侧的英文标签”，
-“类别”：“高端产品信息图”，
-“分辨率”：“8K”
+  "主题": "抹茶芝士泡沫水果咖啡饮料的超逼真垂直爆炸视图",
+  "布局": "居中垂直对齐，每个组件独立悬挂并保持清晰的间距",
+  "层": [
+    {
+      "成分": "细抹茶粉颗粒",
+      "位置": "顶部"
+    },
+    {
+      "成分": "新鲜草莓和芒果片（晶莹剔透）",
+      "位置": "独立层"
+    },
+    {
+      "组成部分": "浓郁咸香的芝士抹茶泡沫层（带有细腻的泡沫）",
+      "位置": "独立层"
+    },
+    {
+      "成分": "清澈的冷萃咖啡液与鲜艳的绿色抹茶层混合",
+      "位置": "独立层"
+    },
+    {
+      "成分": "晶莹剔透的冰块和薄荷叶",
+      "位置": "独立层"
+    },
+    {
+      "成分": "底部浓缩果泥（例如覆盆子酱）",
+      "位置": "独立层"
+    },
+    {
+      "组件": "超简约条纹玻璃杯（空）",
+      "位置": "底部"
+    }
+  ],
+  "背景": "清新简约的背景：明亮的摄影棚环境，从浅米色到浅灰色的柔和渐变",
+  "lighting_and_style": {
+    "照明": "明亮的自然光感，清晰的玻璃反射和层次分明的阴影",
+    "细节": "超清晰的宏观真实感，极简的细指示线和右侧的英文标签",
+    "类别": "高端产品信息图",
+    "分辨率": "8K"
+  }
 }
 
 ```
@@ -804,7 +814,7 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Create an educational infographic explaining [Photosynthesis] . Visual Elements : Illustrate the key components: The Sun, a green Plant, Water (H2O) entering roots, Carbon Dioxide (CO2) entering leaves, and Oxygen (O2) being released. Style : Clean, flat vector illustration suitable for a high school science textbook. Use arrows to show the flow of energy and matter. Labels : Label each element clearly in English .
 ```
 
@@ -820,7 +830,7 @@ Create an educational infographic explaining [Photosynthesis] . Visual Elements 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Please create a cartoon-style infographic based on the provided content, following these guidelines:
 
 - Hand-drawn illustration style, landscape orientation (16:9 aspect ratio).
@@ -850,7 +860,7 @@ Please use nano banana pro to create the illustration based on the input provide
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 图示为根据论文 Armstrong, S., & Sandberg, A. (2013). Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox. Acta Astronautica, 89, 1-13 构建戴森群的过程。
 ```
 
@@ -865,7 +875,7 @@ Please use nano banana pro to create the illustration based on the input provide
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 帮我根据下面这个文章做一套中学生都能理解的中文PPT。
 
 先写1个PPT大纲，规划出每一页的PPT的内容。
@@ -903,7 +913,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 手绘风格的时尚概念分解图。
 
 中心：一位时尚自信、略带性感（但并不露骨）的女性角色的全身像，姿态自然而充满活力。
@@ -933,14 +943,14 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 --- 
 
 
-**图例**
+**图例：剖层城市**
 
 <img width="600" alt="Image" src="./images/deconstruct/d2.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Vertical isometric cutaway diagram titled "ROCHESTER, NY". Stacked 3D layers showing history from top to bottom:
 
 Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s industrial factories and suburban homes.3. 1800s brick flour mills and the Erie Canal Aqueduct.4. Forest landscape with Haudenosaunee longhouses.5. Bottom layer of ancient sedimentary rock with fossils. Clean white background, realistic detail, with a vertical timeline ruler on the left side.
@@ -963,7 +973,7 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
 
 The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions, creating an immersive weather ambiance.
@@ -991,7 +1001,7 @@ City name: EvanSton
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 请生成一张儿童识字小报《游乐园》，竖版 A4，学习小报版式，适合 5–9 岁孩子 认字与看图识物。 一、小报标题区（顶部） 顶部居中大标题：《游乐园识字小报》 风格：十字小报 / 儿童学习报感 文本要求：大字、醒目、卡通手写体、彩色描边 装饰：周围添加与 游乐园 相关的贴纸风装饰，颜色鲜艳 二、小报主体（中间主画面） 画面中心是一幅 卡通插画风的「游乐园」场景： 整体气氛：明亮、温暖、积极 构图：物体边界清晰，方便对应文字，不要过于拥挤。 场景分区与核心内容 核心区域 A（主要对象）：表现 游乐园 的核心活动（孩子们在玩游乐设施）。 核心区域 B（配套设施）：展示相关的工具或物品（售票、零食、指示设施）。 核心区域 C（环境背景）：体现环境特征（入口、路牌、彩旗、绿地等）。 主题人物 角色：1 位可爱卡通人物（身份：游乐园工作人员/游客小朋友皆可）。 动作：正在进行与场景相关的自然互动（如微笑指路、挥手欢迎、陪孩子玩）。 三、必画物体与识字清单（Generated Content） 请务必在画面中清晰绘制以下物体，并为其预留贴标签的位置： 1. 核心角色与设施： gōng zuò rén yuán 工作人员 shòu piào chù 售票处 guò shān chē 过山车 mó tiān lún 摩天轮 xuán zhuǎn mǎ 旋转木马 2. 常见物品/工具： piào 票 qì qiú 气球 bīng jī líng 冰淇淋 bào mǐ huā 爆米花 táng hú lu 糖葫芦 miàn jù 面具 wán jù 玩具 xiǎo qí zi 小旗子 3. 环境与装饰： rù kǒu 入口 chū kǒu 出口 zhǐ shì pái 指示牌 cǎi qí 彩旗 guǎng chǎng 广场 (注意：画面中的物体数量不限于此，但以上列表必须作为重点描绘对象；总计 18 个典型名词，适合 5–9 岁儿童识字。) 四、识字标注规则 对上述清单中的物体，贴上中文识字标签： 格式：两行制（第一行拼音带声调，第二行简体汉字）。 样式：彩色小贴纸风格，白底黑字或深色字，清晰可读。 排版：标签靠近对应的物体，不遮挡主体。 五、画风参数 风格：儿童绘本风 + 识字小报风 色彩：高饱和、明快、温暖 (High Saturation, Warm Tone) 质量：8k resolution, high detail, vector illustration style, clean lines.
 ```
 
@@ -1006,7 +1016,7 @@ City name: EvanSton
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 呈现一个清晰的45°俯视视角，垂直（9:16）等距3D微缩卡通场景，突出画面中心的标志性地标，展现精细的建模。
 
 场景采用柔和细腻的纹理，搭配逼真的PBR材质和柔和逼真的光影效果。天气元素巧妙地融入城市建筑，在城市景观和大气条件之间建立动态互动，营造身临其境的天气氛围。
@@ -1033,7 +1043,7 @@ City name: EvanSton
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 这款3D Q版 [星巴克] 迷你概念店设计别具匠心，其外观灵感源自品牌最具代表性的产品和包装（例如，巨型{品牌核心产品，如炸鸡桶/汉堡/甜甜圈/烤鸭}）。店铺共两层，落地玻璃窗将温馨精致的内部装潢尽收眼底：{品牌主色调}主题装饰、温暖的灯光，以及身着品牌专属服装的忙碌员工。可爱的小人偶在街道上漫步、休憩，周围环绕着长椅、路灯和盆栽，营造出迷人的都市景象。该作品采用Cinema 4D软件以微缩城市景观风格渲染，拥有盲盒玩具般的精致美感，细节丰富，栩栩如生，柔和的灯光更添一份轻松惬意的午后氛围。请参阅随附的角色设定图，了解店内出现的迷你角色。--ar 2:3
 ```
 
@@ -1045,7 +1055,7 @@ City name: EvanSton
 ## 中国传统文化
 
 
-**图例**
+**图例：唐宫乐**
 
 <img width="600" alt="Image" src="./images/china/ch1.png" />
 
@@ -1054,113 +1064,114 @@ City name: EvanSton
 
 ```json
 {
-“主题”： {
-“描述”：“唐代宫廷乐团在阿干树枝上演奏音乐，乐师们演奏琵琶、二胡、笛子、阮和马蹄镫，乐师和鸟儿随意散落在各处，有的站着，有的坐着。”
-"mirror_rules": null,
-“年龄”：null，
-“表达”： {
-"眼睛": {
-“look”：null，
-"能量": null，
-“方向”：空
-},
-“嘴”： {
-"位置": null，
-“能量”：空
-},
-“总体”：空
-},
-“脸”： {
-"preserve_original": false,
-“化妆”：空
-},
-“头发”： {
-“颜色”：null，
-“样式”：null，
-“效果”：空
-},
-“身体”： {
-"frame": null,
-腰部：null，
-"胸腔": null，
-“腿”：null，
-“皮肤”： {
-"visible_areas": null,
-"音调": null，
-"纹理": null，
-"lighting_effect": null
+  "主题": {
+    "描述": "唐代宫廷乐团在阿干树枝上演奏音乐，乐师们演奏琵琶、二胡、笛子、阮和马蹄镫，乐师和鸟儿随意散落在各处，有的站着，有的坐着。",
+    "mirror_rules": null,
+    "年龄": null,
+    "表达": {
+      "眼睛": {
+        "look": null,
+        "能量": null,
+        "方向": "空"
+      },
+      "嘴": {
+        "位置": null,
+        "能量": "空"
+      },
+      "总体": "空"
+    },
+    "脸": {
+      "preserve_original": false,
+      "化妆": "空"
+    },
+    "头发": {
+      "颜色": null,
+      "样式": null,
+      "效果": "空"
+    },
+    "身体": {
+      "frame": null,
+      "腰部": null,
+      "胸腔": null,
+      "腿": null,
+      "皮肤": {
+        "visible_areas": null,
+        "音调": null,
+        "纹理": null,
+        "lighting_effect": null
+      }
+    },
+    "姿势": {
+      "位置": "混合（部分站立，部分坐着",
+      "基部": "在阿甘树的树枝上",
+      "总体而言": "演奏音乐，包括琵琶、二胡、笛子、阮和马蹄筝"
+    },
+    "衣服": {
+      "顶部": {
+        "类型": "唐代宫廷服饰",
+        "颜色": null,
+        "详细信息": null,
+        "效果": "空"
+      },
+      "底部": {
+        "type": null,
+        "颜色": null,
+        "详情": null
+      }
+    },
+    "配件": {
+      "珠宝": null,
+      "头饰": null,
+      "设备": null,
+      "道具": "琵琶、二胡、笛子、阮、马蹄琵琶"
+    },
+    "摄影": {
+      "camera_style": null,
+      "角度": null,
+      "shot_type": null,
+      "aspect_ratio": null,
+      "纹理": null,
+      "照明": "即使是柔和的照明",
+      "景深": null
+    },
+    "背景": {
+      "场景": "驼色舞台画布",
+      "wall_color": "驼棕色舞台画布，颜色代码 #E7B5C3D ",
+      "元素": [
+        "阿甘树枝",
+        "鸟类"
+      ],
+      "大气": null,
+      "照明": "即使是柔和的照明"
+    },
+    "氛围": {
+      "能量": null,
+      "情绪": null,
+      "美学": "宋代美学，极简主义，写实主义",
+      "真实性": null,
+      "亲密": null,
+      "故事": "唐代宫廷乐团在阿干树枝上演奏，乐师和鸟儿随意散落，有的站着，有的坐着。",
+      "caption_energy": "唐代宫廷乐团在树枝上演奏"
+    },
+    "约束条件": {
+      "must_keep": [
+        "唐朝宫廷乐团",
+        "演奏琵琶、二胡、笛子、阮和马蹄琴的乐师们",
+        "阿甘树枝",
+        "音乐家和鸟儿随意散落各处，有的站着，有的坐着",
+        "驼棕色舞台画布，颜色代码为 #E7B5C3D "
+      ],
+      "避免": []
+    },
+    "negative_prompt": [
+      "nsfw",
+      "低质量",
+      "文本",
+      "水印"
+    ]
+  }
 }
-},
-"姿势": {
-“位置”：“混合（部分站立，部分坐着”）
-“基部”：“在阿甘树的树枝上”，
-“总体而言”：“演奏音乐，包括琵琶、二胡、笛子、阮和马蹄筝”
-},
-“衣服”： {
-“顶部”： {
-“类型”： “唐代宫廷服饰”
-“颜色”：null，
-“详细信息”：null，
-“效果”：空
-},
-“底部”： {
-"type": null,
-“颜色”：null，
-“详情”：null
-}
-}
-},
-“配件”： {
-“珠宝”：null，
-“头饰”：null，
-“设备”：null，
-道具：琵琶、二胡、笛子、阮、马蹄琵琶
-},
-“摄影”： {
-"camera_style": null,
-"角度": null,
-"shot_type": null,
-"aspect_ratio": null,
-"纹理": null，
-“照明”：“即使是柔和的照明”，
-"景深": null
-},
-“背景”： {
-“场景”：“驼色舞台画布”，
-"wall_color": "驼棕色舞台画布，颜色代码 #E7B5C3D ",
-“元素”：[
-“阿甘树枝”，
-“鸟类”
-],
-“大气”：null，
-“照明”：“即使是柔和的照明”
-},
-"氛围": {
-"能量": null，
-“情绪”：null，
-“美学”：“宋代美学，极简主义，写实主义”，
-“真实性”：null，
-“亲密”：null，
-“故事”：“唐代宫廷乐团在阿干树枝上演奏，乐师和鸟儿随意散落，有的站着，有的坐着。”
-“caption_energy”: “唐代宫廷乐团在树枝上演奏”
-},
-"约束条件": {
-"must_keep": [
-“唐朝宫廷乐团”
-“演奏琵琶、二胡、笛子、阮和马蹄琴的乐师们”
-“阿甘树枝”，
-“音乐家和鸟儿随意散落各处，有的站着，有的坐着”，
-“驼棕色舞台画布，颜色代码为 #E7B5C3D ”
-],
-“避免”： []
-},
-"negative_prompt": [
-"nsfw",
-“低质量”，
-“文本”，
-水印
-]
-}
+
 ```
 
 </details>
@@ -1173,7 +1184,7 @@ City name: EvanSton
 
 ## 美女靓仔类
 
-**图例**
+**图例：车库回眸**
 
 <img width="600" alt="Image" src="./images/beauty/bea20.png" />
 
@@ -1275,7 +1286,7 @@ City name: EvanSton
 
 
 
-**图例**
+**图例：眼镜白衬**
 
 <img width="600" alt="Image" src="./images/beauty/bea19.png" />
 
@@ -1302,14 +1313,14 @@ City name: EvanSton
 ---
 
 
-**图例**
+**图例：人潮定格**
 
 <img width="600" alt="Image" src="./images/beauty/bea18.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 A cinematic street portrait of a young woman standing still in a busy urban crowd, captured with motion blur all around her. She has short, slightly messy hair and a calm, introspective expression, looking directly at the camera. She wears a soft beige sweater and a textured brown skirt, minimal accessories. The background is a city street filled with people in motion, creating a dreamy long-exposure effect. Shallow depth of field, subject in sharp focus, crowd blurred, natural soft daylight, muted color palette, film photography style, emotional and artistic mood, high detail, realistic, 35mm lens, f/1.8.
 ```
 
@@ -1318,7 +1329,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 ---
 
-**图例**
+**图例：居酒自拍**
 
 <img width="600" alt="Image" src="./images/beauty/bea17.png" />
 
@@ -1388,7 +1399,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 ---
 
-**图例：**
+**图例：偏心闪拍**
 
 <img width="600" alt="Image" src="./images/beauty/bea16.png" />
 
@@ -1422,7 +1433,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 --- 
 
-**图例：**
+**图例：反身镜拍**
 
 <img width="600" alt="Image" src="./images/beauty/bea15.png" />
 
@@ -1541,7 +1552,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 
 --- 
 
-**图例：**
+**图例：闪光镜照**
 
 <img width="600" alt="Image" src="./images/beauty/bea14.png" />
 
@@ -1601,7 +1612,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 --- 
 
 
-**图例：**
+**图例：棚拍模板**
 
 <img width="600" alt="Image" src="./images/beauty/bea13.png" />
 
@@ -1640,14 +1651,14 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 --- 
 
 
-**图例：**
+**图例：健身硬照**
 
 <img width="600" alt="Image" src="./images/beauty/bea12.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown hair wearing large black over-ear headphones, a tight black-and-charcoal patterned short-sleeve compression shirt with a small white chest logo, black athletic shorts, and white crew socks, sitting on a black rubber gym floor leaning back on one hand with his torso turned and head looking to the side. Environment: modern industrial gym interior with black locker cubes stacked along the right wall, exposed metal ductwork and beams on the ceiling, a squat rack and a second person training in the background near a large bright window, and a clear shaker bottle plus a small towel on the floor at the lower left. Composition/Camera: low, close three-quarter view from the man’s left side, framing from mid-thigh to head with the lockers filling the right side and gym equipment receding into the left background. Lighting: mixed natural daylight from the window and soft overhead indoor lighting, creating gentle highlights on the subject and mild shadows on the floor and lockers. He is Looking in the camera
 ```
 
@@ -1656,7 +1667,7 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 
 --- 
 
-**图例：**
+**图例：顶拍唱片**
 
 <img width="600" alt="Image" src="./images/beauty/bea11.png" />
 
@@ -1665,213 +1676,109 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 
 ```json
 {
-
-"meta": {
-
-"type": "Photo",
-
-"orientation_lock": "LOCKED: Orientation preserved 4:5",
-
-"sensor_emulation": "Point-and-Shoot Film Camera / Direct Flash"
-
-}
-
-},
-
-"spatial_orientation_engine": {
-
-"subject_facing_direction": "CRITICAL: Facing LEFT (West relative to frame)",
-
-"body_rotation": "Supine (lying on back), head rotated to subject's Right (Camera Left)",
-
-"camera_position_relative": "Directly Overhead (Top-Down / Flat Lay / 90 degrees)"
-
-},
-
-"camera_optics_and_geometry": {
-
-"lens_profile": {
-
-"focal_length": "28mm (Wide Angle)",
-
-"aperture": "f/11 (High depth of field due to flash)",
-
-"lens_character": "High Contrast Flash Photography, Slight Vignette"
-
-},
-
-"optical_flaws": [
-
-"Hard Flash Falloff",
-
-"Specular Highlights on Vinyl",
-
-"Film Grain",
-
-"Vignetting at corners"
-
-]
-
-},
-
-"environment_and_physics": {
-
-"lighting_engine": {
-
-"primary_source": "Direct On-Camera Flash (Top Center)",
-
-"radiosity_color_bleed": "Minimal due to harsh light, slight red reflection on white shirt folds",
-
-"shadow_structure": "Hard, sharp drop shadows directly behind/below objects and subject",
-
-"volumetrics": "Clear Air, Flash falloff into darkness at edges"
-
-},
-
-"surface_physics": {
-
-"weather_impact": "Indoor setting, no weather",
-
-"material_response": "High specularity on vinyl records and phone plastic, matte finish on cardboard sleeves, soft cotton fabric absorption"
-
-}
-
-},
-
-"scene_text_ocr": {
-
-"detected": true,
-
-"content": [
-
-{
-
-"text": "MGM STEREO DISC CONNIE FRANCIS Sings Italian Favorites",
-
-"location": "Bottom Left Album Cover",
-
-"font_style": "Serif and Script Mixed"
-
-},
-
-{
-
-"text": "RCA Red Seal",
-
-"location": "Top Center Vinyl Record Label",
-
-"font_style": "Sans-Serif"
-
-},
-
-{
-
-"text": "ercise Judi Sheppard Missett",
-
-"location": "Top Right Magazine/Cover (likely Jazzercise)",
-
-"font_style": "Bold Sans-Serif"
-
-},
-
-{
-
-"text": "Coca-Cola",
-
-"location": "Top Right Bottle",
-
-"font_style": "Cursive Script Logotype"
-
-},
-
-{
-
-"text": "PHILADELPHIA ORCHESTRA",
-
-"location": "Middle Right Orange Album",
-
-"font_style": "Vertical Sans-Serif"
-
-},
-
-{
-
-"text": "TUNE UP WITH THE HITS",
-
-"location": "Bottom Right Cover",
-
-"font_style": "Bold Sans-Serif Blue Text"
-
-}
-
-]
-
-},
-
-"objects_and_actors": [
-
-{
-
-"id": "MAIN_SUBJECT",
-
-"role": "Identity Swap Target",
-
-"pose_engineering": {
-
-"skeletal_rig": "Lying flat on back. Right arm bent, elbow on floor, hand holding phone receiver to right ear. Left arm extended slightly down-left, hand gripping phone cord. Legs extending to bottom right corner.",
-
-"gaze_vector": "Looking off-camera to the Left.",
-
-"interaction_physics": "Gravity flattening hair against tiles; phone cord tension held by left hand."
-
-},
-
-"physiological_state": {
-
-"body_temp_visuals": "Normal, slight sheen on skin from flash",
-
-"skin_light_interaction": "Direct flash reflection on forehead and nose"
-
-},
-
-"clothing_simulation": {
-
-"garment_stack": "White ringer t-shirt with red trim and red star graphic, Red athletic shorts with white trim.",
-
-"fabric_mechanics": "Shirt pressed flat against chest by gravity, slight bunching at armpits.",
-
-"texture_and_wear": "Cotton texture visible under flash, smooth synthetic shorts."
-
-},
-
-"identity_placeholders": {
-
-"skin_tone": "[[USE_REFERENCE_SKIN]]",
-
-"face_structure": "[[USE_REFERENCE_FACE]]",
-
-"hair_style": "[[USE_REFERENCE_HAIR]]"
-
-}
-
-}
-
-],
-
-"off_screen_context": {
-
-"reflections": "Specular highlights of flash bulb in vinyl grooves",
-
-"implied_elements": "Red rotary phone base is partially visible on the far left edge."
-
-},
-
-"generation_keywords": {
-
-"positive": "Overhead shot, flat lay, flash photography, vintage 90s aesthetic, girl lying on floor, vinyl records scattered, red rotary phone, messy room, blue and white tiled floor, photorealistic, harsh lighting, retro vibe",
-
-"negative": "soft lighting, outdoor, standing, digital render, 3d, modern phone, clean floor, minimalist"
-
+  "meta": {
+    "type": "Photo",
+    "orientation_lock": "LOCKED: Orientation preserved 4:5",
+    "sensor_emulation": "Point-and-Shoot Film Camera / Direct Flash"
+  },
+  "spatial_orientation_engine": {
+    "subject_facing_direction": "CRITICAL: Facing LEFT (West relative to frame)",
+    "body_rotation": "Supine (lying on back), head rotated to subject's Right (Camera Left)",
+    "camera_position_relative": "Directly Overhead (Top-Down / Flat Lay / 90 degrees)"
+  },
+  "camera_optics_and_geometry": {
+    "lens_profile": {
+      "focal_length": "28mm (Wide Angle)",
+      "aperture": "f/11 (High depth of field due to flash)",
+      "lens_character": "High Contrast Flash Photography, Slight Vignette"
+    },
+    "optical_flaws": [
+      "Hard Flash Falloff",
+      "Specular Highlights on Vinyl",
+      "Film Grain",
+      "Vignetting at corners"
+    ]
+  },
+  "environment_and_physics": {
+    "lighting_engine": {
+      "primary_source": "Direct On-Camera Flash (Top Center)",
+      "radiosity_color_bleed": "Minimal due to harsh light, slight red reflection on white shirt folds",
+      "shadow_structure": "Hard, sharp drop shadows directly behind/below objects and subject",
+      "volumetrics": "Clear Air, Flash falloff into darkness at edges"
+    },
+    "surface_physics": {
+      "weather_impact": "Indoor setting, no weather",
+      "material_response": "High specularity on vinyl records and phone plastic, matte finish on cardboard sleeves, soft cotton fabric absorption"
+    }
+  },
+  "scene_text_ocr": {
+    "detected": true,
+    "content": [
+      {
+        "text": "MGM STEREO DISC CONNIE FRANCIS Sings Italian Favorites",
+        "location": "Bottom Left Album Cover",
+        "font_style": "Serif and Script Mixed"
+      },
+      {
+        "text": "RCA Red Seal",
+        "location": "Top Center Vinyl Record Label",
+        "font_style": "Sans-Serif"
+      },
+      {
+        "text": "ercise Judi Sheppard Missett",
+        "location": "Top Right Magazine/Cover (likely Jazzercise)",
+        "font_style": "Bold Sans-Serif"
+      },
+      {
+        "text": "Coca-Cola",
+        "location": "Top Right Bottle",
+        "font_style": "Cursive Script Logotype"
+      },
+      {
+        "text": "PHILADELPHIA ORCHESTRA",
+        "location": "Middle Right Orange Album",
+        "font_style": "Vertical Sans-Serif"
+      },
+      {
+        "text": "TUNE UP WITH THE HITS",
+        "location": "Bottom Right Cover",
+        "font_style": "Bold Sans-Serif Blue Text"
+      }
+    ]
+  },
+  "objects_and_actors": [
+    {
+      "id": "MAIN_SUBJECT",
+      "role": "Identity Swap Target",
+      "pose_engineering": {
+        "skeletal_rig": "Lying flat on back. Right arm bent, elbow on floor, hand holding phone receiver to right ear. Left arm extended slightly down-left, hand gripping phone cord. Legs extending to bottom right corner.",
+        "gaze_vector": "Looking off-camera to the Left.",
+        "interaction_physics": "Gravity flattening hair against tiles; phone cord tension held by left hand."
+      },
+      "physiological_state": {
+        "body_temp_visuals": "Normal, slight sheen on skin from flash",
+        "skin_light_interaction": "Direct flash reflection on forehead and nose"
+      },
+      "clothing_simulation": {
+        "garment_stack": "White ringer t-shirt with red trim and red star graphic, Red athletic shorts with white trim.",
+        "fabric_mechanics": "Shirt pressed flat against chest by gravity, slight bunching at armpits.",
+        "texture_and_wear": "Cotton texture visible under flash, smooth synthetic shorts."
+      },
+      "identity_placeholders": {
+        "skin_tone": "[[USE_REFERENCE_SKIN]]",
+        "face_structure": "[[USE_REFERENCE_FACE]]",
+        "hair_style": "[[USE_REFERENCE_HAIR]]"
+      }
+    }
+  ],
+  "off_screen_context": {
+    "reflections": "Specular highlights of flash bulb in vinyl grooves",
+    "implied_elements": "Red rotary phone base is partially visible on the far left edge."
+  },
+  "generation_keywords": {
+    "positive": "Overhead shot, flat lay, flash photography, vintage 90s aesthetic, girl lying on floor, vinyl records scattered, red rotary phone, messy room, blue and white tiled floor, photorealistic, harsh lighting, retro vibe",
+    "negative": "soft lighting, outdoor, standing, digital render, 3d, modern phone, clean floor, minimalist"
+  }
 }
 
 ```
@@ -1881,7 +1788,7 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 
 --- 
 
-**图例：**
+**图例：金发镜拍**
 
 <img width="600" alt="Image" src="./images/beauty/bea10.png" />
 
@@ -2041,14 +1948,14 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 --- 
 
 
-**图例：**
+**图例：卡片机屏**
 
 <img width="600" alt="Image" src="./images/beauty/bea8.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Use facial feature of attached photo. A close-up shot of a young woman displayed on the screen of a compact Canon digital camera. The camera body surrounds the image with its buttons, dials, and textured surface visible, including the FUNC/SET wheel, DISP button, and the "IMAGE STABILIZER" label along the side. The photo on the screen shows the woman indoors at night, illuminated by a bright built-in flash that creates sharp highlights on her face and hair. She has long dark hair falling across part of her face in loose strands, with a soft, slightly open-lip expression. The flash accentuates her features against a dim, cluttered kitchen background with appliances, shelves, and metallic surfaces softly blurred. The mood is candid, raw, nostalgic, and reminiscent of early 2000s digital camera snapshots. Colors are slightly muted with cool undertones, strong flash contrast, and natural grain from the display. No text, no logos inside the photo preview itself.
 
 Scale ratio: 4:5 vertical
@@ -2159,88 +2066,88 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 ```json
 {
-"visual_style": {
-"color_palette": {
-"主色": [
+  "visual_style": {
+    "color_palette": {
+      "主色": [
         {
-"name": "暖米色/棕褐色",
-"hex_approx": " #D2B48C ",
-“描述”：“背景墙、门框和皮肤的主色调，营造温暖舒适的室内氛围。”
+          "name": "暖米色/棕褐色",
+          "hex_approx": " #D2B48C ",
+          "描述": "背景墙、门框和皮肤的主色调，营造温暖舒适的室内氛围。"
         },
         {
-"name": "Heather Grey",
-"hex_approx": " #B0B0B0 ",
-描述：运动文胸的颜色，用作中性过渡色调。
+          "name": "Heather Grey",
+          "hex_approx": " #B0B0B0 ",
+          "描述": "运动文胸的颜色，用作中性过渡色调。"
         },
         {
-"name": "亮黑色",
-"hex_approx": "#101010",
-“描述”：“头发和运动裤，提供了强烈的视觉冲击力和对比。”
+          "name": "亮黑色",
+          "hex_approx": "#101010",
+          "描述": "头发和运动裤，提供了强烈的视觉冲击力和对比。"
         },
         {
-"name": "柔白",
-"hex_approx": " #F5F5F5 ",
-描述：毛巾和胸罩的松紧带部分，起到突出装饰作用。
+          "name": "柔白",
+          "hex_approx": " #F5F5F5 ",
+          "描述": "毛巾和胸罩的松紧带部分，起到突出装饰作用。"
         }
-],
-“色调”：“温暖、大地色、柔和（暖色调、大地色、柔和）”
-“饱和度”: “低至中等（低至中等饱和度，视觉舒适）”
+      ],
+      "色调": "温暖、大地色、柔和（暖色调、大地色、柔和）",
+      "饱和度": "低至中等（低至中等饱和度，视觉舒适）"
     },
-“灯光”： {
-“类型”：“室内暖色人工照明（室内暖色照明）”，
-“特征”： [
-“柔和扩散（柔和的漫射光）”
-“自上而下的投光（顶部照明，常见于酒店或浴室），”
-“暖色调（暖色温）”
-],
-“阴影”： “身体上柔和自然的轮廓阴影（柔和的身体轮廓阴影）”
+    "灯光": {
+      "类型": "室内暖色人工照明（室内暖色照明）",
+      "特征": [
+        "柔和扩散（柔和的漫射光）",
+        "自上而下的投光（顶部照明，常见于酒店或浴室），",
+        "暖色调（暖色温）"
+      ],
+      "阴影": "身体上柔和自然的轮廓阴影（柔和的身体轮廓阴影）"
     },
-“作品”： {
-“构图”：“中景/四分之三镜头（中景/四分之三身体）”，
-“视角”： “平视（平视视图）”
-“技巧”：“镜子自拍（Mirror Selfie）”，
-"visual_balance": "偏离中心的主体（主体略微偏离中心）",
-"depth_of_field": "深景深（背景清晰，无明显模糊）",
-"elements_arrangement": {
-前景：手持手机的人物，
-"middle_ground": "镜面",
-“背景”：“门框、米色墙壁、毛巾架”
+    "作品": {
+      "构图": "中景/四分之三镜头（中景/四分之三身体）",
+      "视角": "平视（平视视图）",
+      "技巧": "镜子自拍（Mirror Selfie）",
+      "visual_balance": "偏离中心的主体（主体略微偏离中心）",
+      "depth_of_field": "深景深（背景清晰，无明显模糊）",
+      "elements_arrangement": {
+        "前景": "手持手机的人物",
+        "middle_ground": "镜面",
+        "背景": "门框、米色墙壁、毛巾架"
       }
     },
-"subject_styleing": {
-“服装”: “休闲服/运动休闲服（居家运动风格）”
-“项目”： [
-“灰色 Calvin Klein 运动文胸（灰色 CK 运动文胸）”
-黑色运动裤
-],
-"hair_makeup": "长长的黑色披肩发，自然/无妆容（长长的黑色披肩发，仿素颜/自然妆感）",
-“姿势”：“放松站立，手插口袋，微微倾斜臀部（放松站立，手插口袋，微微倾斜臀部以显示腰线）”
+    "subject_styleing": {
+      "服装": "休闲服/运动休闲服（居家运动风格）",
+      "项目": [
+        "灰色 Calvin Klein 运动文胸（灰色 CK 运动文胸）",
+        "黑色运动裤"
+      ],
+      "hair_makeup": "长长的黑色披肩发，自然/无妆容（长长的黑色披肩发，仿素颜/自然妆感）",
+      "姿势": "放松站立，手插口袋，微微倾斜臀部（放松站立，手插口袋，微微倾斜臀部以显示腰线）"
     },
-“环境”： {
-“设置”：“酒店浴室或步入式衣橱（酒店浴室或步入式衣橱）”，
-“材料”： [
-“浅色木材（浅色木材）”
-“涂漆石膏板（涂漆墙壁）”
-“纺织品（毛巾）”
-],
-道具：架子上的白色毛巾（架子上的白色毛巾）
+    "环境": {
+      "设置": "酒店浴室或步入式衣橱（酒店浴室或步入式衣橱）",
+      "材料": [
+        "浅色木材（浅色木材）",
+        "涂漆石膏板（涂漆墙壁）",
+        "纺织品（毛巾）"
+      ],
+      "道具": "架子上的白色毛巾（架子上的白色毛巾）"
     },
-"text_typography": {
-"visible_text": "Calvin Klein",
-“位置”：“运动文胸的下围（运动文胸下围）”
-"font_style": "无衬线字体，品牌字体（无衬线品牌字体）",
-“意义”： “为美学增添可识别的品牌元素（提高品牌识别度）”
+    "text_typography": {
+      "visible_text": "Calvin Klein",
+      "位置": "运动文胸的下围（运动文胸下围）",
+      "font_style": "无衬线字体，品牌字体（无衬线品牌字体）",
+      "意义": "为美学增添可识别的品牌元素（提高品牌识别度）"
     },
-"mood_atmosphere": {
-“关键词”：[
-“舒适”，
-“随意的”，
-“合身”，
-“干净的”，
-“早晨的氛围”，
-“私人的”
-],
-"vibe_description": "一种私密、轻松的氛围，展现了一种健康的生活方式，带着一种精致慵懒的感觉，就像“刚睡醒”或“精心打扮”一样。"
+    "mood_atmosphere": {
+      "关键词": [
+        "舒适",
+        "随意的",
+        "合身",
+        "干净的",
+        "早晨的氛围",
+        "私人的"
+      ],
+      "vibe_description": "一种私密、轻松的氛围，展现了一种健康的生活方式，带着一种精致慵懒的感觉，就像“刚睡醒”或“精心打扮”一样。"
     }
   }
 }
@@ -2357,7 +2264,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Generate a hyperrealistic realistic-anime portrait of a female character standing in a completely black background.
 Lighting: use a **narrow beam spotlight** focused only on the center of the face. 
 The edges of the light must be sharp and dramatic. 
@@ -2388,70 +2295,70 @@ Everything outside the spotlight should be nearly invisible.
 
 ```json
 {
-"visual_style": {
-"color_palette": {
-"主色": [
+  "visual_style": {
+    "color_palette": {
+      "主色": [
         {
-"名称": "屏幕发光蓝/紫",
-"hex_approx": " #8A8ABD ",
-“描述”：“投射在脸上的冷光源（类似于手机或电脑屏幕的光），营造出夜晚的凉爽感和科技感十足的氛围。”
+          "名称": "屏幕发光蓝/紫",
+          "hex_approx": " #8A8ABD ",
+          "描述": "投射在脸上的冷光源（类似于手机或电脑屏幕的光），营造出夜晚的凉爽感和科技感十足的氛围。"
         },
         {
-"name": "深影黑",
-"hex_approx": "#050505",
-“描述”：“头发、衣服和背景阴影，为低调（Low-key）图像奠定了基础。”
+          "name": "深影黑",
+          "hex_approx": "#050505",
+          "描述": "头发、衣服和背景阴影，为低调（Low-key）图像奠定了基础。"
         },
         {
-"name": "柔和灰",
-"hex_approx": " #6E7278 ",
-描述：枕头的颜色，作为一种中性色调来平衡画面。
+          "name": "柔和灰",
+          "hex_approx": " #6E7278 ",
+          "描述": "枕头的颜色，作为一种中性色调来平衡画面。"
         },
         {
-"name": "柔和肤色",
-"hex_approx": " #EAC0B6 ",
-描述：冷光照射下的肤色，呈现出苍白而半透明的质感。
+          "name": "柔和肤色",
+          "hex_approx": " #EAC0B6 ",
+          "描述": "冷光照射下的肤色，呈现出苍白而半透明的质感。"
         }
-],
-“色调”：“冷色调前景，深色背景（冷色调前景，深色背景）”
-“饱和度”: “低（去饱和/柔和的颜色）（低饱和度，柔和的颜色）”
+      ],
+      "色调": "冷色调前景，深色背景（冷色调前景，深色背景）",
+      "饱和度": "低（去饱和/柔和的颜色）（低饱和度，柔和的颜色）"
     },
-“灯光”： {
-“类型”：“混合低光/屏幕光（混合昏暗光/屏幕光）”，
-“特征”： [
-“来自前方的冷光源（前方冷光源填充）”，
-“柔和衰减（柔和的光衰减）”
-“大气黑暗（环境暗色调）”
-],
-“阴影”： “围绕着主体的深沉、忧郁的阴影（围绕着主体的深沉、充满情感的阴影）”
+    "灯光": {
+      "类型": "混合低光/屏幕光（混合昏暗光/屏幕光）",
+      "特征": [
+        "来自前方的冷光源（前方冷光源填充）",
+        "柔和衰减（柔和的光衰减）",
+        "大气黑暗（环境暗色调）"
+      ],
+      "阴影": "围绕着主体的深沉、忧郁的阴影（围绕着主体的深沉、充满情感的阴影）"
     },
-“作品”： {
-“构图”：“特写/头部特写（特写/头部特写）”，
-“视角”： “视线水平到略高的角度（视线水平或略高的角度）”
-“姿势”：“俯卧在床上（脸朝下躺在床上）”
-"visual_focus": "眼睛和嘴唇（视觉焦点在眼睛和嘴唇上）",
-"depth_of_field": "浅景深（背景略微模糊）"
+    "作品": {
+      "构图": "特写/头部特写（特写/头部特写）",
+      "视角": "视线水平到略高的角度（视线水平或略高的角度）",
+      "姿势": "俯卧在床上（脸朝下躺在床上）",
+      "visual_focus": "眼睛和嘴唇（视觉焦点在眼睛和嘴唇上）",
+      "depth_of_field": "浅景深（背景略微模糊）"
     },
-"subject_styleing": {
-“服装”：“睡衣/内衣（睡衣/内衣款式）”
-“商品”： “黑色蕾丝吊带裙/吊带衫（黑色蕾丝吊带衫）”
-"hair_makeup": "凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，泛红的脸颊（凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，微微泛红的脸颊）"
-“表情”： “性感、亲密、凝视镜头、手指轻触嘴唇（性感、亲密、凝视镜头、手指轻触嘴唇）”
+    "subject_styleing": {
+      "服装": "睡衣/内衣（睡衣/内衣款式）",
+      "商品": "黑色蕾丝吊带裙/吊带衫（黑色蕾丝吊带衫）",
+      "hair_makeup": "凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，泛红的脸颊（凌乱的黑发，慵懒的睡醒妆容，亮泽的嘴唇，微微泛红的脸颊）",
+      "表情": "性感、亲密、凝视镜头、手指轻触嘴唇（性感、亲密、凝视镜头、手指轻触嘴唇）"
     },
-“环境”： {
-“设置”：“卧室/酒店房间（卧室/酒店房间）”，
-道具：灰色图案枕头（灰色图案枕头）
-“背景”：“窗帘，黑暗的角落（窗帘，黑暗的角落）”
+    "环境": {
+      "设置": "卧室/酒店房间（卧室/酒店房间）",
+      "道具": "灰色图案枕头（灰色图案枕头）",
+      "背景": "窗帘，黑暗的角落（窗帘，黑暗的角落）"
     },
-"mood_atmosphere": {
-“关键词”：[
-“亲密的”，
-“深夜”，
-“闷热的”，
-“易受伤害的”，
-“POV”，
-《纯欲》
-],
-"vibe_description": "典型的“纯粹欲望”风格（纯粹而充满欲望），营造出深夜的氛围，亲密感，以及只有亲密关系才能看到的视角（POV）。"
+    "mood_atmosphere": {
+      "关键词": [
+        "亲密的",
+        "深夜",
+        "闷热的",
+        "易受伤害的",
+        "POV",
+        "《纯欲》"
+      ],
+      "vibe_description": "典型的“纯粹欲望”风格（纯粹而充满欲望），营造出深夜的氛围，亲密感，以及只有亲密关系才能看到的视角（POV）。"
     }
   }
 }
@@ -2516,7 +2423,7 @@ Everything outside the spotlight should be nearly invisible.
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 
 一张超逼真的鱼眼广角自拍，使用老式35mm鱼眼镜头拍摄，产生严重的桶形畸变。照片中人物手中没有相机或手机。
 
@@ -2537,7 +2444,7 @@ Everything outside the spotlight should be nearly invisible.
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 帮我生成一帧抖音竖屏短视频截图，内容是厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具
 ```
 
@@ -2553,7 +2460,7 @@ Everything outside the spotlight should be nearly invisible.
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 "I'm taking a selfie with [movie character] on the set of [movie name].
 
 Keep the person exactly as shown in the reference image with 100% identical facial features, bone structure, skin tone, facial expression, pose, and appearance. 1:1 aspect ratio, 4K detail."
@@ -2572,7 +2479,7 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 这幅超写实数字插画描绘了{场景}，以连续的画面展现四季更迭。画面从左至右流畅过渡，自然展现了冬、春、夏、秋的景象。
 
 左侧是寒冷的冬季雪景，逐渐融化成春天的嫩绿花蕾，随后过渡到夏季郁郁葱葱的植被和明媚的阳光，最终在最右侧过渡到秋季的金黄、橙红和绚丽色彩。
@@ -2607,7 +2514,7 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 将图像制作成白天和等距视图[仅限建筑]
 ```
 
@@ -2649,7 +2556,7 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 
 
 ## 美食
-**图例**
+**图例：牛肉千层**
 
 <img width="500" alt="Image" src="./images/food/f4.png" />
 
@@ -2782,7 +2689,7 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 ---
 
 
-**图例**
+**图例：抹茶芝士**
 
 <img width="500" alt="Image" src="./images/food/f2.png" />
 
@@ -2790,6 +2697,7 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 <summary>提示词（点击展开）</summary>
 
 ```json
+{
   "global_settings": {
     "resolution": "8K UHD",
     "quality": "ultra-high",
@@ -2880,7 +2788,8 @@ Keep the person exactly as shown in the reference image with 100% identical faci
       "highlights": "glass reflections on spheres"
     },
     "mood": "dreamy, delicate, whimsical, clean"
-  },
+  }
+}
 ```
 
 </details>
@@ -2888,7 +2797,7 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 
 ---
 
-**图例**
+**图例：莓果爆浆**
 
 <img width="500" alt="Image" src="./images/food/f3.png" />
 
@@ -2896,7 +2805,8 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 <summary>提示词（点击展开）</summary>
 
 ```json
-"module_1_berry_smoothie_explosion": {
+{
+  "module_1_berry_smoothie_explosion": {
       "scene_description": "A vibrant smoothie bowl exploding with fruit and liquid splashes",
       "bowl": {
         "color": "Deep blue ceramic bowl",
@@ -2926,7 +2836,8 @@ Keep the person exactly as shown in the reference image with 100% identical faci
         "color": "Bright pink",
         "texture": "Smooth, seamless"
       }
-    },
+    }
+}
 ```
 
 </details>
@@ -2934,14 +2845,14 @@ Keep the person exactly as shown in the reference image with 100% identical faci
 ---
 
 
-**图例**
+**图例：橙味创意**
 
 <img width="600" alt="Image" src="./images/food/f1.png" />
 
 <details>
 <summary>提示词（点击展开）</summary>
 
-```json
+```text
 Generate an image of what could be possible to make with this orange foodwise.
 ```
 </details>
