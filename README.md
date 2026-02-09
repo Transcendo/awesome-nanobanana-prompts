@@ -18,6 +18,8 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 
 ## Quick Navigation
 
+- [Image Module](#en-images)
+- [Prompt Module](#en-prompts)
 - [Manga Style](#manga-style)
 - [Product Photography](#product-photography)
 - [Research & Infographics](#research--infographics)
@@ -32,14 +34,545 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 - [Acknowledgements & References](#acknowledgements--references)
 
 
-## Manga Style
+<a id="en-images"></a>
+## Image Module (By Category)
 
-**Example: Torn Paper Layers**
+### Manga Style
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s01-01"></a>
+      <strong>Example: Torn Paper Layers</strong><br/>
+      <img alt="Example: Torn Paper Layers" title="&quot;task&quot;: &quot;edit-image: add widened torn-paper layered effect&quot; | &quot;base_image&quot;: {" src="./images/like/l1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s01-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s01-02"></a>
+      <strong>Example: Cosmic Power Armor</strong><br/>
+      <img alt="Example: Cosmic Power Armor" title="Positive prompts | (ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality), (high..." src="./images/like/l2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s01-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s01-03"></a>
+      <strong>Example: Rainy Night Umbrella</strong><br/>
+      <img alt="Example: Rainy Night Umbrella" title="Positive prompts | masterpiece, best quality, very aesthetic, 8K, HDR, newest, anime_screencap, dynamic pose, depth of field, rakugakingu, FlatNika, in the style of cksc, foreshortening, ..." src="./images/like/l3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s01-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s01-04"></a>
+      <strong>Example: Snowy Night Hashira Lineup</strong><br/>
+      <img alt="Example: Snowy Night Hashira Lineup" title="1. Style & Mood | - Keywords: Shin-hanga, Ukiyo-e aesthetics, serene melancholy, atmospheric landscape, traditional Japanese art." src="./images/like/gmzr.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s01-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
 
-<img width="600" alt="Image" src="./images/like/l1.png" />
+<hr />
 
-<details>
-<summary>Prompt (Click to expand)</summary>
+### Product Photography
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-01"></a>
+      <strong>Example: Pouring Water Through the Screen</strong><br/>
+      <img alt="Example: Pouring Water Through the Screen" title="&quot;meta&quot;: { | &quot;type&quot;: &quot;Creative Brief&quot;" src="./images/product/p10.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-02"></a>
+      <strong>Example: Green Soda Can</strong><br/>
+      <img alt="Example: Green Soda Can" title="&quot;resolution&quot;: &quot;8K&quot; | &quot;style&quot;: &quot;hyper-realistic commercial product photography&quot;" src="./images/product/p13.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-03"></a>
+      <strong>Example 1: Vanilla Cream</strong><br/>
+      <img alt="Example 1: Vanilla Cream" title="&quot;product&quot;: { | &quot;name&quot;: &quot;Vanilla Cream Brew&quot;" src="./images/product/p1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-04"></a>
+      <strong>Example 2: Strawberry Cake</strong><br/>
+      <img alt="Example 2: Strawberry Cake" title="&quot;product&quot;: { | &quot;name&quot;: &quot;Strawberry Cake Drink&quot;" src="./images/product/p2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-05"></a>
+      <strong>Example 3: Midnight Spark</strong><br/>
+      <img alt="Example 3: Midnight Spark" title="&quot;product&quot;: { | &quot;name&quot;: &quot;Midnight Spark – Bold & Juicy&quot;" src="./images/product/p3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-05">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-06"></a>
+      <strong>Example 4: Street Fugitive</strong><br/>
+      <img alt="Example 4: Street Fugitive" title="&quot;subject&quot;: { | &quot;description&quot;: &quot;A full-body silhouette of a young person wearing oversized olive-green clothing, standing calmly, with a white graffiti-style smile painted on the face; sub..." src="./images/product/p4.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-06">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-07"></a>
+      <strong>Example: Crystal Goblet Fantasy</strong><br/>
+      <img alt="Example: Crystal Goblet Fantasy" title="A hyper-detailed digital painting in a surreal fantasy style, showcasing a colossal (ornate crystal wine glass) with intricate filigree etching, filled to the brim with a viscous crimson ..." src="./images/product/p12.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-07">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-08"></a>
+      <strong>Example 5: City Magnet Tiles</strong><br/>
+      <img alt="Example 5: City Magnet Tiles" title="Show a clear top-down photo of 3D magnet tiles featuring iconic landmarks of [CITY NAME]. The magnets should be neatly arranged in parallel lines and right angles, forming a small “mounta..." src="./images/product/p5.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-08">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-09"></a>
+      <strong>Example 6: Delicious Food Map</strong><br/>
+      <img alt="Example 6: Delicious Food Map" title="Create a map of [COUNTRY NAME] where each state/province is composed of that region’s most famous food (the shapes inside each region should look like they are made *from* food, not photo..." src="./images/product/p6.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-09">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-10"></a>
+      <strong>Example: Isometric Cube Room</strong><br/>
+      <img alt="Example: Isometric Cube Room" title="An isometric 3D cube miniature room (a true cube with slightly beveled edges; every object must be strictly contained inside the cube). Room description: [ROOM DESCRIPTION: describe the t..." src="./images/product/p7.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-10">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-11"></a>
+      <strong>Example: Isometric Cube Room</strong><br/>
+      <img alt="Example: Isometric Cube Room" title="Based on you know about me, generate a 3D isometric colored illustration of me working from home, filled with various interior details. The visual style should be rounded, polished, and p..." src="./images/product/p11.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-11">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-12"></a>
+      <strong>Example: Chocolate Coffee Explosion</strong><br/>
+      <img alt="Example: Chocolate Coffee Explosion" title="&quot;theme&quot;: &quot;Ultra-photoreal vertical exploded view of a chocolate coffee drink&quot; | &quot;layout&quot;: &quot;Centered vertical alignment; each component is suspended independently with clear spacing&quot;" src="./images/product/p8.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-12">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s02-13"></a>
+      <strong>Example: Matcha Explosion</strong><br/>
+      <img alt="Example: Matcha Explosion" title="&quot;theme&quot;: &quot;Ultra-photoreal vertical exploded view of a matcha cheese-foam fruit coffee drink&quot; | &quot;layout&quot;: &quot;Centered vertical alignment; each component is suspended independently with clear..." src="./images/product/p9.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s02-13">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Research & Infographics
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s03-01"></a>
+      <strong>Example: Photosynthesis</strong><br/>
+      <img alt="Example: Photosynthesis" title="Create an educational infographic explaining [Photosynthesis] . Visual Elements : Illustrate the key components: The Sun, a green Plant, Water (H2O) entering roots, Carbon Dioxide (CO2) e..." src="./images/blog/b3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s03-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s03-02"></a>
+      <strong>Example: Dyson Swarm Construction</strong><br/>
+      <img alt="Example: Dyson Swarm Construction" title="Please create a cartoon-style infographic based on the provided content, following these guidelines: | - Hand-drawn illustration style, landscape orientation (16:9 aspect ratio)." src="./images/blog/b4.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s03-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s03-03"></a>
+      <strong>Example: Dyson Swarm Construction</strong><br/>
+      <img alt="Example: Dyson Swarm Construction" title="This diagram illustrates the process of constructing a Dyson swarm based on: Armstrong, S., & Sandberg, A. (2013). *Eternity in six hours: Intergalactic spreading of intelligent life and ..." src="./images/blog/b1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s03-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s03-04"></a>
+      <strong>Example: Humanities PPT</strong><br/>
+      <img alt="Example: Humanities PPT" title="Help me turn the following article into a Chinese PPT that middle-school students can understand. | First, write a PPT outline and plan what goes on each slide." src="./images/blog/b2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s03-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Deconstruction
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s04-01"></a>
+      <strong>Example 1: Fashion Deconstruction</strong><br/>
+      <img alt="Example 1: Fashion Deconstruction" title="Hand-drawn fashion concept deconstruction diagram. | Center: a full-body portrait of a stylish, confident female character with a subtle sexy vibe (not explicit), in a natural and energet..." src="./images/deconstruct/d1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s04-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s04-02"></a>
+      <strong>Example: Cutaway City Layers</strong><br/>
+      <img alt="Example: Cutaway City Layers" title="Vertical isometric cutaway diagram titled &quot;ROCHESTER, NY&quot;. Stacked 3D layers showing history from top to bottom: | Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2..." src="./images/deconstruct/d2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s04-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Poster Design
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s05-01"></a>
+      <strong>Example 1: Playground Literacy Poster</strong><br/>
+      <img alt="Example 1: Playground Literacy Poster" title="Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate mo..." src="./images/post/po4.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s05-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s05-02"></a>
+      <strong>Example 2: Playground Literacy Poster</strong><br/>
+      <img alt="Example 2: Playground Literacy Poster" title="Generate a children’s literacy mini-newspaper poster titled “Playground”, in vertical A4 format, in a learning-handout layout, suitable for kids aged 5–9 to learn words by looking at pict..." src="./images/post/po1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s05-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s05-03"></a>
+      <strong>Example 3: Weather City</strong><br/>
+      <img alt="Example 3: Weather City" title="Present a clear 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise, delicate modeli..." src="./images/post/po2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s05-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s05-04"></a>
+      <strong>Example 4: Starbucks Concept Store</strong><br/>
+      <img alt="Example 4: Starbucks Concept Store" title="Design a 3D chibi-style mini concept store for [Starbucks]. Its exterior is inspired by the brand’s most iconic product and packaging (e.g., a giant {brand core product, such as a fried c..." src="./images/post/po3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s05-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Traditional Chinese Culture
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s06-01"></a>
+      <strong>Example: Tang Palace Music Ensemble</strong><br/>
+      <img alt="Example: Tang Palace Music Ensemble" title="&quot;theme&quot;: { | &quot;description&quot;: &quot;A Tang-dynasty court ensemble performs music on Agan tree branches; musicians play pipa, erhu, flute, ruan, and ma-ti zheng. Musicians and birds are scattered..." src="./images/china/ch1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s06-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Portrait & Fashion
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-01"></a>
+      <strong>Example: Garage Glance Back</strong><br/>
+      <img alt="Example: Garage Glance Back" title="&quot;meta&quot;: { | &quot;aspect_ratio&quot;: &quot;9:16&quot;" src="./images/beauty/bea20.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-02"></a>
+      <strong>Example: Glasses & White Shirt</strong><br/>
+      <img alt="Example: Glasses & White Shirt" title="&quot;prompt&quot;: &quot;Ultra-realistic portrait of a young Asian woman with a slim body and long black wavy hair, wearing black rectangular glasses. Confident expression, soft natural makeup, smooth ..." src="./images/beauty/bea19.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-03"></a>
+      <strong>Example: Frozen in the Crowd</strong><br/>
+      <img alt="Example: Frozen in the Crowd" title="A cinematic street portrait of a young woman standing still in a busy urban crowd, captured with motion blur all around her. She has short, slightly messy hair and a calm, introspective e..." src="./images/beauty/bea18.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-04"></a>
+      <strong>Example: Izakaya Selfie</strong><br/>
+      <img alt="Example: Izakaya Selfie" title="&quot;subject&quot;: { | &quot;type&quot;: &quot;stunning_East_Asian_woman_with_modern_social_media_influencer_aesthetic&quot;" src="./images/beauty/bea17.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-05"></a>
+      <strong>Example: Off-Center Flash Snap</strong><br/>
+      <img alt="Example: Off-Center Flash Snap" title="&quot;type&quot;: &quot;portrait_generation_parameters&quot; | &quot;version&quot;: &quot;1.3&quot;,   &quot;style_preset&quot;: &quot;Off-Center Composition / Flash Street Snap&quot;" src="./images/beauty/bea16.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-05">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-06"></a>
+      <strong>Example: Turned-Back Mirror Shot</strong><br/>
+      <img alt="Example: Turned-Back Mirror Shot" title="&quot;subject&quot;: { | &quot;description&quot;: &quot;Young woman with light tan skin and dark brown hair featuring lighter caramel highlights.&quot;" src="./images/beauty/bea15.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-06">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-07"></a>
+      <strong>Example: Flash Mirror Photo</strong><br/>
+      <img alt="Example: Flash Mirror Photo" title="&quot;intent&quot;: &quot;a raw candid flash-style mirror photograph of a young woman.&quot; | &quot;frame&quot;: {" src="./images/beauty/bea14.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-07">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-08"></a>
+      <strong>Example: Studio Shoot Template</strong><br/>
+      <img alt="Example: Studio Shoot Template" title="&quot;character_consistency&quot;: &quot;100%&quot; | &quot;description&quot;: &quot;Full-body studio photoshoot of a female model in a red velvet dress&quot;" src="./images/beauty/bea13.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-08">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-09"></a>
+      <strong>Example: Gym Promo Shot</strong><br/>
+      <img alt="Example: Gym Promo Shot" title="Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown hair wearing large black over-ear headphones, a tight black-and-charcoal patterned short-sleeve compressio..." src="./images/beauty/bea12.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-09">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-10"></a>
+      <strong>Example: Top-Down Vinyl Flat Lay</strong><br/>
+      <img alt="Example: Top-Down Vinyl Flat Lay" title="&quot;meta&quot;: { | &quot;type&quot;: &quot;Photo&quot;" src="./images/beauty/bea11.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-10">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-11"></a>
+      <strong>Example: Blonde Mirror Shot</strong><br/>
+      <img alt="Example: Blonde Mirror Shot" title="&quot;scene&quot;: &quot;bedroom mirror selfie, home setting with bookshelf and desk setup&quot; | &quot;subject&quot;: {" src="./images/beauty/bea10.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-11">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-12"></a>
+      <strong>Example: Compact Camera Screen</strong><br/>
+      <img alt="Example: Compact Camera Screen" title="Use facial feature of attached photo. A close-up shot of a young woman displayed on the screen of a compact Canon digital camera. The camera body surrounds the image with its buttons, dia..." src="./images/beauty/bea8.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-12">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-13"></a>
+      <strong>Example: Wide-Angle Street Shot</strong><br/>
+      <img alt="Example: Wide-Angle Street Shot" title="&quot;edit_type&quot;: &quot;extreme_wide_angle_phone_edit&quot; | &quot;source&quot;: {" src="./images/beauty/bea7.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-13">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-14"></a>
+      <strong>Example: Mirror Selfie</strong><br/>
+      <img alt="Example: Mirror Selfie" title="&quot;visual_style&quot;: { | &quot;color_palette&quot;: {" src="./images/beauty/bea2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-14">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-15"></a>
+      <strong>Example: Point-and-Shoot Look</strong><br/>
+      <img alt="Example: Point-and-Shoot Look" title="&quot;image_parameters&quot;: { | &quot;style&quot;: &quot;Canon IXUS aesthetic&quot;" src="./images/beauty/bea5.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-15">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-16"></a>
+      <strong>Example: Spotlight in Darkness</strong><br/>
+      <img alt="Example: Spotlight in Darkness" title="Generate a hyperrealistic realistic-anime portrait of a female character standing in a completely black background. | Lighting: use a **narrow beam spotlight** focused only on the center ..." src="./images/beauty/bea6.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-16">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-17"></a>
+      <strong>Example: Screen Cool Light</strong><br/>
+      <img alt="Example: Screen Cool Light" title="&quot;visual_style&quot;: { | &quot;color_palette&quot;: {" src="./images/beauty/bea3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-17">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-18"></a>
+      <strong>Example 1: Instant Film Photo</strong><br/>
+      <img alt="Example 1: Instant Film Photo" title="Please use the person from the attached reference image. | Name: ____." src="./images/beauty/bea1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-18">View&CopyPrompt</a>
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+### Portrait Photography
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s08-01"></a>
+      <strong>Example 1: Fisheye Selfie</strong><br/>
+      <img alt="Example 1: Fisheye Selfie" title="An ultra-photoreal fisheye wide-angle selfie shot with a vintage 35mm fisheye lens, creating strong barrel distortion. The people in the photo are not holding any camera or phone. | Subje..." src="./images/profile/pr1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s08-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s08-02"></a>
+      <strong>Example 2: King Crab Chef</strong><br/>
+      <img alt="Example 2: King Crab Chef" title="Generate one vertical short-video screenshot (TikTok / Douyin style). Scene: in a kitchen, a king crab is being prepared and put into a pot. The chef faces the camera, showcasing the ingr..." src="./images/profile/pr2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s08-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s08-03"></a>
+      <strong>Example: On-Set Selfie</strong><br/>
+      <img alt="Example: On-Set Selfie" title="&quot;I'm taking a selfie with [movie character] on the set of [movie name]. | Keep the person exactly as shown in the reference image with 100% identical facial features, bone structure, skin..." src="./images/profile/pr3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s08-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+### Dreamy & Surreal
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s09-01"></a>
+      <strong>Example: Four Seasons Bund</strong><br/>
+      <img alt="Example: Four Seasons Bund" title="This ultra-photoreal digital illustration depicts {SCENE} as a continuous panoramic image showing the changing of the four seasons. The scene transitions smoothly from left to right, natu..." src="./images/dream/dre1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s09-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Image-to-Image (img2img)
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-img2img-01"></a>
+      <strong>Example: Daytime Isometric Building</strong><br/>
+      <img alt="Example: Daytime Isometric Building (Input)" title="Convert the image into a daytime and isometric view [buildings only]." src="./images/p2p/pin_1.png" width="100%" />
+      <br/>
+      <img alt="Example: Daytime Isometric Building (Output)" title="Convert the image into a daytime and isometric view [buildings only]." src="./images/p2p/pout_1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-img2img-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-img2img-02"></a>
+      <strong>Example: Remove Blur</strong><br/>
+      <img alt="Example: Remove Blur (Input)" title="&quot;edit_type&quot;: &quot;unblur&quot; | &quot;operations&quot;: [&quot;sharpen_details&quot;, &quot;reduce_noise&quot;, ...]" src="./images/p2p/pin_2.png" width="100%" />
+      <br/>
+      <img alt="Example: Remove Blur (Output)" title="&quot;edit_type&quot;: &quot;unblur&quot; | &quot;operations&quot;: [&quot;sharpen_details&quot;, &quot;reduce_noise&quot;, ...]" src="./images/p2p/pout_2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-img2img-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+### Food
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s10-01"></a>
+      <strong>Example: Beef Lasagna Layers</strong><br/>
+      <img alt="Example: Beef Lasagna Layers" title="&quot;project_type&quot;: &quot;Premium Culinary Promotional Poster&quot; | &quot;orientation&quot;: &quot;Vertical&quot;" src="./images/food/f4.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s10-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s10-02"></a>
+      <strong>Example: Matcha Cheesecake</strong><br/>
+      <img alt="Example: Matcha Cheesecake" title="&quot;global_settings&quot;: { | &quot;resolution&quot;: &quot;8K UHD&quot;" src="./images/food/f2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s10-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s10-03"></a>
+      <strong>Example: Berry Burst</strong><br/>
+      <img alt="Example: Berry Burst" title="&quot;module_1_berry_smoothie_explosion&quot;: { | &quot;scene_description&quot;: &quot;A vibrant smoothie bowl exploding with fruit and liquid splashes&quot;" src="./images/food/f3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s10-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s10-04"></a>
+      <strong>Example: Orange Flavor Concept</strong><br/>
+      <img alt="Example: Orange Flavor Concept" title="Generate an image of what could be possible to make with this orange foodwise." src="./images/food/f1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s10-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="en-prompts"></a>
+## Prompt Module (By Category)
+
+### Manga Style
+
+<a id="prompt-en-s01-01"></a>
+#### Example: Torn Paper Layers
+
+[Back to image](#card-en-s01-01)
 
 ```json
 {
@@ -116,20 +649,12 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
     }
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s01-02"></a>
+#### Example: Cosmic Power Armor
 
-
-<hr />
-
-**Example: Cosmic Power Armor**
-
-<img width="600" alt="Image" src="./images/like/l2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s01-02)
 
 ```text
 Positive prompts
@@ -143,17 +668,10 @@ furry, anthro, bkub,
 chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, twins, identical twins, solid eyes,
 ```
 
-</details>
+<a id="prompt-en-s01-03"></a>
+#### Example: Rainy Night Umbrella
 
-
-<hr />
-
-**Example: Rainy Night Umbrella**
-
-<img width="600" alt="Image" src="./images/like/l3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s01-03)
 
 ```text
 Positive prompts
@@ -165,17 +683,10 @@ Negative prompts
 worst quality, low quality, bad anatomy, bad proportions, extra digits, extra legs, extra arms, disfigured, blurry eyes, lowres, mutated hands, bad hands, signature, watermark, artist name, username, patreon username, twitter username, logo, oversaturated
 ```
 
-</details>
+<a id="prompt-en-s01-04"></a>
+#### Example: Snowy Night Hashira Lineup
 
-
-<hr />
-
-**Example: Snowy Night Hashira Lineup**
-
-<img width="600" alt="Image" src="./images/like/gmzr.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s01-04)
 
 ```text
 1. Style & Mood
@@ -208,17 +719,14 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
   In heavy snow, create lineup portraits of all the Hashira from *Demon Slayer*, each in a battle-ready pose matching their Breathing style.
 ```
 
-</details>
 <hr />
 
-## Product Photography
+### Product Photography
 
-**Example: Pouring Water Through the Screen**
+<a id="prompt-en-s02-01"></a>
+#### Example: Pouring Water Through the Screen
 
-<img width="400" alt="Image" src="./images/product/p10.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-01)
 
 ```json
 {
@@ -325,20 +833,12 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
     "resolution_target": "8K / Highly detailed"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s02-02"></a>
+#### Example: Green Soda Can
 
-<hr />
-
-
-**Example: Green Soda Can**
-
-<img width="300" alt="Image" src="./images/product/p13.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-02)
 
 ```json
 {
@@ -395,17 +895,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-en-s02-03"></a>
+#### Example 1: Vanilla Cream
 
-
-<hr />
-
-**Example 1: Vanilla Cream**
-
-<img width="300" alt="Image" src="./images/product/p1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-03)
 
 ```json
 {
@@ -427,15 +920,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
-<hr />
+<a id="prompt-en-s02-04"></a>
+#### Example 2: Strawberry Cake
 
-**Example 2: Strawberry Cake**
-
-<img width="300" alt="Image" src="./images/product/p2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-04)
 
 ```json
 {
@@ -456,16 +944,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-en-s02-05"></a>
+#### Example 3: Midnight Spark
 
-<hr />
-
-**Example 3: Midnight Spark**
-
-<img width="300" alt="Image" src="./images/product/p3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-05)
 
 ```json
 {
@@ -492,16 +974,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-en-s02-06"></a>
+#### Example 4: Street Fugitive
 
-<hr />
-
-**Example 4: Street Fugitive**
-
-<img width="300" alt="Image" src="./images/product/p4.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-06)
 
 ```json
 {
@@ -613,17 +1089,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-en-s02-07"></a>
+#### Example: Crystal Goblet Fantasy
 
-
-<hr />
-
-**Example: Crystal Goblet Fantasy**
-
-<img width="600" alt="Image" src="./images/product/p12.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-07)
 
 ```text
 A hyper-detailed digital painting in a surreal fantasy style, showcasing a colossal (ornate crystal wine glass) with intricate filigree etching, filled to the brim with a viscous crimson liquid that refracts light like molten gemstones. Inside the glass, a microcosmic landscape unfolds: gnarled oak trees with (autumn-crisped leaves in burnt umber and carmine), their roots twisting through amber-hued mist, while bioluminescent fungi pulse along the bark grooves. The glass rests on a liquid-mercury surface so reflective it perfectly duplicates the scene upside-down, including the glass's own warped refraction patterns. 
@@ -631,54 +1100,30 @@ A hyper-detailed digital painting in a surreal fantasy style, showcasing a colos
 The background features a (gigantic dying sun) bleeding tangerine light through volcanic ash clouds, striated with veins of phosphorus-green. The sky gradients from bruise-purple at the zenith to arterial red near the horizon, where jagged basalt mountains erupt from a leaden sea choked with luminescent plankton. To the left, a petrified willow drips scarlet leaves like slow-motion blood droplets, each vein mapped in microscopic detail. Rightward, obsidian cliffs shear upward, their fractured planes catching the sun in razor-edged highlights. 
 
 Textures are obsessively rendered: the glass's refractive imperfections, the tree bark's lichen-crusted fissures, the sea's oil-slick iridescence. Shot with a tilt-shift lens at f/1.2 to blur the periphery, focusing on the glass's central distortion where the interior landscape warps into a Klein bottle paradox. Stylistic fusion of Zdzisław Beksiński's dystopian grandeur with Moebius' organic surrealism, color-graded in DaVinci Resolve for cinematic depth.
-
 ```
 
-</details>
+<a id="prompt-en-s02-08"></a>
+#### Example 5: City Magnet Tiles
 
-
-<hr />
-
-
-**Example 5: City Magnet Tiles**
-
-<img width="600" alt="Image" src="./images/product/p5.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-08)
 
 ```text
 Show a clear top-down photo of 3D magnet tiles featuring iconic landmarks of [CITY NAME]. The magnets should be neatly arranged in parallel lines and right angles, forming a small “mountain” shape. The magnets must look like realistic miniature models. Place a souvenir magnet with the city name at the top center, along with a handwritten note that includes the temperature and weather conditions. Integrate objects related to the day’s weather into the “mountain” arrangement. No objects may be repeated.
-
 ```
 
-</details>
+<a id="prompt-en-s02-09"></a>
+#### Example 6: Delicious Food Map
 
-
-<hr />
-
-**Example 6: Delicious Food Map**
-
-<img width="600" alt="Image" src="./images/product/p6.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-09)
 
 ```text
 Create a map of [COUNTRY NAME] where each state/province is composed of that region’s most famous food (the shapes inside each region should look like they are made *from* food, not photos of food). Carefully check to ensure every region is accurate.
 ```
 
-</details>
+<a id="prompt-en-s02-10"></a>
+#### Example: Isometric Cube Room
 
-<hr />
-
-**Example: Isometric Cube Room**
-
-<img width="600" alt="Image" src="./images/product/p7.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-10)
 
 ```text
 An isometric 3D cube miniature room (a true cube with slightly beveled edges; every object must be strictly contained inside the cube). Room description: [ROOM DESCRIPTION: describe the theme, furniture, specific clutter, wall decor, and key objects in detail].
@@ -686,34 +1131,19 @@ An isometric 3D cube miniature room (a true cube with slightly beveled edges; ev
 Character: chibi / figurine style — [INSERT THE PERSON DESCRIPTION FROM YOUR UPLOADED PHOTO HERE]. Action: [e.g., typing while sitting on a chair, cooking while standing, playing guitar]. Expression: [e.g., focused, happy, smiling]. The character material should look like matte PVC, with a larger head and smaller body. Lighting: [AMBIENCE NAME]: [LIGHT SOURCES, e.g., neon blue, warm daylight, golden lamps]; with realistic reflections and colored shadows. Camera: slightly elevated isometric 3/4 view, with the front edge of the cube centered; nothing may protrude outside the cube. Photoreal materials and rich detail; neutral background. Highly detailed, clear composition; no watermark.
 ```
 
-</details>
+<a id="prompt-en-s02-11"></a>
+#### Example: Isometric Cube Room
 
-
-<hr />
-
-**Example: Isometric Cube Room**
-
-<img width="600" alt="Image" src="./images/product/p11.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-11)
 
 ```text
 Based on you know about me, generate a 3D isometric colored illustration of me working from home, filled with various interior details. The visual style should be rounded, polished, and playful. --ar 1:1
-
 ```
 
-</details>
+<a id="prompt-en-s02-12"></a>
+#### Example: Chocolate Coffee Explosion
 
-
-<hr />
-
-**Example: Chocolate Coffee Explosion**
-<img width="300" alt="Image" src="./images/product/p8.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-12)
 
 ```json
 {
@@ -757,22 +1187,12 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
     "resolution": "8K"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s02-13"></a>
+#### Example: Matcha Explosion
 
-
-----
-
-**Example: Matcha Explosion**
-
-<img width="300" alt="Image" src="./images/product/p9.png" />
-
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s02-13)
 
 ```json
 {
@@ -816,35 +1236,25 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
     "resolution": "8K"
   }
 }
-
 ```
 
-</details>
+<hr />
 
-## Research & Infographics
+### Research & Infographics
 
-**Example: Photosynthesis**
+<a id="prompt-en-s03-01"></a>
+#### Example: Photosynthesis
 
-<img width="600" alt="Image" src="./images/blog/b3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s03-01)
 
 ```text
 Create an educational infographic explaining [Photosynthesis] . Visual Elements : Illustrate the key components: The Sun, a green Plant, Water (H2O) entering roots, Carbon Dioxide (CO2) entering leaves, and Oxygen (O2) being released. Style : Clean, flat vector illustration suitable for a high school science textbook. Use arrows to show the flow of energy and matter. Labels : Label each element clearly in English .
 ```
 
-</details>
+<a id="prompt-en-s03-02"></a>
+#### Example: Dyson Swarm Construction
 
-
-<hr />
-
-**Example: Dyson Swarm Construction**
-
-<img width="600" alt="Image" src="./images/blog/b4.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s03-02)
 
 ```text
 Please create a cartoon-style infographic based on the provided content, following these guidelines:
@@ -864,32 +1274,19 @@ Please create a cartoon-style infographic based on the provided content, followi
 Please use nano banana pro to create the illustration based on the input provided.
 ```
 
-</details>
+<a id="prompt-en-s03-03"></a>
+#### Example: Dyson Swarm Construction
 
-
-<hr />
-
-**Example: Dyson Swarm Construction**
-
-<img width="600" alt="Image" src="./images/blog/b1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s03-03)
 
 ```text
 This diagram illustrates the process of constructing a Dyson swarm based on: Armstrong, S., & Sandberg, A. (2013). *Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox.* Acta Astronautica, 89, 1–13.
 ```
 
-</details>
+<a id="prompt-en-s03-04"></a>
+#### Example: Humanities PPT
 
-<hr />
-
-**Example: Humanities PPT**
-
-<img width="600" alt="Image" src="./images/blog/b2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s03-04)
 
 ```text
 Help me turn the following article into a Chinese PPT that middle-school students can understand.
@@ -915,18 +1312,14 @@ All text and images should be generated by Nano Banana Pro. Do NOT turn the whol
 Article content: []
 ```
 
-</details>
-
 <hr />
 
-## Deconstruction
+### Deconstruction
 
-**Example 1: Fashion Deconstruction**
+<a id="prompt-en-s04-01"></a>
+#### Example 1: Fashion Deconstruction
 
-<img width="600" alt="Image" src="./images/deconstruct/d1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s04-01)
 
 ```text
 Hand-drawn fashion concept deconstruction diagram.
@@ -954,15 +1347,10 @@ Output: 4K HD 2D illustration with a sexy-yet-fashion-forward feel.
 Language: bilingual English + Chinese labels.
 ```
 
-</details>
-<hr />
+<a id="prompt-en-s04-02"></a>
+#### Example: Cutaway City Layers
 
-**Example: Cutaway City Layers**
-
-<img width="600" alt="Image" src="./images/deconstruct/d2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s04-02)
 
 ```text
 Vertical isometric cutaway diagram titled "ROCHESTER, NY". Stacked 3D layers showing history from top to bottom:
@@ -970,21 +1358,14 @@ Vertical isometric cutaway diagram titled "ROCHESTER, NY". Stacked 3D layers sho
 Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s industrial factories and suburban homes.3. 1800s brick flour mills and the Erie Canal Aqueduct.4. Forest landscape with Haudenosaunee longhouses.5. Bottom layer of ancient sedimentary rock with fossils. Clean white background, realistic detail, with a vertical timeline ruler on the left side.
 ```
 
-</details>
-
 <hr />
 
+### Poster Design
 
+<a id="prompt-en-s05-01"></a>
+#### Example 1: Playground Literacy Poster
 
-## Poster Design
-
-**Example 1: Playground Literacy Poster**
-
-<img width="300" alt="Image" src="./images/post/po4.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s05-01)
 
 ```text
 Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
@@ -1001,17 +1382,10 @@ Please retrieve current weather conditions for the specified city before renderi
 City name: Evanston
 ```
 
-</details>
+<a id="prompt-en-s05-02"></a>
+#### Example 2: Playground Literacy Poster
 
-<hr />
-
-**Example 2: Playground Literacy Poster**
-
-<img width="300" alt="Image" src="./images/post/po1.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s05-02)
 
 ```text
 Generate a children’s literacy mini-newspaper poster titled “Playground”, in vertical A4 format, in a learning-handout layout, suitable for kids aged 5–9 to learn words by looking at pictures.
@@ -1075,16 +1449,10 @@ Environment & decorations:
 - Quality: 8k resolution, high detail, vector illustration style, clean lines.
 ```
 
-</details>
+<a id="prompt-en-s05-03"></a>
+#### Example 3: Weather City
 
-<hr />
-
-**Example 3: Weather City**
-
-<img width="300" alt="Image" src="./images/post/po2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s05-03)
 
 ```text
 Present a clear 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise, delicate modeling.
@@ -1102,16 +1470,10 @@ Before rendering, retrieve current weather conditions for the specified city.
 City name: [Shanghai]
 ```
 
-</details>
+<a id="prompt-en-s05-04"></a>
+#### Example 4: Starbucks Concept Store
 
-<hr />
-
-**Example 4: Starbucks Concept Store**
-
-<img width="300" alt="Image" src="./images/post/po3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s05-04)
 
 ```text
 Design a 3D chibi-style mini concept store for [Starbucks]. Its exterior is inspired by the brand’s most iconic product and packaging (e.g., a giant {brand core product, such as a fried chicken bucket / burger / donut / roast duck}). The store has two floors. Floor-to-ceiling glass windows reveal a warm, exquisite interior: {brand primary color} themed decor, warm lighting, and busy staff wearing brand-specific uniforms.
@@ -1121,19 +1483,14 @@ Cute miniature figures walk and rest on the street, surrounded by benches, stree
 Refer to the attached character reference sheet to understand the mini characters that should appear in the store. --ar 2:3
 ```
 
-</details>
-
 <hr />
 
-## Traditional Chinese Culture
+### Traditional Chinese Culture
 
+<a id="prompt-en-s06-01"></a>
+#### Example: Tang Palace Music Ensemble
 
-**Example: Tang Palace Music Ensemble**
-
-<img width="600" alt="Image" src="./images/china/ch1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s06-01)
 
 ```json
 {
@@ -1244,24 +1601,16 @@ Refer to the attached character reference sheet to understand the mini character
     ]
   }
 }
-
 ```
-
-</details>
 
 <hr />
 
+### Portrait & Fashion
 
+<a id="prompt-en-s07-01"></a>
+#### Example: Garage Glance Back
 
-
-## Portrait & Fashion
-
-**Example: Garage Glance Back**
-
-<img width="600" alt="Image" src="./images/beauty/bea20.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-01)
 
 ```json
 {
@@ -1350,19 +1699,10 @@ Refer to the attached character reference sheet to understand the mini character
 }
 ```
 
-</details>
+<a id="prompt-en-s07-02"></a>
+#### Example: Glasses & White Shirt
 
-
-<hr />
-
-
-
-**Example: Glasses & White Shirt**
-
-<img width="600" alt="Image" src="./images/beauty/bea19.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-02)
 
 ```json
 {
@@ -1378,33 +1718,19 @@ Refer to the attached character reference sheet to understand the mini character
 }
 ```
 
-</details>
+<a id="prompt-en-s07-03"></a>
+#### Example: Frozen in the Crowd
 
-
-<hr />
-
-**Example: Frozen in the Crowd**
-
-<img width="600" alt="Image" src="./images/beauty/bea18.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-03)
 
 ```text
 A cinematic street portrait of a young woman standing still in a busy urban crowd, captured with motion blur all around her. She has short, slightly messy hair and a calm, introspective expression, looking directly at the camera. She wears a soft beige sweater and a textured brown skirt, minimal accessories. The background is a city street filled with people in motion, creating a dreamy long-exposure effect. Shallow depth of field, subject in sharp focus, crowd blurred, natural soft daylight, muted color palette, film photography style, emotional and artistic mood, high detail, realistic, 35mm lens, f/1.8.
 ```
 
-</details>
+<a id="prompt-en-s07-04"></a>
+#### Example: Izakaya Selfie
 
-
-<hr />
-
-**Example: Izakaya Selfie**
-
-<img width="600" alt="Image" src="./images/beauty/bea17.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-04)
 
 ```json
 {
@@ -1464,17 +1790,10 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 }
 ```
 
-</details>
+<a id="prompt-en-s07-05"></a>
+#### Example: Off-Center Flash Snap
 
-
-<hr />
-
-**Example: Off-Center Flash Snap**
-
-<img width="600" alt="Image" src="./images/beauty/bea16.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-05)
 
 ```json
 {   
@@ -1498,17 +1817,10 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 "tones": "Moody cool tones in the background, warm flash tones on the skin. High contrast curve."     },     "negative_prompt": [       "center frame",       "centered subject",       "legs apart",       "wide stance",       "straight legs",       "looking right",       "body facing right",       "bad anatomy",       "distorted hands",       "missing fingers",       "blurry face",       "flat lighting"     ]   } }
 ```
 
-</details>
+<a id="prompt-en-s07-06"></a>
+#### Example: Turned-Back Mirror Shot
 
-
-<hr />
-
-**Example: Turned-Back Mirror Shot**
-
-<img width="600" alt="Image" src="./images/beauty/bea15.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-06)
 
 ```json
 {
@@ -1617,17 +1929,10 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 }
 ```
 
-</details>
+<a id="prompt-en-s07-07"></a>
+#### Example: Flash Mirror Photo
 
-
-<hr />
-
-**Example: Flash Mirror Photo**
-
-<img width="600" alt="Image" src="./images/beauty/bea14.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-07)
 
 ```json
 {
@@ -1676,17 +1981,10 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 }
 ```
 
-</details>
+<a id="prompt-en-s07-08"></a>
+#### Example: Studio Shoot Template
 
-
-<hr />
-
-**Example: Studio Shoot Template**
-
-<img width="600" alt="Image" src="./images/beauty/bea13.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-08)
 
 ```json
 {
@@ -1714,33 +2012,19 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 }
 ```
 
-</details>
+<a id="prompt-en-s07-09"></a>
+#### Example: Gym Promo Shot
 
-
-<hr />
-
-**Example: Gym Promo Shot**
-
-<img width="600" alt="Image" src="./images/beauty/bea12.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-09)
 
 ```text
 Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown hair wearing large black over-ear headphones, a tight black-and-charcoal patterned short-sleeve compression shirt with a small white chest logo, black athletic shorts, and white crew socks, sitting on a black rubber gym floor leaning back on one hand with his torso turned and head looking to the side. Environment: modern industrial gym interior with black locker cubes stacked along the right wall, exposed metal ductwork and beams on the ceiling, a squat rack and a second person training in the background near a large bright window, and a clear shaker bottle plus a small towel on the floor at the lower left. Composition/Camera: low, close three-quarter view from the man’s left side, framing from mid-thigh to head with the lockers filling the right side and gym equipment receding into the left background. Lighting: mixed natural daylight from the window and soft overhead indoor lighting, creating gentle highlights on the subject and mild shadows on the floor and lockers. He is Looking in the camera
 ```
 
-</details>
+<a id="prompt-en-s07-10"></a>
+#### Example: Top-Down Vinyl Flat Lay
 
-
-<hr />
-
-**Example: Top-Down Vinyl Flat Lay**
-
-<img width="600" alt="Image" src="./images/beauty/bea11.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-10)
 
 ```json
 {
@@ -1848,20 +2132,12 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
     "negative": "soft lighting, outdoor, standing, digital render, 3d, modern phone, clean floor, minimalist"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s07-11"></a>
+#### Example: Blonde Mirror Shot
 
-
-<hr />
-
-**Example: Blonde Mirror Shot**
-
-<img width="600" alt="Image" src="./images/beauty/bea10.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-11)
 
 ```json
 {
@@ -2007,20 +2283,12 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
     "STYLE": "mirror selfie with iphone"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s07-12"></a>
+#### Example: Compact Camera Screen
 
-
-<hr />
-
-**Example: Compact Camera Screen**
-
-<img width="600" alt="Image" src="./images/beauty/bea8.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-12)
 
 ```text
 Use facial feature of attached photo. A close-up shot of a young woman displayed on the screen of a compact Canon digital camera. The camera body surrounds the image with its buttons, dials, and textured surface visible, including the FUNC/SET wheel, DISP button, and the "IMAGE STABILIZER" label along the side. The photo on the screen shows the woman indoors at night, illuminated by a bright built-in flash that creates sharp highlights on her face and hair. She has long dark hair falling across part of her face in loose strands, with a soft, slightly open-lip expression. The flash accentuates her features against a dim, cluttered kitchen background with appliances, shelves, and metallic surfaces softly blurred. The mood is candid, raw, nostalgic, and reminiscent of early 2000s digital camera snapshots. Colors are slightly muted with cool undertones, strong flash contrast, and natural grain from the display. No text, no logos inside the photo preview itself.
@@ -2035,18 +2303,12 @@ Shutter speed: 1/60 with flash
 White balance: auto flash
 Lighting: harsh direct flash on subject, ambient low light in the background
 Color grading: nostalgic digital-camera tones, high contrast flash, subtle display grain, authentic screen glow.
-
 ```
 
-</details>
+<a id="prompt-en-s07-13"></a>
+#### Example: Wide-Angle Street Shot
 
-
-<hr />
-
-**Example: Wide-Angle Street Shot**
-<img width="600" alt="Image" src="./images/beauty/bea7.png" />
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-13)
 
 ```json
 {
@@ -2117,19 +2379,12 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
     ]
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s07-14"></a>
+#### Example: Mirror Selfie
 
-
-<hr />
-
-**Example: Mirror Selfie**
-<img width="500" alt="Image" src="./images/beauty/bea2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-14)
 
 ```json
 {
@@ -2218,53 +2473,12 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
     }
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s07-15"></a>
+#### Example: Point-and-Shoot Look
 
-<hr />
-
-**Example: Window Doppelgänger**
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```json
-{
-  "PROMPT": "Create a bright, high-end street-fashion photograph of the woman from the reference image, keeping her face, hair, body & outfit exactly the same. She stands outside a luxury toy-shop window, gently touching the glass. Inside the window display, place a full-height cartoon-style doll designed to resemble her—same features, hair, and outfit—transformed into a cute, big-eyed, stylized animated character. Crisp lighting, premium street-fashion look, realistic reflections, face unchanged.",
-  "settings": {
-    "style": "high-end street fashion",
-    "lighting": "crisp and bright",
-    "environment": "outside luxury toy-shop window",
-    "subject": "woman from reference image",
-    "focus": ["face", "hair", "body", "outfit"],
-    "additional_elements": [
-      {
-        "type": "doll",
-        "style": "cartoon-style, big-eyed, stylized",
-        "location": "inside window display",
-        "resemblance": "exact features, hair, outfit of woman"
-      }
-    ],
-    "reflections": "realistic",
-    "photorealism": true
-  }
-}
-
-```
-
-</details>
-
-<hr />
-
-**Example: Point-and-Shoot Look**
-
-<img width="600" alt="Image" src="./images/beauty/bea5.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-15)
 
 ```json
 {
@@ -2318,17 +2532,12 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
     ]
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s07-16"></a>
+#### Example: Spotlight in Darkness
 
-<hr />
-
-**Example: Spotlight in Darkness**
-<img width="600" alt="Image" src="./images/beauty/bea6.png" />
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-16)
 
 ```text
 Generate a hyperrealistic realistic-anime portrait of a female character standing in a completely black background.
@@ -2345,19 +2554,12 @@ the sweater and body should mostly disappear into the darkness with minimal deta
 Overall tone: dark, moody, dramatic, mysterious. 
 High-contrast only in the lit portion of the face. 
 Everything outside the spotlight should be nearly invisible.
-
 ```
 
-</details>
+<a id="prompt-en-s07-17"></a>
+#### Example: Screen Cool Light
 
-<hr />
-
-**Example: Screen Cool Light**
-
-<img width="300" alt="Image" src="./images/beauty/bea3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s07-17)
 
 ```json
 {
@@ -2428,22 +2630,14 @@ Everything outside the spotlight should be nearly invisible.
     }
   }
 }
-
 ```
 
-</details>
+<a id="prompt-en-s07-18"></a>
+#### Example 1: Instant Film Photo
 
-<hr />
+[Back to image](#card-en-s07-18)
 
-**Example 1: Instant Film Photo**
-
-<img width="300" alt="Image" src="./images/beauty/bea1.png" />
-
-
-<details>
-<summary>Prompt (Click to expand)</summary>
-
-```
+```text
 Please use the person from the attached reference image.
 
 Name: ____.
@@ -2473,21 +2667,16 @@ The [PERSON] is centered in the frame, photographed from head to knees. They pos
 [Texture and background]
 
 The photo is placed on a white tabletop, casting a natural shadow.
-
 ```
 
-</details>
+<hr />
 
+### Portrait Photography
 
-## Portrait Photography
+<a id="prompt-en-s08-01"></a>
+#### Example 1: Fisheye Selfie
 
-
-**Example 1: Fisheye Selfie**
-
-<img width="300" alt="Image" src="./images/profile/pr1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s08-01)
 
 ```text
 
@@ -2496,34 +2685,21 @@ An ultra-photoreal fisheye wide-angle selfie shot with a vintage 35mm fisheye le
 Subject & action: a close-up, slightly distorted group selfie. The person from the uploaded reference image is taking a selfie with [PERSON]. Everyone is making exaggerated expressions, squinting slightly because of the flash.
 
 Lighting & texture: a strong direct on-camera flash creates obvious shadows behind the subjects. Real film grain, slight motion blur at the edges, and chromatic aberration. The photo should look like a candid amateur snapshot captured in a chaotic backstage moment—not a studio photo.
-
 ```
 
-</details>
-<hr />
+<a id="prompt-en-s08-02"></a>
+#### Example 2: King Crab Chef
 
-**Example 2: King Crab Chef**
-
-<img width="300" alt="Image" src="./images/profile/pr2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s08-02)
 
 ```text
 Generate one vertical short-video screenshot (TikTok / Douyin style). Scene: in a kitchen, a king crab is being prepared and put into a pot. The chef faces the camera, showcasing the ingredients and a complete set of cooking tools laid out on the cutting board.
 ```
 
-</details>
+<a id="prompt-en-s08-03"></a>
+#### Example: On-Set Selfie
 
-
-<hr />
-
-**Example: On-Set Selfie**
-
-<img width="400" alt="Image" src="./images/profile/pr3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s08-03)
 
 ```text
 "I'm taking a selfie with [movie character] on the set of [movie name].
@@ -2531,18 +2707,14 @@ Generate one vertical short-video screenshot (TikTok / Douyin style). Scene: in 
 Keep the person exactly as shown in the reference image with 100% identical facial features, bone structure, skin tone, facial expression, pose, and appearance. 1:1 aspect ratio, 4K detail."
 ```
 
-</details>
+<hr />
 
+### Dreamy & Surreal
 
-## Dreamy & Surreal
+<a id="prompt-en-s09-01"></a>
+#### Example: Four Seasons Bund
 
-
-**Example: Four Seasons Bund**
-
-<img width="600" alt="Image" src="./images/dream/dre1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s09-01)
 
 ```text
 This ultra-photoreal digital illustration depicts {SCENE} as a continuous panoramic image showing the changing of the four seasons. The scene transitions smoothly from left to right, naturally presenting winter, spring, summer, and autumn.
@@ -2562,37 +2734,25 @@ Winter snow melts into spring sprouts and blossoms, then transitions into lush s
 No hard boundaries between seasons; weather, lighting, and vegetation blend seamlessly into a unified panorama. Rich detail, cinematic lighting, 8K resolution, highly detailed textures. --ar 4:3
 
 Scene: looking from the historic Shanghai Bund across the Huangpu River toward the futuristic Lujiazui district skyline.
-
 ```
 
-</details>
+<hr />
 
+### Image-to-Image (img2img)
 
-## Image-to-Image (img2img)
+<a id="prompt-en-img2img-01"></a>
+#### Example: Daytime Isometric Building
 
-**Example: Daytime Isometric Building**
-
-<img width="200" alt="Image" src="./images/p2p/pin_1.png" />
-<img width="200" alt="Image" src="./images/p2p/pout_1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-img2img-01)
 
 ```text
 Convert the image into a daytime and isometric view [buildings only].
 ```
 
-</details>
+<a id="prompt-en-img2img-02"></a>
+#### Example: Remove Blur
 
-<hr />
-
-**Example: Remove Blur**
-
-<img width="200" alt="Image" src="./images/p2p/pin_2.png" />
-<img width="200" alt="Image" src="./images/p2p/pout_2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-img2img-02)
 
 ```json
 {
@@ -2613,17 +2773,14 @@ Convert the image into a daytime and isometric view [buildings only].
 }
 ```
 
-</details>
-
 <hr />
 
-## Food
-**Example: Beef Lasagna Layers**
+### Food
 
-<img width="500" alt="Image" src="./images/food/f4.png" />
+<a id="prompt-en-s10-01"></a>
+#### Example: Beef Lasagna Layers
 
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s10-01)
 
 ```json
   {
@@ -2745,17 +2902,10 @@ Convert the image into a daytime and isometric view [buildings only].
 }
 ```
 
-</details>
+<a id="prompt-en-s10-02"></a>
+#### Example: Matcha Cheesecake
 
-
-<hr />
-
-**Example: Matcha Cheesecake**
-
-<img width="500" alt="Image" src="./images/food/f2.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s10-02)
 
 ```json
 {
@@ -2853,17 +3003,10 @@ Convert the image into a daytime and isometric view [buildings only].
 }
 ```
 
-</details>
+<a id="prompt-en-s10-03"></a>
+#### Example: Berry Burst
 
-
-<hr />
-
-**Example: Berry Burst**
-
-<img width="500" alt="Image" src="./images/food/f3.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s10-03)
 
 ```json
 {
@@ -2901,21 +3044,16 @@ Convert the image into a daytime and isometric view [buildings only].
 }
 ```
 
-</details>
+<a id="prompt-en-s10-04"></a>
+#### Example: Orange Flavor Concept
 
-<hr />
-
-**Example: Orange Flavor Concept**
-
-<img width="600" alt="Image" src="./images/food/f1.png" />
-
-<details>
-<summary>Prompt (Click to expand)</summary>
+[Back to image](#card-en-s10-04)
 
 ```text
 Generate an image of what could be possible to make with this orange foodwise.
 ```
-</details>
+
+<hr />
 
 ## Contributing
 

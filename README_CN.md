@@ -18,6 +18,8 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
 
 ## 快速导航
 
+- [图片模块](#cn-images)
+- [Prompts 模块](#cn-prompts)
 - [漫画品类](#cn-manga)
 - [产品类](#cn-product)
 - [科研报告类](#cn-research)
@@ -33,15 +35,555 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
 - [致谢与参考](#cn-ack)
 
 
+<a id="cn-images"></a>
+## 图片模块（按分类）
+
 <a id="cn-manga"></a>
-## 漫画品类
+### 漫画品类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s01-01"></a>
+      <strong>图例：撕纸分层</strong><br/>
+      <img alt="图例：撕纸分层" title="&quot;task&quot;: &quot;edit-image: add widened torn-paper layered effect&quot; | &quot;base_image&quot;: {" src="./images/like/l1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s01-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s01-02"></a>
+      <strong>图例：宇宙战甲</strong><br/>
+      <img alt="图例：宇宙战甲" title="正向提示词 | (ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality), (high resolution..." src="./images/like/l2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s01-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s01-03"></a>
+      <strong>图例：雨夜伞</strong><br/>
+      <img alt="图例：雨夜伞" title="正向提示词 | masterpiece, best quality, very aesthetic, 8K, HDR, newest, anime_screencap, dynamic pose, depth of field, rakugakingu, FlatNika, in the style of cksc, foreshortening, dynamic angle," src="./images/like/l3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s01-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s01-04"></a>
+      <strong>图例：雪夜柱列</strong><br/>
+      <img alt="图例：雪夜柱列" title="1. 风格调性 | - 关键词： Shin-hanga (新版画风格), Ukiyo-e Aesthetics (浮世绘美学), Serene Melancholy, Atmospheric landscape, Traditional Japanese Art." src="./images/like/gmzr.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s01-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
 
-**图例：撕纸分层**
+<hr />
 
-<img width="600" alt="图片" src="./images/like/l1.png" />
+<a id="cn-product"></a>
+### 产品类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-01"></a>
+      <strong>图例：屏幕倒水</strong><br/>
+      <img alt="图例：屏幕倒水" title="&quot;meta&quot;: { | &quot;type&quot;: &quot;Creative Brief&quot;" src="./images/product/p10.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-02"></a>
+      <strong>图例：绿汽罐</strong><br/>
+      <img alt="图例：绿汽罐" title="&quot;resolution&quot;: &quot;8K&quot; | &quot;style&quot;: &quot;hyper-realistic commercial product photography&quot;" src="./images/product/p13.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-03"></a>
+      <strong>图例1：香草奶油</strong><br/>
+      <img alt="图例1：香草奶油" title="&quot;product&quot;: { | &quot;name&quot;: &quot;香草奶油酿造&quot;" src="./images/product/p1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-04"></a>
+      <strong>图例2：草莓蛋糕</strong><br/>
+      <img alt="图例2：草莓蛋糕" title="&quot;product&quot;: { | &quot;name&quot;: &quot;草莓蛋糕饮料&quot;" src="./images/product/p2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-05"></a>
+      <strong>图例3：午夜火花</strong><br/>
+      <img alt="图例3：午夜火花" title="&quot;product&quot;: { | &quot;name&quot;: &quot;午夜火花 – 大胆多汁&quot;" src="./images/product/p3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-05">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-06"></a>
+      <strong>图例4：街头逃犯</strong><br/>
+      <img alt="图例4：街头逃犯" title="&quot;subject&quot;: { | &quot;description&quot;: &quot;一位年轻人的全身剪影，他身穿超大的橄榄绿色服装，平静地站着，脸上画着白色的涂鸦式微笑，左侧拖着微妙的多重曝光痕迹，风格类似于前卫的街头艺术海报拼贴画&quot;" src="./images/product/p4.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-06">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-07"></a>
+      <strong>图例：晶杯幻境</strong><br/>
+      <img alt="图例：晶杯幻境" title="一幅超高细节的超现实奇幻风数字绘画：画面主体是一只巨大的（华丽的水晶酒杯），杯身带有精密的花丝雕刻，杯中注满粘稠的深红液体，折射光线如熔融宝石。酒杯内部展开一个微观景观：扭曲的橡树，叶片呈深褐与洋红的秋季枯叶质感；树根在琥珀色薄雾中盘绕；发光真菌沿着树皮沟壑有节奏地闪烁。酒杯置于液态水银般的镜面之上，反射清晰到能将整个场景上下颠倒地完整复刻，包含酒杯自身扭曲的折射形变。 ..." src="./images/product/p12.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-07">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-08"></a>
+      <strong>图例5：城市磁贴</strong><br/>
+      <img alt="图例5：城市磁贴" title="展示一张清晰的俯视图，照片内容为 [城市名称] 地标建筑的3D磁贴，磁贴需整齐排列成平行线和直角，呈小山状。这些磁贴需为逼真的微缩模型。在顶部中央放置一个印有城市名称的纪念磁贴，以及一张手写便签，上面写着温度和天气状况。将与当日天气相关的物品融入到小山状装饰中。所有物品不得重复。" src="./images/product/p5.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-08">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-09"></a>
+      <strong>图例6：美味地图</strong><br/>
+      <img alt="图例6：美味地图" title="制作一张 [国家名称] 地图，地图上每个州都用该州最著名的食物来构成（各州地图上的图案应该看起来像是由食物组成的，而不是食物的图片）。仔细检查，确保每个州都正确无误。" src="./images/product/p6.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-09">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-10"></a>
+      <strong>图例：立方体房</strong><br/>
+      <img alt="图例：立方体房" title="一个等距3D立方体微缩房间（浅切面真立方体；所有物品均严格包含在立方体内）。房间描述：[房间描述：详细描述主题、家具、特定杂物、墙面装饰和关键物品]。 | 人物：Q版/手办风格——[在此处插入您上传照片中人物的描述]。人物动作：[例如，坐在椅子上打字、站着做饭、弹吉他]，表情：[例如，专注、快乐、微笑]。人物材质看起来像是哑光PVC，头部较大，身体较小。光照：[氛围名称]..." src="./images/product/p7.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-10">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-11"></a>
+      <strong>图例：立方体房</strong><br/>
+      <img alt="图例：立方体房" title="请根据你对我的了解，生成一张“我在家工作”的 3D 等距彩色插画，画面包含丰富的室内细节。整体视觉风格要圆润、精致、可爱且带一点玩具感。--ar 1:1" src="./images/product/p11.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-11">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-12"></a>
+      <strong>图例：巧咖爆炸</strong><br/>
+      <img alt="图例：巧咖爆炸" title="&quot;主题&quot;: &quot;巧克力咖啡饮料的超逼真垂直爆炸视图&quot; | &quot;布局&quot;: &quot;居中垂直对齐，每个组件独立悬挂并保持清晰的间距&quot;" src="./images/product/p8.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-12">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s02-13"></a>
+      <strong>图例：抹茶爆炸</strong><br/>
+      <img alt="图例：抹茶爆炸" title="&quot;主题&quot;: &quot;抹茶芝士泡沫水果咖啡饮料的超逼真垂直爆炸视图&quot; | &quot;布局&quot;: &quot;居中垂直对齐，每个组件独立悬挂并保持清晰的间距&quot;" src="./images/product/p9.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s02-13">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
 
-<details>
-<summary>提示词（点击展开）</summary>
+<hr />
+
+<a id="cn-research"></a>
+### 科研报告类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s03-01"></a>
+      <strong>图例：光合作用</strong><br/>
+      <img alt="图例：光合作用" title="制作一张讲解【光合作用】的科普信息图。 | 视觉元素：清晰展示关键组成：太阳、绿色植物、水（H2O）从根部进入、二氧化碳（CO2）从叶片进入、氧气（O2）释放。" src="./images/blog/b3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s03-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s03-02"></a>
+      <strong>图例：戴森群建</strong><br/>
+      <img alt="图例：戴森群建" title="请根据我提供的内容生成一张卡通风格信息图，并遵循以下要求： | - 手绘插画风格，横版构图（16:9）。" src="./images/blog/b4.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s03-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s03-03"></a>
+      <strong>图例：戴森群建</strong><br/>
+      <img alt="图例：戴森群建" title="图示为根据论文 Armstrong, S., & Sandberg, A. (2013). *Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox.* Acta Astronautica, 89, 1–13 所构建的“戴森群”建..." src="./images/blog/b1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s03-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s03-04"></a>
+      <strong>图例：人文PPT</strong><br/>
+      <img alt="图例：人文PPT" title="帮我根据下面这个文章做一套中学生都能理解的中文PPT。 | 先写1个PPT大纲，规划出每一页的PPT的内容。" src="./images/blog/b2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s03-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-deconstruct"></a>
+### 解构类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s04-01"></a>
+      <strong>图例1：时尚解构</strong><br/>
+      <img alt="图例1：时尚解构" title="手绘风格的时尚概念分解图。 | 中心：一位时尚自信、略带性感（但并不露骨）的女性角色的全身像，姿态自然而充满活力。" src="./images/deconstruct/d1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s04-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s04-02"></a>
+      <strong>图例：剖层城市</strong><br/>
+      <img alt="图例：剖层城市" title="竖版等距视角（isometric）的城市剖层图，标题为“ROCHESTER, NY”。从上到下用堆叠的 3D 分层展示历史演变： | 1）现代天际线：包含 High Falls、Genesee River、Kodak Tower。" src="./images/deconstruct/d2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s04-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-poster"></a>
+### 海报
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s05-01"></a>
+      <strong>图例1：游乐园海报</strong><br/>
+      <img alt="图例1：游乐园海报" title="呈现一个清晰的 45° 俯视视角，竖版（9:16）等距 3D 微缩卡通场景。画面中心突出城市的标志性地标，以展示精细、细腻的建模。 | 场景纹理柔和细腻，材质使用写实 PBR 质感，光影柔和且逼真。将天气元素创意性地融入城市建筑，使城市景观与大气条件形成动态互动，营造沉浸式的“天气氛围”。" src="./images/post/po4.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s05-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s05-02"></a>
+      <strong>图例2：游乐园海报</strong><br/>
+      <img alt="图例2：游乐园海报" title="请生成一张儿童识字小报《游乐园》，竖版 A4，学习小报版式，适合 5–9 岁孩子 认字与看图识物。 一、小报标题区（顶部） 顶部居中大标题：《游乐园识字小报》 风格：十字小报 / 儿童学习报感 文本要求：大字、醒目、卡通手写体、彩色描边 装饰：周围添加与 游乐园 相关的贴纸风装饰，颜色鲜艳 二、小报主体（中间主画面） 画面中心是一幅 卡通插画风的「游乐园」场景： 整体气氛..." src="./images/post/po1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s05-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s05-03"></a>
+      <strong>图例3：天气城市</strong><br/>
+      <img alt="图例3：天气城市" title="呈现一个清晰的45°俯视视角，垂直（9:16）等距3D微缩卡通场景，突出画面中心的标志性地标，展现精细的建模。 | 场景采用柔和细腻的纹理，搭配逼真的PBR材质和柔和逼真的光影效果。天气元素巧妙地融入城市建筑，在城市景观和大气条件之间建立动态互动，营造身临其境的天气氛围。" src="./images/post/po2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s05-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s05-04"></a>
+      <strong>图例4：星巴克概念店</strong><br/>
+      <img alt="图例4：星巴克概念店" title="这款3D Q版 [星巴克] 迷你概念店设计别具匠心，其外观灵感源自品牌最具代表性的产品和包装（例如，巨型{品牌核心产品，如炸鸡桶/汉堡/甜甜圈/烤鸭}）。店铺共两层，落地玻璃窗将温馨精致的内部装潢尽收眼底：{品牌主色调}主题装饰、温暖的灯光，以及身着品牌专属服装的忙碌员工。可爱的小人偶在街道上漫步、休憩，周围环绕着长椅、路灯和盆栽，营造出迷人的都市景象。该作品采用Cine..." src="./images/post/po3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s05-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-culture"></a>
+### 中国传统文化
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s06-01"></a>
+      <strong>图例：唐宫乐</strong><br/>
+      <img alt="图例：唐宫乐" title="&quot;主题&quot;: { | &quot;描述&quot;: &quot;唐代宫廷乐团在阿干树枝上演奏音乐，乐师们演奏琵琶、二胡、笛子、阮和马蹄镫，乐师和鸟儿随意散落在各处，有的站着，有的坐着。&quot;" src="./images/china/ch1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s06-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-fashion"></a>
+### 美女靓仔类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-01"></a>
+      <strong>图例：车库回眸</strong><br/>
+      <img alt="图例：车库回眸" title="&quot;meta&quot;: { | &quot;aspect_ratio&quot;: &quot;9:16&quot;" src="./images/beauty/bea20.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-02"></a>
+      <strong>图例：眼镜白衬</strong><br/>
+      <img alt="图例：眼镜白衬" title="&quot;prompt&quot;: &quot;Ultra-realistic portrait of a young Asian woman with a slim body and long black wavy hair, wearing black rectangular glasses. Confident expression, soft natural makeup, smooth ..." src="./images/beauty/bea19.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-03"></a>
+      <strong>图例：人潮定格</strong><br/>
+      <img alt="图例：人潮定格" title="一张电影感街头人像：一位年轻女性在繁忙的人群中静止不动，周围的人群带有运动模糊。她留着略微凌乱的短发，神情平静而内省，直视镜头。穿柔软的米色毛衣与有纹理的棕色半身裙，配饰极简。背景是人潮流动的城市街道，形成梦幻的长曝光氛围。浅景深，主体清晰锐利，人群虚化；自然柔和日光；低饱和配色；胶片摄影质感；情绪化、艺术化，高细节写实；35mm 镜头，f/1.8。" src="./images/beauty/bea18.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-04"></a>
+      <strong>图例：居酒自拍</strong><br/>
+      <img alt="图例：居酒自拍" title="&quot;subject&quot;: { | &quot;type&quot;: &quot;stunning_East_Asian_woman_with_modern_social_media_influencer_aesthetic&quot;" src="./images/beauty/bea17.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-05"></a>
+      <strong>图例：偏心闪拍</strong><br/>
+      <img alt="图例：偏心闪拍" title="&quot;type&quot;: &quot;portrait_generation_parameters&quot; | &quot;version&quot;: &quot;1.3&quot;,   &quot;style_preset&quot;: &quot;Off-Center Composition / Flash Street Snap&quot;" src="./images/beauty/bea16.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-05">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-06"></a>
+      <strong>图例：反身镜拍</strong><br/>
+      <img alt="图例：反身镜拍" title="&quot;subject&quot;: { | &quot;description&quot;: &quot;Young woman with light tan skin and dark brown hair featuring lighter caramel highlights.&quot;" src="./images/beauty/bea15.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-06">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-07"></a>
+      <strong>图例：闪光镜照</strong><br/>
+      <img alt="图例：闪光镜照" title="&quot;intent&quot;: &quot;a raw candid flash-style mirror photograph of a young woman.&quot; | &quot;frame&quot;: {" src="./images/beauty/bea14.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-07">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-08"></a>
+      <strong>图例：棚拍模板</strong><br/>
+      <img alt="图例：棚拍模板" title="&quot;character_consistency&quot;: &quot;100%&quot; | &quot;description&quot;: &quot;Full-body studio photoshoot of a female model in a red velvet dress&quot;" src="./images/beauty/bea13.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-08">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-09"></a>
+      <strong>图例：健身硬照</strong><br/>
+      <img alt="图例：健身硬照" title="主体：一张原始、未修图的写实照片——一位肌肉发达的成年男性，深棕色短卷发，戴着大号黑色头戴式耳机；上身穿黑色与深灰拼色纹理的短袖紧身压缩衣（胸口有一个小白色 Logo）；下身黑色运动短裤与白色中筒袜。他坐在黑色橡胶健身房地垫上，一只手撑地向后倚靠，躯干略微扭转，头部侧望。 | 环境：现代工业风健身房。右侧墙面堆叠黑色储物柜格；天花板为外露金属风管与梁架；背景有深蹲架，远处..." src="./images/beauty/bea12.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-09">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-10"></a>
+      <strong>图例：顶拍唱片</strong><br/>
+      <img alt="图例：顶拍唱片" title="&quot;meta&quot;: { | &quot;type&quot;: &quot;Photo&quot;" src="./images/beauty/bea11.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-10">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-11"></a>
+      <strong>图例：金发镜拍</strong><br/>
+      <img alt="图例：金发镜拍" title="&quot;scene&quot;: &quot;bedroom mirror selfie, home setting with bookshelf and desk setup&quot; | &quot;subject&quot;: {" src="./images/beauty/bea10.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-11">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-12"></a>
+      <strong>图例：卡片机屏</strong><br/>
+      <img alt="图例：卡片机屏" title="请使用附图人物的面部特征。 | 画面：一台紧凑型佳能（Canon）数码相机的屏幕特写，屏幕上显示一位年轻女性的照片；相机机身围绕屏幕可见按钮、转盘与表面纹理，包括 FUNC/SET 转轮、DISP 按键，以及侧面的“IMAGE STABILIZER”字样。" src="./images/beauty/bea8.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-12">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-13"></a>
+      <strong>图例：广角街拍</strong><br/>
+      <img alt="图例：广角街拍" title="&quot;edit_type&quot;: &quot;extreme_wide_angle_phone_edit&quot; | &quot;source&quot;: {" src="./images/beauty/bea7.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-13">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-14"></a>
+      <strong>图例：镜子自拍</strong><br/>
+      <img alt="图例：镜子自拍" title="&quot;visual_style&quot;: { | &quot;color_palette&quot;: {" src="./images/beauty/bea2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-14">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-15"></a>
+      <strong>图例：卡片机感</strong><br/>
+      <img alt="图例：卡片机感" title="&quot;image_parameters&quot;: { | &quot;style&quot;: &quot;Canon IXUS aesthetic&quot;" src="./images/beauty/bea5.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-15">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-16"></a>
+      <strong>图例：聚光暗黑</strong><br/>
+      <img alt="图例：聚光暗黑" title="生成一张超写实、带一点“写实动漫”气质的女性人像，人物站在纯黑背景中。 | 光线：使用**窄束聚光灯**，只打在面部中心区域。" src="./images/beauty/bea6.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-16">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-17"></a>
+      <strong>图例：屏幕冷光</strong><br/>
+      <img alt="图例：屏幕冷光" title="&quot;visual_style&quot;: { | &quot;color_palette&quot;: {" src="./images/beauty/bea3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-17">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-18"></a>
+      <strong>图例1：拍立得照</strong><br/>
+      <img alt="图例1：拍立得照" title="请使用附图中的人物。 | 姓名：____。" src="./images/beauty/bea1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-18">查看&复制Prompt</a>
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-portrait-photo"></a>
+### 人物摄影类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s08-01"></a>
+      <strong>图例1：鱼眼自拍</strong><br/>
+      <img alt="图例1：鱼眼自拍" title="一张超逼真的鱼眼广角自拍，使用老式35mm鱼眼镜头拍摄，产生严重的桶形畸变。照片中人物手中没有相机或手机。 | 主体与动作：一张特写、略带畸变的合影，[上传图片中的人物]正在与[人物]自拍。每个人都在做着夸张的表情，微微眯着眼睛，因为闪光灯的照射。" src="./images/profile/pr1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s08-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s08-02"></a>
+      <strong>图例2：帝王蟹厨</strong><br/>
+      <img alt="图例2：帝王蟹厨" title="帮我生成一帧抖音竖屏短视频截图，内容是厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具" src="./images/profile/pr2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s08-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s08-03"></a>
+      <strong>图例：片场自拍</strong><br/>
+      <img alt="图例：片场自拍" title="“我正在《[电影名]》片场和 [电影角色] 合影自拍。 | 请将人物严格保持为参考图中的样子：面部特征、骨相结构、肤色、表情、姿势与整体外观 100% 一致。画幅 1:1，4K 细节。”" src="./images/profile/pr3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s08-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-dreamy"></a>
+### 如梦如幻类
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s09-01"></a>
+      <strong>图例：四季外滩</strong><br/>
+      <img alt="图例：四季外滩" title="这幅超写实数字插画描绘了{场景}，以连续的画面展现四季更迭。画面从左至右流畅过渡，自然展现了冬、春、夏、秋的景象。 | 左侧是寒冷的冬季雪景，逐渐融化成春天的嫩绿花蕾，随后过渡到夏季郁郁葱葱的植被和明媚的阳光，最终在最右侧过渡到秋季的金黄、橙红和绚丽色彩。" src="./images/dream/dre1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s09-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-img2img"></a>
+### 图生图
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-img2img-01"></a>
+      <strong>图例：建筑日等</strong><br/>
+      <img alt="图例：建筑日等（输入图）" title="将图像制作成白天和等距视图[仅限建筑]" src="./images/p2p/pin_1.png" width="100%" />
+      <br/>
+      <img alt="图例：建筑日等（输出图）" title="将图像制作成白天和等距视图[仅限建筑]" src="./images/p2p/pout_1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-img2img-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-img2img-02"></a>
+      <strong>图例：去除模糊</strong><br/>
+      <img alt="图例：去除模糊（输入图）" title="&quot;edit_type&quot;: &quot;unblur&quot; | &quot;operations&quot;: [&quot;sharpen_details&quot;, &quot;reduce_noise&quot;, ...]" src="./images/p2p/pin_2.png" width="100%" />
+      <br/>
+      <img alt="图例：去除模糊（输出图）" title="&quot;edit_type&quot;: &quot;unblur&quot; | &quot;operations&quot;: [&quot;sharpen_details&quot;, &quot;reduce_noise&quot;, ...]" src="./images/p2p/pout_2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-img2img-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-food"></a>
+### 美食
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s10-01"></a>
+      <strong>图例：牛肉千层</strong><br/>
+      <img alt="图例：牛肉千层" title="&quot;project_type&quot;: &quot;Premium Culinary Promotional Poster&quot; | &quot;orientation&quot;: &quot;Vertical&quot;" src="./images/food/f4.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s10-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s10-02"></a>
+      <strong>图例：抹茶芝士</strong><br/>
+      <img alt="图例：抹茶芝士" title="&quot;global_settings&quot;: { | &quot;resolution&quot;: &quot;8K UHD&quot;" src="./images/food/f2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s10-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s10-03"></a>
+      <strong>图例：莓果爆浆</strong><br/>
+      <img alt="图例：莓果爆浆" title="&quot;module_1_berry_smoothie_explosion&quot;: { | &quot;scene_description&quot;: &quot;A vibrant smoothie bowl exploding with fruit and liquid splashes&quot;" src="./images/food/f3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s10-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s10-04"></a>
+      <strong>图例：橙味创意</strong><br/>
+      <img alt="图例：橙味创意" title="生成一张图片，展示“用这颗橙子/橙味食材在美食方向能做出什么创意成品”的可能性。" src="./images/food/f1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s10-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
+<a id="cn-prompts"></a>
+## Prompts 模块（按分类）
+
+### 漫画品类
+
+<a id="prompt-cn-s01-01"></a>
+#### 图例：撕纸分层
+
+[返回对应图片](#card-cn-s01-01)
 
 ```json
 {
@@ -118,20 +660,12 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
     }
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s01-02"></a>
+#### 图例：宇宙战甲
 
-
-<hr />
-
-**图例：宇宙战甲**
-
-<img width="600" alt="图片" src="./images/like/l2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s01-02)
 
 ```text
 正向提示词
@@ -145,17 +679,10 @@ furry, anthro, bkub,
 chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, twins, identical twins, solid eyes,
 ```
 
-</details>
+<a id="prompt-cn-s01-03"></a>
+#### 图例：雨夜伞
 
-
-<hr />
-
-**图例：雨夜伞**
-
-<img width="600" alt="图片" src="./images/like/l3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s01-03)
 
 ```text
 正向提示词
@@ -167,17 +694,10 @@ masterpiece, best quality, very aesthetic, 8K, HDR, newest, anime_screencap, dyn
 worst quality, low quality, bad anatomy, bad proportions, extra digits, extra legs, extra arms, disfigured, blurry eyes, lowres, mutated hands, bad hands, signature, watermark, artist name, username, patreon username, twitter username, logo, oversaturated
 ```
 
-</details>
+<a id="prompt-cn-s01-04"></a>
+#### 图例：雪夜柱列
 
-
-<hr />
-
-**图例：雪夜柱列**
-
-<img width="600" alt="图片" src="./images/like/gmzr.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s01-04)
 
 ```text
 1. 风格调性 
@@ -210,20 +730,14 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
   大雪天气，《鬼灭之刃》所有「柱」的定妆照，每个「柱」都按自己的呼吸法做战斗准备姿势。
 ```
 
-</details>
-
-
 <hr />
 
-<a id="cn-product"></a>
-## 产品类
+### 产品类
 
-**图例：屏幕倒水**
+<a id="prompt-cn-s02-01"></a>
+#### 图例：屏幕倒水
 
-<img width="400" alt="图片" src="./images/product/p10.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-01)
 
 ```json
 {
@@ -330,20 +844,12 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
     "resolution_target": "8K / Highly detailed"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s02-02"></a>
+#### 图例：绿汽罐
 
-<hr />
-
-
-**图例：绿汽罐**
-
-<img width="300" alt="图片" src="./images/product/p13.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-02)
 
 ```json
 {
@@ -400,17 +906,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-cn-s02-03"></a>
+#### 图例1：香草奶油
 
-
-<hr />
-
-**图例1：香草奶油**
-
-<img width="300" alt="图片" src="./images/product/p1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-03)
 
 ```json
 {
@@ -432,15 +931,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
-<hr />
+<a id="prompt-cn-s02-04"></a>
+#### 图例2：草莓蛋糕
 
-**图例2：草莓蛋糕**
-
-<img width="300" alt="图片" src="./images/product/p2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-04)
 
 ```json
 {
@@ -461,16 +955,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-cn-s02-05"></a>
+#### 图例3：午夜火花
 
-<hr />
-
-**图例3：午夜火花**
-
-<img width="300" alt="图片" src="./images/product/p3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-05)
 
 ```json
 {
@@ -497,16 +985,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-cn-s02-06"></a>
+#### 图例4：街头逃犯
 
-<hr />
-
-**图例4：街头逃犯**
-
-<img width="300" alt="图片" src="./images/product/p4.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-06)
 
 ```json
 {
@@ -618,17 +1100,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 }
 ```
 
-</details>
+<a id="prompt-cn-s02-07"></a>
+#### 图例：晶杯幻境
 
-
-<hr />
-
-**图例：晶杯幻境**
-
-<img width="600" alt="图片" src="./images/product/p12.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-07)
 
 ```text
 一幅超高细节的超现实奇幻风数字绘画：画面主体是一只巨大的（华丽的水晶酒杯），杯身带有精密的花丝雕刻，杯中注满粘稠的深红液体，折射光线如熔融宝石。酒杯内部展开一个微观景观：扭曲的橡树，叶片呈深褐与洋红的秋季枯叶质感；树根在琥珀色薄雾中盘绕；发光真菌沿着树皮沟壑有节奏地闪烁。酒杯置于液态水银般的镜面之上，反射清晰到能将整个场景上下颠倒地完整复刻，包含酒杯自身扭曲的折射形变。
@@ -636,54 +1111,30 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 背景是一轮（巨大的垂死太阳），透过火山灰云渗出橘红色光芒，云层中夹杂磷绿色纹理。天空从顶部的淤紫色渐变到地平线附近的血红色；锯齿状的玄武岩山脉从被发光浮游生物堵塞的铅灰色海面中突起。左侧一株石化的柳树滴落猩红叶片，如同慢动作的血滴，每一条叶脉都清晰可见；右侧黑曜石峭壁陡然上升，碎裂的岩面在阳光下形成刀锋般的高光。
 
 材质表现极其“偏执”：酒杯折射的不完美细节、树皮上附着地衣的裂隙、海面油膜般的虹彩都被精细刻画。使用移轴镜头，f/1.2 虚化画面边缘，对焦在酒杯中心的折射畸变处，让内部景观扭曲出类似克莱因瓶的悖论感。整体风格融合 Zdzisław Beksiński 的反乌托邦宏大感与 Moebius 的有机超现实主义，并用 DaVinci Resolve 做电影级调色以强化层次。
-
 ```
 
-</details>
+<a id="prompt-cn-s02-08"></a>
+#### 图例5：城市磁贴
 
-
-<hr />
-
-
-**图例5：城市磁贴**
-
-<img width="600" alt="图片" src="./images/product/p5.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-08)
 
 ```text
 展示一张清晰的俯视图，照片内容为 [城市名称] 地标建筑的3D磁贴，磁贴需整齐排列成平行线和直角，呈小山状。这些磁贴需为逼真的微缩模型。在顶部中央放置一个印有城市名称的纪念磁贴，以及一张手写便签，上面写着温度和天气状况。将与当日天气相关的物品融入到小山状装饰中。所有物品不得重复。
-
 ```
 
-</details>
+<a id="prompt-cn-s02-09"></a>
+#### 图例6：美味地图
 
-
-<hr />
-
-**图例6：美味地图**
-
-<img width="600" alt="图片" src="./images/product/p6.png" />
-
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-09)
 
 ```text
 制作一张 [国家名称] 地图，地图上每个州都用该州最著名的食物来构成（各州地图上的图案应该看起来像是由食物组成的，而不是食物的图片）。仔细检查，确保每个州都正确无误。
 ```
 
-</details>
+<a id="prompt-cn-s02-10"></a>
+#### 图例：立方体房
 
-<hr />
-
-**图例：立方体房**
-
-<img width="600" alt="图片" src="./images/product/p7.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-10)
 
 ```text
 一个等距3D立方体微缩房间（浅切面真立方体；所有物品均严格包含在立方体内）。房间描述：[房间描述：详细描述主题、家具、特定杂物、墙面装饰和关键物品]。
@@ -691,34 +1142,19 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 人物：Q版/手办风格——[在此处插入您上传照片中人物的描述]。人物动作：[例如，坐在椅子上打字、站着做饭、弹吉他]，表情：[例如，专注、快乐、微笑]。人物材质看起来像是哑光PVC，头部较大，身体较小。光照：[氛围名称]：[光源：例如，霓虹蓝光、暖日光、金色灯光]；逼真的反射和彩色阴影。视角：略微抬高的等距四分之三视角，立方体正面边缘居中；没有任何元素突出于立方体之外。照片级材质，细节丰富；中性背景。画面细节丰富，构图清晰；无水印。
 ```
 
-</details>
+<a id="prompt-cn-s02-11"></a>
+#### 图例：立方体房
 
-
-<hr />
-
-**图例：立方体房**
-
-<img width="600" alt="图片" src="./images/product/p11.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-11)
 
 ```text
 请根据你对我的了解，生成一张“我在家工作”的 3D 等距彩色插画，画面包含丰富的室内细节。整体视觉风格要圆润、精致、可爱且带一点玩具感。--ar 1:1
-
 ```
 
-</details>
+<a id="prompt-cn-s02-12"></a>
+#### 图例：巧咖爆炸
 
-
-<hr />
-
-**图例：巧咖爆炸**
-<img width="300" alt="图片" src="./images/product/p8.png" />
-
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-12)
 
 ```json
 {
@@ -762,22 +1198,12 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
     "分辨率": "8K"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s02-13"></a>
+#### 图例：抹茶爆炸
 
-
-----
-
-**图例：抹茶爆炸**
-
-<img width="300" alt="图片" src="./images/product/p9.png" />
-
-
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s02-13)
 
 ```json
 {
@@ -821,20 +1247,16 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
     "分辨率": "8K"
   }
 }
-
 ```
 
-</details>
+<hr />
 
-<a id="cn-research"></a>
-## 科研报告类
+### 科研报告类
 
-**图例：光合作用**
+<a id="prompt-cn-s03-01"></a>
+#### 图例：光合作用
 
-<img width="600" alt="图片" src="./images/blog/b3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s03-01)
 
 ```text
 制作一张讲解【光合作用】的科普信息图。
@@ -848,17 +1270,10 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 标注：对每个元素进行清晰标注（可使用中文或中英双语）。
 ```
 
-</details>
+<a id="prompt-cn-s03-02"></a>
+#### 图例：戴森群建
 
-
-<hr />
-
-**图例：戴森群建**
-
-<img width="600" alt="图片" src="./images/blog/b4.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s03-02)
 
 ```text
 请根据我提供的内容生成一张卡通风格信息图，并遵循以下要求：
@@ -876,32 +1291,19 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 请使用 Nano Banana Pro 根据输入生成该信息图。
 ```
 
-</details>
+<a id="prompt-cn-s03-03"></a>
+#### 图例：戴森群建
 
-
-<hr />
-
-**图例：戴森群建**
-
-<img width="600" alt="图片" src="./images/blog/b1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s03-03)
 
 ```text
 图示为根据论文 Armstrong, S., & Sandberg, A. (2013). *Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox.* Acta Astronautica, 89, 1–13 所构建的“戴森群”建设流程示意。
 ```
 
-</details>
+<a id="prompt-cn-s03-04"></a>
+#### 图例：人文PPT
 
-<hr />
-
-**图例：人文PPT**
-
-<img width="600" alt="图片" src="./images/blog/b2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s03-04)
 
 ```text
 帮我根据下面这个文章做一套中学生都能理解的中文PPT。
@@ -927,19 +1329,14 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 文章内容为：[]
 ```
 
-</details>
-
 <hr />
 
-<a id="cn-deconstruct"></a>
-## 解构类
+### 解构类
 
-**图例1：时尚解构**
+<a id="prompt-cn-s04-01"></a>
+#### 图例1：时尚解构
 
-<img width="600" alt="图片" src="./images/deconstruct/d1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s04-01)
 
 ```text
 手绘风格的时尚概念分解图。
@@ -967,15 +1364,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 语言：中英文标签。
 ```
 
-</details>
-<hr />
+<a id="prompt-cn-s04-02"></a>
+#### 图例：剖层城市
 
-**图例：剖层城市**
-
-<img width="600" alt="图片" src="./images/deconstruct/d2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s04-02)
 
 ```text
 竖版等距视角（isometric）的城市剖层图，标题为“ROCHESTER, NY”。从上到下用堆叠的 3D 分层展示历史演变：
@@ -991,22 +1383,14 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 左侧：一条竖向时间轴刻度尺。
 ```
 
-</details>
-
 <hr />
 
+### 海报
 
+<a id="prompt-cn-s05-01"></a>
+#### 图例1：游乐园海报
 
-<a id="cn-poster"></a>
-## 海报
-
-**图例1：游乐园海报**
-
-<img width="300" alt="图片" src="./images/post/po4.png" />
-
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s05-01)
 
 ```text
 呈现一个清晰的 45° 俯视视角，竖版（9:16）等距 3D 微缩卡通场景。画面中心突出城市的标志性地标，以展示精细、细腻的建模。
@@ -1024,32 +1408,19 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 城市名称：Evanston
 ```
 
-</details>
+<a id="prompt-cn-s05-02"></a>
+#### 图例2：游乐园海报
 
-<hr />
-
-**图例2：游乐园海报**
-
-<img width="300" alt="图片" src="./images/post/po1.png" />
-
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s05-02)
 
 ```text
 请生成一张儿童识字小报《游乐园》，竖版 A4，学习小报版式，适合 5–9 岁孩子 认字与看图识物。 一、小报标题区（顶部） 顶部居中大标题：《游乐园识字小报》 风格：十字小报 / 儿童学习报感 文本要求：大字、醒目、卡通手写体、彩色描边 装饰：周围添加与 游乐园 相关的贴纸风装饰，颜色鲜艳 二、小报主体（中间主画面） 画面中心是一幅 卡通插画风的「游乐园」场景： 整体气氛：明亮、温暖、积极 构图：物体边界清晰，方便对应文字，不要过于拥挤。 场景分区与核心内容 核心区域 A（主要对象）：表现 游乐园 的核心活动（孩子们在玩游乐设施）。 核心区域 B（配套设施）：展示相关的工具或物品（售票、零食、指示设施）。 核心区域 C（环境背景）：体现环境特征（入口、路牌、彩旗、绿地等）。 主题人物 角色：1 位可爱卡通人物（身份：游乐园工作人员/游客小朋友皆可）。 动作：正在进行与场景相关的自然互动（如微笑指路、挥手欢迎、陪孩子玩）。 三、必画物体与识字清单（Generated Content） 请务必在画面中清晰绘制以下物体，并为其预留贴标签的位置： 1. 核心角色与设施： gōng zuò rén yuán 工作人员 shòu piào chù 售票处 guò shān chē 过山车 mó tiān lún 摩天轮 xuán zhuǎn mǎ 旋转木马 2. 常见物品/工具： piào 票 qì qiú 气球 bīng jī líng 冰淇淋 bào mǐ huā 爆米花 táng hú lu 糖葫芦 miàn jù 面具 wán jù 玩具 xiǎo qí zi 小旗子 3. 环境与装饰： rù kǒu 入口 chū kǒu 出口 zhǐ shì pái 指示牌 cǎi qí 彩旗 guǎng chǎng 广场 (注意：画面中的物体数量不限于此，但以上列表必须作为重点描绘对象；总计 18 个典型名词，适合 5–9 岁儿童识字。) 四、识字标注规则 对上述清单中的物体，贴上中文识字标签： 格式：两行制（第一行拼音带声调，第二行简体汉字）。 样式：彩色小贴纸风格，白底黑字或深色字，清晰可读。 排版：标签靠近对应的物体，不遮挡主体。 五、画风参数 风格：儿童绘本风 + 识字小报风 色彩：高饱和、明快、温暖 (High Saturation, Warm Tone) 质量：8k resolution, high detail, vector illustration style, clean lines.
 ```
 
-</details>
+<a id="prompt-cn-s05-03"></a>
+#### 图例3：天气城市
 
-<hr />
-
-**图例3：天气城市**
-
-<img width="300" alt="图片" src="./images/post/po2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s05-03)
 
 ```text
 呈现一个清晰的45°俯视视角，垂直（9:16）等距3D微缩卡通场景，突出画面中心的标志性地标，展现精细的建模。
@@ -1067,35 +1438,23 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 城市名称：[上海]
 ```
 
-</details>
+<a id="prompt-cn-s05-04"></a>
+#### 图例4：星巴克概念店
 
-<hr />
-
-**图例4：星巴克概念店**
-
-<img width="300" alt="图片" src="./images/post/po3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s05-04)
 
 ```text
 这款3D Q版 [星巴克] 迷你概念店设计别具匠心，其外观灵感源自品牌最具代表性的产品和包装（例如，巨型{品牌核心产品，如炸鸡桶/汉堡/甜甜圈/烤鸭}）。店铺共两层，落地玻璃窗将温馨精致的内部装潢尽收眼底：{品牌主色调}主题装饰、温暖的灯光，以及身着品牌专属服装的忙碌员工。可爱的小人偶在街道上漫步、休憩，周围环绕着长椅、路灯和盆栽，营造出迷人的都市景象。该作品采用Cinema 4D软件以微缩城市景观风格渲染，拥有盲盒玩具般的精致美感，细节丰富，栩栩如生，柔和的灯光更添一份轻松惬意的午后氛围。请参阅随附的角色设定图，了解店内出现的迷你角色。--ar 2:3
 ```
 
-</details>
-
 <hr />
 
-<a id="cn-culture"></a>
-## 中国传统文化
+### 中国传统文化
 
+<a id="prompt-cn-s06-01"></a>
+#### 图例：唐宫乐
 
-**图例：唐宫乐**
-
-<img width="600" alt="图片" src="./images/china/ch1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s06-01)
 
 ```json
 {
@@ -1206,25 +1565,16 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
     ]
   }
 }
-
 ```
-
-</details>
 
 <hr />
 
+### 美女靓仔类
 
+<a id="prompt-cn-s07-01"></a>
+#### 图例：车库回眸
 
-
-<a id="cn-fashion"></a>
-## 美女靓仔类
-
-**图例：车库回眸**
-
-<img width="600" alt="图片" src="./images/beauty/bea20.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-01)
 
 ```json
 {
@@ -1313,19 +1663,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 }
 ```
 
-</details>
+<a id="prompt-cn-s07-02"></a>
+#### 图例：眼镜白衬
 
-
-<hr />
-
-
-
-**图例：眼镜白衬**
-
-<img width="600" alt="图片" src="./images/beauty/bea19.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-02)
 
 ```json
 {
@@ -1341,33 +1682,19 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 }
 ```
 
-</details>
+<a id="prompt-cn-s07-03"></a>
+#### 图例：人潮定格
 
-
-<hr />
-
-**图例：人潮定格**
-
-<img width="600" alt="图片" src="./images/beauty/bea18.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-03)
 
 ```text
 一张电影感街头人像：一位年轻女性在繁忙的人群中静止不动，周围的人群带有运动模糊。她留着略微凌乱的短发，神情平静而内省，直视镜头。穿柔软的米色毛衣与有纹理的棕色半身裙，配饰极简。背景是人潮流动的城市街道，形成梦幻的长曝光氛围。浅景深，主体清晰锐利，人群虚化；自然柔和日光；低饱和配色；胶片摄影质感；情绪化、艺术化，高细节写实；35mm 镜头，f/1.8。
 ```
 
-</details>
+<a id="prompt-cn-s07-04"></a>
+#### 图例：居酒自拍
 
-
-<hr />
-
-**图例：居酒自拍**
-
-<img width="600" alt="图片" src="./images/beauty/bea17.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-04)
 
 ```json
 {
@@ -1427,17 +1754,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 }
 ```
 
-</details>
+<a id="prompt-cn-s07-05"></a>
+#### 图例：偏心闪拍
 
-
-<hr />
-
-**图例：偏心闪拍**
-
-<img width="600" alt="图片" src="./images/beauty/bea16.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-05)
 
 ```json
 {   
@@ -1461,17 +1781,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 "tones": "Moody cool tones in the background, warm flash tones on the skin. High contrast curve."     },     "negative_prompt": [       "center frame",       "centered subject",       "legs apart",       "wide stance",       "straight legs",       "looking right",       "body facing right",       "bad anatomy",       "distorted hands",       "missing fingers",       "blurry face",       "flat lighting"     ]   } }
 ```
 
-</details>
+<a id="prompt-cn-s07-06"></a>
+#### 图例：反身镜拍
 
-
-<hr />
-
-**图例：反身镜拍**
-
-<img width="600" alt="图片" src="./images/beauty/bea15.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-06)
 
 ```json
 {
@@ -1580,17 +1893,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 }
 ```
 
-</details>
+<a id="prompt-cn-s07-07"></a>
+#### 图例：闪光镜照
 
-
-<hr />
-
-**图例：闪光镜照**
-
-<img width="600" alt="图片" src="./images/beauty/bea14.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-07)
 
 ```json
 {
@@ -1639,17 +1945,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 }
 ```
 
-</details>
+<a id="prompt-cn-s07-08"></a>
+#### 图例：棚拍模板
 
-
-<hr />
-
-**图例：棚拍模板**
-
-<img width="600" alt="图片" src="./images/beauty/bea13.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-08)
 
 ```json
 {
@@ -1677,17 +1976,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 }
 ```
 
-</details>
+<a id="prompt-cn-s07-09"></a>
+#### 图例：健身硬照
 
-
-<hr />
-
-**图例：健身硬照**
-
-<img width="600" alt="图片" src="./images/beauty/bea12.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-09)
 
 ```text
 主体：一张原始、未修图的写实照片——一位肌肉发达的成年男性，深棕色短卷发，戴着大号黑色头戴式耳机；上身穿黑色与深灰拼色纹理的短袖紧身压缩衣（胸口有一个小白色 Logo）；下身黑色运动短裤与白色中筒袜。他坐在黑色橡胶健身房地垫上，一只手撑地向后倚靠，躯干略微扭转，头部侧望。
@@ -1701,17 +1993,10 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 目光：主体直视镜头。
 ```
 
-</details>
+<a id="prompt-cn-s07-10"></a>
+#### 图例：顶拍唱片
 
-
-<hr />
-
-**图例：顶拍唱片**
-
-<img width="600" alt="图片" src="./images/beauty/bea11.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-10)
 
 ```json
 {
@@ -1819,20 +2104,12 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
     "negative": "soft lighting, outdoor, standing, digital render, 3d, modern phone, clean floor, minimalist"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s07-11"></a>
+#### 图例：金发镜拍
 
-
-<hr />
-
-**图例：金发镜拍**
-
-<img width="600" alt="图片" src="./images/beauty/bea10.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-11)
 
 ```json
 {
@@ -1978,20 +2255,12 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
     "STYLE": "mirror selfie with iphone"
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s07-12"></a>
+#### 图例：卡片机屏
 
-
-<hr />
-
-**图例：卡片机屏**
-
-<img width="600" alt="图片" src="./images/beauty/bea8.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-12)
 
 ```text
 请使用附图人物的面部特征。
@@ -2012,18 +2281,12 @@ ISO：400
 白平衡：自动闪光
 光线：人物使用强直闪；背景为低照度环境光
 调色：怀旧数码相机色调；闪光高对比；轻微屏幕颗粒；真实屏幕辉光。
-
 ```
 
-</details>
+<a id="prompt-cn-s07-13"></a>
+#### 图例：广角街拍
 
-
-<hr />
-
-**图例：广角街拍**
-<img width="600" alt="图片" src="./images/beauty/bea7.png" />
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-13)
 
 ```json
 {
@@ -2094,19 +2357,12 @@ ISO：400
     ]
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s07-14"></a>
+#### 图例：镜子自拍
 
-
-<hr />
-
-**图例：镜子自拍**
-<img width="500" alt="图片" src="./images/beauty/bea2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-14)
 
 ```json
 {
@@ -2195,53 +2451,12 @@ ISO：400
     }
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s07-15"></a>
+#### 图例：卡片机感
 
-<hr />
-
-**图例：橱窗分身**
-
-
-<details>
-<summary>提示词（点击展开）</summary>
-
-```json
-{
-  "PROMPT": "Create a bright, high-end street-fashion photograph of the woman from the reference image, keeping her face, hair, body & outfit exactly the same. She stands outside a luxury toy-shop window, gently touching the glass. Inside the window display, place a full-height cartoon-style doll designed to resemble her—same features, hair, and outfit—transformed into a cute, big-eyed, stylized animated character. Crisp lighting, premium street-fashion look, realistic reflections, face unchanged.",
-  "settings": {
-    "style": "high-end street fashion",
-    "lighting": "crisp and bright",
-    "environment": "outside luxury toy-shop window",
-    "subject": "woman from reference image",
-    "focus": ["face", "hair", "body", "outfit"],
-    "additional_elements": [
-      {
-        "type": "doll",
-        "style": "cartoon-style, big-eyed, stylized",
-        "location": "inside window display",
-        "resemblance": "exact features, hair, outfit of woman"
-      }
-    ],
-    "reflections": "realistic",
-    "photorealism": true
-  }
-}
-
-```
-
-</details>
-
-<hr />
-
-**图例：卡片机感**
-
-<img width="600" alt="图片" src="./images/beauty/bea5.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-15)
 
 ```json
 {
@@ -2295,17 +2510,12 @@ ISO：400
     ]
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s07-16"></a>
+#### 图例：聚光暗黑
 
-<hr />
-
-**图例：聚光暗黑**
-<img width="600" alt="图片" src="./images/beauty/bea6.png" />
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-16)
 
 ```text
 生成一张超写实、带一点“写实动漫”气质的女性人像，人物站在纯黑背景中。
@@ -2323,19 +2533,12 @@ ISO：400
 服装：黑色长袖针织毛衣；毛衣与身体大部分细节应被黑暗吞没，仅保留极少量轮廓信息。
 
 整体调性：暗黑、情绪化、戏剧化、神秘；对比度主要集中在被照亮的面部区域；聚光灯以外几乎不可见。
-
 ```
 
-</details>
+<a id="prompt-cn-s07-17"></a>
+#### 图例：屏幕冷光
 
-<hr />
-
-**图例：屏幕冷光**
-
-<img width="300" alt="图片" src="./images/beauty/bea3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s07-17)
 
 ```json
 {
@@ -2406,22 +2609,14 @@ ISO：400
     }
   }
 }
-
 ```
 
-</details>
+<a id="prompt-cn-s07-18"></a>
+#### 图例1：拍立得照
 
-<hr />
+[返回对应图片](#card-cn-s07-18)
 
-**图例1：拍立得照**
-
-<img width="300" alt="图片" src="./images/beauty/bea1.png" />
-
-
-<details>
-<summary>提示词（点击展开）</summary>
-
-```
+```text
 请使用附图中的人物。
 
 姓名：____。
@@ -2451,22 +2646,16 @@ ISO：400
 [纹理和背景]
 
 照片放置在白色桌面上，投射出自然的阴影。
-
 ```
 
-</details>
+<hr />
 
+### 人物摄影类
 
-<a id="cn-portrait-photo"></a>
-## 人物摄影类
+<a id="prompt-cn-s08-01"></a>
+#### 图例1：鱼眼自拍
 
-
-**图例1：鱼眼自拍**
-
-<img width="300" alt="图片" src="./images/profile/pr1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s08-01)
 
 ```text
 
@@ -2475,34 +2664,21 @@ ISO：400
 主体与动作：一张特写、略带畸变的合影，[上传图片中的人物]正在与[人物]自拍。每个人都在做着夸张的表情，微微眯着眼睛，因为闪光灯的照射。
 
 光线与质感：强烈的直射闪光灯在人物背后形成明显的阴影。真实的胶片颗粒感，边缘略微的动态模糊，以及色差。这张照片看起来像是抓拍的业余快照，仿佛是在混乱的幕后瞬间拍摄的，而不是影棚照片。
-
 ```
 
-</details>
-<hr />
+<a id="prompt-cn-s08-02"></a>
+#### 图例2：帝王蟹厨
 
-**图例2：帝王蟹厨**
-
-<img width="300" alt="图片" src="./images/profile/pr2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s08-02)
 
 ```text
 帮我生成一帧抖音竖屏短视频截图，内容是厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具
 ```
 
-</details>
+<a id="prompt-cn-s08-03"></a>
+#### 图例：片场自拍
 
-
-<hr />
-
-**图例：片场自拍**
-
-<img width="400" alt="图片" src="./images/profile/pr3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s08-03)
 
 ```text
 “我正在《[电影名]》片场和 [电影角色] 合影自拍。
@@ -2510,19 +2686,14 @@ ISO：400
 请将人物严格保持为参考图中的样子：面部特征、骨相结构、肤色、表情、姿势与整体外观 100% 一致。画幅 1:1，4K 细节。”
 ```
 
-</details>
+<hr />
 
+### 如梦如幻类
 
-<a id="cn-dreamy"></a>
-## 如梦如幻类
+<a id="prompt-cn-s09-01"></a>
+#### 图例：四季外滩
 
-
-**图例：四季外滩**
-
-<img width="600" alt="图片" src="./images/dream/dre1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s09-01)
 
 ```text
 这幅超写实数字插画描绘了{场景}，以连续的画面展现四季更迭。画面从左至右流畅过渡，自然展现了冬、春、夏、秋的景象。
@@ -2543,38 +2714,25 @@ ISO：400
 四季之间没有明显的界限；天气、光线和植被完美融合，构成一幅和谐统一的全景图。细节丰富，象征着时间的流逝，采用电影级光照，8K分辨率，纹理高度精细。 --ar 4:3
 
 场景：从历史悠久的上海外滩眺望黄浦江对岸充满未来感的陆家嘴区。
-
 ```
 
-</details>
+<hr />
 
+### 图生图
 
-<a id="cn-img2img"></a>
-## 图生图
+<a id="prompt-cn-img2img-01"></a>
+#### 图例：建筑日等
 
-**图例：建筑日等**
-
-<img width="200" alt="图片" src="./images/p2p/pin_1.png" />
-<img width="200" alt="图片" src="./images/p2p/pout_1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-img2img-01)
 
 ```text
 将图像制作成白天和等距视图[仅限建筑]
 ```
 
-</details>
+<a id="prompt-cn-img2img-02"></a>
+#### 图例：去除模糊
 
-<hr />
-
-**图例：去除模糊**
-
-<img width="200" alt="图片" src="./images/p2p/pin_2.png" />
-<img width="200" alt="图片" src="./images/p2p/pout_2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-img2img-02)
 
 ```json
 {
@@ -2595,18 +2753,14 @@ ISO：400
 }
 ```
 
-</details>
-
 <hr />
 
-<a id="cn-food"></a>
-## 美食
-**图例：牛肉千层**
+### 美食
 
-<img width="500" alt="图片" src="./images/food/f4.png" />
+<a id="prompt-cn-s10-01"></a>
+#### 图例：牛肉千层
 
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s10-01)
 
 ```json
   {
@@ -2728,17 +2882,10 @@ ISO：400
 }
 ```
 
-</details>
+<a id="prompt-cn-s10-02"></a>
+#### 图例：抹茶芝士
 
-
-<hr />
-
-**图例：抹茶芝士**
-
-<img width="500" alt="图片" src="./images/food/f2.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s10-02)
 
 ```json
 {
@@ -2836,17 +2983,10 @@ ISO：400
 }
 ```
 
-</details>
+<a id="prompt-cn-s10-03"></a>
+#### 图例：莓果爆浆
 
-
-<hr />
-
-**图例：莓果爆浆**
-
-<img width="500" alt="图片" src="./images/food/f3.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s10-03)
 
 ```json
 {
@@ -2884,21 +3024,16 @@ ISO：400
 }
 ```
 
-</details>
+<a id="prompt-cn-s10-04"></a>
+#### 图例：橙味创意
 
-<hr />
-
-**图例：橙味创意**
-
-<img width="600" alt="图片" src="./images/food/f1.png" />
-
-<details>
-<summary>提示词（点击展开）</summary>
+[返回对应图片](#card-cn-s10-04)
 
 ```text
 生成一张图片，展示“用这颗橙子/橙味食材在美食方向能做出什么创意成品”的可能性。
 ```
-</details>
+
+<hr />
 
 <a id="cn-contributing"></a>
 ## 贡献
