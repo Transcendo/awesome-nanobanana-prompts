@@ -1,7 +1,13 @@
 # awesome-nanobanana-prompts
 A curated prompt library for Nano Banana / Nano Banana Pro.
 
-[English](README.md) | [中文](README_CN.md)
+<p align="center">
+  <a href="https://github.com/Transcendo/awesome-nanobanana-prompts/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Transcendo/awesome-nanobanana-prompts?style=social"></a>
+  <a href="https://github.com/Transcendo/awesome-nanobanana-prompts/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Transcendo/awesome-nanobanana-prompts?style=social"></a>
+  <a href="https://github.com/Transcendo/awesome-nanobanana-prompts/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Transcendo/awesome-nanobanana-prompts"></a>
+</p>
+
+[English](README.md) | [Chinese](README_CN.md)
 
 ## SEO / GEO Statement
 
@@ -9,6 +15,21 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 - Coverage: text-to-image, img2img, poster design, product photography, ukiyo-e, PPT, research diagrams, deconstruction diagrams, etc.
 - Intended for searching, learning, reproducing, and comparing prompt structures and results.
 - Search keywords: nano banana; nanobanana; nano banana pro; prompts; prompt library; prompt engineering; image prompts; images; examples; templates; text to image; text-to-image; img2img; poster; product photography; ukiyo-e; PPT; research diagram; deconstruct.
+
+## Quick Navigation
+
+- [Manga Style](#manga-style)
+- [Product Photography](#product-photography)
+- [Research & Infographics](#research--infographics)
+- [Deconstruction](#deconstruction)
+- [Poster Design](#poster-design)
+- [Traditional Chinese Culture](#traditional-chinese-culture)
+- [Portrait & Fashion](#portrait--fashion)
+- [Portrait Photography](#portrait-photography)
+- [Dreamy & Surreal](#dreamy--surreal)
+- [Image-to-Image (img2img)](#image-to-image-img2img)
+- [Food](#food)
+- [Acknowledgements & References](#acknowledgements--references)
 
 
 ## Manga Style
@@ -101,8 +122,7 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Cosmic Power Armor**
 
@@ -126,8 +146,7 @@ chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, 
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Rainy Night Umbrella**
 
@@ -149,8 +168,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Snowy Night Hashira Lineup**
 
@@ -191,8 +209,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 ```
 
 </details>
---- 
-
+<hr />
 
 ## Product Photography
 
@@ -313,8 +330,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
----
-
+<hr />
 
 
 **Example: Green Soda Can**
@@ -382,7 +398,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
----
+<hr />
 
 **Example 1: Vanilla Cream**
 
@@ -412,7 +428,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 ```
 
 </details>
----
+<hr />
 
 **Example 2: Strawberry Cake**
 
@@ -442,7 +458,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
---- 
+<hr />
 
 **Example 3: Midnight Spark**
 
@@ -478,7 +494,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
---- 
+<hr />
 
 **Example 4: Street Fugitive**
 
@@ -600,7 +616,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
+<hr />
 
 **Example: Crystal Goblet Fantasy**
 
@@ -621,8 +637,7 @@ Textures are obsessively rendered: the glass's refractive imperfections, the tre
 </details>
 
 
----
-
+<hr />
 
 
 **Example 5: City Magnet Tiles**
@@ -640,7 +655,7 @@ Show a clear top-down photo of 3D magnet tiles featuring iconic landmarks of [CI
 </details>
 
 
----
+<hr />
 
 **Example 6: Delicious Food Map**
 
@@ -656,7 +671,7 @@ Create a map of [COUNTRY NAME] where each state/province is composed of that reg
 
 </details>
 
----
+<hr />
 
 **Example: Isometric Cube Room**
 
@@ -674,7 +689,7 @@ Character: chibi / figurine style — [INSERT THE PERSON DESCRIPTION FROM YOUR U
 </details>
 
 
---- 
+<hr />
 
 **Example: Isometric Cube Room**
 
@@ -691,8 +706,7 @@ Based on you know about me, generate a 3D isometric colored illustration of me w
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Chocolate Coffee Explosion**
 <img width="300" alt="Image" src="./images/product/p8.png" />
@@ -823,7 +837,7 @@ Create an educational infographic explaining [Photosynthesis] . Visual Elements 
 </details>
 
 
----
+<hr />
 
 **Example: Dyson Swarm Construction**
 
@@ -853,7 +867,7 @@ Please use nano banana pro to create the illustration based on the input provide
 </details>
 
 
----
+<hr />
 
 **Example: Dyson Swarm Construction**
 
@@ -868,7 +882,7 @@ This diagram illustrates the process of constructing a Dyson swarm based on: Arm
 
 </details>
 
---- 
+<hr />
 
 **Example: Humanities PPT**
 
@@ -903,8 +917,7 @@ Article content: []
 
 </details>
 
---- 
-
+<hr />
 
 ## Deconstruction
 
@@ -942,8 +955,7 @@ Language: bilingual English + Chinese labels.
 ```
 
 </details>
---- 
-
+<hr />
 
 **Example: Cutaway City Layers**
 
@@ -960,8 +972,7 @@ Modern skyline with High Falls, the Genesee River, and the Kodak Tower.2. 1960s 
 
 </details>
 
----
-
+<hr />
 
 
 
@@ -987,15 +998,14 @@ Display a prominent weather icon at the top-center, with the date (x-small text)
 The text should match the input city's native language.
 Please retrieve current weather conditions for the specified city before rendering.
 
-City name: EvanSton
+City name: Evanston
 ```
 
 </details>
 
----
+<hr />
 
-
-**Example 1: Playground Literacy Poster**
+**Example 2: Playground Literacy Poster**
 
 <img width="300" alt="Image" src="./images/post/po1.png" />
 
@@ -1067,9 +1077,9 @@ Environment & decorations:
 
 </details>
 
----
+<hr />
 
-**Example 2: Weather City**
+**Example 3: Weather City**
 
 <img width="300" alt="Image" src="./images/post/po2.png" />
 
@@ -1094,9 +1104,9 @@ City name: [Shanghai]
 
 </details>
 
----
+<hr />
 
-**Example 3: Starbucks Concept Store**
+**Example 4: Starbucks Concept Store**
 
 <img width="300" alt="Image" src="./images/post/po3.png" />
 
@@ -1113,8 +1123,7 @@ Refer to the attached character reference sheet to understand the mini character
 
 </details>
 
---- 
-
+<hr />
 
 ## Traditional Chinese Culture
 
@@ -1240,8 +1249,7 @@ Refer to the attached character reference sheet to understand the mini character
 
 </details>
 
---- 
-
+<hr />
 
 
 
@@ -1345,8 +1353,7 @@ Refer to the attached character reference sheet to understand the mini character
 </details>
 
 
----
-
+<hr />
 
 
 
@@ -1374,8 +1381,7 @@ Refer to the attached character reference sheet to understand the mini character
 </details>
 
 
----
-
+<hr />
 
 **Example: Frozen in the Crowd**
 
@@ -1391,7 +1397,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 </details>
 
 
----
+<hr />
 
 **Example: Izakaya Selfie**
 
@@ -1461,7 +1467,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 </details>
 
 
----
+<hr />
 
 **Example: Off-Center Flash Snap**
 
@@ -1495,7 +1501,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 </details>
 
 
---- 
+<hr />
 
 **Example: Turned-Back Mirror Shot**
 
@@ -1614,7 +1620,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 </details>
 
 
---- 
+<hr />
 
 **Example: Flash Mirror Photo**
 
@@ -1673,8 +1679,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Studio Shoot Template**
 
@@ -1712,8 +1717,7 @@ A cinematic street portrait of a young woman standing still in a busy urban crow
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Gym Promo Shot**
 
@@ -1729,7 +1733,7 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 </details>
 
 
---- 
+<hr />
 
 **Example: Top-Down Vinyl Flat Lay**
 
@@ -1850,7 +1854,7 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 </details>
 
 
---- 
+<hr />
 
 **Example: Blonde Mirror Shot**
 
@@ -2009,8 +2013,7 @@ Subjects: raw, unedited photo of a muscular adult man with short wavy dark-brown
 </details>
 
 
---- 
-
+<hr />
 
 **Example: Compact Camera Screen**
 
@@ -2038,7 +2041,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 </details>
 
 
---- 
+<hr />
 
 **Example: Wide-Angle Street Shot**
 <img width="600" alt="Image" src="./images/beauty/bea7.png" />
@@ -2120,7 +2123,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 </details>
 
 
----
+<hr />
 
 **Example: Mirror Selfie**
 <img width="500" alt="Image" src="./images/beauty/bea2.png" />
@@ -2220,7 +2223,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 </details>
 
----
+<hr />
 
 **Example: Window Doppelgänger**
 
@@ -2254,7 +2257,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 </details>
 
----
+<hr />
 
 **Example: Point-and-Shoot Look**
 
@@ -2320,8 +2323,7 @@ Color grading: nostalgic digital-camera tones, high contrast flash, subtle displ
 
 </details>
 
----
-
+<hr />
 
 **Example: Spotlight in Darkness**
 <img width="600" alt="Image" src="./images/beauty/bea6.png" />
@@ -2348,7 +2350,7 @@ Everything outside the spotlight should be nearly invisible.
 
 </details>
 
---- 
+<hr />
 
 **Example: Screen Cool Light**
 
@@ -2431,7 +2433,7 @@ Everything outside the spotlight should be nearly invisible.
 
 </details>
 
----
+<hr />
 
 **Example 1: Instant Film Photo**
 
@@ -2498,8 +2500,7 @@ Lighting & texture: a strong direct on-camera flash creates obvious shadows behi
 ```
 
 </details>
----
-
+<hr />
 
 **Example 2: King Crab Chef**
 
@@ -2515,7 +2516,7 @@ Generate one vertical short-video screenshot (TikTok / Douyin style). Scene: in 
 </details>
 
 
---- 
+<hr />
 
 **Example: On-Set Selfie**
 
@@ -2583,8 +2584,7 @@ Convert the image into a daytime and isometric view [buildings only].
 
 </details>
 
----
-
+<hr />
 
 **Example: Remove Blur**
 
@@ -2615,8 +2615,7 @@ Convert the image into a daytime and isometric view [buildings only].
 
 </details>
 
----
-
+<hr />
 
 ## Food
 **Example: Beef Lasagna Layers**
@@ -2749,8 +2748,7 @@ Convert the image into a daytime and isometric view [buildings only].
 </details>
 
 
----
-
+<hr />
 
 **Example: Matcha Cheesecake**
 
@@ -2858,7 +2856,7 @@ Convert the image into a daytime and isometric view [buildings only].
 </details>
 
 
----
+<hr />
 
 **Example: Berry Burst**
 
@@ -2905,8 +2903,7 @@ Convert the image into a daytime and isometric view [buildings only].
 
 </details>
 
----
-
+<hr />
 
 **Example: Orange Flavor Concept**
 
@@ -2920,13 +2917,17 @@ Generate an image of what could be possible to make with this orange foodwise.
 ```
 </details>
 
+## Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for formatting and submission rules.
+
 ## Acknowledgements & References
 
-本项目在策划与收集素材过程中参考并受益于以下优秀仓库，特此致谢并推荐：
+This project was planned and curated with inspiration from the excellent repositories below:
 
-- [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro)：由 ZeroLu 维护，系统整理了 Nano Banana Pro 的提示词范例与创作经验。
-- [PicoTrex/Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images)：由 PicoTrex 策划的大量示例成品图像，为视觉风格与落地效果提供了重要参考。
+- [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro), maintained by ZeroLu, which systematically organizes Nano Banana Pro prompt patterns and practical techniques.
+- [PicoTrex/Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images), curated by PicoTrex, with many finished examples that informed visual style and output quality references.
 
-请在使用本仓库内容的同时一并关注原作者并遵循其许可证要求。
+Please follow the original authors and comply with their licenses when reusing related content.
 
-同时也感谢 X（原 Twitter）与小红书平台上分享灵感与素材的创作者。我们的数据主要来自这些公开发布的内容，用于学习与研究，不构成与平台及其作者的任何合作或背书关系。请在复用相关素材时自行确认已遵守平台条款、隐私政策与版权要求。
+Special thanks to creators sharing ideas and materials on X (formerly Twitter) and Xiaohongshu. Most examples in this repository are collected from publicly shared posts for learning and research purposes only. They do not imply any partnership with those platforms or creators. Please verify that your reuse complies with platform terms, privacy policies, and copyright requirements.

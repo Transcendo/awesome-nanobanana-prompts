@@ -1,6 +1,12 @@
 # awesome-nanobanana-prompts
 Nano Banana / Nano Banana Pro 提示词整理合集。
 
+<p align="center">
+  <a href="https://github.com/Transcendo/awesome-nanobanana-prompts/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Transcendo/awesome-nanobanana-prompts?style=social"></a>
+  <a href="https://github.com/Transcendo/awesome-nanobanana-prompts/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Transcendo/awesome-nanobanana-prompts?style=social"></a>
+  <a href="https://github.com/Transcendo/awesome-nanobanana-prompts/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Transcendo/awesome-nanobanana-prompts"></a>
+</p>
+
 [English](README.md) | [中文](README_CN.md)
 
 ## SEO / GEO 声明
@@ -10,7 +16,24 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
 - 适用目的：检索、学习、复现、对比不同提示词（prompt）结构与效果。
 - 搜索关键词: nano banana; nanobanana; nano banana pro; prompts; prompt library; prompt engineering; image prompts; images; examples; templates; text to image; text-to-image; img2img; poster; product photography; ukiyo-e; PPT; research diagram; deconstruct.
 
+## 快速导航
 
+- [漫画品类](#cn-manga)
+- [产品类](#cn-product)
+- [科研报告类](#cn-research)
+- [解构类](#cn-deconstruct)
+- [海报](#cn-poster)
+- [中国传统文化](#cn-culture)
+- [美女靓仔类](#cn-fashion)
+- [人物摄影类](#cn-portrait-photo)
+- [如梦如幻类](#cn-dreamy)
+- [图生图](#cn-img2img)
+- [美食](#cn-food)
+- [贡献](#cn-contributing)
+- [致谢与参考](#cn-ack)
+
+
+<a id="cn-manga"></a>
 ## 漫画品类
 
 **图例：撕纸分层**
@@ -101,8 +124,7 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
 </details>
 
 
---- 
-
+<hr />
 
 **图例：宇宙战甲**
 
@@ -126,8 +148,7 @@ chibi,loli,child, bad anatomy, missing leg, missing limb, cameltoe, abs, Asian, 
 </details>
 
 
---- 
-
+<hr />
 
 **图例：雨夜伞**
 
@@ -149,8 +170,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
-
+<hr />
 
 **图例：雪夜柱列**
 
@@ -193,9 +213,9 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
+<hr />
 
-
+<a id="cn-product"></a>
 ## 产品类
 
 **图例：屏幕倒水**
@@ -315,8 +335,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
----
-
+<hr />
 
 
 **图例：绿汽罐**
@@ -384,7 +403,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
----
+<hr />
 
 **图例1：香草奶油**
 
@@ -414,7 +433,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 ```
 
 </details>
----
+<hr />
 
 **图例2：草莓蛋糕**
 
@@ -444,7 +463,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
---- 
+<hr />
 
 **图例3：午夜火花**
 
@@ -480,7 +499,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
---- 
+<hr />
 
 **图例4：街头逃犯**
 
@@ -602,7 +621,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
+<hr />
 
 **图例：晶杯幻境**
 
@@ -623,8 +642,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
----
-
+<hr />
 
 
 **图例5：城市磁贴**
@@ -642,7 +660,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
----
+<hr />
 
 **图例6：美味地图**
 
@@ -658,7 +676,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
----
+<hr />
 
 **图例：立方体房**
 
@@ -676,7 +694,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
+<hr />
 
 **图例：立方体房**
 
@@ -693,8 +711,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
---- 
-
+<hr />
 
 **图例：巧咖爆炸**
 <img width="300" alt="图片" src="./images/product/p8.png" />
@@ -809,6 +826,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
+<a id="cn-research"></a>
 ## 科研报告类
 
 **图例：光合作用**
@@ -833,7 +851,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
----
+<hr />
 
 **图例：戴森群建**
 
@@ -861,7 +879,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 </details>
 
 
----
+<hr />
 
 **图例：戴森群建**
 
@@ -876,7 +894,7 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
 
 </details>
 
---- 
+<hr />
 
 **图例：人文PPT**
 
@@ -911,9 +929,9 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 </details>
 
---- 
+<hr />
 
-
+<a id="cn-deconstruct"></a>
 ## 解构类
 
 **图例1：时尚解构**
@@ -950,8 +968,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 ```
 
 </details>
---- 
-
+<hr />
 
 **图例：剖层城市**
 
@@ -976,14 +993,14 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 </details>
 
----
+<hr />
 
 
 
-
+<a id="cn-poster"></a>
 ## 海报
 
-**图例1：游乐园报**
+**图例1：游乐园海报**
 
 <img width="300" alt="图片" src="./images/post/po4.png" />
 
@@ -1004,15 +1021,14 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 渲染前请先获取该城市的实时天气信息。
 
-城市名称：EvanSton
+城市名称：Evanston
 ```
 
 </details>
 
----
+<hr />
 
-
-**图例1：游乐园报**
+**图例2：游乐园海报**
 
 <img width="300" alt="图片" src="./images/post/po1.png" />
 
@@ -1026,9 +1042,9 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 </details>
 
----
+<hr />
 
-**图例2：天气城市**
+**图例3：天气城市**
 
 <img width="300" alt="图片" src="./images/post/po2.png" />
 
@@ -1053,9 +1069,9 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 </details>
 
----
+<hr />
 
-**图例3：星巴克概念店**
+**图例4：星巴克概念店**
 
 <img width="300" alt="图片" src="./images/post/po3.png" />
 
@@ -1068,9 +1084,9 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 </details>
 
---- 
+<hr />
 
-
+<a id="cn-culture"></a>
 ## 中国传统文化
 
 
@@ -1195,12 +1211,12 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 
 </details>
 
---- 
+<hr />
 
 
 
 
-
+<a id="cn-fashion"></a>
 ## 美女靓仔类
 
 **图例：车库回眸**
@@ -1300,8 +1316,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
----
-
+<hr />
 
 
 
@@ -1329,8 +1344,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
----
-
+<hr />
 
 **图例：人潮定格**
 
@@ -1346,7 +1360,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
----
+<hr />
 
 **图例：居酒自拍**
 
@@ -1416,7 +1430,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
----
+<hr />
 
 **图例：偏心闪拍**
 
@@ -1450,7 +1464,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
+<hr />
 
 **图例：反身镜拍**
 
@@ -1569,7 +1583,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
+<hr />
 
 **图例：闪光镜照**
 
@@ -1628,8 +1642,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
-
+<hr />
 
 **图例：棚拍模板**
 
@@ -1667,8 +1680,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
-
+<hr />
 
 **图例：健身硬照**
 
@@ -1692,7 +1704,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
+<hr />
 
 **图例：顶拍唱片**
 
@@ -1813,7 +1825,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
+<hr />
 
 **图例：金发镜拍**
 
@@ -1972,8 +1984,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 </details>
 
 
---- 
-
+<hr />
 
 **图例：卡片机屏**
 
@@ -2007,7 +2018,7 @@ ISO：400
 </details>
 
 
---- 
+<hr />
 
 **图例：广角街拍**
 <img width="600" alt="图片" src="./images/beauty/bea7.png" />
@@ -2089,7 +2100,7 @@ ISO：400
 </details>
 
 
----
+<hr />
 
 **图例：镜子自拍**
 <img width="500" alt="图片" src="./images/beauty/bea2.png" />
@@ -2189,7 +2200,7 @@ ISO：400
 
 </details>
 
----
+<hr />
 
 **图例：橱窗分身**
 
@@ -2223,7 +2234,7 @@ ISO：400
 
 </details>
 
----
+<hr />
 
 **图例：卡片机感**
 
@@ -2289,8 +2300,7 @@ ISO：400
 
 </details>
 
----
-
+<hr />
 
 **图例：聚光暗黑**
 <img width="600" alt="图片" src="./images/beauty/bea6.png" />
@@ -2318,7 +2328,7 @@ ISO：400
 
 </details>
 
---- 
+<hr />
 
 **图例：屏幕冷光**
 
@@ -2401,7 +2411,7 @@ ISO：400
 
 </details>
 
----
+<hr />
 
 **图例1：拍立得照**
 
@@ -2447,6 +2457,7 @@ ISO：400
 </details>
 
 
+<a id="cn-portrait-photo"></a>
 ## 人物摄影类
 
 
@@ -2468,8 +2479,7 @@ ISO：400
 ```
 
 </details>
----
-
+<hr />
 
 **图例2：帝王蟹厨**
 
@@ -2485,7 +2495,7 @@ ISO：400
 </details>
 
 
---- 
+<hr />
 
 **图例：片场自拍**
 
@@ -2503,6 +2513,7 @@ ISO：400
 </details>
 
 
+<a id="cn-dreamy"></a>
 ## 如梦如幻类
 
 
@@ -2538,6 +2549,7 @@ ISO：400
 </details>
 
 
+<a id="cn-img2img"></a>
 ## 图生图
 
 **图例：建筑日等**
@@ -2554,8 +2566,7 @@ ISO：400
 
 </details>
 
----
-
+<hr />
 
 **图例：去除模糊**
 
@@ -2586,9 +2597,9 @@ ISO：400
 
 </details>
 
----
+<hr />
 
-
+<a id="cn-food"></a>
 ## 美食
 **图例：牛肉千层**
 
@@ -2720,8 +2731,7 @@ ISO：400
 </details>
 
 
----
-
+<hr />
 
 **图例：抹茶芝士**
 
@@ -2829,7 +2839,7 @@ ISO：400
 </details>
 
 
----
+<hr />
 
 **图例：莓果爆浆**
 
@@ -2876,8 +2886,7 @@ ISO：400
 
 </details>
 
----
-
+<hr />
 
 **图例：橙味创意**
 
@@ -2891,6 +2900,12 @@ ISO：400
 ```
 </details>
 
+<a id="cn-contributing"></a>
+## 贡献
+
+欢迎提交新内容与修订，格式与提交规范请参考 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+<a id="cn-ack"></a>
 ## 致谢与参考
 
 本项目在策划与收集素材过程中参考并受益于以下优秀仓库，特此致谢并推荐：
