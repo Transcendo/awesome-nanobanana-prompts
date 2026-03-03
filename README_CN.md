@@ -86,27 +86,21 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
     <td width="33%" valign="top">
       <a id="card-cn-s01-06"></a>
       <strong>图例：透明掌机镜框</strong><br/>
-      <img alt="图例：透明掌机镜框" title="nano banana 2
-
-prompt: holding a modern see-through gameboy color with shades of black, the reference image is on the screen" src="./images/like/l5.jpg" width="100%" />
+      <img alt="图例：透明掌机镜框" title="prompt preview" src="./images/like/l5.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s01-06">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s01-07"></a>
       <strong>图例：新区域跟随场景</strong><br/>
-      <img alt="图例：新区域跟随场景" title="nano banana 2
-
-prompt: show a completely new location in different weather with a new kanto pokemon following the player, maintain the perspective" src="./images/like/l6.jpg" width="100%" />
+      <img alt="图例：新区域跟随场景" title="prompt preview" src="./images/like/l6.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s01-07">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s01-08"></a>
       <strong>图例：世界地图延续镜头</strong><br/>
-      <img alt="图例：世界地图延续镜头" title="nano banana 2
-
-prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference" src="./images/like/l7.jpg" width="100%" />
+      <img alt="图例：世界地图延续镜头" title="prompt preview" src="./images/like/l7.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s01-08">查看&复制Prompt</a>
     </td>
@@ -552,44 +546,21 @@ prompt: create a screenshot of the overworld for this game in the same area, wit
     <td width="33%" valign="top">
       <a id="card-cn-s07-21"></a>
       <strong>图例：超级英雄同伴写真</strong><br/>
-      <img alt="图例：超级英雄同伴写真" title="Every superhero has a pet!🐶 what's your favorite?🤗 
-
-Sadie Sink as Poison Ivy, Ana de Armas as Spider Gwen, Millie Bobby Brown as Catwoman and Sydney Sweeney as Supergirl 💪🏻
-
-Nano " src="./images/beauty/bea23.jpg" width="100%" />
+      <img alt="图例：超级英雄同伴写真" title="prompt preview" src="./images/beauty/bea23.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-21">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s07-22"></a>
       <strong>图例：周末氛围自拍</strong><br/>
-      <img alt="图例：周末氛围自拍" title="GM my friends 🌞 Have a great start of the weekend!🤗
-
-Sadie Sink, Megan Fox and Kylie Jenner 😍
-
-Nano Banana Pro via Hailuo AI
-Prompt:
-
-{
-  &quot;meta&quot;: {
-    &quot;quality&quot;: &quot;ultra_photoreali" src="./images/beauty/bea24.jpg" width="100%" />
+      <img alt="图例：周末氛围自拍" title="prompt preview" src="./images/beauty/bea24.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-22">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s07-23"></a>
       <strong>图例：车库时尚写真</strong><br/>
-      <img alt="图例：车库时尚写真" title="What's your favorite garage?🤩
-
-Dua Lipa, Sadie Sink, Sophie Rain and Rihanna 🚘🏍
-
-Nano Banana Pro via Hailuo AI
-Prompt:
-
-{
-  &quot;prompt_structure&quot;: {
-    &quot;main_subject&quot;: {
-      &quot;descr" src="./images/beauty/bea25.jpg" width="100%" />
+      <img alt="图例：车库时尚写真" title="prompt preview" src="./images/beauty/bea25.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-23">查看&复制Prompt</a>
     </td>
@@ -599,51 +570,21 @@ Prompt:
     <td width="33%" valign="top">
       <a id="card-cn-s07-24"></a>
       <strong>图例：三人棚拍人像</strong><br/>
-      <img alt="图例：三人棚拍人像" title="Sadie Sink, Ana de Armas and Sydney Sweeney
-
-Nano Banana Pro via @hedra_labs 
-
-Prompt:
-
-{
-  &quot;subject&quot;: {
-    &quot;identity&quot;: {
-      &quot;biometric_reference&quot;: &quot;Ana de Armas&quot;,
-      &quot;ethni" src="./images/beauty/bea26.jpg" width="100%" />
+      <img alt="图例：三人棚拍人像" title="prompt preview" src="./images/beauty/bea26.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-24">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s07-25"></a>
       <strong>图例：泳装双人写真</strong><br/>
-      <img alt="图例：泳装双人写真" title="Sydney Sweeney, Ana de Armas 👙🍌
-
-Gemini Nano Banana Pro
-
-Prompt :
-
-{
-  &quot;meta&quot;: {
-    &quot;aspect_ratio&quot;: &quot;3:4&quot;,
-    &quot;quality&quot;: &quot;ultra_photorealistic, raw, unedited photograph&quot;,
-    &quot;re" src="./images/beauty/bea27.jpg" width="100%" />
+      <img alt="图例：泳装双人写真" title="prompt preview" src="./images/beauty/bea27.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-25">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s07-26"></a>
       <strong>图例：双人情绪板写真</strong><br/>
-      <img alt="图例：双人情绪板写真" title="Sydney Sweeney, Sabrina Carpenter 💫
-
-Nano Banana Pro via @hedra_labs 
-
-Prompt:
-
-{
-  &quot;subject&quot;: {
-    &quot;identity&quot;: {
-      &quot;biometric_reference&quot;: &quot;Sydney Sweeney&quot;,
-      &quot;facial_stru" src="./images/beauty/bea28.jpg" width="100%" />
+      <img alt="图例：双人情绪板写真" title="prompt preview" src="./images/beauty/bea28.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-26">查看&复制Prompt</a>
     </td>
@@ -653,16 +594,7 @@ Prompt:
     <td width="33%" valign="top">
       <a id="card-cn-s07-27"></a>
       <strong>图例：红毯三人写真</strong><br/>
-      <img alt="图例：红毯三人写真" title="Sydney Sweeney, Megan Fox and Ana de Armas
-
-Nano Banana Pro via @ImagineArt_X @imagineart_creo 
-
-Prompt:
-
-{
-  &quot;subject&quot;: {
-    &quot;identity&quot;: {
-      &quot;biometric_reference&quot;: &quot;Megan Fox" src="./images/beauty/bea29.jpg" width="100%" />
+      <img alt="图例：红毯三人写真" title="prompt preview" src="./images/beauty/bea29.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-27">查看&复制Prompt</a>
     </td>
