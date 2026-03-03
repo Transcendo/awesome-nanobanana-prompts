@@ -1768,7 +1768,7 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 ```text
 🍌nano banana pro Prompt:
 
-A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wooden stool, holding a modern hairdryer to dry her long flowing hair. She is wearing black stockings, https://t.co/CmJU0m9Prs
+A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wooden stool, holding a modern hairdryer to dry her long flowing hair. She is wearing black stockings,
 ```
 
 
@@ -1780,7 +1780,7 @@ A traditional Chinese ink and color painting in Gongbi style on aged rice paper 
 ```text
 🍌 nano banana pro prompt:
 
-A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons, with a peony flower in her high hair bun, is standing on a circular black robotic vacuum cleaner https://t.co/OzKq1DnAt1
+A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons, with a peony flower in her high hair bun, is standing on a circular black robotic vacuum cleaner
 ```
 
 
@@ -1794,7 +1794,7 @@ A traditional Chinese Gongbi ink and color painting on aged, textured rice paper
 
 A sweeping, highly detailed traditional Chinese ink and color handscroll painting on aged silk, perfectly emulating the artistic style, brushwork, and scattered point perspective of Zhang Zeduan's "Along the River During the Qingming Festival."
 
-Central https://t.co/C2WI3Wai0k
+Central
 ```
 
 
@@ -1809,7 +1809,7 @@ Central https://t.co/C2WI3Wai0k
 画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；
 刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——
 
-刘备坐在驾驶位，双手紧握方向盘，神情专注严肃； https://t.co/vOjRYBzOWE
+刘备坐在驾驶位，双手紧握方向盘，神情专注严肃；
 ```
 
 
@@ -1823,7 +1823,7 @@ Central https://t.co/C2WI3Wai0k
 
 Prompt👇🏻
 
-Realistic photorealistic game concept art reference sheet for "桃花源 Taohuayuan Peach Blossom Paradise" – a hidden immortal valley palace in a 3D mythical game, ancient Chinese style with accurate dougong brackets, https://t.co/05ZD5EsP1Y
+Realistic photorealistic game concept art reference sheet for "桃花源 Taohuayuan Peach Blossom Paradise" – a hidden immortal valley palace in a 3D mythical game, ancient Chinese style with accurate dougong brackets,
 ```
 
 <hr />
@@ -2914,26 +2914,17 @@ ISO：400
 [返回图片](#card-cn-s07-19)
 
 ```json
+Sabrina Carpenter, Sydney Sweeney and Billie Eilish 
+
+Nano Banana Pro via @hedra_labs 
+
+Prompt:
+
 {
   "subject": {
     "identity": {
       "biometric_reference": "Sabrina Carpenter",
-      "facial_morphology": "Heart-shaped face with high-set zygomatic arches, defined mandible line, and a soft philtrum. Prominent, rounded forehead and a straight nasal bridge with a slightly upturned apex.",
-      "dentition": "Natural dental alignment, maxillary central incisors with slight dominance, bright white enamel finish, visible buccal corridor during a neutral or slight parting of lips.",
-      "iris_pattern": "Heterogeneous iris texture with radial furrows, distinct pupillary zone, and a deep cerulean hue with darker limbal rings.",
-      "hair": "Voluminous, layered blonde hair with warm golden undertones, fine follicle texture, and natural scalp integration."
-    },
-    "wardrobe": {
-      "apparel": "Mini-length bodycon dress in vibrant scarlet.",
-      "footwear": "Metallic silver stiletto sandals with slender ankle straps and chrome-finished heels."
-    },
-    "camera": {
-      "technical": "9:16 aspect ratio, 35mm wide-angle lens, f/2.8 aperture, low-angle perspective, ISO 100",
-      "render_quality": "8K photorealistic"
-    },
-    "negative_constraints": ["no logos", "no text", "no watermarks", "no extra limbs", "no distorted fingers"]
-  }
-}
+      "facial_morphology": "Heart-shaped face with high-set zygomatic arches, defined mandible
 ```
 
 <a id="prompt-cn-s07-20"></a>
@@ -2942,18 +2933,15 @@ ISO：400
 [返回图片](#card-cn-s07-20)
 
 ```json
+Which is your favorite duo?🖤💗❤
+
+Sadie Sink &amp; Sophie Rain, Anya Taylor-Joy &amp; Kylie Jenner or Emma Myers &amp; Jenna Ortega!😍
+
+Nano Banana Pro via Hailuo AI
+Prompt:
+
 {
-  "prompt": "Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women sitting close on white leather sectional sofa in bright modern lounge...",
-  "style": "Ultra-realistic high-end smartphone lifestyle photography",
-  "aspect_ratio": "4:5",
-  "resolution": "8k",
-  "lighting": "Soft diffused natural daylight through sheer curtains",
-  "camera_angle": "Eye-level to slightly above, medium full-body shot",
-  "environment": {
-    "location": "Bright modern upscale apartment lounge",
-    "atmosphere": "Quiet daytime luxury, pre-night-out calm"
-  }
-}
+  "prompt": "Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women
 ```
 
 
