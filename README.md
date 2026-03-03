@@ -719,6 +719,42 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
   In heavy snow, create lineup portraits of all the Hashira from *Demon Slayer*, each in a battle-ready pose matching their Breathing style.
 ```
 
+<a id="prompt-en-s01-x01"></a>
+#### Example: Pixel Battle Remaster (X)
+
+```text
+Create a classic handheld monster-battle screenshot in high-detail pixel art. Keep the nostalgic top-down JRPG layout, but upgrade materials, sprite readability, and VFX polish. Show two randomly selected Kanto creatures in battle, with modern minimal UI, crisp health bars, and move effects that feel energetic but still 16-bit authentic.
+```
+
+Source (X): https://x.com/i/web/status/2027157212863631567
+
+<a id="prompt-en-s01-x02"></a>
+#### Example: Transparent Handheld Frame (X)
+
+```text
+Generate a photorealistic close-up of hands holding a modern transparent black handheld console inspired by retro game devices. The uploaded reference image appears on the screen exactly framed to the display area, with realistic reflections, plastic refraction, subtle fingerprints, and soft ambient desk lighting.
+```
+
+Source (X): https://x.com/i/web/status/2027365890514194633
+
+<a id="prompt-en-s01-x03"></a>
+#### Example: New Region Follow Shot (X)
+
+```text
+Produce a new overworld scene from the same game universe and camera perspective as the reference. Change the location and weather completely (for example, foggy coastal town, rainy forest, or snowy ridge), and place one Kanto companion creature following the player character. Preserve pixel-grid consistency, tile logic, and exploration vibe.
+```
+
+Source (X): https://x.com/i/web/status/2027401926024048749
+
+<a id="prompt-en-s01-x04"></a>
+#### Example: Overworld Continuation Screen (X)
+
+```text
+Create the "next screenshot" of this game area as if the player walked a few steps forward. Keep map style, perspective, and world tone consistent with the reference, add one following creature behind the player, and include subtle environmental storytelling props that make the area feel alive.
+```
+
+Source (X): https://x.com/i/web/status/2027731434442531132
+
 <hr />
 
 ### Product Photography
@@ -1602,6 +1638,42 @@ Refer to the attached character reference sheet to understand the mini character
   }
 }
 ```
+
+<a id="prompt-en-s06-x01"></a>
+#### Example: Gongbi Hanfu Hairdryer Scene (X)
+
+```text
+A traditional Chinese Gongbi ink-and-color painting on aged rice-paper texture. A noblewoman in elaborate Tang-dynasty Hanfu sits on a wooden stool, calmly drying her long flowing hair with a modern hairdryer. Keep precise linework, mineral pigments, elegant garment folds, and balanced negative space. Blend the modern object into the classical composition without breaking historical painting aesthetics.
+```
+
+Source (X): https://x.com/i/web/status/1992366309288595681
+
+<a id="prompt-en-s06-x02"></a>
+#### Example: Tang Fairy on Robot Vacuum (X)
+
+```text
+Create a Gongbi-style Chinese ink-and-color painting on aged textured rice paper. A Tang-style fairy in red, beige, and teal ribboned robes, with a peony hair ornament, stands on a circular black robotic vacuum cleaner as if it were a floating platform. Emphasize graceful posture, delicate brush contours, and poetic contrast between ancient costume and modern appliance.
+```
+
+Source (X): https://x.com/i/web/status/1992450418291466517
+
+<a id="prompt-en-s06-x03"></a>
+#### Example: Qingming Handscroll Revival (X)
+
+```text
+Generate a long Chinese handscroll scene that emulates Song-dynasty narrative painting: scattered perspective, dense civic storytelling, and meticulous architectural detail inspired by "Along the River During the Qingming Festival." Use silk-aging texture, ink-and-color layering, and flowing crowd choreography across bridges, markets, and river traffic.
+```
+
+Source (X): https://x.com/i/web/status/1992469131438719122
+
+<a id="prompt-en-s06-x04"></a>
+#### Example: Taohuayuan Concept Sheet (X)
+
+```text
+Design a realistic game concept-art reference sheet for "Taohuayuan (Peach Blossom Paradise)," a hidden immortal-valley palace in ancient Chinese style. Include multi-view environment callouts, accurate dougong brackets, stone paths, misty peach groves, layered mountain depth, and material notes for architecture, fabric banners, water, and lighting mood.
+```
+
+Source (X): https://x.com/i/web/status/1999161704140116315
 
 <hr />
 
@@ -2668,6 +2740,24 @@ The [PERSON] is centered in the frame, photographed from head to knees. They pos
 
 The photo is placed on a white tabletop, casting a natural shadow.
 ```
+
+<a id="prompt-en-s07-x01"></a>
+#### Example: Weekend Flash Selfie (X)
+
+```text
+Ultra-photorealistic vertical smartphone portrait (4:5, 8K). Capture a bright weekend indoor selfie mood with clean skin texture, natural pores, soft makeup, and confident relaxed expression. Use direct-but-soft frontal flash mixed with daylight spill, realistic specular highlights in eyes, slight background blur, and social-media-native framing.
+```
+
+Source (X): https://x.com/i/web/status/2025154229870948710
+
+<a id="prompt-en-s07-x02"></a>
+#### Example: High-Fidelity Duo Portrait (X)
+
+```text
+Create a premium two-person fashion portrait with forensic-level facial fidelity, studio-grade skin realism, and cinematic color separation. Use an editorial pose language, controlled key/fill/rim lighting, subtle lens texture, and a polished luxury-photo finish while keeping expressions natural and unforced.
+```
+
+Source (X): https://x.com/i/web/status/2026036949769674810
 
 <hr />
 
