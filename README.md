@@ -342,27 +342,21 @@ prompt: create a screenshot of the overworld for this game in the same area, wit
     <td width="33%" valign="top">
       <a id="card-en-s06-02"></a>
       <strong>Example: Ink Hanfu Hairdryer</strong><br/>
-      <img alt="Example: Ink Hanfu Hairdryer" title="🍌nano banana pro Prompt:
-
-A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wood" src="./images/china/ch2.jpg" width="100%" />
+      <img alt="Example: Ink Hanfu Hairdryer" title="prompt preview" src="./images/china/ch2.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s06-02">View&CopyPrompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-en-s06-03"></a>
       <strong>Example: Tang Fairy on Robot Vacuum</strong><br/>
-      <img alt="Example: Tang Fairy on Robot Vacuum" title="🍌 nano banana pro prompt:
-
-A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons" src="./images/china/ch3.jpg" width="100%" />
+      <img alt="Example: Tang Fairy on Robot Vacuum" title="prompt preview" src="./images/china/ch3.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s06-03">View&CopyPrompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-en-s06-04"></a>
       <strong>Example: Qingming Handscroll Revival</strong><br/>
-      <img alt="Example: Qingming Handscroll Revival" title="🍌 nano banana pro prompt
-
-A sweeping, highly detailed traditional Chinese ink and color handscroll painting on aged silk, perfectly emulating the artistic style, brushwork, and sca" src="./images/china/ch4.jpg" width="100%" />
+      <img alt="Example: Qingming Handscroll Revival" title="prompt preview" src="./images/china/ch4.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s06-04">View&CopyPrompt</a>
     </td>
@@ -371,23 +365,14 @@ A sweeping, highly detailed traditional Chinese ink and color handscroll paintin
     <td width="33%" valign="top">
       <a id="card-en-s06-05"></a>
       <strong>Example: Three Heroes Drift Battle</strong><br/>
-      <img alt="Example: Three Heroes Drift Battle" title="绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：
-
-画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；
-刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——
-
-刘备坐在驾驶位，双手紧握方向盘，神情专注严肃； https://t.co/vOjRYBzOWE" src="./images/china/ch5.jpg" width="100%" />
+      <img alt="Example: Three Heroes Drift Battle" title="prompt preview" src="./images/china/ch5.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s06-05">View&CopyPrompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-en-s06-06"></a>
       <strong>Example: Taohuayuan Immortal Valley</strong><br/>
-      <img alt="Example: Taohuayuan Immortal Valley" title="不得不说🍌 nano banana pro 场景概念 very nice
-
-Prompt👇🏻
-
-Realistic photorealistic game concept art reference sheet for &quot;桃花源 Taohuayuan Peach Blossom Paradise&quot; – a hidden immortal valley pal" src="./images/china/ch6.jpg" width="100%" />
+      <img alt="Example: Taohuayuan Immortal Valley" title="prompt preview" src="./images/china/ch6.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s06-06">View&CopyPrompt</a>
     </td>
