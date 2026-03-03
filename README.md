@@ -77,10 +77,6 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s01-05">View&CopyPrompt</a>
     </td>
-    <td width="33%" valign="top"></td>
-  </tr>
-
-  <tr>
     <td width="33%" valign="top">
       <a id="card-en-s01-06"></a>
       <strong>Example: Transparent Gameboy Frame</strong><br/>
@@ -88,6 +84,9 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s01-06">View&CopyPrompt</a>
     </td>
+  </tr>
+
+  <tr>
     <td width="33%" valign="top">
       <a id="card-en-s01-07"></a>
       <strong>Example: New Region Follower Scene</strong><br/>
@@ -102,6 +101,7 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s01-08">View&CopyPrompt</a>
     </td>
+    <td width="33%" valign="top"></td>
   </tr>
 </table>
 
@@ -329,10 +329,6 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s06-01">View&CopyPrompt</a>
     </td>
-    <td width="33%" valign="top"></td>
-    <td width="33%" valign="top"></td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a id="card-en-s06-02"></a>
       <strong>Example: Ink Hanfu Hairdryer</strong><br/>
@@ -347,6 +343,8 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s06-03">View&CopyPrompt</a>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a id="card-en-s06-04"></a>
       <strong>Example: Qingming Handscroll Revival</strong><br/>
@@ -354,8 +352,6 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s06-04">View&CopyPrompt</a>
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a id="card-en-s06-05"></a>
       <strong>Example: Three Heroes Drift Battle</strong><br/>
@@ -370,7 +366,6 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s06-06">View&CopyPrompt</a>
     </td>
-    <td width="33%" valign="top"></td>
   </tr>
 </table>
 

@@ -79,10 +79,6 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s01-05">查看&复制Prompt</a>
     </td>
-    <td width="33%" valign="top"></td>
-  </tr>
-
-  <tr>
     <td width="33%" valign="top">
       <a id="card-cn-s01-06"></a>
       <strong>图例：透明掌机镜框</strong><br/>
@@ -90,6 +86,9 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s01-06">查看&复制Prompt</a>
     </td>
+  </tr>
+
+  <tr>
     <td width="33%" valign="top">
       <a id="card-cn-s01-07"></a>
       <strong>图例：新区域跟随场景</strong><br/>
@@ -104,6 +103,7 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s01-08">查看&复制Prompt</a>
     </td>
+    <td width="33%" valign="top"></td>
   </tr>
 </table>
 
@@ -336,10 +336,6 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s06-01">查看&复制Prompt</a>
     </td>
-    <td width="33%" valign="top"></td>
-    <td width="33%" valign="top"></td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a id="card-cn-s06-02"></a>
       <strong>图例：工笔汉服吹风机</strong><br/>
@@ -354,6 +350,8 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s06-03">查看&复制Prompt</a>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a id="card-cn-s06-04"></a>
       <strong>图例：清明长卷复现</strong><br/>
@@ -361,8 +359,6 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s06-04">查看&复制Prompt</a>
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a id="card-cn-s06-05"></a>
       <strong>图例：三英飙车战吕布</strong><br/>
@@ -377,7 +373,6 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s06-06">查看&复制Prompt</a>
     </td>
-    <td width="33%" valign="top"></td>
   </tr>
 </table>
 
