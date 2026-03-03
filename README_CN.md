@@ -609,52 +609,6 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s11-04">查看&复制Prompt</a>
     </td>
-    <td width="33%" valign="top">
-      <a id="card-cn-s11-05"></a>
-      <strong>图例：原文 Prompt 05</strong><br/>
-      <img alt="图例：原文 Prompt 05" title="绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：" src="./images/china/ch1.png" width="100%" />
-      <br/>
-      <a href="#prompt-cn-s11-05">查看&复制Prompt</a>
-    </td>
-    <td width="33%" valign="top">
-      <a id="card-cn-s11-06"></a>
-      <strong>图例：原文 Prompt 06</strong><br/>
-      <img alt="图例：原文 Prompt 06" title="A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture." src="./images/beauty/bea20.png" width="100%" />
-      <br/>
-      <a href="#prompt-cn-s11-06">查看&复制Prompt</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <a id="card-cn-s11-07"></a>
-      <strong>图例：原文 Prompt 07</strong><br/>
-      <img alt="图例：原文 Prompt 07" title="A traditional Chinese Gongbi ink and color painting on aged, textured rice paper." src="./images/beauty/bea19.png" width="100%" />
-      <br/>
-      <a href="#prompt-cn-s11-07">查看&复制Prompt</a>
-    </td>
-    <td width="33%" valign="top">
-      <a id="card-cn-s11-08"></a>
-      <strong>图例：原文 Prompt 08</strong><br/>
-      <img alt="图例：原文 Prompt 08" title="Realistic photorealistic game concept art reference sheet for &quot;桃花源 Taohuayuan Peach Blossom Paradise&quot;" src="./images/post/po3.png" width="100%" />
-      <br/>
-      <a href="#prompt-cn-s11-08">查看&复制Prompt</a>
-    </td>
-    <td width="33%" valign="top">
-      <a id="card-cn-s11-09"></a>
-      <strong>图例：原文 Prompt 09</strong><br/>
-      <img alt="图例：原文 Prompt 09" title="{ | &quot;subject&quot;: { | &quot;identity&quot;: {" src="./images/beauty/bea9.png" width="100%" />
-      <br/>
-      <a href="#prompt-cn-s11-09">查看&复制Prompt</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <a id="card-cn-s11-10"></a>
-      <strong>图例：原文 Prompt 10</strong><br/>
-      <img alt="图例：原文 Prompt 10" title="{ | &quot;prompt&quot;: &quot;Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women" src="./images/beauty/bea4.png" width="100%" />
-      <br/>
-      <a href="#prompt-cn-s11-10">查看&复制Prompt</a>
-    </td>
     <td width="33%" valign="top"></td>
     <td width="33%" valign="top"></td>
   </tr>
@@ -3155,70 +3109,6 @@ prompt: show a completely new location in different weather with a new kanto pok
 
 ```text
 prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference
-```
-
-<a id="prompt-cn-s11-05"></a>
-#### 图例：原文 Prompt 05
-
-[返回对应图片](#card-cn-s11-05)
-
-```text
-绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：
-
-画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；
-刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——
-
-刘备坐在驾驶位，双手紧握方向盘，神情专注严肃；
-```
-
-<a id="prompt-cn-s11-06"></a>
-#### 图例：原文 Prompt 06
-
-[返回对应图片](#card-cn-s11-06)
-
-```text
-A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wooden stool, holding a modern hairdryer to dry her long flowing hair. She is wearing black stockings,
-```
-
-<a id="prompt-cn-s11-07"></a>
-#### 图例：原文 Prompt 07
-
-[返回对应图片](#card-cn-s11-07)
-
-```text
-A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons, with a peony flower in her high hair bun, is standing on a circular black robotic vacuum cleaner
-```
-
-<a id="prompt-cn-s11-08"></a>
-#### 图例：原文 Prompt 08
-
-[返回对应图片](#card-cn-s11-08)
-
-```text
-Realistic photorealistic game concept art reference sheet for "桃花源 Taohuayuan Peach Blossom Paradise" – a hidden immortal valley palace in a 3D mythical game, ancient Chinese style with accurate dougong brackets,
-```
-
-<a id="prompt-cn-s11-09"></a>
-#### 图例：原文 Prompt 09
-
-[返回对应图片](#card-cn-s11-09)
-
-```text
-{
-  "subject": {
-    "identity": {
-      "biometric_reference": "Sabrina Carpenter",
-      "facial_morphology": "Heart-shaped face with high-set zygomatic arches, defined mandible
-```
-
-<a id="prompt-cn-s11-10"></a>
-#### 图例：原文 Prompt 10
-
-[返回对应图片](#card-cn-s11-10)
-
-```text
-{
-  "prompt": "Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women
 ```
 
 
