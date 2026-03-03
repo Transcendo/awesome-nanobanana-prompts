@@ -3032,6 +3032,117 @@ ISO：400
 ```text
 生成一张图片，展示“用这颗橙子/橙味食材在美食方向能做出什么创意成品”的可能性。
 ```
+<a id="prompt-cn-s11-01"></a>
+#### 图例：原文 Prompt 01
+
+```text
+nano banana 2
+
+prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui
+
+prompt: change it to a new location and the battle is two new random kanto pokemon
+```
+
+<a id="prompt-cn-s11-02"></a>
+#### 图例：原文 Prompt 02
+
+```text
+nano banana 2
+
+prompt: holding a modern see-through gameboy color with shades of black, the reference image is on the screen
+```
+
+<a id="prompt-cn-s11-03"></a>
+#### 图例：原文 Prompt 03
+
+```text
+nano banana 2
+
+prompt: show a completely new location in different weather with a new kanto pokemon following the player, maintain the perspective
+```
+
+<a id="prompt-cn-s11-04"></a>
+#### 图例：原文 Prompt 04
+
+```text
+nano banana 2
+
+prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference
+```
+
+<a id="prompt-cn-s11-05"></a>
+#### 图例：原文 Prompt 05
+
+```text
+绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：
+
+画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；
+刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——
+
+刘备坐在驾驶位，双手紧握方向盘，神情专注严肃；
+```
+
+<a id="prompt-cn-s11-06"></a>
+#### 图例：原文 Prompt 06
+
+```text
+🍌nano banana pro Prompt:
+
+A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wooden stool, holding a modern hairdryer to dry her long flowing hair. She is wearing black stockings,
+```
+
+<a id="prompt-cn-s11-07"></a>
+#### 图例：原文 Prompt 07
+
+```text
+🍌 nano banana pro prompt:
+
+A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons, with a peony flower in her high hair bun, is standing on a circular black robotic vacuum cleaner
+```
+
+<a id="prompt-cn-s11-08"></a>
+#### 图例：原文 Prompt 08
+
+```text
+不得不说🍌 nano banana pro 场景概念 very nice
+
+Prompt👇🏻
+
+Realistic photorealistic game concept art reference sheet for "桃花源 Taohuayuan Peach Blossom Paradise" – a hidden immortal valley palace in a 3D mythical game, ancient Chinese style with accurate dougong brackets,
+```
+
+<a id="prompt-cn-s11-09"></a>
+#### 图例：原文 Prompt 09
+
+```text
+Sabrina Carpenter, Sydney Sweeney and Billie Eilish 
+
+Nano Banana Pro via @hedra_labs 
+
+Prompt:
+
+{
+  "subject": {
+    "identity": {
+      "biometric_reference": "Sabrina Carpenter",
+      "facial_morphology": "Heart-shaped face with high-set zygomatic arches, defined mandible
+```
+
+<a id="prompt-cn-s11-10"></a>
+#### 图例：原文 Prompt 10
+
+```text
+Which is your favorite duo?🖤💗❤
+
+Sadie Sink &amp; Sophie Rain, Anya Taylor-Joy &amp; Kylie Jenner or Emma Myers &amp; Jenna Ortega!😍
+
+Nano Banana Pro via Hailuo AI
+Prompt:
+
+{
+  "prompt": "Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women
+```
+
 
 <hr />
 
