@@ -31,6 +31,7 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 - [Dreamy & Surreal](#dreamy--surreal)
 - [Image-to-Image (img2img)](#image-to-image-img2img)
 - [Food](#food)
+- [X Trending (High Engagement)](#x-trending-high-engagement)
 - [Acknowledgements & References](#acknowledgements--references)
 
 
@@ -563,6 +564,37 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 </table>
 
 <hr />
+
+
+<hr />
+
+### X Trending (High Engagement)
+<a id="x-trending-high-engagement"></a>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-01"></a>
+      <strong>Example: Nano Banana 2 Pokemon Pixel Battle</strong><br/>
+      <img alt="Example: Nano Banana 2 Pokemon Pixel Battle" src="./images/x-trending/xtrend1.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-02"></a>
+      <strong>Example: Nano Banana Pro Celebrity Portrait</strong><br/>
+      <img alt="Example: Nano Banana Pro Celebrity Portrait" src="./images/x-trending/xtrend2.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-03"></a>
+      <strong>Example: Nano Banana Pro Duo Lifestyle Shot</strong><br/>
+      <img alt="Example: Nano Banana Pro Duo Lifestyle Shot" src="./images/x-trending/xtrend3.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+</table>
 
 <a id="en-prompts"></a>
 ## Prompt Module (By Category)
