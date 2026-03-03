@@ -345,6 +345,60 @@ prompt: create a screenshot of the overworld for this game in the same area, wit
     <td width="33%" valign="top"></td>
     <td width="33%" valign="top"></td>
   </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s06-02"></a>
+      <strong>图例：工笔汉服吹风机</strong><br/>
+      <img alt="图例：工笔汉服吹风机" title="🍌nano banana pro Prompt:
+
+A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wood" src="./images/china/ch2.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s06-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s06-03"></a>
+      <strong>图例：唐风仙子扫地机</strong><br/>
+      <img alt="图例：唐风仙子扫地机" title="🍌 nano banana pro prompt:
+
+A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons" src="./images/china/ch3.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s06-03">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s06-04"></a>
+      <strong>图例：清明长卷复现</strong><br/>
+      <img alt="图例：清明长卷复现" title="🍌 nano banana pro prompt
+
+A sweeping, highly detailed traditional Chinese ink and color handscroll painting on aged silk, perfectly emulating the artistic style, brushwork, and sca" src="./images/china/ch4.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s06-04">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s06-05"></a>
+      <strong>图例：三英飙车战吕布</strong><br/>
+      <img alt="图例：三英飙车战吕布" title="绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：
+
+画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；
+刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——
+
+刘备坐在驾驶位，双手紧握方向盘，神情专注严肃； https://t.co/vOjRYBzOWE" src="./images/china/ch5.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s06-05">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s06-06"></a>
+      <strong>图例：桃花源仙境设定</strong><br/>
+      <img alt="图例：桃花源仙境设定" title="不得不说🍌 nano banana pro 场景概念 very nice
+
+Prompt👇🏻
+
+Realistic photorealistic game concept art reference sheet for &quot;桃花源 Taohuayuan Peach Blossom Paradise&quot; – a hidden immortal valley pal" src="./images/china/ch6.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s06-06">查看&复制Prompt</a>
+    </td>
+  </tr>
 </table>
 
 <hr />
@@ -1790,6 +1844,73 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
     ]
   }
 }
+```
+
+
+<a id="prompt-cn-s06-02"></a>
+#### 图例：工笔汉服吹风机
+
+[返回图片](#card-cn-s06-02)
+
+```text
+🍌nano banana pro Prompt:
+
+A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wooden stool, holding a modern hairdryer to dry her long flowing hair. She is wearing black stockings, https://t.co/CmJU0m9Prs
+```
+
+
+<a id="prompt-cn-s06-03"></a>
+#### 图例：唐风仙子扫地机
+
+[返回图片](#card-cn-s06-03)
+
+```text
+🍌 nano banana pro prompt:
+
+A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons, with a peony flower in her high hair bun, is standing on a circular black robotic vacuum cleaner https://t.co/OzKq1DnAt1
+```
+
+
+<a id="prompt-cn-s06-04"></a>
+#### 图例：清明长卷复现
+
+[返回图片](#card-cn-s06-04)
+
+```text
+🍌 nano banana pro prompt
+
+A sweeping, highly detailed traditional Chinese ink and color handscroll painting on aged silk, perfectly emulating the artistic style, brushwork, and scattered point perspective of Zhang Zeduan's "Along the River During the Qingming Festival."
+
+Central https://t.co/C2WI3Wai0k
+```
+
+
+<a id="prompt-cn-s06-05"></a>
+#### 图例：三英飙车战吕布
+
+[返回图片](#card-cn-s06-05)
+
+```text
+绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：
+
+画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；
+刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——
+
+刘备坐在驾驶位，双手紧握方向盘，神情专注严肃； https://t.co/vOjRYBzOWE
+```
+
+
+<a id="prompt-cn-s06-06"></a>
+#### 图例：桃花源仙境设定
+
+[返回图片](#card-cn-s06-06)
+
+```text
+不得不说🍌 nano banana pro 场景概念 very nice
+
+Prompt👇🏻
+
+Realistic photorealistic game concept art reference sheet for "桃花源 Taohuayuan Peach Blossom Paradise" – a hidden immortal valley palace in a 3D mythical game, ancient Chinese style with accurate dougong brackets, https://t.co/05ZD5EsP1Y
 ```
 
 <hr />
