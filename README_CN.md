@@ -383,6 +383,7 @@ prompt: create a screenshot of the overworld for this game in the same area, wit
       <br/>
       <a href="#prompt-cn-s06-06">查看&复制Prompt</a>
     </td>
+    <td width="33%" valign="top"></td>
   </tr>
 </table>
 

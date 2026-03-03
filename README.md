@@ -376,6 +376,7 @@ prompt: create a screenshot of the overworld for this game in the same area, wit
       <br/>
       <a href="#prompt-en-s06-06">View&CopyPrompt</a>
     </td>
+    <td width="33%" valign="top"></td>
   </tr>
 </table>
 
