@@ -72,7 +72,13 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s01-04">查看&复制Prompt</a>
     </td>
-    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s01-05"></a>
+      <strong>图例：宝可梦像素对战</strong><br/>
+      <img alt="图例：宝可梦像素对战" title="nano banana 2 prompt: inspired by a classic pokemon gameboy screenshot..." src="./images/like/l4.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s01-05">查看&复制Prompt</a>
+    </td>
     <td width="33%" valign="top"></td>
   </tr>
 </table>
@@ -454,6 +460,23 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <a href="#prompt-cn-s07-18">查看&复制Prompt</a>
     </td>
   </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-19"></a>
+      <strong>图例：Nano Banana 名人写真</strong><br/>
+      <img alt="图例：Nano Banana 名人写真" title="Nano Banana Pro 人像提示词（身份/服装/光影约束）。" src="./images/beauty/bea21.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-19">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s07-20"></a>
+      <strong>图例：Nano Banana 双人生活方式写真</strong><br/>
+      <img alt="图例：Nano Banana 双人生活方式写真" title="超写实双人生活方式写真提示词（4:5、8K）。" src="./images/beauty/bea22.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s07-20">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+  </tr>
 </table>
 
 <hr />
@@ -728,6 +751,20 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
   5. 严禁使用鲜艳、高纯度的霓虹色或原色。
 6. 画面内容
   大雪天气，《鬼灭之刃》所有「柱」的定妆照，每个「柱」都按自己的呼吸法做战斗准备姿势。
+```
+
+
+<a id="prompt-cn-s01-05"></a>
+#### 图例：宝可梦像素对战
+
+[返回图片](#card-cn-s01-05)
+
+```text
+nano banana 2
+
+prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui
+
+prompt: change it to a new location and the battle is two new random kanto pokemon
 ```
 
 <hr />
@@ -2646,6 +2683,55 @@ ISO：400
 [纹理和背景]
 
 照片放置在白色桌面上，投射出自然的阴影。
+```
+
+
+<a id="prompt-cn-s07-19"></a>
+#### 图例：Nano Banana 名人写真
+
+[返回图片](#card-cn-s07-19)
+
+```json
+{
+  "subject": {
+    "identity": {
+      "biometric_reference": "Sabrina Carpenter",
+      "facial_morphology": "Heart-shaped face with high-set zygomatic arches, defined mandible line, and a soft philtrum. Prominent, rounded forehead and a straight nasal bridge with a slightly upturned apex.",
+      "dentition": "Natural dental alignment, maxillary central incisors with slight dominance, bright white enamel finish, visible buccal corridor during a neutral or slight parting of lips.",
+      "iris_pattern": "Heterogeneous iris texture with radial furrows, distinct pupillary zone, and a deep cerulean hue with darker limbal rings.",
+      "hair": "Voluminous, layered blonde hair with warm golden undertones, fine follicle texture, and natural scalp integration."
+    },
+    "wardrobe": {
+      "apparel": "Mini-length bodycon dress in vibrant scarlet.",
+      "footwear": "Metallic silver stiletto sandals with slender ankle straps and chrome-finished heels."
+    },
+    "camera": {
+      "technical": "9:16 aspect ratio, 35mm wide-angle lens, f/2.8 aperture, low-angle perspective, ISO 100",
+      "render_quality": "8K photorealistic"
+    },
+    "negative_constraints": ["no logos", "no text", "no watermarks", "no extra limbs", "no distorted fingers"]
+  }
+}
+```
+
+<a id="prompt-cn-s07-20"></a>
+#### 图例：Nano Banana 双人生活方式写真
+
+[返回图片](#card-cn-s07-20)
+
+```json
+{
+  "prompt": "Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women sitting close on white leather sectional sofa in bright modern lounge...",
+  "style": "Ultra-realistic high-end smartphone lifestyle photography",
+  "aspect_ratio": "4:5",
+  "resolution": "8k",
+  "lighting": "Soft diffused natural daylight through sheer curtains",
+  "camera_angle": "Eye-level to slightly above, medium full-body shot",
+  "environment": {
+    "location": "Bright modern upscale apartment lounge",
+    "atmosphere": "Quiet daytime luxury, pre-night-out calm"
+  }
+}
 ```
 
 <hr />

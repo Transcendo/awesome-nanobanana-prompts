@@ -31,7 +31,6 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 - [Dreamy & Surreal](#dreamy--surreal)
 - [Image-to-Image (img2img)](#image-to-image-img2img)
 - [Food](#food)
-- [X Trending (High Engagement)](#x-trending-high-engagement)
 - [Acknowledgements & References](#acknowledgements--references)
 
 
@@ -71,7 +70,13 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <br/>
       <a href="#prompt-en-s01-04">View&CopyPrompt</a>
     </td>
-    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top">
+      <a id="card-en-s01-05"></a>
+      <strong>Example: Pokemon Pixel Battle</strong><br/>
+      <img alt="Example: Pokemon Pixel Battle" title="nano banana 2 prompt: inspired by a classic pokemon gameboy screenshot..." src="./images/like/l4.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-en-s01-05">View&CopyPrompt</a>
+    </td>
     <td width="33%" valign="top"></td>
   </tr>
 </table>
@@ -447,6 +452,23 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
       <a href="#prompt-en-s07-18">View&CopyPrompt</a>
     </td>
   </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-19"></a>
+      <strong>Example: Nano Banana Pro Celebrity Portrait</strong><br/>
+      <img alt="Example: Nano Banana Pro Celebrity Portrait" title="Nano Banana Pro portrait prompt with structured identity/body/lighting constraints." src="./images/beauty/bea21.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-19">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s07-20"></a>
+      <strong>Example: Nano Banana Pro Duo Lifestyle Shot</strong><br/>
+      <img alt="Example: Nano Banana Pro Duo Lifestyle Shot" title="Ultra-realistic duo lifestyle portrait prompt (4:5, 8K)." src="./images/beauty/bea22.jpg" width="100%" />
+      <br/>
+      <a href="#prompt-en-s07-20">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+  </tr>
 </table>
 
 <hr />
@@ -567,34 +589,6 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 
 
 <hr />
-
-### X Trending (High Engagement)
-<a id="x-trending-high-engagement"></a>
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <a id="card-en-s11-01"></a>
-      <strong>Example: Nano Banana 2 Pokemon Pixel Battle</strong><br/>
-      <img alt="Example: Nano Banana 2 Pokemon Pixel Battle" src="./images/x-trending/xtrend1.jpg" width="100%" />
-      <br/>
-      <a href="#prompt-en-s11-01">View&CopyPrompt</a>
-    </td>
-    <td width="33%" valign="top">
-      <a id="card-en-s11-02"></a>
-      <strong>Example: Nano Banana Pro Celebrity Portrait</strong><br/>
-      <img alt="Example: Nano Banana Pro Celebrity Portrait" src="./images/x-trending/xtrend2.jpg" width="100%" />
-      <br/>
-      <a href="#prompt-en-s11-02">View&CopyPrompt</a>
-    </td>
-    <td width="33%" valign="top">
-      <a id="card-en-s11-03"></a>
-      <strong>Example: Nano Banana Pro Duo Lifestyle Shot</strong><br/>
-      <img alt="Example: Nano Banana Pro Duo Lifestyle Shot" src="./images/x-trending/xtrend3.jpg" width="100%" />
-      <br/>
-      <a href="#prompt-en-s11-03">View&CopyPrompt</a>
-    </td>
-  </tr>
-</table>
 
 <a id="en-prompts"></a>
 ## Prompt Module (By Category)
@@ -749,6 +743,20 @@ worst quality, low quality, bad anatomy, bad proportions, extra digits, extra le
   5. No vivid, high-purity neon or primary colors.
 6. Scene Content
   In heavy snow, create lineup portraits of all the Hashira from *Demon Slayer*, each in a battle-ready pose matching their Breathing style.
+```
+
+
+<a id="prompt-en-s01-05"></a>
+#### Example: Pokemon Pixel Battle
+
+[Back to image](#card-en-s01-05)
+
+```text
+nano banana 2
+
+prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui
+
+prompt: change it to a new location and the battle is two new random kanto pokemon
 ```
 
 <hr />
@@ -2699,6 +2707,55 @@ The [PERSON] is centered in the frame, photographed from head to knees. They pos
 [Texture and background]
 
 The photo is placed on a white tabletop, casting a natural shadow.
+```
+
+
+<a id="prompt-en-s07-19"></a>
+#### Example: Nano Banana Pro Celebrity Portrait
+
+[Back to image](#card-en-s07-19)
+
+```json
+{
+  "subject": {
+    "identity": {
+      "biometric_reference": "Sabrina Carpenter",
+      "facial_morphology": "Heart-shaped face with high-set zygomatic arches, defined mandible line, and a soft philtrum. Prominent, rounded forehead and a straight nasal bridge with a slightly upturned apex.",
+      "dentition": "Natural dental alignment, maxillary central incisors with slight dominance, bright white enamel finish, visible buccal corridor during a neutral or slight parting of lips.",
+      "iris_pattern": "Heterogeneous iris texture with radial furrows, distinct pupillary zone, and a deep cerulean hue with darker limbal rings.",
+      "hair": "Voluminous, layered blonde hair with warm golden undertones, fine follicle texture, and natural scalp integration."
+    },
+    "wardrobe": {
+      "apparel": "Mini-length bodycon dress in vibrant scarlet.",
+      "footwear": "Metallic silver stiletto sandals with slender ankle straps and chrome-finished heels."
+    },
+    "camera": {
+      "technical": "9:16 aspect ratio, 35mm wide-angle lens, f/2.8 aperture, low-angle perspective, ISO 100",
+      "render_quality": "8K photorealistic"
+    },
+    "negative_constraints": ["no logos", "no text", "no watermarks", "no extra limbs", "no distorted fingers"]
+  }
+}
+```
+
+<a id="prompt-en-s07-20"></a>
+#### Example: Nano Banana Pro Duo Lifestyle Shot
+
+[Back to image](#card-en-s07-20)
+
+```json
+{
+  "prompt": "Ultra-realistic high-end smartphone-style portrait, 4:5 vertical, 8K. Two stylish young women sitting close on white leather sectional sofa in bright modern lounge...",
+  "style": "Ultra-realistic high-end smartphone lifestyle photography",
+  "aspect_ratio": "4:5",
+  "resolution": "8k",
+  "lighting": "Soft diffused natural daylight through sheer curtains",
+  "camera_angle": "Eye-level to slightly above, medium full-body shot",
+  "environment": {
+    "location": "Bright modern upscale apartment lounge",
+    "atmosphere": "Quiet daytime luxury, pre-night-out calm"
+  }
+}
 ```
 
 <hr />
