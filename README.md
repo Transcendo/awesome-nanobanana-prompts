@@ -455,15 +455,15 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
   <tr>
     <td width="33%" valign="top">
       <a id="card-en-s07-19"></a>
-      <strong>Example: Nano Banana Pro Celebrity Portrait</strong><br/>
-      <img alt="Example: Nano Banana Pro Celebrity Portrait" title="Nano Banana Pro portrait prompt with structured identity/body/lighting constraints." src="./images/beauty/bea21.jpg" width="100%" />
+      <strong>Example: Scarlet Studio Portrait</strong><br/>
+      <img alt="Example: Scarlet Studio Portrait" title="Nano Banana Pro portrait prompt with structured identity/body/lighting constraints." src="./images/beauty/bea21.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s07-19">View&CopyPrompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-en-s07-20"></a>
-      <strong>Example: Nano Banana Pro Duo Lifestyle Shot</strong><br/>
-      <img alt="Example: Nano Banana Pro Duo Lifestyle Shot" title="Ultra-realistic duo lifestyle portrait prompt (4:5, 8K)." src="./images/beauty/bea22.jpg" width="100%" />
+      <strong>Example: Lounge Duo Portrait</strong><br/>
+      <img alt="Example: Lounge Duo Portrait" title="Ultra-realistic duo lifestyle portrait prompt (4:5, 8K)." src="./images/beauty/bea22.jpg" width="100%" />
       <br/>
       <a href="#prompt-en-s07-20">View&CopyPrompt</a>
     </td>
@@ -2711,7 +2711,7 @@ The photo is placed on a white tabletop, casting a natural shadow.
 
 
 <a id="prompt-en-s07-19"></a>
-#### Example: Nano Banana Pro Celebrity Portrait
+#### Example: Scarlet Studio Portrait
 
 [Back to image](#card-en-s07-19)
 
@@ -2739,7 +2739,7 @@ The photo is placed on a white tabletop, casting a natural shadow.
 ```
 
 <a id="prompt-en-s07-20"></a>
-#### Example: Nano Banana Pro Duo Lifestyle Shot
+#### Example: Lounge Duo Portrait
 
 [Back to image](#card-en-s07-20)
 

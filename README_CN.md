@@ -463,15 +463,15 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
   <tr>
     <td width="33%" valign="top">
       <a id="card-cn-s07-19"></a>
-      <strong>图例：Nano Banana 名人写真</strong><br/>
-      <img alt="图例：Nano Banana 名人写真" title="Nano Banana Pro 人像提示词（身份/服装/光影约束）。" src="./images/beauty/bea21.jpg" width="100%" />
+      <strong>图例：绯红棚拍人像</strong><br/>
+      <img alt="图例：绯红棚拍人像" title="Nano Banana Pro 人像提示词（身份/服装/光影约束）。" src="./images/beauty/bea21.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-19">查看&复制Prompt</a>
     </td>
     <td width="33%" valign="top">
       <a id="card-cn-s07-20"></a>
-      <strong>图例：Nano Banana 双人生活方式写真</strong><br/>
-      <img alt="图例：Nano Banana 双人生活方式写真" title="超写实双人生活方式写真提示词（4:5、8K）。" src="./images/beauty/bea22.jpg" width="100%" />
+      <strong>图例：客厅双人写真</strong><br/>
+      <img alt="图例：客厅双人写真" title="超写实双人生活方式写真提示词（4:5、8K）。" src="./images/beauty/bea22.jpg" width="100%" />
       <br/>
       <a href="#prompt-cn-s07-20">查看&复制Prompt</a>
     </td>
@@ -2687,7 +2687,7 @@ ISO：400
 
 
 <a id="prompt-cn-s07-19"></a>
-#### 图例：Nano Banana 名人写真
+#### 图例：绯红棚拍人像
 
 [返回图片](#card-cn-s07-19)
 
@@ -2715,7 +2715,7 @@ ISO：400
 ```
 
 <a id="prompt-cn-s07-20"></a>
-#### 图例：Nano Banana 双人生活方式写真
+#### 图例：客厅双人写真
 
 [返回图片](#card-cn-s07-20)
 
