@@ -223,7 +223,13 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
       <br/>
       <a href="#prompt-cn-s03-04">查看&复制Prompt</a>
     </td>
-    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s03-05"></a>
+      <strong>图例：OpenClaw 龙虾</strong><br/>
+      <img alt="图例：OpenClaw 龙虾" title="Create a 16:9 horizontal infographic on a black chalkboard background in colorful chalk style. | Topic: 为什么 OpenClaw 叫龙虾？" src="./images/blog/b5.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s03-05">查看&复制Prompt</a>
+    </td>
     <td width="33%" valign="top"></td>
   </tr>
 </table>
@@ -1327,6 +1333,46 @@ PPT的具体风格应该为请“Anthropic/Claude 风格”的“温暖学术人
 文字和图像都由 Nano Banana Pro 生成，另外不要将PPT 变成一整张图，一页一张图。
 
 文章内容为：[]
+```
+
+<a id="prompt-cn-s03-05"></a>
+#### 图例：OpenClaw 龙虾
+
+[返回对应图片](#card-cn-s03-05)
+
+```text
+Prompt 1
+Create a 16:9 horizontal infographic on a black chalkboard background in colorful chalk style.
+Topic: 为什么 OpenClaw 叫龙虾？
+Main purpose: show the overall conclusion clearly in one image.
+Visual structure:
+Big title in Chinese: “为什么 OpenClaw 叫龙虾？”
+A central large cartoon chalk-style lobster mascot with a small OpenClaw label
+Around the lobster, create 3 clear blocks:
+“已确认事实”
+“合理推测”
+“不能确定”
+Use arrows and simple chalk icons to show the logic
+Text content to include:
+已确认事实：
+龙虾是 OpenClaw 官方明确认领的品牌意象
+README、官网、文档、博客都反复使用 🦞 / lobster / claw / molting
+官方明确说 mascot 还是 lobster
+合理推测：
+claw 命名天然引向龙虾钳子意象
+molting（蜕壳）很适合讲成长和演化
+龙虾也承担了社区梗和人格化传播功能
+不能确定：
+官方没有公开说明“最初为什么偏偏选龙虾”
+不能硬说一开始就有完整品牌策划案
+Style requirements:
+Simplify information and emphasize keywords
+Large whitespace
+Minimal cartoon icons only
+All text and graphics in colored chalk style
+No realistic illustrations
+Original language must stay Chinese
+Use nano banana pro for drawing based on the provided content
 ```
 
 <hr />
