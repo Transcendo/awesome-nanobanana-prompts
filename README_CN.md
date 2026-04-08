@@ -581,6 +581,47 @@ Nano Banana / Nano Banana Pro 提示词整理合集。
 
 <hr />
 
+<a id="cn-verbatim"></a>
+### 原文 Prompt
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s11-01"></a>
+      <strong>图例：原文 Prompt 01</strong><br/>
+      <img alt="图例：原文 Prompt 01" title="prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui" src="./images/like/l1.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s11-01">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s11-02"></a>
+      <strong>图例：原文 Prompt 02</strong><br/>
+      <img alt="图例：原文 Prompt 02" title="prompt: holding a modern see-through gameboy color with shades of black, the reference image is on the screen" src="./images/like/l2.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s11-02">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-cn-s11-03"></a>
+      <strong>图例：原文 Prompt 03</strong><br/>
+      <img alt="图例：原文 Prompt 03" title="prompt: show a completely new location in different weather with a new kanto pokemon following the player, maintain the perspective" src="./images/like/l3.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s11-03">查看&复制Prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-cn-s11-04"></a>
+      <strong>图例：原文 Prompt 04</strong><br/>
+      <img alt="图例：原文 Prompt 04" title="prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference" src="./images/like/gmzr.png" width="100%" />
+      <br/>
+      <a href="#prompt-cn-s11-04">查看&复制Prompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
 <a id="cn-prompts"></a>
 ## Prompts 模块（按分类）
 
@@ -3078,6 +3119,44 @@ ISO：400
 ```text
 生成一张图片，展示“用这颗橙子/橙味食材在美食方向能做出什么创意成品”的可能性。
 ```
+<a id="prompt-cn-s11-01"></a>
+#### 图例：原文 Prompt 01
+
+[返回对应图片](#card-cn-s11-01)
+
+```text
+prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui
+
+prompt: change it to a new location and the battle is two new random kanto pokemon
+```
+
+<a id="prompt-cn-s11-02"></a>
+#### 图例：原文 Prompt 02
+
+[返回对应图片](#card-cn-s11-02)
+
+```text
+prompt: holding a modern see-through gameboy color with shades of black, the reference image is on the screen
+```
+
+<a id="prompt-cn-s11-03"></a>
+#### 图例：原文 Prompt 03
+
+[返回对应图片](#card-cn-s11-03)
+
+```text
+prompt: show a completely new location in different weather with a new kanto pokemon following the player, maintain the perspective
+```
+
+<a id="prompt-cn-s11-04"></a>
+#### 图例：原文 Prompt 04
+
+[返回对应图片](#card-cn-s11-04)
+
+```text
+prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference
+```
+
 
 <hr />
 

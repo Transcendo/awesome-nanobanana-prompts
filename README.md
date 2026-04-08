@@ -570,6 +570,46 @@ A curated prompt library for Nano Banana / Nano Banana Pro.
 
 <hr />
 
+### Verbatim Prompt Examples
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-01"></a>
+      <strong>Example: Verbatim Prompt 01</strong><br/>
+      <img alt="Example: Verbatim Prompt 01" title="prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui" src="./images/like/l1.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-01">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-02"></a>
+      <strong>Example: Verbatim Prompt 02</strong><br/>
+      <img alt="Example: Verbatim Prompt 02" title="prompt: holding a modern see-through gameboy color with shades of black, the reference image is on the screen" src="./images/like/l2.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-02">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-03"></a>
+      <strong>Example: Verbatim Prompt 03</strong><br/>
+      <img alt="Example: Verbatim Prompt 03" title="prompt: show a completely new location in different weather with a new kanto pokemon following the player, maintain the perspective" src="./images/like/l3.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-03">View&CopyPrompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a id="card-en-s11-04"></a>
+      <strong>Example: Verbatim Prompt 04</strong><br/>
+      <img alt="Example: Verbatim Prompt 04" title="prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference" src="./images/like/gmzr.png" width="100%" />
+      <br/>
+      <a href="#prompt-en-s11-04">View&CopyPrompt</a>
+    </td>
+    <td width="33%" valign="top"></td>
+    <td width="33%" valign="top"></td>
+  </tr>
+</table>
+
+<hr />
+
 <a id="en-prompts"></a>
 ## Prompt Module (By Category)
 
@@ -3098,6 +3138,44 @@ Convert the image into a daytime and isometric view [buildings only].
 ```text
 Generate an image of what could be possible to make with this orange foodwise.
 ```
+<a id="prompt-en-s11-01"></a>
+#### Example: Verbatim Prompt 01
+
+[Back to image](#card-en-s11-01)
+
+```text
+prompt: inspired by a classic pokemon gameboy screenshot but it's highly detailed beautiful pixel art, include cool effects from moves used, modern minimal ui
+
+prompt: change it to a new location and the battle is two new random kanto pokemon
+```
+
+<a id="prompt-en-s11-02"></a>
+#### Example: Verbatim Prompt 02
+
+[Back to image](#card-en-s11-02)
+
+```text
+prompt: holding a modern see-through gameboy color with shades of black, the reference image is on the screen
+```
+
+<a id="prompt-en-s11-03"></a>
+#### Example: Verbatim Prompt 03
+
+[Back to image](#card-en-s11-03)
+
+```text
+prompt: show a completely new location in different weather with a new kanto pokemon following the player, maintain the perspective
+```
+
+<a id="prompt-en-s11-04"></a>
+#### Example: Verbatim Prompt 04
+
+[Back to image](#card-en-s11-04)
+
+```text
+prompt: create a screenshot of the overworld for this game in the same area, with one pokemon following the player, fit the vibe of the reference
+```
+
 
 <hr />
 
